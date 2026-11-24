@@ -1,0 +1,46 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 17,
+  "episode_instruction": "Travel to the window overlooking the garden on the opposite end of the billiard room. ",
+  "steps": 65,
+  "effective_steps": 30,
+  "num_rewrites": 0,
+  "corrections": 0,
+  "deviations": 0,
+  "blockage_recoveries": 0,
+  "stop_returns": 1,
+  "stop_rejections": 0,
+  "max_task_depth": 0,
+  "point_runs": 0,
+  "point_completed": 0,
+  "correction_images": [],
+  "final_instruction": "Travel to the window overlooking the garden on the opposite end of the billiard room. ",
+  "termination_reason": "governor_stop",
+  "summaries": [
+    {
+      "start": 0,
+      "end": 16,
+      "text": "The robot has moved forward into the billiard room and is now positioned near the right side of the room, facing the direction of the large windows. The target window overlooking the garden is not yet visible, and the robot has not reached the opposite end of the room.",
+      "grounding": "State 0 shows a window with a garden view, but the robot is not yet in the billiard room. State 16 shows the robot has moved forward into the billiard room, with the billiard table visible in the foreground and the large windows on the left side of the room. The target window is not visible in State 16, indicating the robot has not yet reached the opposite end of the room.",
+      "anchor_steps": [
+        0,
+        16
+      ],
+      "anchor_source": "vlm"
+    }
+  ],
+  "intervened": true,
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 7.166518688201904,
+  "category": "intervened/failure_to_failure",
+  "baseline": {
+    "success": 0.0,
+    "spl": 0.0,
+    "os": 0.0,
+    "ne": 7.62087345123291
+  },
+  "version": "governor_clean_remake_14_single_stop_decision",
+  "correction_mode": "point"
+}

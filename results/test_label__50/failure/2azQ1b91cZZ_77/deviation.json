@@ -1,0 +1,33 @@
+{
+  "instruction": "Walk into the  nearest open double doors to the dining area that has a cupboard and candle lamps on top. Walk passed the dining table and through the open double doors on the other side that lead outside. Walk through the next set of double doors on the other side of the front entrance and back into the home. ",
+  "baseline_result": "failure",
+  "vlm_result": "未发现明确偏航",
+  "first_bad_segment": null,
+  "first_bad_steps": null,
+  "reason": "The instruction requires entering the dining area through the appropriate double doors, passing the dining table, then using the opposite doors to go outside and later returning through another double-door set. S1 moves from the entryway toward N2, while S2 continues through the mapped dining-area floor beside the confirmed cupboard, lamps, and dining table. The route through step 64 does not reliably establish a conflicting entrance, an outside crossing, or an out-of-order return; the later frames remain compatible with incomplete progress. Therefore no supported deviation is established in the reviewed prefix.",
+  "reviewed_to_step": 64,
+  "total_steps": 76,
+  "unreviewed_tail": [
+    65,
+    76
+  ],
+  "evidence_segments_at_review": [
+    "S1",
+    "S2"
+  ],
+  "evidence_frames": [
+    "F8",
+    "F11",
+    "F13",
+    "F16",
+    "F27",
+    "F39",
+    "F48",
+    "F60"
+  ],
+  "evidence_objects": [
+    "O13",
+    "O40",
+    "O44"
+  ]
+}

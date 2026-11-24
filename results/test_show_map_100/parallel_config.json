@@ -1,0 +1,7 @@
+{
+  "requested_workers": 50,
+  "active_limit": 50,
+  "cpu_threads_per_worker": 1,
+  "cuda_visible_devices": "5",
+  "report_writer": "parent process only"
+}

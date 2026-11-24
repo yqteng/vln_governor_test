@@ -1,0 +1,74 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 167,
+  "episode_instruction": "Go through the doorway, past the dining table, and through the doorway into the large lobby area, waiting here. ",
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 1.0,
+  "ne": 10.14756965637207,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 78,
+  "effective_steps": 77,
+  "corrections": 0,
+  "deviations": 0,
+  "intervened": true,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 30,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "Go through the doorway, past the dining table, and through the doorway into the large lobby area, waiting here. ",
+  "termination_reason": "governor_stop",
+  "phase_steps": {
+    "normal": 77,
+    "rollback": 0,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 0,
+    "governor_stop": 1
+  },
+  "action_counts": {
+    "STOP": 1,
+    "MOVE_FORWARD": 60,
+    "TURN_LEFT": 9,
+    "TURN_RIGHT": 8,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 2,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 14.97879108786583,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "Completed: None. Currently: Agent is positioned at the doorway, having passed the dining table and now facing the large lobby area visible through the entrance. Remaining: Go through the doorway into the large lobby area and wait here. Uncertain: No material uncertainty; the doorway is clearly visible and accessible, and the agent is aligned to proceed through it."
+    },
+    {
+      "start": 17,
+      "end": 32,
+      "text": "Completed: None. Currently: Agent is positioned at the doorway threshold of the large lobby area, having passed the dining table and now facing into the lobby. Remaining: Go through the doorway into the large lobby area and wait here. Uncertain: No material uncertainty; the doorway is clearly visible and accessible, and the agent is aligned to proceed through it."
+    },
+    {
+      "start": 33,
+      "end": 48,
+      "text": "Completed: None. Currently: Agent is positioned at the threshold of the large lobby area, having passed the dining table and now facing into the lobby through the doorway. Remaining: Go through the doorway into the large lobby area and wait here. Uncertain: No material uncertainty; the doorway is clearly visible and accessible, and the agent is aligned to proceed through it."
+    },
+    {
+      "start": 49,
+      "end": 64,
+      "text": "Completed: Go through the doorway into the large lobby area. Currently: Agent is inside the large lobby area, having passed through the doorway and now positioned within the central space visible in image 64. Remaining: Wait here. Uncertain: No material uncertainty; the agent has fully entered the lobby and is now stationary within it, with no further instruction or obstacle indicated."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "intervened/failure_to_failure",
+  "baseline": {
+    "success": 0.0,
+    "spl": 0.0,
+    "os": 1.0,
+    "ne": 11.626005172729492
+  },
+  "artifact_dir": "intervened/failure_to_failure/2azQ1b91cZZ_167_c1db66ec5477"
+}

@@ -1,0 +1,74 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 162,
+  "episode_instruction": "Go towards a dining area passing an area open to the outside to your right, and pass the dining table. Walk towards three sets of doors, and stop before reaching them. ",
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 10.449953079223633,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 69,
+  "effective_steps": 68,
+  "corrections": 0,
+  "deviations": 0,
+  "intervened": false,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 20,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "Go towards a dining area passing an area open to the outside to your right, and pass the dining table. Walk towards three sets of doors, and stop before reaching them. ",
+  "termination_reason": "global_stop",
+  "phase_steps": {
+    "normal": 68,
+    "rollback": 0,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 1,
+    "governor_stop": 0
+  },
+  "action_counts": {
+    "STOP": 1,
+    "MOVE_FORWARD": 48,
+    "TURN_LEFT": 4,
+    "TURN_RIGHT": 16,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 0,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 12.000006973743439,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "Completed: None. Currently: The agent has turned right multiple times and moved forward into a hallway that leads to a dining area visible through an open doorway; the dining table is now in view. The open-to-outside area on the right was not passed, as the agent has not yet moved past the window or any exterior-facing opening. Remaining: Walk towards three sets of doors and stop before reaching them. Uncertain: Whether the agent has fully passed the dining table or the open-to-outside area, as no forward progress past those landmarks has been confirmed in this visual block."
+    },
+    {
+      "start": 17,
+      "end": 32,
+      "text": "Completed: None. Currently: The agent has moved forward into the dining area, passing the dining table and the open-to-outside area on the right. The agent is now positioned in front of three sets of doors. Remaining: Stop before reaching the doors. Uncertain: None; all required landmarks have been passed and are now visible in context, and the agent is directly aligned with the doors."
+    },
+    {
+      "start": 33,
+      "end": 48,
+      "text": "Completed: None. Currently: The agent has moved forward into the dining area, passed the dining table and the open-to-outside area on the right, and is now positioned directly in front of three sets of doors visible through glass panels. Remaining: Stop before reaching the doors. Uncertain: None; all required landmarks have been passed and are now visible in context, and the agent is directly aligned with the doors."
+    },
+    {
+      "start": 49,
+      "end": 64,
+      "text": "Completed: None. Currently: The agent has moved forward into the dining area, passed the dining table and the open-to-outside area on the right, and is now positioned directly in front of three sets of doors visible through glass panels. Remaining: Stop before reaching the doors. Uncertain: None; all required landmarks have been passed and are now visible in context, and the agent is directly aligned with the doors."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "unintervened/failure",
+  "baseline": {
+    "success": 0.0,
+    "spl": 0.0,
+    "os": 0.0,
+    "ne": 10.994251251220703
+  },
+  "artifact_dir": "unintervened/failure/2azQ1b91cZZ_162_3fb1f2850909"
+}

@@ -1,0 +1,64 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 216,
+  "episode_instruction": "Go forward through an archway towards the console table, and veer right to an open doorway, and go through it. Wait there. ",
+  "success": 1.0,
+  "spl": 0.8813445602515521,
+  "os": 1.0,
+  "ne": 2.9601736068725586,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 40,
+  "effective_steps": 39,
+  "corrections": 0,
+  "deviations": 0,
+  "intervened": false,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 13,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "Go forward through an archway towards the console table, and veer right to an open doorway, and go through it. Wait there. ",
+  "termination_reason": "global_stop",
+  "phase_steps": {
+    "normal": 39,
+    "rollback": 0,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 1,
+    "governor_stop": 0
+  },
+  "action_counts": {
+    "STOP": 1,
+    "MOVE_FORWARD": 27,
+    "TURN_LEFT": 2,
+    "TURN_RIGHT": 10,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 0,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 6.750000447034836,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "Completed: Progress toward the archway and console table has been initiated and is ongoing. Currently: The console table is visible ahead, and an open doorway is now clearly visible to the right. Remaining: Veer right into the open doorway and go through it, then wait there. Uncertain: Whether the veer right and doorway entry have been executed; the current position is at the threshold of the doorway, but no action to enter or wait has occurred yet."
+    },
+    {
+      "start": 17,
+      "end": 32,
+      "text": "Completed: Progress toward the archway and console table has been initiated and is ongoing. Currently: The console table is visible ahead, and an open doorway is now clearly visible to the right; the agent has veered right and entered the doorway, now standing inside it. Remaining: Wait there. Uncertain: None; the doorway entry and current position inside are confirmed by visual progression and action sequence."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "unintervened/success",
+  "baseline": {
+    "success": 1.0,
+    "spl": 0.8813445563602761,
+    "os": 1.0,
+    "ne": 2.937983751296997
+  },
+  "artifact_dir": "unintervened/success/2azQ1b91cZZ_216_0539eb54cfd8"
+}

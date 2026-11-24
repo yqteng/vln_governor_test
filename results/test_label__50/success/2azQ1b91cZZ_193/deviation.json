@@ -1,0 +1,30 @@
+{
+  "instruction": "Leave the laundry room and go down the hall to the right. Stop when you come into the kitchen. ",
+  "baseline_result": "success",
+  "vlm_result": "偏航",
+  "first_bad_segment": "S4",
+  "first_bad_steps": [
+    40,
+    48
+  ],
+  "reason": "The instruction requires following the hall to the right and stopping upon entering the kitchen, not continuing toward its island. S1–S3 show a compatible corridor approach; F35 and F39 still show the kitchen framed by the narrow arched passage. In S4, F41–F43 show the transition into the kitchen, while F44 and F46 show continued approach toward the island; the measured route advances another 1.0 meter between steps 43 and 47 after kitchen entry is established. This supports a stopping-location overshoot beginning in S4, without inferring an explicit STOP command from the review cutoff. The initial right-turn relation remains incompletely observed, but does not undermine this later, independently supported violation.",
+  "reviewed_to_step": 48,
+  "total_steps": 48,
+  "unreviewed_tail": null,
+  "evidence_segments_at_review": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+  ],
+  "evidence_frames": [
+    "F30",
+    "F35",
+    "F39",
+    "F41",
+    "F43",
+    "F44",
+    "F46"
+  ],
+  "evidence_objects": []
+}

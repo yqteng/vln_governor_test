@@ -1,0 +1,46 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 61,
+  "episode_instruction": "Walk out of the bathroom passed the sink and shower. Walk down the hallway through the arch ed entry and circular tiled room. Turn and walk into the bedroom with hanging curtains wooden bed frame. ",
+  "steps": 35,
+  "effective_steps": 22,
+  "num_rewrites": 0,
+  "corrections": 1,
+  "deviations": 1,
+  "blockage_recoveries": 0,
+  "stop_returns": 0,
+  "stop_rejections": 0,
+  "max_task_depth": 0,
+  "point_runs": 0,
+  "point_completed": 0,
+  "correction_images": [],
+  "final_instruction": "Walk out of the bathroom passed the sink and shower. Walk down the hallway through the arch ed entry and circular tiled room. Turn and walk into the bedroom with hanging curtains wooden bed frame. ",
+  "termination_reason": "governor_stop",
+  "summaries": [
+    {
+      "start": 0,
+      "end": 16,
+      "text": "The robot has walked out of the bathroom, passed the sink and shower, and is now in the hallway. It has not yet reached the arch-ed entry and circular tiled room, nor has it turned into the bedroom with hanging curtains and wooden bed frame. The current view shows the circular tiled room's wall, indicating the robot is approaching or inside this room but has not yet turned toward the bedroom.",
+      "grounding": "State 0: Bathroom interior with mirror and sink. State 16: Circular tiled room wall visible, indicating the robot is inside or approaching this room. The transition from bathroom to hallway to circular tiled room is supported by the sequence of views, but the robot has not yet turned toward the bedroom.",
+      "anchor_steps": [
+        0,
+        16
+      ],
+      "anchor_source": "vlm"
+    }
+  ],
+  "intervened": true,
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 8.585077285766602,
+  "category": "intervened/failure_to_failure",
+  "baseline": {
+    "success": 0.0,
+    "spl": 0.0,
+    "os": 0.0,
+    "ne": 9.511799812316895
+  },
+  "version": "governor_clean_remake_14_single_stop_decision",
+  "correction_mode": "point"
+}

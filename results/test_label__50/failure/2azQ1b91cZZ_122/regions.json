@@ -1,0 +1,32 @@
+[
+  {
+    "segment": "S1",
+    "name": "kitchen",
+    "floor": 1,
+    "steps": [
+      0,
+      34
+    ],
+    "samples": [
+      "F3",
+      "F12",
+      "F21",
+      "F30"
+    ]
+  },
+  {
+    "segment": "S2",
+    "name": "dining room",
+    "floor": 1,
+    "steps": [
+      34,
+      42
+    ],
+    "samples": [
+      "F36",
+      "F37",
+      "F38",
+      "F40"
+    ]
+  }
+]

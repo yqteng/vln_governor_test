@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 71,
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 8.197954177856445,
+  "steps": 85,
+  "episode_instruction": "Walk to the right of the coutch and through the doors to the tan couch  Pass through the dining room and wait outside. ",
+  "final_instruction": "Walk to the right of the coutch and through the doors to the tan couch  Pass through the dining room and wait outside. ",
+  "num_rewrites": 0
+}

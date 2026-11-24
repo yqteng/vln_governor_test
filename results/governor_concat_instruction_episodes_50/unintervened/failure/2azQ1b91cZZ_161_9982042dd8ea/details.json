@@ -1,0 +1,69 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 161,
+  "episode_instruction": "Go to the 4 panel window\r\nGo to the gold rug\r\nGo to the white rug\r\nGo to the third chair on the left\r\nGo to the electrical receptacle. ",
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 11.053252220153809,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 50,
+  "effective_steps": 49,
+  "corrections": 0,
+  "deviations": 0,
+  "intervened": false,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 17,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "Go to the 4 panel window\r\nGo to the gold rug\r\nGo to the white rug\r\nGo to the third chair on the left\r\nGo to the electrical receptacle. ",
+  "termination_reason": "global_stop",
+  "phase_steps": {
+    "normal": 49,
+    "rollback": 0,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 1,
+    "governor_stop": 0
+  },
+  "action_counts": {
+    "STOP": 1,
+    "MOVE_FORWARD": 29,
+    "TURN_LEFT": 18,
+    "TURN_RIGHT": 2,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 1,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 7.259495839476585,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "Completed: None. Currently: The agent has turned left, moved forward, turned left again, moved forward, turned right, moved forward, turned left three times, and moved forward three times, ending at image 16 facing the dining area with three visible windows. The 4-panel window is not visible; only three windows are seen. The gold rug, white rug, third chair on the left, and electrical receptacle have not been reached or identified. Remaining: Go to the 4 panel window, go to the gold rug, go to the white rug, go to the third chair on the left, go to the electrical receptacle. Uncertain: Whether the 4-panel window exists or is visible in the current view; the agent has not yet reached or identified the gold rug, white rug, third chair on the left, or electrical receptacle."
+    },
+    {
+      "start": 17,
+      "end": 32,
+      "text": "Completed: None. Currently: The agent has moved forward and turned left multiple times, ending at image 32 facing a wall with three visible windows, which now appear to be the 4-panel window as previously uncertain. The agent has not yet reached or identified the gold rug, white rug, third chair on the left, or electrical receptacle. Remaining: Go to the gold rug, go to the white rug, go to the third chair on the left, go to the electrical receptacle. Uncertain: None — the 4-panel window is now confirmed visible and reached; no other objects have been identified or reached."
+    },
+    {
+      "start": 33,
+      "end": 48,
+      "text": "Completed: Go to the 4 panel window. Currently: The agent is positioned at the wall with the 4-panel window, having moved forward and turned left multiple times to reach and face it; the window is now confirmed visible and reached. Remaining: Go to the gold rug, go to the white rug, go to the third chair on the left, go to the electrical receptacle. Uncertain: None — the 4-panel window’s completion is confirmed; no other objects have been identified or reached."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "unintervened/failure",
+  "baseline": {
+    "success": 0.0,
+    "spl": 0.0,
+    "os": 0.0,
+    "ne": 11.053252220153809
+  },
+  "artifact_dir": "unintervened/failure/2azQ1b91cZZ_161_9982042dd8ea"
+}

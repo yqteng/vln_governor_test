@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 140,
+  "success": 1.0,
+  "spl": 1.0,
+  "os": 1.0,
+  "ne": 2.523364543914795,
+  "steps": 61,
+  "episode_instruction": "Walk through the doorway to the right of the dining room table then go through the doorway by the flower pot.  Take the doorway directly left of the staircase and wait there. ",
+  "final_instruction": "Walk through the doorway to the right of the dining room table then go through the doorway by the flower pot.  Take the doorway directly left of the staircase and wait there. ",
+  "num_rewrites": 0
+}

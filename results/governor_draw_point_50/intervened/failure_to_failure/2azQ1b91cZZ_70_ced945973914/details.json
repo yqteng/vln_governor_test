@@ -1,0 +1,71 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 70,
+  "episode_instruction": "Go through living room, through the door on the to the right, through the den, through the dining to, to the outdoor foyer. Stop before going outside. ",
+  "steps": 77,
+  "effective_steps": 54,
+  "num_rewrites": 0,
+  "corrections": 1,
+  "deviations": 1,
+  "blockage_recoveries": 0,
+  "stop_returns": 1,
+  "stop_rejections": 0,
+  "max_task_depth": 0,
+  "point_runs": 0,
+  "point_completed": 0,
+  "correction_images": [
+    "correction_images/2azQ1b91cZZ_70_ced945973914_step_0028_effective_0016_correction_001_attempt_1.png",
+    "correction_images/2azQ1b91cZZ_70_ced945973914_step_0028_effective_0016_correction_001_attempt_2.png"
+  ],
+  "final_instruction": "Go through living room, through the door on the to the right, through the den, through the dining to, to the outdoor foyer. Stop before going outside. ",
+  "termination_reason": "governor_stop",
+  "summaries": [
+    {
+      "start": 0,
+      "end": 16,
+      "text": "The robot has completed going through the living room and is now positioned at the door on the right, which leads to the den. The next step is to go through the den, then through the dining room, and finally to the outdoor foyer, stopping before going outside.",
+      "grounding": "The robot has moved from the living room (visible in state 0-6) to the door on the right (visible in state 14-16). The door is clearly visible in state 14 and 15, and the robot is now facing it in state 16. The robot has not yet passed through the door.",
+      "anchor_steps": [
+        0,
+        16
+      ],
+      "anchor_source": "vlm"
+    },
+    {
+      "start": 16,
+      "end": 32,
+      "text": "The robot has completed passing through the den and is now inside the living room, having turned back toward the entrance. The next step is to proceed through the dining room to the outdoor foyer, stopping before going outside.",
+      "grounding": "The robot was at the door on the right (state 16) and turned left (states 16-22) to face the living room. From state 22 onward, the robot is inside the living room, as evidenced by the consistent view of the fireplace, couch, and wooden beams. The robot has not yet entered the dining room or the outdoor foyer.",
+      "anchor_steps": [
+        16,
+        32
+      ],
+      "anchor_source": "vlm"
+    },
+    {
+      "start": 32,
+      "end": 48,
+      "text": "The robot has not yet entered the dining room or the outdoor foyer. It is still inside the living room, approaching the door on the right that leads to the den, but has not passed through it. The next step is to go through the den, then through the dining room, and finally to the outdoor foyer, stopping before going outside.",
+      "grounding": "The robot is still inside the living room, as evidenced by the consistent view of the fireplace, couch, and wooden beams in states 32-39. The robot has turned right (states 39-40) and is now approaching the door on the right (visible in states 40-48). The door is still visible in state 48, and the robot has not yet passed through it.",
+      "anchor_steps": [
+        32,
+        48
+      ],
+      "anchor_source": "vlm"
+    }
+  ],
+  "intervened": true,
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 11.085902214050293,
+  "category": "intervened/failure_to_failure",
+  "baseline": {
+    "success": 0.0,
+    "spl": 0.0,
+    "os": 0.0,
+    "ne": 17.047584533691406
+  },
+  "version": "governor_clean_remake_14_single_stop_decision",
+  "correction_mode": "point"
+}

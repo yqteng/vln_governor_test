@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 76,
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 10.958784103393555,
+  "steps": 66,
+  "episode_instruction": "Walk through the doorway into the dining room and walk straight back to the door leading outside. When you get to the door make a right and walk down the hallway. Walk straight down the hall and wait in the doorway of another dining area. ",
+  "final_instruction": "Walk through the doorway into the dining room and walk straight back to the door leading outside. When you get to the door make a right and walk down the hallway. Walk straight down the hall and wait in the doorway of another dining area. ",
+  "num_rewrites": 0
+}

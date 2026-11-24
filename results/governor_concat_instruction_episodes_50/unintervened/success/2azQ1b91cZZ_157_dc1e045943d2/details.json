@@ -1,0 +1,64 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 157,
+  "episode_instruction": "Walk across the room into the hallway second to the right from the stairs. Walk past the open door on the right.  Stop in front of the closed doors on the right. ",
+  "success": 1.0,
+  "spl": 0.9950594696485259,
+  "os": 1.0,
+  "ne": 0.38978418707847595,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 41,
+  "effective_steps": 40,
+  "corrections": 0,
+  "deviations": 0,
+  "intervened": false,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 10,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "Walk across the room into the hallway second to the right from the stairs. Walk past the open door on the right.  Stop in front of the closed doors on the right. ",
+  "termination_reason": "global_stop",
+  "phase_steps": {
+    "normal": 40,
+    "rollback": 0,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 1,
+    "governor_stop": 0
+  },
+  "action_counts": {
+    "STOP": 1,
+    "MOVE_FORWARD": 36,
+    "TURN_LEFT": 0,
+    "TURN_RIGHT": 4,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 0,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 8.99999874830246,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "Completed: None yet. Currently: Agent is moving forward through the hallway, having turned right once and progressed past the initial archways. The open door on the right has not yet been passed. Remaining: Walk past the open door on the right. Stop in front of the closed doors on the right. Uncertain: The open door on the right is not yet visible in the current view; the agent must continue forward to confirm its presence and passage."
+    },
+    {
+      "start": 17,
+      "end": 32,
+      "text": "Completed: None yet. Currently: Agent is moving forward through the hallway, having turned right once and progressed past initial archways. The open door on the right has not yet been passed. Remaining: Walk past the open door on the right. Stop in front of the closed doors on the right. Uncertain: The open door on the right is not yet visible in the current view; the agent must continue forward to confirm its presence and passage."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "unintervened/success",
+  "baseline": {
+    "success": 1.0,
+    "spl": 0.9950595025986239,
+    "os": 1.0,
+    "ne": 0.4030722975730896
+  },
+  "artifact_dir": "unintervened/success/2azQ1b91cZZ_157_dc1e045943d2"
+}

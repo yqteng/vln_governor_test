@@ -1,0 +1,79 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 76,
+  "episode_instruction": "Walk through the doorway into the dining room and walk straight back to the door leading outside. When you get to the door make a right and walk down the hallway. Walk straight down the hall and wait in the doorway of another dining area. ",
+  "steps": 66,
+  "effective_steps": 65,
+  "num_rewrites": 0,
+  "corrections": 0,
+  "deviations": 0,
+  "blockage_recoveries": 0,
+  "stop_returns": 0,
+  "stop_rejections": 0,
+  "max_task_depth": 0,
+  "point_runs": 0,
+  "point_completed": 0,
+  "correction_images": [],
+  "final_instruction": "Walk through the doorway into the dining room and walk straight back to the door leading outside. When you get to the door make a right and walk down the hallway. Walk straight down the hall and wait in the doorway of another dining area. ",
+  "termination_reason": "global_stop",
+  "summaries": [
+    {
+      "start": 0,
+      "end": 16,
+      "text": "The robot has entered the dining room and is now inside, having walked straight back from the doorway. It has not yet reached the door leading outside, nor has it turned right to walk down the hallway or waited in the doorway of another dining area. The current location is within the dining room, facing forward toward the back of the room.",
+      "grounding": "State 7 shows the robot entering the dining room through a doorway, with the view now inside the room. State 16 shows the robot further inside the dining room, having moved forward from the entrance, but still within the dining room and not yet at the door leading outside. The robot has not yet turned right or walked down the hallway.",
+      "anchor_steps": [
+        7,
+        16
+      ],
+      "anchor_source": "vlm"
+    },
+    {
+      "start": 16,
+      "end": 32,
+      "text": "The robot has moved forward from the dining room into a living area, passing through an archway. It has not yet turned right to walk down the hallway or reached the doorway of another dining area. The current location is inside the living area, facing forward toward the hallway.",
+      "grounding": "State 16 shows the robot inside the dining room, having moved forward from the entrance. State 32 shows the robot now inside a living area, having passed through an archway and moved forward. The transition from State 16 to State 32 indicates movement through the dining room and into the living area, but no right turn has been executed yet, and the doorway of another dining area has not been reached.",
+      "anchor_steps": [
+        16,
+        32
+      ],
+      "anchor_source": "vlm"
+    },
+    {
+      "start": 32,
+      "end": 48,
+      "text": "The robot has moved forward from the living area into a hallway, passing through an archway and continuing straight. It has not yet turned right to walk down the hallway or reached the doorway of another dining area. The current location is inside the hallway, facing forward toward the end of the hallway.",
+      "grounding": "State 32 shows the robot inside the living area, having passed through an archway and moved forward. State 48 shows the robot now inside a hallway, having moved forward from the living area and passed through the archway. The transition from State 32 to State 48 indicates movement through the living area and into the hallway, but no right turn has been executed yet, and the doorway of another dining area has not been reached. The hallway is visible in State 48, with a view of the end of the hallway and a doorway in the distance.",
+      "anchor_steps": [
+        32,
+        48
+      ],
+      "anchor_source": "vlm"
+    },
+    {
+      "start": 48,
+      "end": 64,
+      "text": "The robot has moved forward from the hallway into a dining area, having passed through a doorway. It has not yet turned right to walk down the hallway as required, nor has it reached the doorway of another dining area. The current location is inside the dining area, facing forward toward the back of the room.",
+      "grounding": "State 48 shows the robot at the entrance of a hallway, facing forward toward the end of the hallway. State 64 shows the robot now inside a dining area, having moved forward from the hallway and passed through a doorway. The transition from State 48 to State 64 indicates movement through the hallway and into the dining area, but no right turn has been executed yet, and the doorway of another dining area has not been reached. The dining area is visible in State 64, with a view of the dining table and chairs, and a doorway in the distance.",
+      "anchor_steps": [
+        48,
+        64
+      ],
+      "anchor_source": "vlm"
+    }
+  ],
+  "intervened": false,
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 10.958784103393555,
+  "category": "unintervened/failure",
+  "baseline": {
+    "success": 0.0,
+    "spl": 0.0,
+    "os": 0.0,
+    "ne": 8.463562965393066
+  },
+  "version": "governor_clean_remake_14_single_stop_decision",
+  "correction_mode": "point"
+}

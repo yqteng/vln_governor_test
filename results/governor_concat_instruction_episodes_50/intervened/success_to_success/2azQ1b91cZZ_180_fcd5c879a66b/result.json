@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 180,
+  "success": 1.0,
+  "spl": 0.9938111929359482,
+  "os": 1.0,
+  "ne": 0.6333351731300354,
+  "steps": 50,
+  "episode_instruction": "Go straight through the doorway.  Go to the left and then left again till you see the star burst pattern on the floor  Go through the bedroom doorway and stop when you get to the bed.  Wait there. ",
+  "final_instruction": "Go straight through the doorway.  Go to the left and then left again till you see the star burst pattern on the floor  Go through the bedroom doorway and stop when you get to the bed.  Wait there. ",
+  "num_rewrites": 0
+}

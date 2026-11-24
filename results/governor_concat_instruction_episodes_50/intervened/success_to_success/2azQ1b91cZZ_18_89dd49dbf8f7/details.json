@@ -1,0 +1,64 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 18,
+  "episode_instruction": "Walk across the room, past the pool table on your left side as you walk.  Stop in front of the television mounted on the wall across from the couch. ",
+  "success": 1.0,
+  "spl": 1.0,
+  "os": 1.0,
+  "ne": 2.648993492126465,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 38,
+  "effective_steps": 37,
+  "corrections": 0,
+  "deviations": 0,
+  "intervened": true,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 11,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "Walk across the room, past the pool table on your left side as you walk.  Stop in front of the television mounted on the wall across from the couch. ",
+  "termination_reason": "governor_stop",
+  "phase_steps": {
+    "normal": 37,
+    "rollback": 0,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 0,
+    "governor_stop": 1
+  },
+  "action_counts": {
+    "STOP": 1,
+    "MOVE_FORWARD": 24,
+    "TURN_LEFT": 12,
+    "TURN_RIGHT": 1,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 0,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 6.005240559577942,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "Completed: The agent has turned left multiple times to orient toward the pool table and is now facing it on the left side as instructed. Currently: The agent has moved forward past the pool table and is now approaching the far end of the room where the couch and TV are located, as seen in images 8–16. Remaining: Stop in front of the television mounted on the wall across from the couch. Uncertain: The exact stopping point in front of the TV has not yet been reached or confirmed; the agent is still in transit toward the final destination."
+    },
+    {
+      "start": 17,
+      "end": 32,
+      "text": "Completed: The agent has turned left multiple times to orient toward the pool table and is now facing it on the left side as instructed. The agent has moved forward past the pool table and is now approaching the far end of the room where the couch and TV are located. Currently: The agent is now positioned directly in front of the television mounted on the wall across from the couch, as confirmed by images 27–32 showing the TV and couch in clear view. Remaining: Stop in front of the television mounted on the wall across from the couch. Uncertain: The agent has not yet executed a stop action; the final stopping point has not been confirmed as reached or held, though the agent is now at the correct location. No further movement is required to reach the endpoint, but no stop command has been issued or executed."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "intervened/success_to_success",
+  "baseline": {
+    "success": 1.0,
+    "spl": 1.0,
+    "os": 1.0,
+    "ne": 0.4659444987773895
+  },
+  "artifact_dir": "intervened/success_to_success/2azQ1b91cZZ_18_89dd49dbf8f7"
+}

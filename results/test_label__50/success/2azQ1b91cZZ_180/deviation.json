@@ -1,0 +1,37 @@
+{
+  "instruction": "Go straight through the doorway.  Go to the left and then left again till you see the star burst pattern on the floor  Go through the bedroom doorway and stop when you get to the bed.  Wait there. ",
+  "baseline_result": "success",
+  "vlm_result": "未发现明确偏航",
+  "first_bad_segment": null,
+  "first_bad_steps": null,
+  "reason": "The instruction requires crossing the starting doorway, making two leftward route choices toward a starburst floor pattern, then entering the bedroom and stopping at its bed. S1 crosses the starting entrance O9, and S2 changes from the preceding southwestward displacement to southeastward and then eastward travel, consistent with successive movement-relative left turns toward the smaller vestibule floor covering O22. S3 proceeds through the finite eastern opening O27; F37 shows the bed beyond it, while F42–F46 establish the bedroom interior and bed O32 beside the executed approach. Through step 48 the trace advances into this room without passing the bed's mapped footprint or entering either farther doorway, so no route contradiction is established. This extends the earlier non-deviation judgment, but bed arrival and waiting are not established, and the review cutoff does not imply STOP.",
+  "reviewed_to_step": 48,
+  "total_steps": 51,
+  "unreviewed_tail": [
+    49,
+    51
+  ],
+  "evidence_segments_at_review": [
+    "S1",
+    "S2",
+    "S3"
+  ],
+  "evidence_frames": [
+    "F2",
+    "F5",
+    "F10",
+    "F20",
+    "F25",
+    "F32",
+    "F37",
+    "F42",
+    "F44",
+    "F46"
+  ],
+  "evidence_objects": [
+    "O9",
+    "O22",
+    "O27",
+    "O32"
+  ]
+}

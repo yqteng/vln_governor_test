@@ -1,0 +1,42 @@
+{
+  "instruction": "Walk through the doorway into the dining room and walk straight back to the door leading outside. When you get to the door make a right and walk down the hallway. Walk straight down the hall and wait in the doorway of another dining area. ",
+  "baseline_result": "failure",
+  "vlm_result": "证据不足",
+  "first_bad_segment": null,
+  "first_bad_steps": null,
+  "reason": "The instruction requires entering a dining room, walking straight back to the door leading outside, turning right there, then proceeding down the hall to another dining-area doorway. S1 moves through the kitchen-side space toward the fireplace-side doorway shown in F34 and F38; S2-S4 approach the closed arched door shown in F43-F55, and the trace then turns right and proceeds along a narrow passage in S5. The photographs support doorway structures at O31 and O36, but do not establish that the first space is the required dining room or that O36 leads outside; O12 is a separate glazed door near the starting-side kitchen aisle. S5-S6 continue along the passage to an opening, but the views do not establish that it is the doorway of another dining area. The route's order is plausible, but key landmark identities and room relations remain unresolved, so no specific contradiction or its onset is reliably established.",
+  "reviewed_to_step": 80,
+  "total_steps": 83,
+  "unreviewed_tail": [
+    81,
+    83
+  ],
+  "evidence_segments_at_review": [
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6"
+  ],
+  "evidence_frames": [
+    "F5",
+    "F34",
+    "F38",
+    "F43",
+    "F45",
+    "F50",
+    "F55",
+    "F63",
+    "F67",
+    "F72",
+    "F76",
+    "F79",
+    "F80"
+  ],
+  "evidence_objects": [
+    "O12",
+    "O31",
+    "O36"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "instruction": "Exit the bathroom and walk down the hall to the second doorway on your left.  Turn left and enter the room through that doorway. ",
+  "baseline_result": "success",
+  "vlm_result": "未发现明确偏航",
+  "first_bad_segment": null,
+  "first_bad_steps": null,
+  "reason": "The instruction requires exiting the bathroom, proceeding down the hall, and turning left into the second doorway on that side. S1 approaches the confirmed bathroom exit O4, and S2 crosses its mapped opening near step 21 before continuing predominantly along the hall toward decreasing world z. F19, F23, F25, and F29 show progress along the rug-and-vanity hall beside a left-side opening, while the measured trace shows no sustained lateral room entry. The supplied evidence does not establish that the second left doorway has already been reached or passed, so no route contradiction is supported through step 32; entry into the requested room remains unestablished.",
+  "reviewed_to_step": 32,
+  "total_steps": 46,
+  "unreviewed_tail": [
+    33,
+    46
+  ],
+  "evidence_segments_at_review": [
+    "S1",
+    "S2"
+  ],
+  "evidence_frames": [
+    "F8",
+    "F13",
+    "F16",
+    "F19",
+    "F23",
+    "F25",
+    "F29"
+  ],
+  "evidence_objects": [
+    "O4"
+  ]
+}

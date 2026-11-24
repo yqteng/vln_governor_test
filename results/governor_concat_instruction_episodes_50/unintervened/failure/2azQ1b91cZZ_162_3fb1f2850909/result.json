@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 162,
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 10.449953079223633,
+  "steps": 69,
+  "episode_instruction": "Go towards a dining area passing an area open to the outside to your right, and pass the dining table. Walk towards three sets of doors, and stop before reaching them. ",
+  "final_instruction": "Go towards a dining area passing an area open to the outside to your right, and pass the dining table. Walk towards three sets of doors, and stop before reaching them. ",
+  "num_rewrites": 0
+}

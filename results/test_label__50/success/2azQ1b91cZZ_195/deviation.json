@@ -1,0 +1,33 @@
+{
+  "instruction": "Walk out of the laundry room into the hallway. Walk along the hallway passed the windows towards the entryway at the end of the hall. Continue through the arched entryway and into the kitchen area, stopping near the island counter top. ",
+  "baseline_result": "success",
+  "vlm_result": "未发现明确偏航",
+  "first_bad_segment": null,
+  "first_bad_steps": null,
+  "reason": "The instruction requires leaving the laundry room, following the windowed hallway, and continuing through the arched entryway toward the kitchen island. In S1, the measured route advances along the corridor beside and then beyond O3; in S2 it continues along the same approach without an incompatible branch or sustained wrong turn. F23 through F32 show the arched passage O14 and island O13 progressively nearer, with the smaller window O15 beside the later approach. At step 32, the robot remains on the corridor approach; the broad arch box and pre-entry node do not establish that the kitchen threshold has been crossed or that the island stopping position has been reached. The starting room's laundry function is not independently verified, but no executed behavior contradicts the required order, and no explicit stop or task completion is established.",
+  "reviewed_to_step": 32,
+  "total_steps": 46,
+  "unreviewed_tail": [
+    33,
+    46
+  ],
+  "evidence_segments_at_review": [
+    "S1",
+    "S2"
+  ],
+  "evidence_frames": [
+    "F12",
+    "F18",
+    "F23",
+    "F28",
+    "F30",
+    "F31",
+    "F32"
+  ],
+  "evidence_objects": [
+    "O3",
+    "O13",
+    "O14",
+    "O15"
+  ]
+}

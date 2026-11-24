@@ -1,0 +1,84 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 179,
+  "episode_instruction": "Walk through the arched entry way that leads into the tiled room with a mosaic floor. Walk through the arched entry way to the left of the stairs. Continue down the tiled hall through the open door ahead into the bedroom with red bedsrpread. ",
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 5.905731201171875,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 100,
+  "effective_steps": 100,
+  "corrections": 0,
+  "deviations": 0,
+  "intervened": false,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 28,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "Walk through the arched entry way that leads into the tiled room with a mosaic floor. Walk through the arched entry way to the left of the stairs. Continue down the tiled hall through the open door ahead into the bedroom with red bedsrpread. ",
+  "termination_reason": "environment_limit",
+  "phase_steps": {
+    "normal": 100,
+    "rollback": 0,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 0,
+    "governor_stop": 0
+  },
+  "action_counts": {
+    "STOP": 0,
+    "MOVE_FORWARD": 73,
+    "TURN_LEFT": 18,
+    "TURN_RIGHT": 9,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 2,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 18.236270681023598,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "Completed: None. Currently: Agent is standing in the tiled hall with a mosaic floor, facing forward toward an arched entryway ahead. The arched entryway to the left of the stairs is visible on the left side of the view. Remaining: Walk through the arched entryway to the left of the stairs. Continue down the tiled hall through the open door ahead into the bedroom with red bedspread. Uncertain: Whether the agent has fully entered the arched entryway to the left of the stairs or passed through it, as no forward movement has occurred after the turn."
+    },
+    {
+      "start": 17,
+      "end": 32,
+      "text": "Completed: None. Currently: Agent is standing within the arched entryway that leads into the tiled room with a mosaic floor, having progressed forward through it. The arched entryway to the left of the stairs is no longer visible, confirming passage through the current arch. Remaining: Continue down the tiled hall through the open door ahead into the bedroom with red bedspread. Uncertain: Whether the agent has fully entered the arched entryway to the left of the stairs, as no turn or forward movement toward it has occurred in this visual block; the current progress is confined to the arch ahead."
+    },
+    {
+      "start": 33,
+      "end": 48,
+      "text": "Completed: Walk through the arched entryway that leads into the tiled room with a mosaic floor. Currently: Agent is standing in a large wooden-paneled room with a coffered ceiling, having passed through the arched entryway and moved forward into the space. The arched entryway to the left of the stairs is no longer visible, confirming passage through the current arch. Remaining: Walk through the arched entryway to the left of the stairs. Continue down the tiled hall through the open door ahead into the bedroom with red bedspread. Uncertain: Whether the agent has fully entered the arched entryway to the left of the stairs, as no turn or forward movement toward it has occurred in this visual block; the current progress is confined to the arch ahead."
+    },
+    {
+      "start": 49,
+      "end": 64,
+      "text": "Completed: Walk through the arched entryway that leads into the tiled room with a mosaic floor. Currently: Agent is standing in a large wooden-paneled room with a coffered ceiling, having passed through the arched entryway and moved forward into the space. The arched entryway to the left of the stairs is no longer visible, confirming passage through the current arch. Remaining: Walk through the arched entryway to the left of the stairs. Continue down the tiled hall through the open door ahead into the bedroom with red bedspread. Uncertain: Whether the agent has fully entered the arched entryway to the left of the stairs, as no turn or forward movement toward it has occurred in this visual block; the current progress is confined to the arch ahead."
+    },
+    {
+      "start": 65,
+      "end": 80,
+      "text": "Completed: Walk through the arched entryway that leads into the tiled room with a mosaic floor. Currently: Agent is standing in a large wooden-paneled room with a coffered ceiling, having passed through the arched entryway and moved forward into the space. The arched entryway to the left of the stairs is no longer visible, confirming passage through the current arch. Remaining: Walk through the arched entryway to the left of the stairs. Continue down the tiled hall through the open door ahead into the bedroom with red bedspread. Uncertain: Whether the agent has fully entered the arched entryway to the left of the stairs, as no turn or forward movement toward it has occurred in this visual block; the current progress is confined to the arch ahead."
+    },
+    {
+      "start": 81,
+      "end": 96,
+      "text": "Completed: Walk through the arched entryway that leads into the tiled room with a mosaic floor. Currently: Agent is standing in a tiled hallway with arched doorways, having moved forward from the previous room and now facing toward a corridor ahead. The arched entryway to the left of the stairs is no longer visible, confirming passage through the current arch. Remaining: Walk through the arched entryway to the left of the stairs. Continue down the tiled hall through the open door ahead into the bedroom with red bedspread. Uncertain: Whether the agent has fully entered the arched entryway to the left of the stairs, as no turn or forward movement toward it has occurred in this visual block; the current progress is confined to the arch ahead."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "unintervened/failure",
+  "baseline": {
+    "success": 1.0,
+    "spl": 0.3422684700490534,
+    "os": 1.0,
+    "ne": 1.0369356870651245
+  },
+  "artifact_dir": "unintervened/failure/2azQ1b91cZZ_179_85c167528f9d"
+}

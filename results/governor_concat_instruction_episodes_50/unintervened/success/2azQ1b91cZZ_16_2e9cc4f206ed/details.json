@@ -1,0 +1,69 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 16,
+  "episode_instruction": "turn round and walk past the billiard table, walk straight on, stop by the window. ",
+  "success": 1.0,
+  "spl": 1.0,
+  "os": 1.0,
+  "ne": 0.2444125860929489,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 51,
+  "effective_steps": 50,
+  "corrections": 0,
+  "deviations": 0,
+  "intervened": false,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 13,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "turn round and walk past the billiard table, walk straight on, stop by the window. ",
+  "termination_reason": "global_stop",
+  "phase_steps": {
+    "normal": 50,
+    "rollback": 0,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 1,
+    "governor_stop": 0
+  },
+  "action_counts": {
+    "STOP": 1,
+    "MOVE_FORWARD": 34,
+    "TURN_LEFT": 13,
+    "TURN_RIGHT": 3,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 0,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 8.505242705345154,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "The agent has moved from a windowed area into a large room containing a billiard table, visible from image 8 onward. The billiard table is now fully in view from image 9. The agent has not yet turned round as required, nor has the instruction 'walk past the billiard table' been visibly completed. The window is no longer in view, and stopping by it is not confirmed. The next unresolved requirement is to walk straight on past the billiard table and stop by the window, which is not yet visible or reached. The agent is currently positioned near the billiard table, facing away from the window, with no evidence of stopping or completing the final step."
+    },
+    {
+      "start": 17,
+      "end": 32,
+      "text": "From image 16 to 32, the agent moves forward past the billiard table, which remains visible on the left throughout. The agent approaches a seating area with arched windows and glass doors at the far end. The window referenced in the original instruction is no longer in view, as the agent has moved past it. No turn has been executed, and no stop has been made by the window. The agent is now positioned near the seating area, facing the windows and doors at the far end, with no evidence of stopping or completing the final requirement. The next unresolved requirement is to stop by the window, which is no longer visible from the current viewpoint."
+    },
+    {
+      "start": 33,
+      "end": 48,
+      "text": "From image 32 to 48, the agent moves forward into a living room with arched windows and a glass door at the far end. The billiard table is no longer visible, having been passed earlier. The agent approaches and stops near the windows/doors, with the final requirement to 'stop by the window' now visually confirmed as the agent is positioned directly in front of the windows. No turn has been executed, and the instruction 'turn round and walk past the billiard table' remains unfulfilled. The agent has not yet completed the required stop by the window, as the instruction requires stopping by the window, not just approaching it. The next unresolved requirement is to stop by the window, which is now in view and reachable. The agent is currently positioned near the windows, facing them, with no evidence of stopping or completing the final step. The agent has not turned round or walked past the billiard table as required. The agent is now at the final destination, but has not yet stopped. The agent is still 'on_route' and has not completed the final requirement."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "unintervened/success",
+  "baseline": {
+    "success": 1.0,
+    "spl": 1.0,
+    "os": 1.0,
+    "ne": 0.2444125860929489
+  },
+  "artifact_dir": "unintervened/success/2azQ1b91cZZ_16_2e9cc4f206ed"
+}

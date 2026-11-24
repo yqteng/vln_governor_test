@@ -1,0 +1,69 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 62,
+  "episode_instruction": "Exit the bathroom and go right, then turn left at the big clock and go into the bedroom and wait next to the bed. ",
+  "success": 1.0,
+  "spl": 1.0,
+  "os": 1.0,
+  "ne": 1.704856514930725,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 53,
+  "effective_steps": 52,
+  "corrections": 0,
+  "deviations": 0,
+  "intervened": true,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 16,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "Exit the bathroom and go right, then turn left at the big clock and go into the bedroom and wait next to the bed. ",
+  "termination_reason": "governor_stop",
+  "phase_steps": {
+    "normal": 52,
+    "rollback": 0,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 0,
+    "governor_stop": 1
+  },
+  "action_counts": {
+    "STOP": 1,
+    "MOVE_FORWARD": 31,
+    "TURN_LEFT": 9,
+    "TURN_RIGHT": 12,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 0,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 7.750003695487976,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "Completed: Exit the bathroom and go right. Currently: Facing down a hallway with curtains on the left and a doorway ahead; no big clock or bedroom visible. Remaining: Turn left at the big clock, go into the bedroom, and wait next to the bed. Uncertain: Whether the big clock is in the hallway or another room; no visual confirmation of it or the bedroom."
+    },
+    {
+      "start": 17,
+      "end": 32,
+      "text": "Completed: Exit the bathroom and go right. Currently: At the big clock in a hallway corner; the clock is visible and confirmed. Remaining: Turn left at the big clock, go into the bedroom, and wait next to the bed. Uncertain: Whether the bedroom is immediately accessible from this location or requires further navigation; no visual confirmation of the bedroom or bed yet."
+    },
+    {
+      "start": 33,
+      "end": 48,
+      "text": "Completed: Exit the bathroom, go right, turn left at the big clock, and enter the bedroom. Currently: Positioned at the bedroom entrance, facing into the room where the bed is visible. Remaining: Wait next to the bed. Uncertain: None; the bed is clearly visible and accessible from the current position."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "intervened/failure_to_success",
+  "baseline": {
+    "success": 0.0,
+    "spl": 0.0,
+    "os": 0.0,
+    "ne": 11.984439849853516
+  },
+  "artifact_dir": "intervened/failure_to_success/2azQ1b91cZZ_62_75203f017501"
+}

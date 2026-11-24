@@ -1,0 +1,37 @@
+{
+  "instruction": "GO slightly to the right and walk past the table.  You'll go into the other room, turn right and then past the big diadem circle tile, past the stairs, and then to the right.  Enter the hallway by the mirror and wait. ",
+  "baseline_result": "success",
+  "vlm_result": "未发现明确偏航",
+  "first_bad_segment": null,
+  "first_bad_steps": null,
+  "reason": "The instruction requires passing the table, entering the other room and turning right, then passing the large circular tile and stairs before entering the hallway by the mirror. S1 passes on the map-right side of confirmed table O3, and S2–S3 advance through the arched connection shown in F19, F31 and F38. S4 bends right along the lower side of the large foyer medallion and proceeds past the upper side of confirmed staircase O13, consistent with F41, F48 and F53. S5 crosses the first finite opening into the short connection toward the smaller vestibule, where F59 and F62 establish mirror O15; the endpoint remains before the farther opening into that vestibule. No incompatible branch or missed required entrance is established through step 64, extending the earlier compatible prefix without establishing final hallway arrival or waiting, and no explicit STOP is supplied.",
+  "reviewed_to_step": 64,
+  "total_steps": 74,
+  "unreviewed_tail": [
+    65,
+    74
+  ],
+  "evidence_segments_at_review": [
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5"
+  ],
+  "evidence_frames": [
+    "F14",
+    "F19",
+    "F31",
+    "F38",
+    "F41",
+    "F48",
+    "F53",
+    "F59",
+    "F62"
+  ],
+  "evidence_objects": [
+    "O3",
+    "O13",
+    "O15"
+  ]
+}

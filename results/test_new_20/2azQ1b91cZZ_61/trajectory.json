@@ -1,0 +1,2878 @@
+{
+  "name": "2azQ1b91cZZ_61",
+  "instruction": "Walk out of the bathroom passed the sink and shower. Walk down the hallway through the arch ed entry and circular tiled room. Turn and walk into the bedroom with hanging curtains wooden bed frame. ",
+  "complete": true,
+  "map_render_version": 8,
+  "camera_pitch_degrees": -30,
+  "update_interval_actions": 4,
+  "initial_region": {
+    "region": "bathroom",
+    "cosine": 0.2500452995300293,
+    "margin": 0.02863229811191559,
+    "scores": {
+      "bathroom": 0.2500452995300293,
+      "bedroom": 0.20578140020370483,
+      "corridor": 0.17736855149269104,
+      "hall": 0.1764739602804184,
+      "entryway": 0.2198120653629303,
+      "foyer": 0.19571301341056824,
+      "lobby": 0.16536861658096313,
+      "living room": 0.20492663979530334,
+      "suite": 0.2214130014181137,
+      "workspace": 0.17466433346271515
+    },
+    "per_view": [
+      {
+        "direction": "front",
+        "region": "bathroom",
+        "cosine": 0.2661954164505005
+      },
+      {
+        "direction": "left",
+        "region": "bathroom",
+        "cosine": 0.2664923667907715
+      },
+      {
+        "direction": "right",
+        "region": "entryway",
+        "cosine": 0.23439624905586243
+      },
+      {
+        "direction": "back",
+        "region": "bathroom",
+        "cosine": 0.2625602185726166
+      }
+    ],
+    "view_agreement": 3,
+    "tau": 1.5,
+    "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+    "raw_region": "bathroom",
+    "raw_cosine": 0.2500452995300293,
+    "raw_margin": 0.02863229811191559,
+    "raw_view_agreement": 3,
+    "smoothed_scores": {
+      "bathroom": 0.2500452995300293,
+      "bedroom": 0.20578140020370483,
+      "corridor": 0.17736855149269104,
+      "hall": 0.1764739602804184,
+      "entryway": 0.2198120653629303,
+      "foyer": 0.19571301341056824,
+      "lobby": 0.16536861658096313,
+      "living room": 0.20492663979530334,
+      "suite": 0.2214130014181137,
+      "workspace": 0.17466433346271515
+    },
+    "decision_scores": {
+      "bathroom": 0.2500452995300293,
+      "bedroom": 0.20578140020370483,
+      "corridor": 0.17736855149269104,
+      "hall": 0.1764739602804184,
+      "entryway": 0.2198120653629303,
+      "foyer": 0.19571301341056824,
+      "lobby": 0.16536861658096313,
+      "living room": 0.20492663979530334,
+      "suite": 0.2214130014181137,
+      "workspace": 0.17466433346271515
+    },
+    "stability": {
+      "reason": "initial",
+      "previous_region": null,
+      "applied_bonus": 0.0,
+      "challenger": null,
+      "challenger_count": 0,
+      "switched": false,
+      "suppressed": false,
+      "momentum": 0.6,
+      "stay_bonus": 0.005,
+      "fast_margin": 0.02,
+      "fast_min_views": 3,
+      "challenger_bonus_decay": 0.5
+    }
+  },
+  "region_stabilization": {
+    "momentum": 0.6,
+    "stay_bonus": 0.005,
+    "fast_margin": 0.02,
+    "fast_min_views": 3,
+    "challenger_bonus_decay": 0.5
+  },
+  "camera_settings": {
+    "hfov": 79.0,
+    "pitch_degrees": -30,
+    "depth_image_size": [
+      640,
+      480
+    ],
+    "rgb_image_size": [
+      640,
+      480
+    ]
+  },
+  "latest_views_image": "latest_views.jpg",
+  "color_semantics": "same region category always has the same color",
+  "hsgm_provenance": {
+    "repository": "https://github.com/Teacher-Tom/HSGM_public",
+    "source_sha256": {
+      "mapping_utils/geometry.py": "9ef27e522aba155e2c410a028c043b3a3b2e048d8df6f966c0f1a2605e46b16e",
+      "mapping_utils/transform.py": "a799c3034787724824dd3c269dbdf1728950b621f32828bfdc6b6a06d649c6bf",
+      "mapper.py": "0ee8d7e85ca2c9951f3b71f924a8a6d4968fa8a4f9ff1a6c70dabca1f1b1bf42"
+    },
+    "semantics": false,
+    "navigation": false,
+    "depth_cap": "same valid sensor depths as ours",
+    "compatibility": "empty-cloud/schema guards only; official geometric updates and interpolation retained",
+    "surface_renderer": "user supplied five-way render_map/footprint and original paint_projected_rgb; local RGB fill limited to 0.075m inside measured masks",
+    "pcd_resolution": 0.025,
+    "grid_resolution": 0.05,
+    "device": "CPU:0"
+  },
+  "region_semantics": "four-view endpoint predictions label preceding intervals; consecutive same-category intervals on the same floor form one colored run; transitions are only localized within sampling intervals",
+  "instruction_targets": {
+    "objects": [
+      {
+        "name": "sink",
+        "head": "sink",
+        "query": "object",
+        "modifiers": []
+      },
+      {
+        "name": "shower",
+        "head": "shower",
+        "query": "object",
+        "modifiers": []
+      },
+      {
+        "name": "arched entry",
+        "head": "arch",
+        "query": "object",
+        "modifiers": [
+          "entry"
+        ]
+      },
+      {
+        "name": "circular tiled room",
+        "head": "room",
+        "query": "object",
+        "modifiers": [
+          "circular",
+          "tiled"
+        ]
+      },
+      {
+        "name": "hanging curtains",
+        "head": "curtains",
+        "query": "object",
+        "modifiers": [
+          "hanging"
+        ]
+      },
+      {
+        "name": "wooden bed frame",
+        "head": "bed frame",
+        "query": "object",
+        "modifiers": [
+          "wooden"
+        ]
+      }
+    ],
+    "regions": [
+      {
+        "name": "bathroom",
+        "head": "bathroom",
+        "query": "space",
+        "modifiers": []
+      },
+      {
+        "name": "hallway",
+        "head": "hallway",
+        "query": "space",
+        "modifiers": []
+      },
+      {
+        "name": "arched entry",
+        "head": "entry",
+        "query": "space",
+        "modifiers": [
+          "arched"
+        ]
+      },
+      {
+        "name": "circular tiled room",
+        "head": "room",
+        "query": "space",
+        "modifiers": [
+          "circular",
+          "tiled"
+        ]
+      },
+      {
+        "name": "bedroom",
+        "head": "bedroom",
+        "query": "space",
+        "modifiers": []
+      }
+    ],
+    "room_top10_ids": [
+      9,
+      10,
+      15,
+      30,
+      21,
+      26,
+      37,
+      36,
+      51,
+      55
+    ],
+    "room_top10": [
+      "bathroom",
+      "bedroom",
+      "corridor",
+      "hall",
+      "entryway",
+      "foyer",
+      "lobby",
+      "living room",
+      "suite",
+      "workspace"
+    ],
+    "selection_policy": "all_vocab_top10_unfiltered_v1"
+  },
+  "target_selection_policy": "all_vocab_top10_unfiltered_v1",
+  "route": [
+    {
+      "step": 0,
+      "floor": 0,
+      "position": [
+        20.678499221801758,
+        0.12711000442504883,
+        -6.84542989730835
+      ]
+    },
+    {
+      "step": 1,
+      "floor": 0,
+      "position": [
+        20.678499221801758,
+        0.12711000442504883,
+        -6.84542989730835
+      ]
+    },
+    {
+      "step": 2,
+      "floor": 0,
+      "position": [
+        20.678499221801758,
+        0.12711000442504883,
+        -6.84542989730835
+      ]
+    },
+    {
+      "step": 3,
+      "floor": 0,
+      "position": [
+        20.678499221801758,
+        0.12711000442504883,
+        -6.84542989730835
+      ]
+    },
+    {
+      "step": 4,
+      "floor": 0,
+      "position": [
+        20.678499221801758,
+        0.12711000442504883,
+        -6.84542989730835
+      ]
+    },
+    {
+      "step": 5,
+      "floor": 0,
+      "position": [
+        20.678499221801758,
+        0.12711000442504883,
+        -6.84542989730835
+      ]
+    },
+    {
+      "step": 6,
+      "floor": 0,
+      "position": [
+        20.678499221801758,
+        0.12711000442504883,
+        -6.84542989730835
+      ]
+    },
+    {
+      "step": 7,
+      "floor": 0,
+      "position": [
+        20.678499221801758,
+        0.12711000442504883,
+        -6.84542989730835
+      ]
+    },
+    {
+      "step": 8,
+      "floor": 0,
+      "position": [
+        20.678499221801758,
+        0.12711000442504883,
+        -6.84542989730835
+      ]
+    },
+    {
+      "step": 9,
+      "floor": 0,
+      "position": [
+        20.678499221801758,
+        0.12711000442504883,
+        -6.84542989730835
+      ]
+    },
+    {
+      "step": 10,
+      "floor": 0,
+      "position": [
+        20.678499221801758,
+        0.12711000442504883,
+        -6.84542989730835
+      ]
+    },
+    {
+      "step": 11,
+      "floor": 0,
+      "position": [
+        20.678499221801758,
+        0.12711000442504883,
+        -6.84542989730835
+      ]
+    },
+    {
+      "step": 12,
+      "floor": 0,
+      "position": [
+        20.50172233581543,
+        0.12711000442504883,
+        -6.6686530113220215
+      ]
+    },
+    {
+      "step": 13,
+      "floor": 0,
+      "position": [
+        20.50172233581543,
+        0.12711000442504883,
+        -6.6686530113220215
+      ]
+    },
+    {
+      "step": 14,
+      "floor": 0,
+      "position": [
+        20.50172233581543,
+        0.12711000442504883,
+        -6.6686530113220215
+      ]
+    },
+    {
+      "step": 15,
+      "floor": 0,
+      "position": [
+        20.50172233581543,
+        0.12711000442504883,
+        -6.6686530113220215
+      ]
+    },
+    {
+      "step": 16,
+      "floor": 0,
+      "position": [
+        20.25172233581543,
+        0.12711000442504883,
+        -6.6686530113220215
+      ]
+    },
+    {
+      "step": 17,
+      "floor": 0,
+      "position": [
+        20.25172233581543,
+        0.12711000442504883,
+        -6.6686530113220215
+      ]
+    },
+    {
+      "step": 18,
+      "floor": 0,
+      "position": [
+        20.25172233581543,
+        0.12711000442504883,
+        -6.6686530113220215
+      ]
+    },
+    {
+      "step": 19,
+      "floor": 0,
+      "position": [
+        20.25172233581543,
+        0.12711000442504883,
+        -6.6686530113220215
+      ]
+    },
+    {
+      "step": 20,
+      "floor": 0,
+      "position": [
+        20.25172233581543,
+        0.12711000442504883,
+        -6.6686530113220215
+      ]
+    },
+    {
+      "step": 21,
+      "floor": 0,
+      "position": [
+        20.25172233581543,
+        0.12711000442504883,
+        -6.6686530113220215
+      ]
+    },
+    {
+      "step": 22,
+      "floor": 0,
+      "position": [
+        20.25172233581543,
+        0.12711000442504883,
+        -6.6686530113220215
+      ]
+    },
+    {
+      "step": 23,
+      "floor": 0,
+      "position": [
+        20.25172233581543,
+        0.12711000442504883,
+        -6.6686530113220215
+      ]
+    },
+    {
+      "step": 24,
+      "floor": 0,
+      "position": [
+        20.25172233581543,
+        0.12711000442504883,
+        -6.6686530113220215
+      ]
+    },
+    {
+      "step": 25,
+      "floor": 0,
+      "position": [
+        20.25172233581543,
+        0.12711000442504883,
+        -6.6686530113220215
+      ]
+    },
+    {
+      "step": 26,
+      "floor": 0,
+      "position": [
+        20.25172233581543,
+        0.12711000442504883,
+        -6.6686530113220215
+      ]
+    },
+    {
+      "step": 27,
+      "floor": 0,
+      "position": [
+        20.468229293823242,
+        0.12711000442504883,
+        -6.7936530113220215
+      ]
+    },
+    {
+      "step": 28,
+      "floor": 0,
+      "position": [
+        20.468229293823242,
+        0.12711000442504883,
+        -6.7936530113220215
+      ]
+    },
+    {
+      "step": 29,
+      "floor": 0,
+      "position": [
+        20.468229293823242,
+        0.12711000442504883,
+        -6.7936530113220215
+      ]
+    },
+    {
+      "step": 30,
+      "floor": 0,
+      "position": [
+        20.718229293823242,
+        0.12711000442504883,
+        -6.7936530113220215
+      ]
+    },
+    {
+      "step": 31,
+      "floor": 0,
+      "position": [
+        20.968229293823242,
+        0.12711000442504883,
+        -6.7936530113220215
+      ]
+    },
+    {
+      "step": 32,
+      "floor": 0,
+      "position": [
+        20.968229293823242,
+        0.12711000442504883,
+        -6.7936530113220215
+      ]
+    },
+    {
+      "step": 33,
+      "floor": 0,
+      "position": [
+        21.2097110748291,
+        0.12711000442504883,
+        -6.858357906341553
+      ]
+    },
+    {
+      "step": 34,
+      "floor": 0,
+      "position": [
+        21.2097110748291,
+        0.12711000442504883,
+        -6.858357906341553
+      ]
+    },
+    {
+      "step": 35,
+      "floor": 0,
+      "position": [
+        21.4597110748291,
+        0.12711000442504883,
+        -6.858357906341553
+      ]
+    },
+    {
+      "step": 36,
+      "floor": 0,
+      "position": [
+        21.4597110748291,
+        0.12711000442504883,
+        -6.858357906341553
+      ]
+    },
+    {
+      "step": 37,
+      "floor": 0,
+      "position": [
+        21.70119285583496,
+        0.12711000442504883,
+        -6.859379291534424
+      ]
+    },
+    {
+      "step": 38,
+      "floor": 0,
+      "position": [
+        21.70119285583496,
+        0.12711000442504883,
+        -6.859379291534424
+      ]
+    },
+    {
+      "step": 39,
+      "floor": 0,
+      "position": [
+        21.70119285583496,
+        0.12711000442504883,
+        -6.859379291534424
+      ]
+    },
+    {
+      "step": 40,
+      "floor": 0,
+      "position": [
+        21.70119285583496,
+        0.12711000442504883,
+        -6.859379291534424
+      ]
+    },
+    {
+      "step": 41,
+      "floor": 0,
+      "position": [
+        21.82619285583496,
+        0.12711000442504883,
+        -7.075885772705078
+      ]
+    },
+    {
+      "step": 42,
+      "floor": 0,
+      "position": [
+        21.82619285583496,
+        0.12711000442504883,
+        -7.075885772705078
+      ]
+    },
+    {
+      "step": 43,
+      "floor": 0,
+      "position": [
+        21.82619285583496,
+        0.12711000442504883,
+        -7.075885772705078
+      ]
+    },
+    {
+      "step": 44,
+      "floor": 0,
+      "position": [
+        21.896739959716797,
+        0.12711000442504883,
+        -7.325885772705078
+      ]
+    },
+    {
+      "step": 45,
+      "floor": 0,
+      "position": [
+        21.896739959716797,
+        0.12711000442504883,
+        -7.575885772705078
+      ]
+    },
+    {
+      "step": 46,
+      "floor": 0,
+      "position": [
+        21.896739959716797,
+        0.12711000442504883,
+        -7.825885772705078
+      ]
+    },
+    {
+      "step": 47,
+      "floor": 0,
+      "position": [
+        21.896739959716797,
+        0.12711000442504883,
+        -7.825885772705078
+      ]
+    },
+    {
+      "step": 48,
+      "floor": 0,
+      "position": [
+        21.908172607421875,
+        0.12711000442504883,
+        -7.915095329284668
+      ]
+    },
+    {
+      "step": 49,
+      "floor": 0,
+      "position": [
+        21.908172607421875,
+        0.12711000442504883,
+        -7.915095329284668
+      ]
+    },
+    {
+      "step": 50,
+      "floor": 0,
+      "position": [
+        21.99673843383789,
+        0.12711000442504883,
+        -8.165095329284668
+      ]
+    },
+    {
+      "step": 51,
+      "floor": 0,
+      "position": [
+        21.99673843383789,
+        0.12711000442504883,
+        -8.415095329284668
+      ]
+    },
+    {
+      "step": 52,
+      "floor": 0,
+      "position": [
+        21.99673843383789,
+        0.12711000442504883,
+        -8.665095329284668
+      ]
+    },
+    {
+      "step": 53,
+      "floor": 0,
+      "position": [
+        21.99673843383789,
+        0.12711000442504883,
+        -8.915095329284668
+      ]
+    },
+    {
+      "step": 54,
+      "floor": 0,
+      "position": [
+        21.99673843383789,
+        0.12711000442504883,
+        -8.915095329284668
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "start_step": 0,
+      "end_step": 40,
+      "sampled_at_step": 40,
+      "floor": 0,
+      "color": "#9fc423",
+      "sample_steps": [
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28,
+        32,
+        36,
+        40
+      ],
+      "region": "bathroom",
+      "cosine": 0.22478601336479187,
+      "margin": -0.010935544967651367,
+      "scores": {
+        "bathroom": 0.22478601336479187,
+        "bedroom": 0.22148260474205017,
+        "corridor": 0.20897546410560608,
+        "hall": 0.20582574605941772,
+        "entryway": 0.23572155833244324,
+        "foyer": 0.2140050083398819,
+        "lobby": 0.18513435125350952,
+        "living room": 0.22434912621974945,
+        "suite": 0.2164771556854248,
+        "workspace": 0.17924070358276367
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "entryway",
+          "cosine": 0.24595817923545837
+        },
+        {
+          "direction": "left",
+          "region": "bathroom",
+          "cosine": 0.27190491557121277
+        },
+        {
+          "direction": "right",
+          "region": "entryway",
+          "cosine": 0.23982226848602295
+        },
+        {
+          "direction": "back",
+          "region": "entryway",
+          "cosine": 0.23865628242492676
+        }
+      ],
+      "view_agreement": 1,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "entryway",
+      "raw_cosine": 0.23572155833244324,
+      "raw_margin": 0.010935544967651367,
+      "raw_view_agreement": 3,
+      "smoothed_scores": {
+        "bathroom": 0.23733310607281494,
+        "bedroom": 0.21790374609277038,
+        "corridor": 0.2000276711411682,
+        "hall": 0.19702191589083712,
+        "entryway": 0.23135652689343567,
+        "foyer": 0.20913842141393738,
+        "lobby": 0.18043166766858826,
+        "living room": 0.21881011673400877,
+        "suite": 0.21831692521458892,
+        "workspace": 0.18057625011724396
+      },
+      "decision_scores": {
+        "bathroom": 0.24233310607281494,
+        "bedroom": 0.21790374609277038,
+        "corridor": 0.2000276711411682,
+        "hall": 0.19702191589083712,
+        "entryway": 0.23135652689343567,
+        "foyer": 0.20913842141393738,
+        "lobby": 0.18043166766858826,
+        "living room": 0.21881011673400877,
+        "suite": 0.21831692521458892,
+        "workspace": 0.18057625011724396
+      },
+      "stability": {
+        "reason": "held_by_momentum",
+        "previous_region": "bathroom",
+        "applied_bonus": 0.005,
+        "challenger": null,
+        "challenger_count": 0,
+        "switched": false,
+        "suppressed": true,
+        "momentum": 0.6,
+        "stay_bonus": 0.005,
+        "fast_margin": 0.02,
+        "fast_min_views": 3,
+        "challenger_bonus_decay": 0.5
+      },
+      "sample_count": 10,
+      "current_position": [
+        21.70119285583496,
+        0.12711000442504883,
+        -6.859379291534424
+      ],
+      "label_position": [
+        20.718229293823242,
+        0.12711000442504883,
+        -6.7936530113220215
+      ]
+    },
+    {
+      "id": 2,
+      "start_step": 40,
+      "end_step": 48,
+      "sampled_at_step": 48,
+      "floor": 0,
+      "color": "#23c490",
+      "sample_steps": [
+        44,
+        48
+      ],
+      "region": "entryway",
+      "cosine": 0.21492180228233337,
+      "margin": -0.015143752098083496,
+      "scores": {
+        "bathroom": 0.19559963047504425,
+        "bedroom": 0.23006555438041687,
+        "corridor": 0.1905106157064438,
+        "hall": 0.1879119724035263,
+        "entryway": 0.21492180228233337,
+        "foyer": 0.19496020674705505,
+        "lobby": 0.17840585112571716,
+        "living room": 0.22285227477550507,
+        "suite": 0.20980018377304077,
+        "workspace": 0.17553719878196716
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "bedroom",
+          "cosine": 0.22363287210464478
+        },
+        {
+          "direction": "left",
+          "region": "bedroom",
+          "cosine": 0.23748382925987244
+        },
+        {
+          "direction": "right",
+          "region": "living room",
+          "cosine": 0.2385196089744568
+        },
+        {
+          "direction": "back",
+          "region": "entryway",
+          "cosine": 0.2443874180316925
+        }
+      ],
+      "view_agreement": 1,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "bedroom",
+      "raw_cosine": 0.23006555438041687,
+      "raw_margin": 0.007213279604911804,
+      "raw_view_agreement": 2,
+      "smoothed_scores": {
+        "bathroom": 0.2147285093326825,
+        "bedroom": 0.22383854255358715,
+        "corridor": 0.20074634433367516,
+        "hall": 0.1963515714566938,
+        "entryway": 0.22597540574624253,
+        "foyer": 0.2061923604718348,
+        "lobby": 0.1833557690511825,
+        "living room": 0.2221404059478882,
+        "suite": 0.21337103461510906,
+        "workspace": 0.17906394427820027
+      },
+      "decision_scores": {
+        "bathroom": 0.2147285093326825,
+        "bedroom": 0.22383854255358715,
+        "corridor": 0.20074634433367516,
+        "hall": 0.1963515714566938,
+        "entryway": 0.23097540574624253,
+        "foyer": 0.2061923604718348,
+        "lobby": 0.1833557690511825,
+        "living room": 0.2221404059478882,
+        "suite": 0.21337103461510906,
+        "workspace": 0.17906394427820027
+      },
+      "stability": {
+        "reason": "held_by_momentum",
+        "previous_region": "entryway",
+        "applied_bonus": 0.005,
+        "challenger": null,
+        "challenger_count": 0,
+        "switched": false,
+        "suppressed": true,
+        "momentum": 0.6,
+        "stay_bonus": 0.005,
+        "fast_margin": 0.02,
+        "fast_min_views": 3,
+        "challenger_bonus_decay": 0.5
+      },
+      "transition_step_window": [
+        40,
+        44
+      ],
+      "sample_count": 2,
+      "current_position": [
+        21.908172607421875,
+        0.12711000442504883,
+        -7.915095329284668
+      ],
+      "label_position": [
+        21.896739959716797,
+        0.12711000442504883,
+        -7.325885772705078
+      ]
+    },
+    {
+      "id": 3,
+      "start_step": 48,
+      "end_step": 54,
+      "sampled_at_step": 54,
+      "floor": 0,
+      "color": "#234ac4",
+      "sample_steps": [
+        52,
+        54
+      ],
+      "region": "bedroom",
+      "cosine": 0.2452249825000763,
+      "margin": 0.012315437197685242,
+      "scores": {
+        "bathroom": 0.19758322834968567,
+        "bedroom": 0.2452249825000763,
+        "corridor": 0.18933497369289398,
+        "hall": 0.1869737207889557,
+        "entryway": 0.21641692519187927,
+        "foyer": 0.19714243710041046,
+        "lobby": 0.17548300325870514,
+        "living room": 0.2282291054725647,
+        "suite": 0.23290954530239105,
+        "workspace": 0.18280422687530518
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "bedroom",
+          "cosine": 0.25972315669059753
+        },
+        {
+          "direction": "left",
+          "region": "bedroom",
+          "cosine": 0.25138694047927856
+        },
+        {
+          "direction": "right",
+          "region": "living room",
+          "cosine": 0.24553841352462769
+        },
+        {
+          "direction": "back",
+          "region": "entryway",
+          "cosine": 0.24459804594516754
+        }
+      ],
+      "view_agreement": 2,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "bedroom",
+      "raw_cosine": 0.2452249825000763,
+      "raw_margin": 0.012315437197685242,
+      "raw_view_agreement": 2,
+      "smoothed_scores": {
+        "bathroom": 0.20351922331307382,
+        "bedroom": 0.23740022229652524,
+        "corridor": 0.19372362618653297,
+        "hall": 0.19047233471015806,
+        "entryway": 0.2199158709908275,
+        "foyer": 0.20044090371769074,
+        "lobby": 0.17803056020727215,
+        "living room": 0.22615077771243727,
+        "suite": 0.22404331427319157,
+        "workspace": 0.18090725717236034
+      },
+      "decision_scores": {
+        "bathroom": 0.20351922331307382,
+        "bedroom": 0.24240022229652525,
+        "corridor": 0.19372362618653297,
+        "hall": 0.19047233471015806,
+        "entryway": 0.2199158709908275,
+        "foyer": 0.20044090371769074,
+        "lobby": 0.17803056020727215,
+        "living room": 0.22615077771243727,
+        "suite": 0.22404331427319157,
+        "workspace": 0.18090725717236034
+      },
+      "stability": {
+        "reason": "unchanged",
+        "previous_region": "bedroom",
+        "applied_bonus": 0.005,
+        "challenger": null,
+        "challenger_count": 0,
+        "switched": false,
+        "suppressed": false,
+        "momentum": 0.6,
+        "stay_bonus": 0.005,
+        "fast_margin": 0.02,
+        "fast_min_views": 3,
+        "challenger_bonus_decay": 0.5
+      },
+      "transition_step_window": [
+        48,
+        52
+      ],
+      "sample_count": 2,
+      "current_position": [
+        21.99673843383789,
+        0.12711000442504883,
+        -8.915095329284668
+      ],
+      "label_position": [
+        21.99673843383789,
+        0.12711000442504883,
+        -8.415095329284668
+      ]
+    }
+  ],
+  "raw_segments": [
+    {
+      "id": 1,
+      "start_step": 0,
+      "end_step": 36,
+      "sampled_at_step": 36,
+      "floor": 0,
+      "color": "#9fc423",
+      "sample_steps": [
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28,
+        32,
+        36
+      ],
+      "region": "bathroom",
+      "cosine": 0.2394205927848816,
+      "margin": 0.004192575812339783,
+      "scores": {
+        "bathroom": 0.2394205927848816,
+        "bedroom": 0.2197941690683365,
+        "corridor": 0.20238558948040009,
+        "hall": 0.20102977752685547,
+        "entryway": 0.2352280169725418,
+        "foyer": 0.21323926746845245,
+        "lobby": 0.18294808268547058,
+        "living room": 0.2218547910451889,
+        "suite": 0.21841147541999817,
+        "workspace": 0.18362613022327423
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "entryway",
+          "cosine": 0.2420572191476822
+        },
+        {
+          "direction": "left",
+          "region": "bathroom",
+          "cosine": 0.26608607172966003
+        },
+        {
+          "direction": "right",
+          "region": "entryway",
+          "cosine": 0.25001439452171326
+        },
+        {
+          "direction": "back",
+          "region": "bathroom",
+          "cosine": 0.26863396167755127
+        }
+      ],
+      "view_agreement": 2,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "bathroom",
+      "raw_cosine": 0.2394205927848816,
+      "raw_margin": 0.004192575812339783,
+      "raw_view_agreement": 2,
+      "smoothed_scores": {
+        "bathroom": 0.24569783454483035,
+        "bedroom": 0.21551784032658386,
+        "corridor": 0.19406247583154299,
+        "hall": 0.19115269577845,
+        "entryway": 0.2284465059340973,
+        "foyer": 0.20589403012997437,
+        "lobby": 0.17729654527864075,
+        "living room": 0.215117443743515,
+        "suite": 0.2195434382340317,
+        "workspace": 0.18146661447356416
+      },
+      "decision_scores": {
+        "bathroom": 0.25069783454483036,
+        "bedroom": 0.21551784032658386,
+        "corridor": 0.19406247583154299,
+        "hall": 0.19115269577845,
+        "entryway": 0.2284465059340973,
+        "foyer": 0.20589403012997437,
+        "lobby": 0.17729654527864075,
+        "living room": 0.215117443743515,
+        "suite": 0.2195434382340317,
+        "workspace": 0.18146661447356416
+      },
+      "stability": {
+        "reason": "unchanged",
+        "previous_region": "bathroom",
+        "applied_bonus": 0.005,
+        "challenger": null,
+        "challenger_count": 0,
+        "switched": false,
+        "suppressed": false,
+        "momentum": 0.6,
+        "stay_bonus": 0.005,
+        "fast_margin": 0.02,
+        "fast_min_views": 3,
+        "challenger_bonus_decay": 0.5
+      },
+      "sample_count": 9,
+      "label_position": [
+        20.25172233581543,
+        0.12711000442504883,
+        -6.6686530113220215
+      ]
+    },
+    {
+      "id": 2,
+      "start_step": 36,
+      "end_step": 44,
+      "sampled_at_step": 44,
+      "floor": 0,
+      "color": "#23c490",
+      "sample_steps": [
+        40,
+        44
+      ],
+      "region": "entryway",
+      "cosine": 0.2363263964653015,
+      "margin": 0.010377004742622375,
+      "scores": {
+        "bathroom": 0.21270307898521423,
+        "bedroom": 0.22236238420009613,
+        "corridor": 0.21888390183448792,
+        "hall": 0.20941205322742462,
+        "entryway": 0.2363263964653015,
+        "foyer": 0.22049352526664734,
+        "lobby": 0.19599178433418274,
+        "living room": 0.22594939172267914,
+        "suite": 0.2119036167860031,
+        "workspace": 0.1826733946800232
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "bedroom",
+          "cosine": 0.23562493920326233
+        },
+        {
+          "direction": "left",
+          "region": "entryway",
+          "cosine": 0.23407089710235596
+        },
+        {
+          "direction": "right",
+          "region": "entryway",
+          "cosine": 0.23625583946704865
+        },
+        {
+          "direction": "back",
+          "region": "entryway",
+          "cosine": 0.2494911253452301
+        }
+      ],
+      "view_agreement": 3,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "entryway",
+      "raw_cosine": 0.2363263964653015,
+      "raw_margin": 0.010377004742622375,
+      "raw_view_agreement": 3,
+      "smoothed_scores": {
+        "bathroom": 0.22748109523777466,
+        "bedroom": 0.2196872013357007,
+        "corridor": 0.2075701634184961,
+        "hall": 0.20197797082547211,
+        "entryway": 0.233344474722182,
+        "foyer": 0.21368046295502136,
+        "lobby": 0.18665571433482606,
+        "living room": 0.22166582672947693,
+        "suite": 0.2157516018431546,
+        "workspace": 0.18141510794235566
+      },
+      "decision_scores": {
+        "bathroom": 0.23248109523777466,
+        "bedroom": 0.2196872013357007,
+        "corridor": 0.2075701634184961,
+        "hall": 0.20197797082547211,
+        "entryway": 0.233344474722182,
+        "foyer": 0.21368046295502136,
+        "lobby": 0.18665571433482606,
+        "living room": 0.22166582672947693,
+        "suite": 0.2157516018431546,
+        "workspace": 0.18141510794235566
+      },
+      "stability": {
+        "reason": "smoothed_switch",
+        "previous_region": "bathroom",
+        "applied_bonus": 0.005,
+        "challenger": "entryway",
+        "challenger_count": 1,
+        "switched": true,
+        "suppressed": false,
+        "momentum": 0.6,
+        "stay_bonus": 0.005,
+        "fast_margin": 0.02,
+        "fast_min_views": 3,
+        "challenger_bonus_decay": 0.5
+      },
+      "sample_count": 2,
+      "label_position": [
+        21.70119285583496,
+        0.12711000442504883,
+        -6.859379291534424
+      ]
+    },
+    {
+      "id": 3,
+      "start_step": 44,
+      "end_step": 54,
+      "sampled_at_step": 54,
+      "floor": 0,
+      "color": "#234ac4",
+      "sample_steps": [
+        48,
+        52,
+        54
+      ],
+      "region": "bedroom",
+      "cosine": 0.2452249825000763,
+      "margin": 0.012315437197685242,
+      "scores": {
+        "bathroom": 0.19758322834968567,
+        "bedroom": 0.2452249825000763,
+        "corridor": 0.18933497369289398,
+        "hall": 0.1869737207889557,
+        "entryway": 0.21641692519187927,
+        "foyer": 0.19714243710041046,
+        "lobby": 0.17548300325870514,
+        "living room": 0.2282291054725647,
+        "suite": 0.23290954530239105,
+        "workspace": 0.18280422687530518
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "bedroom",
+          "cosine": 0.25972315669059753
+        },
+        {
+          "direction": "left",
+          "region": "bedroom",
+          "cosine": 0.25138694047927856
+        },
+        {
+          "direction": "right",
+          "region": "living room",
+          "cosine": 0.24553841352462769
+        },
+        {
+          "direction": "back",
+          "region": "entryway",
+          "cosine": 0.24459804594516754
+        }
+      ],
+      "view_agreement": 2,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "bedroom",
+      "raw_cosine": 0.2452249825000763,
+      "raw_margin": 0.012315437197685242,
+      "raw_view_agreement": 2,
+      "smoothed_scores": {
+        "bathroom": 0.20351922331307382,
+        "bedroom": 0.23740022229652524,
+        "corridor": 0.19372362618653297,
+        "hall": 0.19047233471015806,
+        "entryway": 0.2199158709908275,
+        "foyer": 0.20044090371769074,
+        "lobby": 0.17803056020727215,
+        "living room": 0.22615077771243727,
+        "suite": 0.22404331427319157,
+        "workspace": 0.18090725717236034
+      },
+      "decision_scores": {
+        "bathroom": 0.20351922331307382,
+        "bedroom": 0.24240022229652525,
+        "corridor": 0.19372362618653297,
+        "hall": 0.19047233471015806,
+        "entryway": 0.2199158709908275,
+        "foyer": 0.20044090371769074,
+        "lobby": 0.17803056020727215,
+        "living room": 0.22615077771243727,
+        "suite": 0.22404331427319157,
+        "workspace": 0.18090725717236034
+      },
+      "stability": {
+        "reason": "unchanged",
+        "previous_region": "bedroom",
+        "applied_bonus": 0.005,
+        "challenger": null,
+        "challenger_count": 0,
+        "switched": false,
+        "suppressed": false,
+        "momentum": 0.6,
+        "stay_bonus": 0.005,
+        "fast_margin": 0.02,
+        "fast_min_views": 3,
+        "challenger_bonus_decay": 0.5
+      },
+      "sample_count": 3,
+      "label_position": [
+        21.908172607421875,
+        0.12711000442504883,
+        -7.915095329284668
+      ]
+    }
+  ],
+  "region_observations": [
+    {
+      "step": 0,
+      "floor": 0,
+      "position": [
+        20.678499221801758,
+        0.12711000442504883,
+        -6.84542989730835
+      ],
+      "region": "bathroom",
+      "cosine": 0.2500452995300293,
+      "margin": 0.02863229811191559,
+      "scores": {
+        "bathroom": 0.2500452995300293,
+        "bedroom": 0.20578140020370483,
+        "corridor": 0.17736855149269104,
+        "hall": 0.1764739602804184,
+        "entryway": 0.2198120653629303,
+        "foyer": 0.19571301341056824,
+        "lobby": 0.16536861658096313,
+        "living room": 0.20492663979530334,
+        "suite": 0.2214130014181137,
+        "workspace": 0.17466433346271515
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "bathroom",
+          "cosine": 0.2661954164505005
+        },
+        {
+          "direction": "left",
+          "region": "bathroom",
+          "cosine": 0.2664923667907715
+        },
+        {
+          "direction": "right",
+          "region": "entryway",
+          "cosine": 0.23439624905586243
+        },
+        {
+          "direction": "back",
+          "region": "bathroom",
+          "cosine": 0.2625602185726166
+        }
+      ],
+      "view_agreement": 3,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "bathroom",
+      "raw_cosine": 0.2500452995300293,
+      "raw_margin": 0.02863229811191559,
+      "raw_view_agreement": 3,
+      "smoothed_scores": {
+        "bathroom": 0.2500452995300293,
+        "bedroom": 0.20578140020370483,
+        "corridor": 0.17736855149269104,
+        "hall": 0.1764739602804184,
+        "entryway": 0.2198120653629303,
+        "foyer": 0.19571301341056824,
+        "lobby": 0.16536861658096313,
+        "living room": 0.20492663979530334,
+        "suite": 0.2214130014181137,
+        "workspace": 0.17466433346271515
+      },
+      "decision_scores": {
+        "bathroom": 0.2500452995300293,
+        "bedroom": 0.20578140020370483,
+        "corridor": 0.17736855149269104,
+        "hall": 0.1764739602804184,
+        "entryway": 0.2198120653629303,
+        "foyer": 0.19571301341056824,
+        "lobby": 0.16536861658096313,
+        "living room": 0.20492663979530334,
+        "suite": 0.2214130014181137,
+        "workspace": 0.17466433346271515
+      },
+      "stability": {
+        "reason": "initial",
+        "previous_region": null,
+        "applied_bonus": 0.0,
+        "challenger": null,
+        "challenger_count": 0,
+        "switched": false,
+        "suppressed": false,
+        "momentum": 0.6,
+        "stay_bonus": 0.005,
+        "fast_margin": 0.02,
+        "fast_min_views": 3,
+        "challenger_bonus_decay": 0.5
+      }
+    },
+    {
+      "step": 4,
+      "floor": 0,
+      "position": [
+        20.678499221801758,
+        0.12711000442504883,
+        -6.84542989730835
+      ],
+      "region": "bathroom",
+      "cosine": 0.25591814517974854,
+      "margin": 0.03270190954208374,
+      "scores": {
+        "bathroom": 0.25591814517974854,
+        "bedroom": 0.2049725353717804,
+        "corridor": 0.1818792223930359,
+        "hall": 0.18014514446258545,
+        "entryway": 0.2222178876399994,
+        "foyer": 0.19746282696723938,
+        "lobby": 0.16549193859100342,
+        "living room": 0.20048989355564117,
+        "suite": 0.2232162356376648,
+        "workspace": 0.17686623334884644
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "entryway",
+          "cosine": 0.2548067569732666
+        },
+        {
+          "direction": "left",
+          "region": "bathroom",
+          "cosine": 0.2636924386024475
+        },
+        {
+          "direction": "right",
+          "region": "bathroom",
+          "cosine": 0.25745904445648193
+        },
+        {
+          "direction": "back",
+          "region": "bathroom",
+          "cosine": 0.2764226794242859
+        }
+      ],
+      "view_agreement": 3,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "bathroom",
+      "raw_cosine": 0.25591814517974854,
+      "raw_margin": 0.03270190954208374,
+      "raw_view_agreement": 3,
+      "smoothed_scores": {
+        "bathroom": 0.252394437789917,
+        "bedroom": 0.20545785427093505,
+        "corridor": 0.17917281985282899,
+        "hall": 0.17794243395328524,
+        "entryway": 0.22077439427375792,
+        "foyer": 0.19641293883323668,
+        "lobby": 0.16541794538497925,
+        "living room": 0.20315194129943848,
+        "suite": 0.22213429510593413,
+        "workspace": 0.17554509341716767
+      },
+      "decision_scores": {
+        "bathroom": 0.257394437789917,
+        "bedroom": 0.20545785427093505,
+        "corridor": 0.17917281985282899,
+        "hall": 0.17794243395328524,
+        "entryway": 0.22077439427375792,
+        "foyer": 0.19641293883323668,
+        "lobby": 0.16541794538497925,
+        "living room": 0.20315194129943848,
+        "suite": 0.22213429510593413,
+        "workspace": 0.17554509341716767
+      },
+      "stability": {
+        "reason": "unchanged",
+        "previous_region": "bathroom",
+        "applied_bonus": 0.005,
+        "challenger": null,
+        "challenger_count": 0,
+        "switched": false,
+        "suppressed": false,
+        "momentum": 0.6,
+        "stay_bonus": 0.005,
+        "fast_margin": 0.02,
+        "fast_min_views": 3,
+        "challenger_bonus_decay": 0.5
+      }
+    },
+    {
+      "step": 8,
+      "floor": 0,
+      "position": [
+        20.678499221801758,
+        0.12711000442504883,
+        -6.84542989730835
+      ],
+      "region": "bathroom",
+      "cosine": 0.24789731204509735,
+      "margin": 0.019192680716514587,
+      "scores": {
+        "bathroom": 0.24789731204509735,
+        "bedroom": 0.2078242301940918,
+        "corridor": 0.18972322344779968,
+        "hall": 0.1856001615524292,
+        "entryway": 0.22870463132858276,
+        "foyer": 0.20387086272239685,
+        "lobby": 0.17415228486061096,
+        "living room": 0.20918139815330505,
+        "suite": 0.2184543013572693,
+        "workspace": 0.1813506931066513
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "entryway",
+          "cosine": 0.2386966347694397
+        },
+        {
+          "direction": "left",
+          "region": "entryway",
+          "cosine": 0.2538180947303772
+        },
+        {
+          "direction": "right",
+          "region": "bathroom",
+          "cosine": 0.26741838455200195
+        },
+        {
+          "direction": "back",
+          "region": "bathroom",
+          "cosine": 0.26943856477737427
+        }
+      ],
+      "view_agreement": 2,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "bathroom",
+      "raw_cosine": 0.24789731204509735,
+      "raw_margin": 0.019192680716514587,
+      "raw_view_agreement": 2,
+      "smoothed_scores": {
+        "bathroom": 0.2505955874919892,
+        "bedroom": 0.20640440464019774,
+        "corridor": 0.18339298129081727,
+        "hall": 0.1810055249929428,
+        "entryway": 0.22394648909568787,
+        "foyer": 0.19939610838890076,
+        "lobby": 0.16891168117523192,
+        "living room": 0.2055637240409851,
+        "suite": 0.2206622976064682,
+        "workspace": 0.17786733329296112
+      },
+      "decision_scores": {
+        "bathroom": 0.2555955874919892,
+        "bedroom": 0.20640440464019774,
+        "corridor": 0.18339298129081727,
+        "hall": 0.1810055249929428,
+        "entryway": 0.22394648909568787,
+        "foyer": 0.19939610838890076,
+        "lobby": 0.16891168117523192,
+        "living room": 0.2055637240409851,
+        "suite": 0.2206622976064682,
+        "workspace": 0.17786733329296112
+      },
+      "stability": {
+        "reason": "unchanged",
+        "previous_region": "bathroom",
+        "applied_bonus": 0.005,
+        "challenger": null,
+        "challenger_count": 0,
+        "switched": false,
+        "suppressed": false,
+        "momentum": 0.6,
+        "stay_bonus": 0.005,
+        "fast_margin": 0.02,
+        "fast_min_views": 3,
+        "challenger_bonus_decay": 0.5
+      }
+    },
+    {
+      "step": 12,
+      "floor": 0,
+      "position": [
+        20.50172233581543,
+        0.12711000442504883,
+        -6.6686530113220215
+      ],
+      "region": "bathroom",
+      "cosine": 0.25110113620758057,
+      "margin": 0.0287182480096817,
+      "scores": {
+        "bathroom": 0.25110113620758057,
+        "bedroom": 0.2105179876089096,
+        "corridor": 0.1801835000514984,
+        "hall": 0.17914795875549316,
+        "entryway": 0.22238288819789886,
+        "foyer": 0.1987210214138031,
+        "lobby": 0.16814838349819183,
+        "living room": 0.206631138920784,
+        "suite": 0.21955829858779907,
+        "workspace": 0.17478469014167786
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "bathroom",
+          "cosine": 0.26909321546554565
+        },
+        {
+          "direction": "left",
+          "region": "entryway",
+          "cosine": 0.2393745481967926
+        },
+        {
+          "direction": "right",
+          "region": "bathroom",
+          "cosine": 0.2757025957107544
+        },
+        {
+          "direction": "back",
+          "region": "bathroom",
+          "cosine": 0.2668640613555908
+        }
+      ],
+      "view_agreement": 3,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "bathroom",
+      "raw_cosine": 0.25110113620758057,
+      "raw_margin": 0.0287182480096817,
+      "raw_view_agreement": 3,
+      "smoothed_scores": {
+        "bathroom": 0.25079780697822573,
+        "bedroom": 0.2080498378276825,
+        "corridor": 0.18210918879508972,
+        "hall": 0.18026249849796294,
+        "entryway": 0.22332104873657227,
+        "foyer": 0.1991260735988617,
+        "lobby": 0.16860636210441587,
+        "living room": 0.20599068999290465,
+        "suite": 0.22022069799900051,
+        "workspace": 0.1766342760324478
+      },
+      "decision_scores": {
+        "bathroom": 0.25579780697822574,
+        "bedroom": 0.2080498378276825,
+        "corridor": 0.18210918879508972,
+        "hall": 0.18026249849796294,
+        "entryway": 0.22332104873657227,
+        "foyer": 0.1991260735988617,
+        "lobby": 0.16860636210441587,
+        "living room": 0.20599068999290465,
+        "suite": 0.22022069799900051,
+        "workspace": 0.1766342760324478
+      },
+      "stability": {
+        "reason": "unchanged",
+        "previous_region": "bathroom",
+        "applied_bonus": 0.005,
+        "challenger": null,
+        "challenger_count": 0,
+        "switched": false,
+        "suppressed": false,
+        "momentum": 0.6,
+        "stay_bonus": 0.005,
+        "fast_margin": 0.02,
+        "fast_min_views": 3,
+        "challenger_bonus_decay": 0.5
+      }
+    },
+    {
+      "step": 16,
+      "floor": 0,
+      "position": [
+        20.25172233581543,
+        0.12711000442504883,
+        -6.6686530113220215
+      ],
+      "region": "bathroom",
+      "cosine": 0.25116756558418274,
+      "margin": 0.026762783527374268,
+      "scores": {
+        "bathroom": 0.25116756558418274,
+        "bedroom": 0.21355462074279785,
+        "corridor": 0.188085675239563,
+        "hall": 0.18368330597877502,
+        "entryway": 0.22440478205680847,
+        "foyer": 0.2032199501991272,
+        "lobby": 0.17632922530174255,
+        "living room": 0.21147021651268005,
+        "suite": 0.2185860127210617,
+        "workspace": 0.18245965242385864
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "bathroom",
+          "cosine": 0.26403945684432983
+        },
+        {
+          "direction": "left",
+          "region": "bathroom",
+          "cosine": 0.23169958591461182
+        },
+        {
+          "direction": "right",
+          "region": "bathroom",
+          "cosine": 0.2669469118118286
+        },
+        {
+          "direction": "back",
+          "region": "bathroom",
+          "cosine": 0.24198435246944427
+        }
+      ],
+      "view_agreement": 4,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "bathroom",
+      "raw_cosine": 0.25116756558418274,
+      "raw_margin": 0.026762783527374268,
+      "raw_view_agreement": 4,
+      "smoothed_scores": {
+        "bathroom": 0.25094571042060854,
+        "bedroom": 0.21025175099372861,
+        "corridor": 0.18449978337287903,
+        "hall": 0.18163082149028778,
+        "entryway": 0.22375454206466674,
+        "foyer": 0.20076362423896787,
+        "lobby": 0.17169550738334655,
+        "living room": 0.2081825006008148,
+        "suite": 0.219566823887825,
+        "workspace": 0.17896442658901213
+      },
+      "decision_scores": {
+        "bathroom": 0.25594571042060854,
+        "bedroom": 0.21025175099372861,
+        "corridor": 0.18449978337287903,
+        "hall": 0.18163082149028778,
+        "entryway": 0.22375454206466674,
+        "foyer": 0.20076362423896787,
+        "lobby": 0.17169550738334655,
+        "living room": 0.2081825006008148,
+        "suite": 0.219566823887825,
+        "workspace": 0.17896442658901213
+      },
+      "stability": {
+        "reason": "unchanged",
+        "previous_region": "bathroom",
+        "applied_bonus": 0.005,
+        "challenger": null,
+        "challenger_count": 0,
+        "switched": false,
+        "suppressed": false,
+        "momentum": 0.6,
+        "stay_bonus": 0.005,
+        "fast_margin": 0.02,
+        "fast_min_views": 3,
+        "challenger_bonus_decay": 0.5
+      }
+    },
+    {
+      "step": 20,
+      "floor": 0,
+      "position": [
+        20.25172233581543,
+        0.12711000442504883,
+        -6.6686530113220215
+      ],
+      "region": "bathroom",
+      "cosine": 0.2513441741466522,
+      "margin": 0.023150622844696045,
+      "scores": {
+        "bathroom": 0.2513441741466522,
+        "bedroom": 0.21829083561897278,
+        "corridor": 0.1935463398694992,
+        "hall": 0.18594703078269958,
+        "entryway": 0.22819355130195618,
+        "foyer": 0.2049514651298523,
+        "lobby": 0.17448285222053528,
+        "living room": 0.21316413581371307,
+        "suite": 0.21884745359420776,
+        "workspace": 0.18406906723976135
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "bathroom",
+          "cosine": 0.24431145191192627
+        },
+        {
+          "direction": "left",
+          "region": "bathroom",
+          "cosine": 0.2710844874382019
+        },
+        {
+          "direction": "right",
+          "region": "bathroom",
+          "cosine": 0.2671647071838379
+        },
+        {
+          "direction": "back",
+          "region": "bedroom",
+          "cosine": 0.2384180724620819
+        }
+      ],
+      "view_agreement": 3,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "bathroom",
+      "raw_cosine": 0.2513441741466522,
+      "raw_margin": 0.023150622844696045,
+      "raw_view_agreement": 3,
+      "smoothed_scores": {
+        "bathroom": 0.25110509591102603,
+        "bedroom": 0.21346738484382627,
+        "corridor": 0.1881184059715271,
+        "hall": 0.18335730520725252,
+        "entryway": 0.22553014575958252,
+        "foyer": 0.20243876059532162,
+        "lobby": 0.17281044531822204,
+        "living room": 0.2101751546859741,
+        "suite": 0.21927907577037808,
+        "workspace": 0.1810062828493118
+      },
+      "decision_scores": {
+        "bathroom": 0.25610509591102604,
+        "bedroom": 0.21346738484382627,
+        "corridor": 0.1881184059715271,
+        "hall": 0.18335730520725252,
+        "entryway": 0.22553014575958252,
+        "foyer": 0.20243876059532162,
+        "lobby": 0.17281044531822204,
+        "living room": 0.2101751546859741,
+        "suite": 0.21927907577037808,
+        "workspace": 0.1810062828493118
+      },
+      "stability": {
+        "reason": "unchanged",
+        "previous_region": "bathroom",
+        "applied_bonus": 0.005,
+        "challenger": null,
+        "challenger_count": 0,
+        "switched": false,
+        "suppressed": false,
+        "momentum": 0.6,
+        "stay_bonus": 0.005,
+        "fast_margin": 0.02,
+        "fast_min_views": 3,
+        "challenger_bonus_decay": 0.5
+      }
+    },
+    {
+      "step": 24,
+      "floor": 0,
+      "position": [
+        20.25172233581543,
+        0.12711000442504883,
+        -6.6686530113220215
+      ],
+      "region": "bathroom",
+      "cosine": 0.2577868700027466,
+      "margin": 0.029771894216537476,
+      "scores": {
+        "bathroom": 0.2577868700027466,
+        "bedroom": 0.22422093152999878,
+        "corridor": 0.1972087174654007,
+        "hall": 0.1911562979221344,
+        "entryway": 0.2280149757862091,
+        "foyer": 0.208662211894989,
+        "lobby": 0.18599086999893188,
+        "living room": 0.2165878266096115,
+        "suite": 0.2262483835220337,
+        "workspace": 0.1860673427581787
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "bathroom",
+          "cosine": 0.25986480712890625
+        },
+        {
+          "direction": "left",
+          "region": "bathroom",
+          "cosine": 0.2689836323261261
+        },
+        {
+          "direction": "right",
+          "region": "entryway",
+          "cosine": 0.24078044295310974
+        },
+        {
+          "direction": "back",
+          "region": "bathroom",
+          "cosine": 0.2756739854812622
+        }
+      ],
+      "view_agreement": 3,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "bathroom",
+      "raw_cosine": 0.2577868700027466,
+      "raw_margin": 0.029771894216537476,
+      "raw_view_agreement": 3,
+      "smoothed_scores": {
+        "bathroom": 0.25377780554771423,
+        "bedroom": 0.21776880351829528,
+        "corridor": 0.19175453056907654,
+        "hall": 0.1864769022932053,
+        "entryway": 0.22652407777023315,
+        "foyer": 0.2049281411151886,
+        "lobby": 0.178082615190506,
+        "living room": 0.2127402234554291,
+        "suite": 0.22206679887104033,
+        "workspace": 0.18303070681285857
+      },
+      "decision_scores": {
+        "bathroom": 0.25877780554771423,
+        "bedroom": 0.21776880351829528,
+        "corridor": 0.19175453056907654,
+        "hall": 0.1864769022932053,
+        "entryway": 0.22652407777023315,
+        "foyer": 0.2049281411151886,
+        "lobby": 0.178082615190506,
+        "living room": 0.2127402234554291,
+        "suite": 0.22206679887104033,
+        "workspace": 0.18303070681285857
+      },
+      "stability": {
+        "reason": "unchanged",
+        "previous_region": "bathroom",
+        "applied_bonus": 0.005,
+        "challenger": null,
+        "challenger_count": 0,
+        "switched": false,
+        "suppressed": false,
+        "momentum": 0.6,
+        "stay_bonus": 0.005,
+        "fast_margin": 0.02,
+        "fast_min_views": 3,
+        "challenger_bonus_decay": 0.5
+      }
+    },
+    {
+      "step": 28,
+      "floor": 0,
+      "position": [
+        20.468229293823242,
+        0.12711000442504883,
+        -6.7936530113220215
+      ],
+      "region": "bathroom",
+      "cosine": 0.2635064423084259,
+      "margin": 0.03808499872684479,
+      "scores": {
+        "bathroom": 0.2635064423084259,
+        "bedroom": 0.21348513662815094,
+        "corridor": 0.18731927871704102,
+        "hall": 0.18198199570178986,
+        "entryway": 0.22410175204277039,
+        "foyer": 0.1992519199848175,
+        "lobby": 0.168451189994812,
+        "living room": 0.2074180394411087,
+        "suite": 0.22542144358158112,
+        "workspace": 0.17825523018836975
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "bathroom",
+          "cosine": 0.26766437292099
+        },
+        {
+          "direction": "left",
+          "region": "bathroom",
+          "cosine": 0.26293420791625977
+        },
+        {
+          "direction": "right",
+          "region": "bathroom",
+          "cosine": 0.24873124063014984
+        },
+        {
+          "direction": "back",
+          "region": "bathroom",
+          "cosine": 0.2746959626674652
+        }
+      ],
+      "view_agreement": 4,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "bathroom",
+      "raw_cosine": 0.2635064423084259,
+      "raw_margin": 0.03808499872684479,
+      "raw_view_agreement": 4,
+      "smoothed_scores": {
+        "bathroom": 0.2576692602519989,
+        "bedroom": 0.21605533676223754,
+        "corridor": 0.18998042982826235,
+        "hall": 0.18467893965663912,
+        "entryway": 0.22555514747924804,
+        "foyer": 0.20265765266304014,
+        "lobby": 0.1742300451122284,
+        "living room": 0.21061134984970092,
+        "suite": 0.22340865675525665,
+        "workspace": 0.18112051616306304
+      },
+      "decision_scores": {
+        "bathroom": 0.2626692602519989,
+        "bedroom": 0.21605533676223754,
+        "corridor": 0.18998042982826235,
+        "hall": 0.18467893965663912,
+        "entryway": 0.22555514747924804,
+        "foyer": 0.20265765266304014,
+        "lobby": 0.1742300451122284,
+        "living room": 0.21061134984970092,
+        "suite": 0.22340865675525665,
+        "workspace": 0.18112051616306304
+      },
+      "stability": {
+        "reason": "unchanged",
+        "previous_region": "bathroom",
+        "applied_bonus": 0.005,
+        "challenger": null,
+        "challenger_count": 0,
+        "switched": false,
+        "suppressed": false,
+        "momentum": 0.6,
+        "stay_bonus": 0.005,
+        "fast_margin": 0.02,
+        "fast_min_views": 3,
+        "challenger_bonus_decay": 0.5
+      }
+    },
+    {
+      "step": 32,
+      "floor": 0,
+      "position": [
+        20.968229293823242,
+        0.12711000442504883,
+        -6.7936530113220215
+      ],
+      "region": "bathroom",
+      "cosine": 0.238202765583992,
+      "margin": 0.01672174036502838,
+      "scores": {
+        "bathroom": 0.238202765583992,
+        "bedroom": 0.20758438110351562,
+        "corridor": 0.1863136887550354,
+        "hall": 0.1844015270471573,
+        "entryway": 0.22148102521896362,
+        "foyer": 0.19850653409957886,
+        "lobby": 0.17247706651687622,
+        "living room": 0.21064767241477966,
+        "suite": 0.21563221514225006,
+        "workspace": 0.17838656902313232
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "entryway",
+          "cosine": 0.2367878556251526
+        },
+        {
+          "direction": "left",
+          "region": "bathroom",
+          "cosine": 0.2680795192718506
+        },
+        {
+          "direction": "right",
+          "region": "entryway",
+          "cosine": 0.21922925114631653
+        },
+        {
+          "direction": "back",
+          "region": "bathroom",
+          "cosine": 0.2708900570869446
+        }
+      ],
+      "view_agreement": 2,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "bathroom",
+      "raw_cosine": 0.238202765583992,
+      "raw_margin": 0.01672174036502838,
+      "raw_view_agreement": 2,
+      "smoothed_scores": {
+        "bathroom": 0.24988266238479614,
+        "bedroom": 0.21266695449874878,
+        "corridor": 0.18851373339897157,
+        "hall": 0.18456797461284638,
+        "entryway": 0.22392549857513427,
+        "foyer": 0.20099720523765563,
+        "lobby": 0.17352885367408752,
+        "living room": 0.21062587887573242,
+        "suite": 0.22029808011005403,
+        "workspace": 0.18002693730709074
+      },
+      "decision_scores": {
+        "bathroom": 0.2548826623847961,
+        "bedroom": 0.21266695449874878,
+        "corridor": 0.18851373339897157,
+        "hall": 0.18456797461284638,
+        "entryway": 0.22392549857513427,
+        "foyer": 0.20099720523765563,
+        "lobby": 0.17352885367408752,
+        "living room": 0.21062587887573242,
+        "suite": 0.22029808011005403,
+        "workspace": 0.18002693730709074
+      },
+      "stability": {
+        "reason": "unchanged",
+        "previous_region": "bathroom",
+        "applied_bonus": 0.005,
+        "challenger": null,
+        "challenger_count": 0,
+        "switched": false,
+        "suppressed": false,
+        "momentum": 0.6,
+        "stay_bonus": 0.005,
+        "fast_margin": 0.02,
+        "fast_min_views": 3,
+        "challenger_bonus_decay": 0.5
+      }
+    },
+    {
+      "step": 36,
+      "floor": 0,
+      "position": [
+        21.4597110748291,
+        0.12711000442504883,
+        -6.858357906341553
+      ],
+      "region": "bathroom",
+      "cosine": 0.2394205927848816,
+      "margin": 0.004192575812339783,
+      "scores": {
+        "bathroom": 0.2394205927848816,
+        "bedroom": 0.2197941690683365,
+        "corridor": 0.20238558948040009,
+        "hall": 0.20102977752685547,
+        "entryway": 0.2352280169725418,
+        "foyer": 0.21323926746845245,
+        "lobby": 0.18294808268547058,
+        "living room": 0.2218547910451889,
+        "suite": 0.21841147541999817,
+        "workspace": 0.18362613022327423
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "entryway",
+          "cosine": 0.2420572191476822
+        },
+        {
+          "direction": "left",
+          "region": "bathroom",
+          "cosine": 0.26608607172966003
+        },
+        {
+          "direction": "right",
+          "region": "entryway",
+          "cosine": 0.25001439452171326
+        },
+        {
+          "direction": "back",
+          "region": "bathroom",
+          "cosine": 0.26863396167755127
+        }
+      ],
+      "view_agreement": 2,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "bathroom",
+      "raw_cosine": 0.2394205927848816,
+      "raw_margin": 0.004192575812339783,
+      "raw_view_agreement": 2,
+      "smoothed_scores": {
+        "bathroom": 0.24569783454483035,
+        "bedroom": 0.21551784032658386,
+        "corridor": 0.19406247583154299,
+        "hall": 0.19115269577845,
+        "entryway": 0.2284465059340973,
+        "foyer": 0.20589403012997437,
+        "lobby": 0.17729654527864075,
+        "living room": 0.215117443743515,
+        "suite": 0.2195434382340317,
+        "workspace": 0.18146661447356416
+      },
+      "decision_scores": {
+        "bathroom": 0.25069783454483036,
+        "bedroom": 0.21551784032658386,
+        "corridor": 0.19406247583154299,
+        "hall": 0.19115269577845,
+        "entryway": 0.2284465059340973,
+        "foyer": 0.20589403012997437,
+        "lobby": 0.17729654527864075,
+        "living room": 0.215117443743515,
+        "suite": 0.2195434382340317,
+        "workspace": 0.18146661447356416
+      },
+      "stability": {
+        "reason": "unchanged",
+        "previous_region": "bathroom",
+        "applied_bonus": 0.005,
+        "challenger": null,
+        "challenger_count": 0,
+        "switched": false,
+        "suppressed": false,
+        "momentum": 0.6,
+        "stay_bonus": 0.005,
+        "fast_margin": 0.02,
+        "fast_min_views": 3,
+        "challenger_bonus_decay": 0.5
+      }
+    },
+    {
+      "step": 40,
+      "floor": 0,
+      "position": [
+        21.70119285583496,
+        0.12711000442504883,
+        -6.859379291534424
+      ],
+      "region": "bathroom",
+      "cosine": 0.22478601336479187,
+      "margin": -0.010935544967651367,
+      "scores": {
+        "bathroom": 0.22478601336479187,
+        "bedroom": 0.22148260474205017,
+        "corridor": 0.20897546410560608,
+        "hall": 0.20582574605941772,
+        "entryway": 0.23572155833244324,
+        "foyer": 0.2140050083398819,
+        "lobby": 0.18513435125350952,
+        "living room": 0.22434912621974945,
+        "suite": 0.2164771556854248,
+        "workspace": 0.17924070358276367
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "entryway",
+          "cosine": 0.24595817923545837
+        },
+        {
+          "direction": "left",
+          "region": "bathroom",
+          "cosine": 0.27190491557121277
+        },
+        {
+          "direction": "right",
+          "region": "entryway",
+          "cosine": 0.23982226848602295
+        },
+        {
+          "direction": "back",
+          "region": "entryway",
+          "cosine": 0.23865628242492676
+        }
+      ],
+      "view_agreement": 1,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "entryway",
+      "raw_cosine": 0.23572155833244324,
+      "raw_margin": 0.010935544967651367,
+      "raw_view_agreement": 3,
+      "smoothed_scores": {
+        "bathroom": 0.23733310607281494,
+        "bedroom": 0.21790374609277038,
+        "corridor": 0.2000276711411682,
+        "hall": 0.19702191589083712,
+        "entryway": 0.23135652689343567,
+        "foyer": 0.20913842141393738,
+        "lobby": 0.18043166766858826,
+        "living room": 0.21881011673400877,
+        "suite": 0.21831692521458892,
+        "workspace": 0.18057625011724396
+      },
+      "decision_scores": {
+        "bathroom": 0.24233310607281494,
+        "bedroom": 0.21790374609277038,
+        "corridor": 0.2000276711411682,
+        "hall": 0.19702191589083712,
+        "entryway": 0.23135652689343567,
+        "foyer": 0.20913842141393738,
+        "lobby": 0.18043166766858826,
+        "living room": 0.21881011673400877,
+        "suite": 0.21831692521458892,
+        "workspace": 0.18057625011724396
+      },
+      "stability": {
+        "reason": "held_by_momentum",
+        "previous_region": "bathroom",
+        "applied_bonus": 0.005,
+        "challenger": null,
+        "challenger_count": 0,
+        "switched": false,
+        "suppressed": true,
+        "momentum": 0.6,
+        "stay_bonus": 0.005,
+        "fast_margin": 0.02,
+        "fast_min_views": 3,
+        "challenger_bonus_decay": 0.5
+      }
+    },
+    {
+      "step": 44,
+      "floor": 0,
+      "position": [
+        21.896739959716797,
+        0.12711000442504883,
+        -7.325885772705078
+      ],
+      "region": "entryway",
+      "cosine": 0.2363263964653015,
+      "margin": 0.010377004742622375,
+      "scores": {
+        "bathroom": 0.21270307898521423,
+        "bedroom": 0.22236238420009613,
+        "corridor": 0.21888390183448792,
+        "hall": 0.20941205322742462,
+        "entryway": 0.2363263964653015,
+        "foyer": 0.22049352526664734,
+        "lobby": 0.19599178433418274,
+        "living room": 0.22594939172267914,
+        "suite": 0.2119036167860031,
+        "workspace": 0.1826733946800232
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "bedroom",
+          "cosine": 0.23562493920326233
+        },
+        {
+          "direction": "left",
+          "region": "entryway",
+          "cosine": 0.23407089710235596
+        },
+        {
+          "direction": "right",
+          "region": "entryway",
+          "cosine": 0.23625583946704865
+        },
+        {
+          "direction": "back",
+          "region": "entryway",
+          "cosine": 0.2494911253452301
+        }
+      ],
+      "view_agreement": 3,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "entryway",
+      "raw_cosine": 0.2363263964653015,
+      "raw_margin": 0.010377004742622375,
+      "raw_view_agreement": 3,
+      "smoothed_scores": {
+        "bathroom": 0.22748109523777466,
+        "bedroom": 0.2196872013357007,
+        "corridor": 0.2075701634184961,
+        "hall": 0.20197797082547211,
+        "entryway": 0.233344474722182,
+        "foyer": 0.21368046295502136,
+        "lobby": 0.18665571433482606,
+        "living room": 0.22166582672947693,
+        "suite": 0.2157516018431546,
+        "workspace": 0.18141510794235566
+      },
+      "decision_scores": {
+        "bathroom": 0.23248109523777466,
+        "bedroom": 0.2196872013357007,
+        "corridor": 0.2075701634184961,
+        "hall": 0.20197797082547211,
+        "entryway": 0.233344474722182,
+        "foyer": 0.21368046295502136,
+        "lobby": 0.18665571433482606,
+        "living room": 0.22166582672947693,
+        "suite": 0.2157516018431546,
+        "workspace": 0.18141510794235566
+      },
+      "stability": {
+        "reason": "smoothed_switch",
+        "previous_region": "bathroom",
+        "applied_bonus": 0.005,
+        "challenger": "entryway",
+        "challenger_count": 1,
+        "switched": true,
+        "suppressed": false,
+        "momentum": 0.6,
+        "stay_bonus": 0.005,
+        "fast_margin": 0.02,
+        "fast_min_views": 3,
+        "challenger_bonus_decay": 0.5
+      }
+    },
+    {
+      "step": 48,
+      "floor": 0,
+      "position": [
+        21.908172607421875,
+        0.12711000442504883,
+        -7.915095329284668
+      ],
+      "region": "entryway",
+      "cosine": 0.21492180228233337,
+      "margin": -0.015143752098083496,
+      "scores": {
+        "bathroom": 0.19559963047504425,
+        "bedroom": 0.23006555438041687,
+        "corridor": 0.1905106157064438,
+        "hall": 0.1879119724035263,
+        "entryway": 0.21492180228233337,
+        "foyer": 0.19496020674705505,
+        "lobby": 0.17840585112571716,
+        "living room": 0.22285227477550507,
+        "suite": 0.20980018377304077,
+        "workspace": 0.17553719878196716
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "bedroom",
+          "cosine": 0.22363287210464478
+        },
+        {
+          "direction": "left",
+          "region": "bedroom",
+          "cosine": 0.23748382925987244
+        },
+        {
+          "direction": "right",
+          "region": "living room",
+          "cosine": 0.2385196089744568
+        },
+        {
+          "direction": "back",
+          "region": "entryway",
+          "cosine": 0.2443874180316925
+        }
+      ],
+      "view_agreement": 1,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "bedroom",
+      "raw_cosine": 0.23006555438041687,
+      "raw_margin": 0.007213279604911804,
+      "raw_view_agreement": 2,
+      "smoothed_scores": {
+        "bathroom": 0.2147285093326825,
+        "bedroom": 0.22383854255358715,
+        "corridor": 0.20074634433367516,
+        "hall": 0.1963515714566938,
+        "entryway": 0.22597540574624253,
+        "foyer": 0.2061923604718348,
+        "lobby": 0.1833557690511825,
+        "living room": 0.2221404059478882,
+        "suite": 0.21337103461510906,
+        "workspace": 0.17906394427820027
+      },
+      "decision_scores": {
+        "bathroom": 0.2147285093326825,
+        "bedroom": 0.22383854255358715,
+        "corridor": 0.20074634433367516,
+        "hall": 0.1963515714566938,
+        "entryway": 0.23097540574624253,
+        "foyer": 0.2061923604718348,
+        "lobby": 0.1833557690511825,
+        "living room": 0.2221404059478882,
+        "suite": 0.21337103461510906,
+        "workspace": 0.17906394427820027
+      },
+      "stability": {
+        "reason": "held_by_momentum",
+        "previous_region": "entryway",
+        "applied_bonus": 0.005,
+        "challenger": null,
+        "challenger_count": 0,
+        "switched": false,
+        "suppressed": true,
+        "momentum": 0.6,
+        "stay_bonus": 0.005,
+        "fast_margin": 0.02,
+        "fast_min_views": 3,
+        "challenger_bonus_decay": 0.5
+      }
+    },
+    {
+      "step": 52,
+      "floor": 0,
+      "position": [
+        21.99673843383789,
+        0.12711000442504883,
+        -8.665095329284668
+      ],
+      "region": "bedroom",
+      "cosine": 0.24470147490501404,
+      "margin": 0.015999019145965576,
+      "scores": {
+        "bathroom": 0.196598619222641,
+        "bedroom": 0.24470147490501404,
+        "corridor": 0.19050396978855133,
+        "hall": 0.1874845027923584,
+        "entryway": 0.21665814518928528,
+        "foyer": 0.1973111629486084,
+        "lobby": 0.17428867518901825,
+        "living room": 0.22870245575904846,
+        "suite": 0.2252746820449829,
+        "workspace": 0.18051061034202576
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "bedroom",
+          "cosine": 0.25903773307800293
+        },
+        {
+          "direction": "left",
+          "region": "bedroom",
+          "cosine": 0.2578881084918976
+        },
+        {
+          "direction": "right",
+          "region": "bedroom",
+          "cosine": 0.2421533465385437
+        },
+        {
+          "direction": "back",
+          "region": "entryway",
+          "cosine": 0.25195664167404175
+        }
+      ],
+      "view_agreement": 3,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "bedroom",
+      "raw_cosine": 0.24470147490501404,
+      "raw_margin": 0.015999019145965576,
+      "raw_view_agreement": 3,
+      "smoothed_scores": {
+        "bathroom": 0.2074765532886659,
+        "bedroom": 0.2321837154941579,
+        "corridor": 0.19664939451562563,
+        "hall": 0.19280474399095965,
+        "entryway": 0.22224850152345962,
+        "foyer": 0.20263988146254425,
+        "lobby": 0.1797289315063168,
+        "living room": 0.22476522587235231,
+        "suite": 0.2181324935870586,
+        "workspace": 0.17964261070373044
+      },
+      "decision_scores": {
+        "bathroom": 0.2074765532886659,
+        "bedroom": 0.2321837154941579,
+        "corridor": 0.19664939451562563,
+        "hall": 0.19280474399095965,
+        "entryway": 0.22724850152345963,
+        "foyer": 0.20263988146254425,
+        "lobby": 0.1797289315063168,
+        "living room": 0.22476522587235231,
+        "suite": 0.2181324935870586,
+        "workspace": 0.17964261070373044
+      },
+      "stability": {
+        "reason": "smoothed_switch",
+        "previous_region": "entryway",
+        "applied_bonus": 0.005,
+        "challenger": "bedroom",
+        "challenger_count": 1,
+        "switched": true,
+        "suppressed": false,
+        "momentum": 0.6,
+        "stay_bonus": 0.005,
+        "fast_margin": 0.02,
+        "fast_min_views": 3,
+        "challenger_bonus_decay": 0.5
+      }
+    },
+    {
+      "step": 54,
+      "floor": 0,
+      "position": [
+        21.99673843383789,
+        0.12711000442504883,
+        -8.915095329284668
+      ],
+      "region": "bedroom",
+      "cosine": 0.2452249825000763,
+      "margin": 0.012315437197685242,
+      "scores": {
+        "bathroom": 0.19758322834968567,
+        "bedroom": 0.2452249825000763,
+        "corridor": 0.18933497369289398,
+        "hall": 0.1869737207889557,
+        "entryway": 0.21641692519187927,
+        "foyer": 0.19714243710041046,
+        "lobby": 0.17548300325870514,
+        "living room": 0.2282291054725647,
+        "suite": 0.23290954530239105,
+        "workspace": 0.18280422687530518
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "bedroom",
+          "cosine": 0.25972315669059753
+        },
+        {
+          "direction": "left",
+          "region": "bedroom",
+          "cosine": 0.25138694047927856
+        },
+        {
+          "direction": "right",
+          "region": "living room",
+          "cosine": 0.24553841352462769
+        },
+        {
+          "direction": "back",
+          "region": "entryway",
+          "cosine": 0.24459804594516754
+        }
+      ],
+      "view_agreement": 2,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "bedroom",
+      "raw_cosine": 0.2452249825000763,
+      "raw_margin": 0.012315437197685242,
+      "raw_view_agreement": 2,
+      "smoothed_scores": {
+        "bathroom": 0.20351922331307382,
+        "bedroom": 0.23740022229652524,
+        "corridor": 0.19372362618653297,
+        "hall": 0.19047233471015806,
+        "entryway": 0.2199158709908275,
+        "foyer": 0.20044090371769074,
+        "lobby": 0.17803056020727215,
+        "living room": 0.22615077771243727,
+        "suite": 0.22404331427319157,
+        "workspace": 0.18090725717236034
+      },
+      "decision_scores": {
+        "bathroom": 0.20351922331307382,
+        "bedroom": 0.24240022229652525,
+        "corridor": 0.19372362618653297,
+        "hall": 0.19047233471015806,
+        "entryway": 0.2199158709908275,
+        "foyer": 0.20044090371769074,
+        "lobby": 0.17803056020727215,
+        "living room": 0.22615077771243727,
+        "suite": 0.22404331427319157,
+        "workspace": 0.18090725717236034
+      },
+      "stability": {
+        "reason": "unchanged",
+        "previous_region": "bedroom",
+        "applied_bonus": 0.005,
+        "challenger": null,
+        "challenger_count": 0,
+        "switched": false,
+        "suppressed": false,
+        "momentum": 0.6,
+        "stay_bonus": 0.005,
+        "fast_margin": 0.02,
+        "fast_min_views": 3,
+        "challenger_bonus_decay": 0.5
+      }
+    }
+  ],
+  "maps": [
+    {
+      "floor": 0,
+      "height": 0.12711000442504883,
+      "geometry": {
+        "origin_xz": [
+          17.55,
+          -12.025
+        ],
+        "meters_per_pixel": 0.025,
+        "image_size": [
+          517,
+          592
+        ],
+        "rasterization": "world_aligned_floor_index",
+        "projection": "direct_depth_backprojection_top_surface",
+        "point_stride": 1,
+        "height_cut_relative_m": [
+          -0.4,
+          1.8
+        ],
+        "obstacle_stroke_radius_pixels": 1,
+        "boundary_stroke_radius_pixels": 2
+      },
+      "images": {
+        "rgb": "rgb_01.png",
+        "passability": "passability_01.png"
+      },
+      "variants": [
+        {
+          "views": 1,
+          "images": {
+            "rgb": "rgb_1view_01.png",
+            "passability": "passability_1view_01.png"
+          },
+          "observed_area_m2": 12.767500000000002,
+          "observed_floor_m2": 8.400625000000002,
+          "comparison": "same initialization, poses, grid and four-view region labels"
+        },
+        {
+          "views": 3,
+          "images": {
+            "rgb": "rgb_3view_01.png",
+            "passability": "passability_3view_01.png"
+          },
+          "observed_area_m2": 22.100625000000004,
+          "observed_floor_m2": 14.171875000000004,
+          "comparison": "same initialization, poses, grid and four-view region labels"
+        },
+        {
+          "views": 4,
+          "images": {
+            "rgb": "rgb_01.png",
+            "passability": "passability_01.png"
+          },
+          "observed_area_m2": 25.026250000000005,
+          "observed_floor_m2": 16.681250000000002,
+          "comparison": "same initialization, poses, grid and four-view region labels"
+        }
+      ],
+      "comparisons": {
+        "raw": {
+          "rgb": "raw_rgb_01.png",
+          "passability": "raw_passability_01.png"
+        },
+        "hsgm": {
+          "rgb": "hsgm_rgb_01.png",
+          "passability": "hsgm_passability_01.png"
+        }
+      },
+      "height_comparisons": [
+        {
+          "lower": 0.0,
+          "upper": 1.8,
+          "views": 4,
+          "images": {
+            "ours": {
+              "rgb": "height_0_rgb_01.png",
+              "passability": "height_0_passability_01.png"
+            },
+            "hsgm": {
+              "rgb": "hsgm_height_0_rgb_01.png",
+              "passability": "hsgm_height_0_passability_01.png"
+            }
+          },
+          "observed_area_m2": 8.876250000000002,
+          "reference": "agent-base height assigned to the floor; not a fitted ground plane",
+          "hsgm_policy": "scene RGB height crop changes; official navigable geometry/interpolation retained"
+        },
+        {
+          "lower": -0.15,
+          "upper": 1.8,
+          "views": 4,
+          "images": {
+            "ours": {
+              "rgb": "height_m015_rgb_01.png",
+              "passability": "height_m015_passability_01.png"
+            },
+            "hsgm": {
+              "rgb": "hsgm_height_m015_rgb_01.png",
+              "passability": "hsgm_height_m015_passability_01.png"
+            }
+          },
+          "observed_area_m2": 17.790000000000003,
+          "reference": "agent-base height assigned to the floor; not a fitted ground plane",
+          "hsgm_policy": "scene RGB height crop changes; official navigable geometry/interpolation retained"
+        },
+        {
+          "lower": -0.4,
+          "upper": 1.8,
+          "views": 4,
+          "images": {
+            "ours": {
+              "rgb": "rgb_01.png",
+              "passability": "passability_01.png"
+            },
+            "hsgm": {
+              "rgb": "hsgm_rgb_01.png",
+              "passability": "hsgm_passability_01.png"
+            }
+          },
+          "observed_area_m2": 25.026250000000005,
+          "reference": "agent-base height assigned to the floor; not a fitted ground plane",
+          "hsgm_policy": "scene RGB height crop changes; official navigable geometry/interpolation retained"
+        }
+      ]
+    }
+  ],
+  "action_limit_truncated": false
+}

@@ -1,0 +1,64 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 81,
+  "episode_instruction": "Leave the bathroom and walk straight into the hallway. Go straight and enter the office in the second door on your left. ",
+  "success": 1.0,
+  "spl": 0.9185528261168726,
+  "os": 1.0,
+  "ne": 2.97171688079834,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 40,
+  "effective_steps": 39,
+  "corrections": 0,
+  "deviations": 0,
+  "intervened": false,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 11,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "Leave the bathroom and walk straight into the hallway. Go straight and enter the office in the second door on your left. ",
+  "termination_reason": "global_stop",
+  "phase_steps": {
+    "normal": 39,
+    "rollback": 0,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 1,
+    "governor_stop": 0
+  },
+  "action_counts": {
+    "STOP": 1,
+    "MOVE_FORWARD": 29,
+    "TURN_LEFT": 2,
+    "TURN_RIGHT": 8,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 1,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 7.226863697171211,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "Completed: Agent has left the bathroom and is now moving straight into the hallway. Currently: Agent is proceeding down the hallway, having turned left at image 14 and moved forward to image 16, approaching the area where doors are visible ahead. Remaining: Enter the office in the second door on the left. Uncertain: Whether the second door on the left is the office or if further movement is required to identify and enter it."
+    },
+    {
+      "start": 17,
+      "end": 32,
+      "text": "Completed: Agent has left the bathroom and is moving straight into the hallway. Currently: Agent is proceeding down the hallway, having turned left at image 14 and moved forward through images 16–32, now approaching the second door on the left. Remaining: Enter the office in the second door on the left. Uncertain: Whether the second door on the left is the office or if further movement is required to identify and enter it."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "unintervened/success",
+  "baseline": {
+    "success": 1.0,
+    "spl": 0.9185528261168726,
+    "os": 1.0,
+    "ne": 2.97171688079834
+  },
+  "artifact_dir": "unintervened/success/2azQ1b91cZZ_81_10b85cebf9c0"
+}

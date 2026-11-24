@@ -1,0 +1,79 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 158,
+  "episode_instruction": "Go towards the middle doorway, straight in front of you and stop at the arch. ",
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 10.596827507019043,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 83,
+  "effective_steps": 80,
+  "corrections": 1,
+  "deviations": 1,
+  "intervened": true,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 25,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "Go towards the middle doorway, straight in front of you and stop at the arch. ",
+  "termination_reason": "global_stop",
+  "phase_steps": {
+    "normal": 81,
+    "rollback": 1,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 1,
+    "governor_stop": 0
+  },
+  "action_counts": {
+    "STOP": 1,
+    "MOVE_FORWARD": 66,
+    "TURN_LEFT": 11,
+    "TURN_RIGHT": 4,
+    "MOVE_BACKWARD": 1
+  },
+  "collisions": 0,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 16.75005279481411,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "Completed: None. Currently: Moving forward along the central path toward the middle doorway, now aligned with the arch ahead. Remaining: Stop at the arch. Uncertain: Whether the arch is the exact stopping point as instructed; no stop action has been executed yet."
+    },
+    {
+      "start": 17,
+      "end": 32,
+      "text": "Completed: None. Currently: Aligned with and progressively approaching the arch, now fully entered through it into the adjacent room. Remaining: Stop at the arch. Uncertain: The arch was passed through; stopping at the arch as instructed has not been executed, and the current position is past the arch's threshold."
+    },
+    {
+      "start": 33,
+      "end": 48,
+      "text": "Completed: Go towards the middle doorway, straight in front of you — the agent has reached and passed through the arch into the dining room. Currently: Stopped inside the dining room, facing a set of wooden doors with glass panes, having fully entered the new space. Remaining: Stop at the arch — this requirement was not executed, as the agent has already passed through the arch and is now in the dining room. Uncertain: No visual evidence confirms the arch as a stopping point; the current view shows interior room features, not the arch itself, and no stop action has been performed."
+    },
+    {
+      "start": 49,
+      "end": 64,
+      "text": "Completed: Go towards the middle doorway, straight in front of you — the agent has reached and passed through the arch into the adjacent dining room. Currently: Stopped inside the dining room, facing a set of wooden doors with glass panes, having fully entered the new space. Remaining: Stop at the arch — this requirement was not executed, as the agent has already passed through the arch and is now in the dining room. Uncertain: No visual evidence confirms the arch as a stopping point; the current view shows interior room features, not the arch itself, and no stop action has been performed."
+    },
+    {
+      "start": 65,
+      "end": 80,
+      "text": "Completed: Go towards the middle doorway, straight in front of you — the agent has reached and passed through the arch into the dining room. Currently: Stopped inside the dining room, facing a set of wooden doors with glass panes, having fully entered the new space. Remaining: Stop at the arch — this requirement was not executed, as the agent has already passed through the arch and is now in the dining room. Uncertain: No visual evidence confirms the arch as a stopping point; the current view shows interior room features, not the arch itself, and no stop action has been performed."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "intervened/failure_to_failure",
+  "baseline": {
+    "success": 0.0,
+    "spl": 0.0,
+    "os": 0.0,
+    "ne": 8.232978820800781
+  },
+  "artifact_dir": "intervened/failure_to_failure/2azQ1b91cZZ_158_fc634314467b"
+}

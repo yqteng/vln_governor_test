@@ -1,0 +1,395 @@
+[show-map] OURS uses original geometry source: /mnt/disk8t1/zwm/StreamVLN/streamvln/governor_topdown_map/rgb_mapping.py
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+2026-11-17 19:31:58,846 Initializing dataset R2RVLN-v1
+2026-11-17 19:31:59,078 initializing sim Sim-v0
+[19:31:59:135476]:[Metadata] AttributesManagerBase.h(380)::createFromJsonOrDefaultInternal : <Dataset>: Proposing JSON name : default.scene_dataset_config.json from original name : default| This file does not exist.
+[19:31:59:135710]:[Metadata] AssetAttributesManager.cpp(123)::createObject : Asset attributes (capsule3DSolid:capsule3DSolid_hemiRings_4_cylRings_1_segments_12_halfLen_0.75_useTexCoords_false_useTangents_false) created and registered.
+[19:31:59:135814]:[Metadata] AssetAttributesManager.cpp(123)::createObject : Asset attributes (capsule3DWireframe:capsule3DWireframe_hemiRings_8_cylRings_1_segments_16_halfLen_1) created and registered.
+[19:31:59:135904]:[Metadata] AssetAttributesManager.cpp(123)::createObject : Asset attributes (coneSolid:coneSolid_segments_12_halfLen_1.25_rings_1_useTexCoords_false_useTangents_false_capEnd_true) created and registered.
+[19:31:59:135987]:[Metadata] AssetAttributesManager.cpp(123)::createObject : Asset attributes (coneWireframe:coneWireframe_segments_32_halfLen_1.25) created and registered.
+[19:31:59:136059]:[Metadata] AssetAttributesManager.cpp(123)::createObject : Asset attributes (cubeSolid:cubeSolid) created and registered.
+[19:31:59:136132]:[Metadata] AssetAttributesManager.cpp(123)::createObject : Asset attributes (cubeWireframe:cubeWireframe) created and registered.
+[19:31:59:136216]:[Metadata] AssetAttributesManager.cpp(123)::createObject : Asset attributes (cylinderSolid:cylinderSolid_rings_1_segments_12_halfLen_1_useTexCoords_false_useTangents_false_capEnds_true) created and registered.
+[19:31:59:136295]:[Metadata] AssetAttributesManager.cpp(123)::createObject : Asset attributes (cylinderWireframe:cylinderWireframe_rings_1_segments_32_halfLen_1) created and registered.
+[19:31:59:136371]:[Metadata] AssetAttributesManager.cpp(123)::createObject : Asset attributes (icosphereSolid:icosphereSolid_subdivs_1) created and registered.
+[19:31:59:136447]:[Metadata] AssetAttributesManager.cpp(123)::createObject : Asset attributes (icosphereWireframe:icosphereWireframe_subdivs_1) created and registered.
+[19:31:59:136524]:[Metadata] AssetAttributesManager.cpp(123)::createObject : Asset attributes (uvSphereSolid:uvSphereSolid_rings_8_segments_16_useTexCoords_false_useTangents_false) created and registered.
+[19:31:59:136598]:[Metadata] AssetAttributesManager.cpp(123)::createObject : Asset attributes (uvSphereWireframe:uvSphereWireframe_rings_16_segments_32) created and registered.
+[19:31:59:136662]:[Metadata] AssetAttributesManager.cpp(112)::AssetAttributesManager : Built default primitive asset templates : 12
+[19:31:59:137177]:[Metadata] SceneDatasetAttributesManager.cpp(37)::createObject : File (default) not found, so new default dataset attributes created  and registered.
+[19:31:59:137239]:[Metadata] MetadataMediator.cpp(120)::createSceneDataset : Dataset default successfully created.
+[19:31:59:137292]:[Metadata] AttributesManagerBase.h(380)::createFromJsonOrDefaultInternal : <Physics Manager>: Proposing JSON name : ./data/default.physics_config.json from original name : ./data/default.physics_config.json| This file does not exist.
+[19:31:59:137367]:[Metadata] PhysicsAttributesManager.cpp(26)::createObject : File (./data/default.physics_config.json) not found, so new default physics manager attributes created and registered.
+[19:31:59:137415]:[Metadata] MetadataMediator.cpp(203)::setActiveSceneDatasetName : Previous active dataset  changed to default successfully.
+[19:31:59:137466]:[Metadata] MetadataMediator.cpp(175)::setCurrPhysicsAttributesHandle : Old physics manager attributes  changed to ./data/default.physics_config.json successfully.
+[19:31:59:137543]:[Metadata] MetadataMediator.cpp(66)::setSimulatorConfiguration : Set new simulator config for scene/stage : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb and dataset : default which is currently active dataset.
+Renderer: NVIDIA GeForce RTX 3090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.309.01
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+[19:32:00:631588]:[Metadata] MetadataMediator.cpp(297)::getSceneInstanceAttributesByName : Dataset : default has no preloaded SceneInstanceAttributes or StageAttributes named : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb so loading/creating a new StageAttributes with this name, and then creating a SceneInstanceAttributes with the same name that references this stage.
+[19:32:00:634765]:[Metadata] AttributesManagerBase.h(380)::createFromJsonOrDefaultInternal : <Stage Template>: Proposing JSON name : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.stage_config.json from original name : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb| This file does not exist.
+[19:32:00:634983]:[Metadata] AbstractObjectAttributesManagerBase.h(184)::createObject : File (data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb) exists but is not a recognized config filename extension, so new default Stage Template attributes created and registered.
+[19:32:00:635097]:[Metadata] SceneDatasetAttributes.cpp(47)::addNewSceneInstanceToDataset : Dataset : 'default' : Stage Attributes 'data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb' specified in Scene Attributes exists in dataset library.
+[19:32:00:635131]:[Metadata] SceneDatasetAttributes.cpp(84)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating.
+[19:32:00:635167]:[Metadata] AttributesManagerBase.h(380)::createFromJsonOrDefaultInternal : <Lighting Layout>: Proposing JSON name : no_lights.lighting_config.json from original name : no_lights| This file does not exist.
+[19:32:00:635221]:[Metadata] LightLayoutAttributesManager.cpp(38)::createObject : File (no_lights) not found, so new default light layout attributes created and registered.
+[19:32:00:635258]:[Sim] Simulator.cpp(235)::createSceneInstance : Navmesh file location in scene instance : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.navmesh
+[19:32:00:635297]:[Sim] Simulator.cpp(240)::createSceneInstance : Loading navmesh from data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.navmesh
+[19:32:00:635346]:[Nav] PathFinder.cpp(1035)::loadNavMesh : NavMeshSettings aren't present, guessing that they are the default
+[19:32:00:635987]:[Sim] Simulator.cpp(242)::createSceneInstance : Navmesh Loaded.
+[19:32:00:636052]:[Scene] SceneGraph.h(85)::createDrawableGroup : Created DrawableGroup: 
+[19:32:00:636089]:[Assets] ResourceManager.cpp(308)::loadSemanticSceneDescriptor : SceneInstance : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb proposed Semantic Scene Descriptor filename : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.house
+[19:32:01:246991]:[Assets] ResourceManager.cpp(319)::loadSemanticSceneDescriptor : SSD with SceneInstanceAttributes-provided name  data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.house successfully found and loaded
+[19:32:01:247214]:[Assets] ResourceManager.cpp(1666)::configureImporterManagerGLExtensions : Importing Basis files as BC7.
+[19:32:01:247750]:[Sim] Simulator.cpp(309)::createSceneInstance : Using scene instance-specified Light key : - no_lights -
+[19:32:01:247806]:[Metadata] MetadataMediator.cpp(66)::setSimulatorConfiguration : Set new simulator config for scene/stage : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb and dataset : default which is currently active dataset.
+[19:32:01:247889]:[Sim] Simulator.cpp(419)::instanceStageForSceneAttributes : Start to load stage named : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb with render asset : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb and collision asset : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb
+[19:32:01:248028]:[Assets] ResourceManager.cpp(702)::createStageAssetInfosFromAttributes : Frame :{"up":[0,0,1],"front":[0,1,0],"origin":[0,0,0]} for render mesh named : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb|{"up":[0,0,1],"front":[0,1,0],"origin":[0,0,0]} for semantic mesh named : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ_semantic.ply with type specified as semantic|Semantic Txtrs : False
+[19:32:01:248065]:[Assets] ResourceManager.cpp(442)::loadStage : Loading Semantic Stage mesh : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ_semantic.ply
+[19:32:01:248094]:[Scene] SceneGraph.h(85)::createDrawableGroup : Created DrawableGroup: 
+[19:32:01:248116]:[Assets] ResourceManager.cpp(984)::loadStageInternal : Attempting to load stage data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ_semantic.ply 
+[19:32:01:248142]:[Assets] ResourceManager.cpp(863)::loadRenderAsset : Loading Semantic Mesh asset named: data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ_semantic.ply
+[19:32:01:248164]:[Assets] ResourceManager.cpp(1666)::configureImporterManagerGLExtensions : Importing Basis files as BC7.
+[19:32:39:313486]:[Assets] ResourceManager.cpp(475)::loadStage : Semantic Stage mesh : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ_semantic.ply loaded.
+[19:32:39:313729]:[Assets] ResourceManager.cpp(518)::loadStage : Start load render asset data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb .
+[19:32:39:313779]:[Assets] ResourceManager.cpp(984)::loadStageInternal : Attempting to load stage data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb 
+[19:32:39:313845]:[Assets] ResourceManager.cpp(866)::loadRenderAsset : Loading general asset named: data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb
+[19:32:39:313886]:[Assets] ResourceManager.cpp(1666)::configureImporterManagerGLExtensions : Importing Basis files as BC7.
+[19:32:53:141235]:[Assets] ResourceManager.cpp(2105)::loadMaterials : Building 134 materials for asset named '2azQ1b91cZZ.glb' : 
+[19:32:53:141592]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 00:Flat.
+[19:32:53:141675]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 01:Flat.
+[19:32:53:141738]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 02:Flat.
+[19:32:53:141790]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 03:Flat.
+[19:32:53:141848]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 04:Flat.
+[19:32:53:141903]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 05:Flat.
+[19:32:53:141964]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 06:Flat.
+[19:32:53:142013]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 07:Flat.
+[19:32:53:142073]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 08:Flat.
+[19:32:53:142208]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 09:Flat.
+[19:32:53:142267]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 10:Flat.
+[19:32:53:142323]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 11:Flat.
+[19:32:53:142377]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 12:Flat.
+[19:32:53:142430]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 13:Flat.
+[19:32:53:142485]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 14:Flat.
+[19:32:53:142565]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 15:Flat.
+[19:32:53:142618]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 16:Flat.
+[19:32:53:142670]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 17:Flat.
+[19:32:53:142724]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 18:Flat.
+[19:32:53:142766]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 19:Flat.
+[19:32:53:142811]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 20:Flat.
+[19:32:53:142857]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 21:Flat.
+[19:32:53:142900]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 22:Flat.
+[19:32:53:142942]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 23:Flat.
+[19:32:53:142996]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 24:Flat.
+[19:32:53:143035]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 25:Flat.
+[19:32:53:143072]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 26:Flat.
+[19:32:53:143109]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 27:Flat.
+[19:32:53:143147]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 28:Flat.
+[19:32:53:143183]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 29:Flat.
+[19:32:53:143220]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 30:Flat.
+[19:32:53:143253]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 31:Flat.
+[19:32:53:143291]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 32:Flat.
+[19:32:53:143324]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 33:Flat.
+[19:32:53:143361]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 34:Flat.
+[19:32:53:143395]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 35:Flat.
+[19:32:53:143434]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 36:Flat.
+[19:32:53:143468]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 37:Flat.
+[19:32:53:143506]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 38:Flat.
+[19:32:53:143544]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 39:Flat.
+[19:32:53:143586]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 40:Flat.
+[19:32:53:143621]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 41:Flat.
+[19:32:53:143663]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 42:Flat.
+[19:32:53:143709]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 43:Flat.
+[19:32:53:143756]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 44:Flat.
+[19:32:53:143796]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 45:Flat.
+[19:32:53:143839]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 46:Flat.
+[19:32:53:143875]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 47:Flat.
+[19:32:53:143960]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 48:Flat.
+[19:32:53:144003]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 49:Flat.
+[19:32:53:144043]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 50:Flat.
+[19:32:53:144081]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 51:Flat.
+[19:32:53:144120]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 52:Flat.
+[19:32:53:144156]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 53:Flat.
+[19:32:53:144193]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 54:Flat.
+[19:32:53:144227]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 55:Flat.
+[19:32:53:144267]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 56:Flat.
+[19:32:53:144307]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 57:Flat.
+[19:32:53:144344]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 58:Flat.
+[19:32:53:144407]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 59:Flat.
+[19:32:53:144460]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 60:Flat.
+[19:32:53:144500]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 61:Flat.
+[19:32:53:144536]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 62:Flat.
+[19:32:53:144707]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 63:Flat.
+[19:32:53:144893]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 64:Flat.
+[19:32:53:144936]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 65:Flat.
+[19:32:53:144976]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 66:Flat.
+[19:32:53:145010]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 67:Flat.
+[19:32:53:145052]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 68:Flat.
+[19:32:53:145085]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 69:Flat.
+[19:32:53:145119]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 70:Flat.
+[19:32:53:145154]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 71:Flat.
+[19:32:53:145191]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 72:Flat.
+[19:32:53:145224]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 73:Flat.
+[19:32:53:145259]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 74:Flat.
+[19:32:53:145292]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 75:Flat.
+[19:32:53:145327]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 76:Flat.
+[19:32:53:145362]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 77:Flat.
+[19:32:53:145399]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 78:Flat.
+[19:32:53:145432]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 79:Flat.
+[19:32:53:145466]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 80:Flat.
+[19:32:53:145501]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 81:Flat.
+[19:32:53:145538]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 82:Flat.
+[19:32:53:145571]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 83:Flat.
+[19:32:53:145605]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 84:Flat.
+[19:32:53:145639]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 85:Flat.
+[19:32:53:145695]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 86:Flat.
+[19:32:53:145730]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 87:Flat.
+[19:32:53:145773]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 88:Flat.
+[19:32:53:145809]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 89:Flat.
+[19:32:53:145841]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 90:Flat.
+[19:32:53:145874]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 91:Flat.
+[19:32:53:145910]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 92:Flat.
+[19:32:53:145946]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 93:Flat.
+[19:32:53:146032]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 94:Flat.
+[19:32:53:146073]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 95:Flat.
+[19:32:53:146110]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 96:Flat.
+[19:32:53:146144]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 97:Flat.
+[19:32:53:146182]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 98:Flat.
+[19:32:53:146218]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 99:Flat.
+[19:32:53:146263]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 100:Flat.
+[19:32:53:146302]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 101:Flat.
+[19:32:53:146339]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 102:Flat.
+[19:32:53:146372]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 103:Flat.
+[19:32:53:146408]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 104:Flat.
+[19:32:53:146440]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 105:Flat.
+[19:32:53:146476]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 106:Flat.
+[19:32:53:146510]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 107:Flat.
+[19:32:53:146543]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 108:Flat.
+[19:32:53:146586]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 109:Flat.
+[19:32:53:146625]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 110:Flat.
+[19:32:53:146676]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 111:Flat.
+[19:32:53:146730]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 112:Flat.
+[19:32:53:146763]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 113:Flat.
+[19:32:53:146833]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 114:Flat.
+[19:32:53:146871]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 115:Flat.
+[19:32:53:146904]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 116:Flat.
+[19:32:53:146936]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 117:Flat.
+[19:32:53:146967]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 118:Flat.
+[19:32:53:146999]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 119:Flat.
+[19:32:53:147042]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 120:Flat.
+[19:32:53:147080]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 121:Flat.
+[19:32:53:147118]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 122:Flat.
+[19:32:53:147155]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 123:Flat.
+[19:32:53:147258]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 124:Flat.
+[19:32:53:147356]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 125:Flat.
+[19:32:53:147397]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 126:Flat.
+[19:32:53:147429]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 127:Flat.
+[19:32:53:147461]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 128:Flat.
+[19:32:53:147491]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 129:Flat.
+[19:32:53:147526]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 130:Flat.
+[19:32:53:147559]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 131:Flat.
+[19:32:53:147593]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 132:Flat.
+[19:32:53:147626]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 133:Flat.
+[19:32:54:129782]:[Sim] Simulator.cpp(446)::instanceStageForSceneAttributes : Successfully loaded stage named : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb
+[19:32:54:130139]:[Sim] Simulator.cpp(203)::reconfigure : CreateSceneInstance success == true for active scene name : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb  with renderer.
+2026-11-17 19:32:54,155 Initializing task VLN-v0
+Initialized data for new floor level: 0
+Switching pcds to floor level: 0
+Initialized data for new floor level: 0
+Switching pcds to floor level: 0
+Initialized data for new floor level: 0
+Switching pcds to floor level: 0
+Initialized data for new floor level: 0
+Switching pcds to floor level: 0
+Initialized data for new floor level: 0
+Switching pcds to floor level: 0
+Initialized data for new floor level: 0
+Switching pcds to floor level: 0
+[StairDetect] normals=0.8579s, cpu=0.0002s, cluster=0.2648s, loop=0.0834s, total=1.2812s
+[StairDetect] normals=0.7733s, cpu=0.0002s, cluster=0.2377s, loop=0.0981s, total=1.1796s
+[StairDetect] normals=0.5715s, cpu=0.0002s, cluster=0.1025s, loop=0.0098s, total=0.7106s
+[StairDetect] normals=0.8825s, cpu=0.0002s, cluster=0.2717s, loop=0.0210s, total=1.2370s
+[StairDetect] normals=0.9397s, cpu=0.0002s, cluster=0.2721s, loop=0.0096s, total=1.2814s
+[StairDetect] normals=0.7180s, cpu=0.0002s, cluster=0.2421s, loop=0.0700s, total=1.0980s
+[StairDetect] normals=0.8976s, cpu=0.0122s, cluster=0.2714s, loop=0.0218s, total=1.2804s
+[StairDetect] normals=0.8266s, cpu=0.0002s, cluster=0.2789s, loop=0.0106s, total=1.1731s
+[StairDetect] normals=0.7269s, cpu=0.0002s, cluster=0.2336s, loop=0.0095s, total=1.0274s
+[StairDetect] normals=1.0804s, cpu=0.0002s, cluster=0.2230s, loop=0.0647s, total=1.4494s
+[StairDetect] normals=0.5376s, cpu=0.0002s, cluster=0.0996s, loop=0.0595s, total=0.7360s
+[StairDetect] normals=0.9214s, cpu=0.0002s, cluster=0.1754s, loop=0.0911s, total=1.2662s
+[StairDetect] normals=1.1028s, cpu=0.0002s, cluster=0.2720s, loop=0.0719s, total=1.5357s
+[StairDetect] normals=0.8046s, cpu=0.0003s, cluster=0.1245s, loop=0.0767s, total=1.0540s
+[show-map] 2azQ1b91cZZ_140 step=5/61; five maps updated
+[StairDetect] normals=0.9153s, cpu=0.0002s, cluster=0.2750s, loop=0.0108s, total=1.2523s
+[StairDetect] normals=0.9267s, cpu=0.0002s, cluster=0.1244s, loop=0.0119s, total=1.0996s
+[StairDetect] normals=1.1196s, cpu=0.0035s, cluster=0.3119s, loop=0.0250s, total=1.5169s
+[StairDetect] normals=0.6271s, cpu=0.0002s, cluster=0.1232s, loop=0.0856s, total=0.8821s
+[StairDetect] normals=0.5736s, cpu=0.0002s, cluster=0.1418s, loop=0.0919s, total=0.8704s
+[StairDetect] normals=1.1175s, cpu=0.0003s, cluster=0.2720s, loop=0.1155s, total=1.6126s
+[StairDetect] normals=1.1777s, cpu=0.0002s, cluster=0.2384s, loop=0.1009s, total=1.5930s
+[StairDetect] normals=1.3359s, cpu=0.0003s, cluster=0.2846s, loop=0.1911s, total=1.9274s
+[StairDetect] normals=1.4577s, cpu=0.0002s, cluster=0.2407s, loop=0.1059s, total=1.8819s
+[StairDetect] normals=0.8293s, cpu=0.0002s, cluster=0.1627s, loop=0.1406s, total=1.2305s
+[StairDetect] normals=1.5875s, cpu=0.0002s, cluster=0.2432s, loop=0.1096s, total=2.0671s
+[StairDetect] normals=1.6052s, cpu=0.0002s, cluster=0.2732s, loop=0.1936s, total=2.1449s
+[StairDetect] normals=1.0275s, cpu=0.0002s, cluster=0.2239s, loop=0.1657s, total=1.5101s
+[StairDetect] normals=1.4635s, cpu=0.0002s, cluster=0.2577s, loop=0.1998s, total=2.0473s
+[StairDetect] normals=1.5750s, cpu=0.0002s, cluster=0.2207s, loop=0.1469s, total=2.0584s
+[show-map] 2azQ1b91cZZ_140 step=10/61; five maps updated
+[StairDetect] normals=1.0489s, cpu=0.0002s, cluster=0.2122s, loop=0.1414s, total=1.4771s
+[StairDetect] normals=1.2004s, cpu=0.0002s, cluster=0.2017s, loop=0.1300s, total=1.5911s
+[StairDetect] normals=1.7843s, cpu=0.0002s, cluster=0.2735s, loop=0.1501s, total=2.3338s
+[StairDetect] normals=0.9423s, cpu=0.0002s, cluster=0.1248s, loop=0.0757s, total=1.1942s
+[StairDetect] normals=1.7403s, cpu=0.0002s, cluster=0.2606s, loop=0.1859s, total=2.2681s
+[StairDetect] normals=1.6459s, cpu=0.0002s, cluster=0.2517s, loop=0.1508s, total=2.1535s
+[StairDetect] normals=0.8689s, cpu=0.0002s, cluster=0.1349s, loop=0.0859s, total=1.1448s
+[StairDetect] normals=1.7025s, cpu=0.0002s, cluster=0.2488s, loop=0.1665s, total=2.2086s
+[StairDetect] normals=1.1956s, cpu=0.0003s, cluster=0.1562s, loop=0.1741s, total=1.6000s
+[StairDetect] normals=1.5103s, cpu=0.0002s, cluster=0.2728s, loop=0.0800s, total=1.9685s
+[StairDetect] normals=1.8293s, cpu=0.0003s, cluster=0.3839s, loop=0.2317s, total=2.5890s
+[StairDetect] normals=2.1213s, cpu=0.0002s, cluster=0.2042s, loop=0.2216s, total=2.6818s
+[StairDetect] normals=1.2939s, cpu=0.0002s, cluster=0.2655s, loop=0.1037s, total=1.7461s
+[StairDetect] normals=1.8969s, cpu=0.0003s, cluster=0.2591s, loop=0.1591s, total=2.4173s
+[StairDetect] normals=1.8380s, cpu=0.0003s, cluster=0.2742s, loop=0.2555s, total=2.5139s
+[show-map] 2azQ1b91cZZ_140 step=15/61; five maps updated
+[StairDetect] normals=1.3513s, cpu=0.0002s, cluster=0.2913s, loop=0.1110s, total=1.8830s
+[StairDetect] normals=1.8887s, cpu=0.0035s, cluster=0.2995s, loop=0.1385s, total=2.4190s
+[StairDetect] normals=1.3268s, cpu=0.0003s, cluster=0.1802s, loop=0.1140s, total=1.6998s
+[StairDetect] normals=1.5217s, cpu=0.0002s, cluster=0.2673s, loop=0.1300s, total=2.0076s
+[StairDetect] normals=1.3378s, cpu=0.0002s, cluster=0.2715s, loop=0.0413s, total=1.7777s
+[StairDetect] normals=2.4252s, cpu=0.0002s, cluster=0.2825s, loop=0.0280s, total=2.8686s
+[StairDetect] normals=1.2904s, cpu=0.0003s, cluster=0.2502s, loop=0.1270s, total=1.7933s
+[StairDetect] normals=1.6661s, cpu=0.0002s, cluster=0.3196s, loop=0.0286s, total=2.1051s
+[StairDetect] normals=1.7999s, cpu=0.0002s, cluster=0.2113s, loop=0.0434s, total=2.1394s
+[StairDetect] normals=1.2871s, cpu=0.0003s, cluster=0.1514s, loop=0.0811s, total=1.5929s
+[StairDetect] normals=1.4553s, cpu=0.0003s, cluster=0.2569s, loop=0.0404s, total=1.8683s
+[StairDetect] normals=1.9442s, cpu=0.0013s, cluster=0.3749s, loop=0.0533s, total=2.4718s
+[StairDetect] normals=1.6393s, cpu=0.0002s, cluster=0.1802s, loop=0.1240s, total=2.0116s
+[show-map] 2azQ1b91cZZ_140 step=20/61; five maps updated
+[StairDetect] normals=1.0836s, cpu=0.0026s, cluster=0.1947s, loop=0.1154s, total=1.4858s
+[StairDetect] normals=1.2136s, cpu=0.0002s, cluster=0.1902s, loop=0.1327s, total=1.6648s
+[StairDetect] normals=2.2156s, cpu=0.0002s, cluster=0.1708s, loop=0.0380s, total=2.5165s
+[StairDetect] normals=2.5183s, cpu=0.0002s, cluster=0.2427s, loop=0.0681s, total=2.9936s
+[StairDetect] normals=1.6960s, cpu=0.0002s, cluster=0.2336s, loop=0.1045s, total=2.1547s
+[StairDetect] normals=1.9644s, cpu=0.0002s, cluster=0.1855s, loop=0.0348s, total=2.2833s
+[StairDetect] normals=1.9389s, cpu=0.0002s, cluster=0.2508s, loop=0.0399s, total=2.3346s
+[StairDetect] normals=1.7745s, cpu=0.0039s, cluster=0.1586s, loop=0.0737s, total=2.1220s
+[StairDetect] normals=1.3163s, cpu=0.0002s, cluster=0.1701s, loop=0.0443s, total=1.6149s
+[StairDetect] normals=1.8549s, cpu=0.0009s, cluster=0.1689s, loop=0.0797s, total=2.2318s
+[StairDetect] normals=1.3593s, cpu=0.0002s, cluster=0.0993s, loop=0.0760s, total=1.6100s
+[show-map] 2azQ1b91cZZ_140 step=25/61; five maps updated
+[StairDetect] normals=1.9766s, cpu=0.0003s, cluster=0.1915s, loop=0.0762s, total=2.3426s
+[StairDetect] normals=1.9006s, cpu=0.0003s, cluster=0.1871s, loop=0.0918s, total=2.3213s
+[StairDetect] normals=1.5253s, cpu=0.0002s, cluster=0.1260s, loop=0.0746s, total=1.8237s
+[StairDetect] normals=2.2342s, cpu=0.0003s, cluster=0.1848s, loop=0.1157s, total=2.6369s
+[StairDetect] normals=2.2840s, cpu=0.0002s, cluster=0.2524s, loop=0.0122s, total=2.6443s
+[show-map] 2azQ1b91cZZ_140 step=30/61; five maps updated
+[StairDetect] normals=2.1229s, cpu=0.0002s, cluster=0.1646s, loop=0.0210s, total=2.3831s
+[StairDetect] normals=1.4890s, cpu=0.0002s, cluster=0.1061s, loop=0.0080s, total=1.7445s
+[StairDetect] normals=3.0326s, cpu=0.0003s, cluster=0.2123s, loop=0.1839s, total=3.5569s
+[StairDetect] normals=2.9640s, cpu=0.0003s, cluster=0.1720s, loop=0.1774s, total=3.4931s
+[StairDetect] normals=2.2758s, cpu=0.0004s, cluster=0.1456s, loop=0.0055s, total=2.5025s
+[StairDetect] normals=1.7790s, cpu=0.0002s, cluster=0.1451s, loop=0.0031s, total=2.0432s
+[StairDetect] normals=1.8010s, cpu=0.0033s, cluster=0.0695s, loop=0.0073s, total=1.9637s
+[show-map] 2azQ1b91cZZ_140 step=35/61; five maps updated
+[StairDetect] normals=1.5879s, cpu=0.0002s, cluster=0.1290s, loop=0.0031s, total=1.8256s
+[StairDetect] normals=1.6183s, cpu=0.0002s, cluster=0.0538s, loop=0.0030s, total=1.7300s
+[StairDetect] normals=1.9110s, cpu=0.0002s, cluster=0.0818s, loop=0.0032s, total=2.0592s
+[StairDetect] normals=1.4957s, cpu=0.0002s, cluster=0.1124s, loop=0.0037s, total=1.6837s
+[StairDetect] normals=1.7025s, cpu=0.0003s, cluster=0.1195s, loop=0.0044s, total=1.9413s
+[show-map] 2azQ1b91cZZ_140 step=40/61; five maps updated
+[StairDetect] normals=2.1158s, cpu=0.0002s, cluster=0.1406s, loop=0.0048s, total=2.3628s
+[StairDetect] normals=2.3852s, cpu=0.0002s, cluster=0.2630s, loop=0.0656s, total=2.8338s
+[StairDetect] normals=1.9807s, cpu=0.0003s, cluster=0.1113s, loop=0.0466s, total=2.2016s
+[StairDetect] normals=1.7204s, cpu=0.0069s, cluster=0.1066s, loop=0.0769s, total=2.0271s
+[StairDetect] normals=2.3665s, cpu=0.0003s, cluster=0.1801s, loop=0.0966s, total=2.7332s
+[StairDetect] normals=2.6245s, cpu=0.0003s, cluster=0.1513s, loop=0.0711s, total=2.9127s
+[show-map] 2azQ1b91cZZ_140 step=45/61; five maps updated
+[StairDetect] normals=1.5573s, cpu=0.0002s, cluster=0.1667s, loop=0.0357s, total=1.8572s
+[StairDetect] normals=2.1908s, cpu=0.0003s, cluster=0.1595s, loop=0.0614s, total=2.5081s
+[StairDetect] normals=2.2387s, cpu=0.0003s, cluster=0.1435s, loop=0.1202s, total=2.5888s
+Calculated floor height difference: 4.99m
+[StairDetect] normals=2.1437s, cpu=0.0002s, cluster=0.1748s, loop=0.0349s, total=2.4186s
+[StairDetect] normals=3.1094s, cpu=0.0004s, cluster=0.1808s, loop=0.0786s, total=3.4923s
+[StairDetect] normals=3.5165s, cpu=0.0003s, cluster=0.1577s, loop=0.1126s, total=3.8880s
+[StairDetect] normals=1.8117s, cpu=0.0003s, cluster=0.0713s, loop=0.0321s, total=1.9658s
+[StairDetect] normals=2.9501s, cpu=0.0004s, cluster=0.1576s, loop=0.0763s, total=3.2979s
+[StairDetect] normals=2.9657s, cpu=0.0003s, cluster=0.1893s, loop=0.1464s, total=3.4493s
+[StairDetect] normals=2.2088s, cpu=0.0002s, cluster=0.1993s, loop=0.0602s, total=2.5686s
+[StairDetect] normals=2.9319s, cpu=0.0003s, cluster=0.2702s, loop=0.0899s, total=3.3607s
+[StairDetect] normals=3.2518s, cpu=0.0003s, cluster=0.2643s, loop=0.1714s, total=3.7853s
+[StairDetect] normals=1.9951s, cpu=0.0002s, cluster=0.1555s, loop=0.0358s, total=2.2892s
+[StairDetect] normals=2.3516s, cpu=0.0003s, cluster=0.2314s, loop=0.0373s, total=2.7074s
+[show-map] 2azQ1b91cZZ_140 step=50/61; five maps updated
+[StairDetect] normals=2.1608s, cpu=0.0003s, cluster=0.1875s, loop=0.0385s, total=2.4817s
+[StairDetect] normals=3.0710s, cpu=0.0054s, cluster=0.1965s, loop=0.0765s, total=3.4601s
+[StairDetect] normals=2.0013s, cpu=0.0002s, cluster=0.1702s, loop=0.0372s, total=2.2985s
+[StairDetect] normals=1.4078s, cpu=0.0002s, cluster=0.1439s, loop=0.0486s, total=1.6919s
+[StairDetect] normals=3.1544s, cpu=0.0003s, cluster=0.1923s, loop=0.0653s, total=3.5042s
+[StairDetect] normals=3.3691s, cpu=0.0003s, cluster=0.3271s, loop=0.1533s, total=3.9390s
+[StairDetect] normals=1.1505s, cpu=0.0002s, cluster=0.1105s, loop=0.0508s, total=1.3694s
+[StairDetect] normals=1.7719s, cpu=0.0003s, cluster=0.2090s, loop=0.1196s, total=2.1861s
+[StairDetect] normals=3.2862s, cpu=0.0053s, cluster=0.2534s, loop=0.2204s, total=3.9181s
+[StairDetect] normals=1.7485s, cpu=0.0002s, cluster=0.1825s, loop=0.0424s, total=2.0782s
+[StairDetect] normals=2.7265s, cpu=0.0003s, cluster=0.2445s, loop=0.3198s, total=3.4086s
+[StairDetect] normals=3.0282s, cpu=0.0003s, cluster=0.2158s, loop=0.1111s, total=3.4341s
+[show-map] 2azQ1b91cZZ_140 step=55/61; five maps updated
+[StairDetect] normals=1.6799s, cpu=0.0076s, cluster=0.1650s, loop=0.0336s, total=1.9834s
+[StairDetect] normals=1.9119s, cpu=0.0003s, cluster=0.1148s, loop=0.2760s, total=2.4568s
+[StairDetect] normals=3.0365s, cpu=0.0004s, cluster=0.1965s, loop=0.1196s, total=3.4433s
+[StairDetect] normals=1.2399s, cpu=0.0002s, cluster=0.0565s, loop=0.0336s, total=1.3831s
+[StairDetect] normals=2.5290s, cpu=0.0003s, cluster=0.2374s, loop=0.3868s, total=3.2946s
+[StairDetect] normals=3.0445s, cpu=0.0003s, cluster=0.2797s, loop=0.1239s, total=3.5916s
+[StairDetect] normals=1.7271s, cpu=0.0002s, cluster=0.1767s, loop=0.0703s, total=2.0576s
+[StairDetect] normals=2.2164s, cpu=0.0033s, cluster=0.1676s, loop=0.2456s, total=2.8023s
+[StairDetect] normals=2.6093s, cpu=0.0033s, cluster=0.3249s, loop=0.1334s, total=3.2103s
+[StairDetect] normals=1.4800s, cpu=0.0002s, cluster=0.1699s, loop=0.0351s, total=1.7899s
+[StairDetect] normals=2.2979s, cpu=0.0003s, cluster=0.1260s, loop=0.2171s, total=2.7344s
+[StairDetect] normals=2.4340s, cpu=0.0026s, cluster=0.2327s, loop=0.1656s, total=2.9859s
+[StairDetect] normals=1.6642s, cpu=0.0002s, cluster=0.1065s, loop=0.0389s, total=1.9246s
+[StairDetect] normals=2.5100s, cpu=0.0003s, cluster=0.1930s, loop=0.3068s, total=3.1390s
+[StairDetect] normals=2.3215s, cpu=0.0003s, cluster=0.2010s, loop=0.0962s, total=2.7337s
+[show-map] 2azQ1b91cZZ_140 step=60/61; five maps updated
+[StairDetect] normals=1.5613s, cpu=0.0016s, cluster=0.1768s, loop=0.0479s, total=1.8596s
+[StairDetect] normals=2.9181s, cpu=0.0003s, cluster=0.2762s, loop=0.2240s, total=3.5096s
+[StairDetect] normals=2.9348s, cpu=0.0004s, cluster=0.1190s, loop=0.1010s, total=3.2762s
+[show-map] 2azQ1b91cZZ_140: rendering independent scene RGB reference at floor 0.13
+[20:12:35:538798]:[Sensor] CameraSensor.h(90)::setFOV : Only Perspective-base CameraSensors use FOV. Specified value saved but will not be consumed by this CameraSensor.
+[20:12:35:551020]:[Sensor] CameraSensor.h(90)::setFOV : Only Perspective-base CameraSensors use FOV. Specified value saved but will not be consumed by this CameraSensor.
+[20:12:50:947674]:[Physics] PhysicsManager.cpp(54)::~PhysicsManager : Deconstructing PhysicsManager
+[20:12:50:947836]:[Scene] SceneManager.h(21)::~SceneManager : Deconstructing SceneManager
+[20:12:50:947865]:[Scene] SceneGraph.h(25)::~SceneGraph : Deconstructing SceneGraph
+[20:12:50:949119]:[Sensor] Sensor.cpp(69)::~Sensor : Deconstructing Sensor
+[20:12:50:951157]:[Sensor] Sensor.cpp(69)::~Sensor : Deconstructing Sensor
+[20:12:50:952749]:[Sensor] Sensor.cpp(69)::~Sensor : Deconstructing Sensor
+[20:12:50:953930]:[Sensor] Sensor.cpp(69)::~Sensor : Deconstructing Sensor
+[20:12:50:954298]:[Scene] SceneGraph.h(25)::~SceneGraph : Deconstructing SceneGraph
+[20:12:50:956572]:[Scene] SemanticScene.h(48)::~SemanticScene : Deconstructing SemanticScene
+[20:12:51:000505]:[Gfx] Renderer.cpp(71)::~Impl : Deconstructing Renderer
+[20:12:51:001357]:[Gfx] WindowlessContext.h(17)::~WindowlessContext : Deconstructing WindowlessContext

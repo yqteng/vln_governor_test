@@ -1,0 +1,34 @@
+{
+  "instruction": "Go through the wooden doors to the dining area. Walk past the dining table to the glass and wood doors beyond. Turn right and go through the doors to the vestibule. Stop at the doors leading to a second dining area. ",
+  "baseline_result": "failure",
+  "vlm_result": "未发现明确偏航",
+  "first_bad_segment": null,
+  "first_bad_steps": null,
+  "reason": "The instruction requires entering the dining area through wooden doors, passing the dining table to the glass-and-wood doors, then turning right through the vestibule and stopping at doors to a second dining area. S1 and S2 show the route approaching and continuing through the dining-space layout, including the confirmed dining table and route-side wooden and glass-and-wood door structures; S3 continues through a doorway into the adjacent furnished space without a clearly established incompatible branch. The vestibule crossing, final stopping relation, and exact identity of the later doors are not yet established by the reviewed prefix, but incomplete progress does not itself establish deviation.",
+  "reviewed_to_step": 64,
+  "total_steps": 78,
+  "unreviewed_tail": [
+    65,
+    78
+  ],
+  "evidence_segments_at_review": [
+    "S1",
+    "S2",
+    "S3"
+  ],
+  "evidence_frames": [
+    "F9",
+    "F15",
+    "F28",
+    "F37",
+    "F46",
+    "F54",
+    "F59",
+    "F63"
+  ],
+  "evidence_objects": [
+    "O41",
+    "O44",
+    "O46"
+  ]
+}

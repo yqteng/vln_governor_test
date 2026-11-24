@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 195,
+  "success": 1.0,
+  "spl": 1.0,
+  "os": 1.0,
+  "ne": 1.4712499380111694,
+  "steps": 41,
+  "episode_instruction": "Walk out of the laundry room into the hallway. Walk along the hallway passed the windows towards the entryway at the end of the hall. Continue through the arched entryway and into the kitchen area, stopping near the island counter top. ",
+  "final_instruction": "Walk out of the laundry room into the hallway. Walk along the hallway passed the windows towards the entryway at the end of the hall. Continue through the arched entryway and into the kitchen area, stopping near the island counter top. ",
+  "num_rewrites": 0
+}

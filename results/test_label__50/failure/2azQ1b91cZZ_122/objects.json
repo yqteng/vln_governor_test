@@ -1,0 +1,47 @@
+[
+  {
+    "id": "O1",
+    "name": "kitchen island",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O1"
+    ]
+  },
+  {
+    "id": "O2",
+    "name": "kitchen island",
+    "floor": 1,
+    "status": "已确认",
+    "source_ids": [
+      "O2"
+    ]
+  },
+  {
+    "id": "O4",
+    "name": "kitchen island",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O4"
+    ]
+  },
+  {
+    "id": "O5",
+    "name": "kitchen island",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O5"
+    ]
+  },
+  {
+    "id": "O6",
+    "name": "kitchen island",
+    "floor": 1,
+    "status": "待复核",
+    "source_ids": [
+      "O6"
+    ]
+  }
+]

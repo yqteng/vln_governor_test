@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 166,
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 15.81100082397461,
+  "steps": 85,
+  "episode_instruction": "Go forward by the windows, and then stop by the lamp. ",
+  "final_instruction": "Go forward by the windows, and then stop by the lamp. ",
+  "num_rewrites": 0
+}

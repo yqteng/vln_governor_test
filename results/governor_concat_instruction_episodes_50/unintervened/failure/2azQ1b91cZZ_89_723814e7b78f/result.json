@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 89,
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 21.575050354003906,
+  "steps": 96,
+  "episode_instruction": "Enter the dining room and walk to the other end. Go through the double doors on the right. Walk straight across the walkway and wait outside on the mat. ",
+  "final_instruction": "Enter the dining room and walk to the other end. Go through the double doors on the right. Walk straight across the walkway and wait outside on the mat. ",
+  "num_rewrites": 0
+}

@@ -1,0 +1,39 @@
+{
+  "instruction": "Go through living room, through the door on the to the right, through the den, through the dining to, to the outdoor foyer. Stop before going outside. ",
+  "baseline_result": "failure",
+  "vlm_result": "证据不足",
+  "first_bad_segment": null,
+  "first_bad_steps": null,
+  "reason": "The instruction requires traversing the living room, taking the right-side door, then passing through the den and dining area before stopping at the outdoor foyer without going outside. S3-S4 pass the vicinity of glazed door O5 into an interior seating-and-kitchen area; S5 approaches closed door O7, then S6-S7 turn west through the counter-lined passage at O8 into the stove kitchen toward O9, with the original living-room furniture visible through the adjacent arch in F94-F95. This newly observed return toward the living-room side raises a specific branch-choice concern, but the supplied layout does not reliably identify the required dining connection or establish that this interior connection violates the prescribed order. The earlier no-supported-deviation assessment therefore becomes uncertain rather than a confirmed historical deviation; neither an exterior crossing nor an explicit STOP is established through step 96.",
+  "reviewed_to_step": 96,
+  "total_steps": 100,
+  "unreviewed_tail": [
+    97,
+    100
+  ],
+  "evidence_segments_at_review": [
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S7"
+  ],
+  "evidence_frames": [
+    "F34",
+    "F40",
+    "F56",
+    "F73",
+    "F80",
+    "F88",
+    "F91",
+    "F94",
+    "F95"
+  ],
+  "evidence_objects": [
+    "O5",
+    "O7",
+    "O8",
+    "O9"
+  ],
+  "action_limit_truncated": true
+}

@@ -1,0 +1,79 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 76,
+  "episode_instruction": "Walk through the doorway into the dining room and walk straight back to the door leading outside. When you get to the door make a right and walk down the hallway. Walk straight down the hall and wait in the doorway of another dining area. ",
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 8.463562965393066,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 83,
+  "effective_steps": 82,
+  "corrections": 0,
+  "deviations": 0,
+  "intervened": false,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 23,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "Walk through the doorway into the dining room and walk straight back to the door leading outside. When you get to the door make a right and walk down the hallway. Walk straight down the hall and wait in the doorway of another dining area. ",
+  "termination_reason": "global_stop",
+  "phase_steps": {
+    "normal": 82,
+    "rollback": 0,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 1,
+    "governor_stop": 0
+  },
+  "action_counts": {
+    "STOP": 1,
+    "MOVE_FORWARD": 58,
+    "TURN_LEFT": 7,
+    "TURN_RIGHT": 17,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 1,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 14.496913254261017,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "Completed: None. Currently: Agent is inside the dining room, having entered through the doorway as instructed, and is moving straight back toward the exit door. Heading: straight back toward the exit door. Remaining: Turn right into the hallway, walk straight down the hall, and wait in the doorway of another dining area. Uncertain: No evidence of reaching the exit door, turning right, or arriving at the second dining area’s doorway. All subsequent steps remain unexecuted."
+    },
+    {
+      "start": 17,
+      "end": 32,
+      "text": "Completed: None. Currently: Agent is inside the dining room, having entered through the doorway as instructed, and is moving straight back toward the exit door. Heading: straight back toward the exit door. Remaining: Turn right into the hallway, walk straight down the hall, and wait in the doorway of another dining area. Uncertain: No evidence of reaching the exit door, turning right, or arriving at the second dining area’s doorway. All subsequent steps remain unexecuted."
+    },
+    {
+      "start": 33,
+      "end": 48,
+      "text": "Completed: None. Currently: Agent is standing in the hallway, having turned right from the dining room and walked forward into the hallway, now facing the wooden door at the end of the hallway. Remaining: Walk straight down the hall and wait in the doorway of another dining area. Uncertain: No evidence of having reached the exit door of the dining room or completed the turn into the hallway prior to this point; however, the current position and heading confirm the turn right and forward movement into the hallway as executed. The target doorway of another dining area has not yet been reached or confirmed as the endpoint."
+    },
+    {
+      "start": 49,
+      "end": 64,
+      "text": "Completed: Walk through the doorway into the dining room and walk straight back to the door leading outside. Turn right into the hallway. Currently: Agent is standing in the hallway, having turned right and moved forward toward the end of the hallway, now facing a wooden door at the end. Remaining: Walk straight down the hall and wait in the doorway of another dining area. Uncertain: No evidence of having reached the doorway of another dining area; the current position is still en route, and the final stopping point has not been reached or confirmed as the endpoint."
+    },
+    {
+      "start": 65,
+      "end": 80,
+      "text": "Completed: Walk through the doorway into the dining room and walk straight back to the door leading outside. Turn right into the hallway. Currently: Agent is standing in the hallway, having turned right and moved forward toward the end of the hallway, now facing a wooden door at the end. Remaining: Walk straight down the hall and wait in the doorway of another dining area. Uncertain: No evidence of having reached the doorway of another dining area; the current position is still en route, and the final stopping point has not been reached or confirmed as the endpoint."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "unintervened/failure",
+  "baseline": {
+    "success": 0.0,
+    "spl": 0.0,
+    "os": 0.0,
+    "ne": 8.463562965393066
+  },
+  "artifact_dir": "unintervened/failure/2azQ1b91cZZ_76_8f2bcbc1b590"
+}

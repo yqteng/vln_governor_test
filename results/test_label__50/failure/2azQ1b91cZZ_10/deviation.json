@@ -1,0 +1,30 @@
+{
+  "instruction": "Walk into the living room and keep walking straight past the living room. Then walk into the entrance under the balcony. Wait in the entrance to the other room. ",
+  "baseline_result": "failure",
+  "vlm_result": "未发现明确偏航",
+  "first_bad_segment": null,
+  "first_bad_steps": null,
+  "reason": "The instruction requires continuing straight through the living room, entering the entrance beneath the balcony, and waiting in that entrance. F3 and F8 show the furnished living room and the central arch beneath the balcony, while S1 follows a straight approach toward that opening. S2 continues into the wood-paneled entrance passage, as supported by F19, F23, and F28; the mapped S3 endpoint remains between the passage's opening boundaries, before the circular foyer rather than inside either lateral room. F29, F31, and F32 show the foyer and adjoining openings without measured entry into an incompatible branch, so no executed route contradiction is supported through step 32. No explicit STOP is supplied, so the review cutoff and repeated positions do not independently establish completion of the waiting requirement.",
+  "reviewed_to_step": 32,
+  "total_steps": 47,
+  "unreviewed_tail": [
+    33,
+    47
+  ],
+  "evidence_segments_at_review": [
+    "S1",
+    "S2",
+    "S3"
+  ],
+  "evidence_frames": [
+    "F3",
+    "F8",
+    "F19",
+    "F23",
+    "F28",
+    "F29",
+    "F31",
+    "F32"
+  ],
+  "evidence_objects": []
+}

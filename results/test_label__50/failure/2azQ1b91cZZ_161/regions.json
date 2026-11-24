@@ -1,0 +1,17 @@
+[
+  {
+    "segment": "S1",
+    "name": "dining room",
+    "floor": 1,
+    "steps": [
+      0,
+      50
+    ],
+    "samples": [
+      "F6",
+      "F17",
+      "F30",
+      "F44"
+    ]
+  }
+]

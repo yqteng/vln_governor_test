@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 63,
+  "success": 1.0,
+  "spl": 1.0,
+  "os": 1.0,
+  "ne": 1.59346342086792,
+  "steps": 51,
+  "episode_instruction": "Exit the bathroom, and take a right turn. Keep walking to the place with a clock hanging on the wall, and then make a hard left into a bedroom. Wait at the bedroom. ",
+  "final_instruction": "Exit the bathroom, and take a right turn. Keep walking to the place with a clock hanging on the wall, and then make a hard left into a bedroom. Wait at the bedroom. ",
+  "num_rewrites": 0
+}

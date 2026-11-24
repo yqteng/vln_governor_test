@@ -1,0 +1,56 @@
+[
+  {
+    "id": "O1",
+    "name": "second door on your left",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O1"
+    ]
+  },
+  {
+    "id": "O3",
+    "name": "second door on your left",
+    "floor": 1,
+    "status": "已确认",
+    "source_ids": [
+      "O3"
+    ]
+  },
+  {
+    "id": "O4",
+    "name": "second door on your left",
+    "floor": 1,
+    "status": "已确认",
+    "source_ids": [
+      "O4"
+    ]
+  },
+  {
+    "id": "O5",
+    "name": "second door on your left",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O5"
+    ]
+  },
+  {
+    "id": "O6",
+    "name": "second door on your left",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O6"
+    ]
+  },
+  {
+    "id": "O7",
+    "name": "second door on your left",
+    "floor": 1,
+    "status": "待复核",
+    "source_ids": [
+      "O7"
+    ]
+  }
+]

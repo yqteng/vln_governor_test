@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 194,
+  "success": 1.0,
+  "spl": 1.0,
+  "os": 1.0,
+  "ne": 0.2725468575954437,
+  "steps": 60,
+  "episode_instruction": "Exit the laundry area and turn right continuing down the hall. Enter the kitchen and wait by the island. ",
+  "final_instruction": "Exit the laundry area and turn right continuing down the hall. Enter the kitchen and wait by the island. ",
+  "num_rewrites": 1
+}

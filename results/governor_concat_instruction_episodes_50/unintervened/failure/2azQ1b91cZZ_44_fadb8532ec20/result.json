@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 44,
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 11.519155502319336,
+  "steps": 62,
+  "episode_instruction": "Walk down the hallway through the arched doorway. Walk into the kitchen area. Walk through the doorway into teh dining room area passing by the stove. Walk into the living room are towards the fireplace stopping near the couches. ",
+  "final_instruction": "Walk down the hallway through the arched doorway. Walk into the kitchen area. Walk through the doorway into teh dining room area passing by the stove. Walk into the living room are towards the fireplace stopping near the couches. ",
+  "num_rewrites": 0
+}

@@ -1,0 +1,32 @@
+{
+  "instruction": "Walk across the room into the hallway second to the right from the stairs. Walk past the open door on the right.  Stop in front of the closed doors on the right. ",
+  "baseline_result": "success",
+  "vlm_result": "未发现明确偏航",
+  "first_bad_segment": null,
+  "first_bad_steps": null,
+  "reason": "The instruction requires crossing the room into the hallway second to the right from the stairs, passing an open door on the right, and stopping before closed doors on the right. S1 crosses the landing beside stairs O2, S2 proceeds through the short arched connector, and S3 continues toward the tiled arched corridor; F16 through F31 support this progression. The measured trace stays north of the open dining-room entrance O14 rather than turning into that room, consistent with the dining interior remaining on the left in F23 and F26. The exact entrance count and instruction-specific right-side door instances are not conclusively resolved, but no executed conflicting branch choice or overshoot is established through step 32. Passing the required open door and reaching the final stopping location remain unverified, and no explicit STOP is supplied.",
+  "reviewed_to_step": 32,
+  "total_steps": 42,
+  "unreviewed_tail": [
+    33,
+    42
+  ],
+  "evidence_segments_at_review": [
+    "S1",
+    "S2",
+    "S3"
+  ],
+  "evidence_frames": [
+    "F2",
+    "F10",
+    "F16",
+    "F19",
+    "F23",
+    "F26",
+    "F31"
+  ],
+  "evidence_objects": [
+    "O2",
+    "O14"
+  ]
+}

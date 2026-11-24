@@ -1,0 +1,46 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 12,
+  "episode_instruction": "Move forward to the doorway on the opposite side of the hall.  Stop in the archway. ",
+  "steps": 40,
+  "effective_steps": 23,
+  "num_rewrites": 0,
+  "corrections": 0,
+  "deviations": 0,
+  "blockage_recoveries": 0,
+  "stop_returns": 1,
+  "stop_rejections": 0,
+  "max_task_depth": 0,
+  "point_runs": 0,
+  "point_completed": 0,
+  "correction_images": [],
+  "final_instruction": "Move forward to the doorway on the opposite side of the hall.  Stop in the archway. ",
+  "termination_reason": "governor_stop",
+  "summaries": [
+    {
+      "start": 0,
+      "end": 16,
+      "text": "The robot has moved forward through the hall and is now positioned at the archway, which is the doorway on the opposite side of the hall as instructed. The endpoint 'Stop in the archway' is reached and confirmed.",
+      "grounding": "The archway is clearly visible in state 0 as the target doorway at the far end of the hall. By state 16, the robot is directly within the archway, confirming arrival at the specified stopping point. The visual transition shows the robot moving from the open hall into the archway's interior, satisfying the 'Stop in the archway' requirement.",
+      "anchor_steps": [
+        0,
+        16
+      ],
+      "anchor_source": "vlm"
+    }
+  ],
+  "intervened": true,
+  "success": 1.0,
+  "spl": 0.7903299652118162,
+  "os": 1.0,
+  "ne": 1.6131069660186768,
+  "category": "intervened/failure_to_success",
+  "baseline": {
+    "success": 0.0,
+    "spl": 0.0,
+    "os": 1.0,
+    "ne": 3.6296331882476807
+  },
+  "version": "governor_clean_remake_14_single_stop_decision",
+  "correction_mode": "point"
+}

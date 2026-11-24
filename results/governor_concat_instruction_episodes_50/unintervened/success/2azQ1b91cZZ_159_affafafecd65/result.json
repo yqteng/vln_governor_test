@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 159,
+  "success": 1.0,
+  "spl": 0.9950594696485259,
+  "os": 1.0,
+  "ne": 0.38978418707847595,
+  "steps": 41,
+  "episode_instruction": "Walk  forward through the middle archway looking down a hallway, and stop. ",
+  "final_instruction": "Walk  forward through the middle archway looking down a hallway, and stop. ",
+  "num_rewrites": 0
+}

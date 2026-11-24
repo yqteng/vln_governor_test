@@ -1,0 +1,299 @@
+[
+  {
+    "id": "O1",
+    "name": "open door with a window to the left and a patio to the right",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O1"
+    ]
+  },
+  {
+    "id": "O2",
+    "name": "open door with a window to the left and a patio to the right",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O2"
+    ]
+  },
+  {
+    "id": "O3",
+    "name": "open door with a window to the left and a patio to the right",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O3"
+    ]
+  },
+  {
+    "id": "O4",
+    "name": "open door with a window to the left and a patio to the right",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O4"
+    ]
+  },
+  {
+    "id": "O5",
+    "name": "open door with a window to the left and a patio to the right",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O5"
+    ]
+  },
+  {
+    "id": "O6",
+    "name": "window to the left",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O6"
+    ]
+  },
+  {
+    "id": "O7",
+    "name": "window to the left",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O7"
+    ]
+  },
+  {
+    "id": "O8",
+    "name": "window to the left",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O8"
+    ]
+  },
+  {
+    "id": "O9",
+    "name": "window to the left",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O9"
+    ]
+  },
+  {
+    "id": "O10",
+    "name": "window to the left",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O10"
+    ]
+  },
+  {
+    "id": "O11",
+    "name": "dining table",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O11"
+    ]
+  },
+  {
+    "id": "O12",
+    "name": "dining table",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O12"
+    ]
+  },
+  {
+    "id": "O13",
+    "name": "dining table",
+    "floor": 1,
+    "status": "已确认",
+    "source_ids": [
+      "O13"
+    ]
+  },
+  {
+    "id": "O14",
+    "name": "dining table",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O14"
+    ]
+  },
+  {
+    "id": "O15",
+    "name": "open door",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O15"
+    ]
+  },
+  {
+    "id": "O16",
+    "name": "open door",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O16"
+    ]
+  },
+  {
+    "id": "O17",
+    "name": "open door",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O17"
+    ]
+  },
+  {
+    "id": "O18",
+    "name": "open door",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O18"
+    ]
+  },
+  {
+    "id": "O19",
+    "name": "open door",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O19"
+    ]
+  },
+  {
+    "id": "O20",
+    "name": "dining table",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O20"
+    ]
+  },
+  {
+    "id": "O21",
+    "name": "open door with a window to the left and a patio to the right",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O21"
+    ]
+  },
+  {
+    "id": "O22",
+    "name": "open door",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O22"
+    ]
+  },
+  {
+    "id": "O23",
+    "name": "open door with a window to the left and a patio to the right",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O23"
+    ]
+  },
+  {
+    "id": "O24",
+    "name": "open door",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O24"
+    ]
+  },
+  {
+    "id": "O25",
+    "name": "open door with a window to the left and a patio to the right",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O25"
+    ]
+  },
+  {
+    "id": "O26",
+    "name": "window to the left",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O26"
+    ]
+  },
+  {
+    "id": "O27",
+    "name": "window to the left",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O27"
+    ]
+  },
+  {
+    "id": "O28",
+    "name": "open door",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O28"
+    ]
+  },
+  {
+    "id": "O29",
+    "name": "open door with a window to the left and a patio to the right",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O29"
+    ]
+  },
+  {
+    "id": "O30",
+    "name": "window to the left",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O30"
+    ]
+  },
+  {
+    "id": "O31",
+    "name": "window to the left",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O31"
+    ]
+  },
+  {
+    "id": "O32",
+    "name": "open door",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O32"
+    ]
+  },
+  {
+    "id": "O33",
+    "name": "dining table",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O33"
+    ]
+  }
+]

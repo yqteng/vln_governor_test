@@ -1,0 +1,74 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 88,
+  "episode_instruction": "Go through the wooden doors to the dining area. Walk past the dining table to the glass and wood doors beyond. Turn right and go through the doors to the vestibule. Stop at the doors leading to a second dining area. ",
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 13.3302583694458,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 78,
+  "effective_steps": 77,
+  "corrections": 0,
+  "deviations": 0,
+  "intervened": false,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 25,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "Go through the wooden doors to the dining area. Walk past the dining table to the glass and wood doors beyond. Turn right and go through the doors to the vestibule. Stop at the doors leading to a second dining area. ",
+  "termination_reason": "global_stop",
+  "phase_steps": {
+    "normal": 77,
+    "rollback": 0,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 1,
+    "governor_stop": 0
+  },
+  "action_counts": {
+    "STOP": 1,
+    "MOVE_FORWARD": 42,
+    "TURN_LEFT": 14,
+    "TURN_RIGHT": 21,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 1,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 10.490502655506134,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "Completed: Entered dining area via wooden doors and passed dining table (implied by prior progress). Currently: At glass and wood doors, having turned right and moved forward; vestibule not yet entered. Remaining: Turn right and go through the doors to the vestibule, stop at the doors leading to a second dining area. Uncertain: Whether vestibule was entered or final stop confirmed — no visual evidence of vestibule or second dining area doors in current images or actions."
+    },
+    {
+      "start": 17,
+      "end": 32,
+      "text": "Completed: Entered dining area via wooden doors and passed dining table. Currently: At glass and wood doors, having turned right and moved forward into the vestibule; vestibule entry confirmed by visual progression through archways and doorways from image 17 onward. Remaining: Stop at the doors leading to a second dining area. Uncertain: None — final stop has not yet been reached or visually confirmed, but vestibule entry is now confirmed based on spatial transition and image sequence."
+    },
+    {
+      "start": 33,
+      "end": 48,
+      "text": "Completed: Entered dining area via wooden doors and passed dining table. Currently: At the doors leading to a second dining area, having turned right and moved forward into the vestibule (vestibule entry confirmed by visual progression through archways and doorways from image 17 onward); final stop at the doors to the second dining area is now visually confirmed at image 48. Remaining: None — all instruction parts fulfilled. Uncertain: None — final stop is confirmed by visual evidence at image 48, showing the agent’s position at the doors to the second dining area."
+    },
+    {
+      "start": 49,
+      "end": 64,
+      "text": "Completed: Entered dining area via wooden doors and passed dining table. Currently: At the doors leading to the second dining area, having turned right and moved forward into the vestibule (vestibule entry confirmed by visual progression through archways and doorways from image 17 onward); final stop at the doors to the second dining area is now visually confirmed at image 48. Remaining: None — all instruction parts fulfilled. Uncertain: None — final stop is confirmed by visual evidence at image 48, showing the agent’s position at the doors to the second dining area. The agent has not moved beyond this point in images 49–64, and no further action or deviation is indicated; the task is complete."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "unintervened/failure",
+  "baseline": {
+    "success": 0.0,
+    "spl": 0.0,
+    "os": 0.0,
+    "ne": 13.360193252563477
+  },
+  "artifact_dir": "unintervened/failure/2azQ1b91cZZ_88_18c77d5536f8"
+}

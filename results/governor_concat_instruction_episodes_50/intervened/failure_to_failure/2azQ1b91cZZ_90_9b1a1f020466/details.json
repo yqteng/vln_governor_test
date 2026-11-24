@@ -1,0 +1,74 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 90,
+  "episode_instruction": "Walk into the dining area and make a right when you get to the end of the table. Walk down the hall and stand in front of the door of the dining room at the end of the hall. ",
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 1.0,
+  "ne": 2.2044248580932617,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 100,
+  "effective_steps": 76,
+  "corrections": 2,
+  "deviations": 2,
+  "intervened": true,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 21,
+  "stop_returns": 0,
+  "num_rewrites": 1,
+  "max_task_depth": 1,
+  "final_instruction": "Walk into the dining area and make a right when you get to the end of the table. Walk down the hall and stand in front of the door of the dining room at the end of the hall. ",
+  "termination_reason": "environment_limit",
+  "phase_steps": {
+    "normal": 30,
+    "rollback": 12,
+    "alignment": 6,
+    "initialization": 0,
+    "correction": 52,
+    "global_stop": 0,
+    "governor_stop": 0
+  },
+  "action_counts": {
+    "STOP": 0,
+    "MOVE_FORWARD": 53,
+    "TURN_LEFT": 8,
+    "TURN_RIGHT": 30,
+    "MOVE_BACKWARD": 9
+  },
+  "collisions": 0,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 15.500000596046448,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "Completed: None. Currently: Agent is standing in a hallway with arched doorways and tiled floors, facing forward toward the end of the hall where a staircase is visible in the distance. Remaining: Walk into the dining area and make a right when you get to the end of the table. Walk down the hall and stand in front of the door of the dining room at the end of the hall. Uncertain: The agent has not entered the dining area or turned right at the end of the table, as no dining table or related furniture is visible in the current images or action history. The current hallway view contradicts the initial instruction’s context, suggesting the agent may have deviated or the task has not yet begun as described."
+    },
+    {
+      "start": 17,
+      "end": 32,
+      "text": "Completed: None. Currently: Agent is standing in the hallway, facing into the dining room where a wooden dining table with chairs is visible through an open doorway. The agent has not yet entered the dining area or made a right turn at the end of the table. Remaining: Walk into the dining area and stop at the doorway where the wooden dining table with chairs is visible inside. Uncertain: The agent has not entered the dining area, and no right turn has been executed at the end of the table. The current view shows the dining room through a doorway, but entry has not occurred. The task requires entering the dining area before any turn can be made."
+    },
+    {
+      "start": 33,
+      "end": 48,
+      "text": "Completed: None. Currently: Agent is inside the dining area, facing the wooden dining table with chairs and the door at the end of the hall. The agent has entered the dining area and is positioned near the doorway where the table is visible. Remaining: Make a right when you get to the end of the table. Walk down the hall and stand in front of the door of the dining room at the end of the hall. Uncertain: The agent has not yet turned right at the end of the table, as no right turn has been executed in the action history since entering the dining area. The agent’s current heading is toward the table and the door, but no turn has been made to align with the instruction’s directional requirement."
+    },
+    {
+      "start": 49,
+      "end": 64,
+      "text": "Completed: Agent has entered the dining area and stopped at the doorway where the wooden dining table with chairs is visible — first phase complete. Currently: Agent is positioned at the doorway of the dining room, facing forward into a hallway with arched doorways and tiled floors, with the dining room’s wooden table and chairs visible to the right. Remaining: Make a right when you get to the end of the table. Walk down the hall and stand in front of the door of the dining room at the end of the hall. Uncertain: The agent has not yet turned right at the end of the table, as no right turn has been executed in the action history since entering the dining area. The agent’s current heading is toward the hallway, not aligned with the task’s directional requirement for a right turn before proceeding."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "intervened/failure_to_failure",
+  "baseline": {
+    "success": 0.0,
+    "spl": 0.0,
+    "os": 0.0,
+    "ne": 14.774944305419922
+  },
+  "artifact_dir": "intervened/failure_to_failure/2azQ1b91cZZ_90_9b1a1f020466"
+}

@@ -1,0 +1,26 @@
+{
+  "instruction": "Walk into the kitchen.  Turn left at the kitchen island, and walk straight.  Stop in the hallway at the first entrance to the dining room. ",
+  "baseline_result": "failure",
+  "vlm_result": "未发现明确偏航",
+  "first_bad_segment": null,
+  "first_bad_steps": null,
+  "reason": "The instruction requires entering the kitchen, turning left at the kitchen island, walking straight, and stopping in the hallway at the first dining-room entrance. In S1, the route advances toward confirmed island O2, then changes from the initial forward direction toward map-left and continues along the island's left side, consistent with the required left turn. F20 and F28 show the island alongside the route and an archway toward the dining area, while the map places the current endpoint near the kitchen-to-hallway transition rather than establishing that a wrong branch was taken. No route contradiction is supported through step 32; the required stopping relation is either being reached or remains pending, and no explicit STOP record is supplied.",
+  "reviewed_to_step": 32,
+  "total_steps": 42,
+  "unreviewed_tail": [
+    33,
+    42
+  ],
+  "evidence_segments_at_review": [
+    "S1"
+  ],
+  "evidence_frames": [
+    "F3",
+    "F11",
+    "F20",
+    "F28"
+  ],
+  "evidence_objects": [
+    "O2"
+  ]
+}

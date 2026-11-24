@@ -1,0 +1,74 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 139,
+  "episode_instruction": "GO slightly to the right and walk past the table.  You'll go into the other room, turn right and then past the big diadem circle tile, past the stairs, and then to the right.  Enter the hallway by the mirror and wait. ",
+  "success": 1.0,
+  "spl": 0.8912271385029003,
+  "os": 1.0,
+  "ne": 1.1122361421585083,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 74,
+  "effective_steps": 73,
+  "corrections": 0,
+  "deviations": 0,
+  "intervened": false,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 22,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "GO slightly to the right and walk past the table.  You'll go into the other room, turn right and then past the big diadem circle tile, past the stairs, and then to the right.  Enter the hallway by the mirror and wait. ",
+  "termination_reason": "global_stop",
+  "phase_steps": {
+    "normal": 73,
+    "rollback": 0,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 1,
+    "governor_stop": 0
+  },
+  "action_counts": {
+    "STOP": 1,
+    "MOVE_FORWARD": 60,
+    "TURN_LEFT": 3,
+    "TURN_RIGHT": 10,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 0,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 15.000005543231964,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "Completed: GO slightly to the right and walk past the table — the table is now behind and to the left, confirming passage. Currently: Agent is facing forward toward a central archway in the room, with no visible diadem tile, stairs, or mirror yet. Remaining: turn right and then past the big diadem circle tile, past the stairs, and then to the right. Enter the hallway by the mirror and wait. Uncertain: Whether the diadem tile or stairs are visible in the current view or in the next archway; no mirror is visible yet."
+    },
+    {
+      "start": 17,
+      "end": 32,
+      "text": "Completed: GO slightly to the right and walk past the table — the table is now behind and to the left. Currently: Agent is moving forward through an ornate hallway with arched doorways and tiled floors, having turned right at image 17 and continued forward through images 17–32. The diadem circle tile and stairs are not visible in the current view or in the hallway ahead. Remaining: turn right and then past the big diadem circle tile, past the stairs, and then to the right. Enter the hallway by the mirror and wait. Uncertain: Whether the diadem tile or stairs are present in the current hallway or further ahead; no mirror is visible yet."
+    },
+    {
+      "start": 33,
+      "end": 48,
+      "text": "Completed: GO slightly to the right and walk past the table — the table is now behind and to the left. Currently: Agent is standing in a central hall with arched doorways, a decorative circular tile floor, and visible stairs to the right; the diadem circle tile is now confirmed as the large circular mosaic on the floor. Remaining: turn right and then past the big diadem circle tile, past the stairs, and then to the right. Enter the hallway by the mirror and wait. Uncertain: The mirror and hallway entry point are not yet visible; the next turn to the right after passing the stairs must be confirmed as executed before proceeding to the mirror."
+    },
+    {
+      "start": 49,
+      "end": 64,
+      "text": "Completed: GO slightly to the right and walk past the table — the table is now behind and to the left. Currently: Agent is standing in a hallway with arched doorways, having turned right at image 49 and passed the stairs (visible at image 49), and is now facing forward toward a large circular mosaic tile on the floor (confirmed at image 48) and a hallway entrance with a mirror (visible at image 60). Remaining: turn right and then past the big diadem circle tile, past the stairs, and then to the right. Enter the hallway by the mirror and wait. Uncertain: The exact orientation after the turn at image 49 must be confirmed as fulfilling the ‘turn right’ requirement before proceeding; the mirror is now visible but the instruction to ‘enter the hallway by the mirror and wait’ has not yet been executed."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "unintervened/success",
+  "baseline": {
+    "success": 1.0,
+    "spl": 0.8912271385029003,
+    "os": 1.0,
+    "ne": 1.1122361421585083
+  },
+  "artifact_dir": "unintervened/success/2azQ1b91cZZ_139_37369bb5c653"
+}

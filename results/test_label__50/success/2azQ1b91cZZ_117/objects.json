@@ -1,0 +1,56 @@
+[
+  {
+    "id": "O1",
+    "name": "bathroom mat",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O1"
+    ]
+  },
+  {
+    "id": "O2",
+    "name": "bathroom mat",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O2"
+    ]
+  },
+  {
+    "id": "O3",
+    "name": "bathroom mat",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O3"
+    ]
+  },
+  {
+    "id": "O5",
+    "name": "bathroom mat",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O5"
+    ]
+  },
+  {
+    "id": "O6",
+    "name": "bathroom mat",
+    "floor": 1,
+    "status": "待复核",
+    "source_ids": [
+      "O6"
+    ]
+  },
+  {
+    "id": "O7",
+    "name": "bathroom mat",
+    "floor": 1,
+    "status": "待复核",
+    "source_ids": [
+      "O7"
+    ]
+  }
+]

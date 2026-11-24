@@ -1,0 +1,46 @@
+{
+  "hsgm": {
+    "repository": "https://github.com/Teacher-Tom/HSGM_public",
+    "commit": "e48f6ff7e9201d93aae003e8f64b04c00cec13bc",
+    "source_sha256": {
+      "mapping_utils/geometry.py": "9ef27e522aba155e2c410a028c043b3a3b2e048d8df6f966c0f1a2605e46b16e",
+      "mapping_utils/transform.py": "a799c3034787724824dd3c269dbdf1728950b621f32828bfdc6b6a06d649c6bf",
+      "mapper.py": "0ee8d7e85ca2c9951f3b71f924a8a6d4968fa8a4f9ff1a6c70dabca1f1b1bf42",
+      "segmentation/instance_segmentation.py": "f203f4ad2091f5a40352f56ba46eed15f53cdd9aad42e013c6e23cd8dbd8b1d4",
+      "agent/agent.py": "ee8dc78600a7e11d3aff5ce0bf02902e77ab7906be69da0c12fd66317eec7148",
+      "segmentation/object_list.py": "a6434adb55051dce89653c91c9ea54740295b19c1dbeac6b190d284243e040b6"
+    }
+  },
+  "embedded": {
+    "BASE_SOURCE": "1d03a689010a3b0eb56c2b364a59243b67dc4696de8358b6056b77ab56613fe8",
+    "DIRECT_SOURCE": "c307159e9216a1df540ac23d3eee713e39f3ba60ac3f5df829f281a449ef20c7"
+  },
+  "methods": [
+    [
+      "ours_1",
+      "我们的方法 · 单向",
+      1
+    ],
+    [
+      "ours_4",
+      "我们的方法 · 四向",
+      4
+    ],
+    [
+      "hsgm_1",
+      "HSGM · 单向",
+      1
+    ],
+    [
+      "hsgm_3",
+      "HSGM · 三向",
+      3
+    ],
+    [
+      "hsgm_4",
+      "HSGM · 四向",
+      4
+    ]
+  ],
+  "render": "Common orthographic frame / shared RGB painter and obstacle contour width=2"
+}

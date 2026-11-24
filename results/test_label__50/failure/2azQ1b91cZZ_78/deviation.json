@@ -1,0 +1,30 @@
+{
+  "instruction": "Go through the dining room, past the table. Turn right and go through the door onto the patio. Continue straight across the patio and wait at the door. ",
+  "baseline_result": "failure",
+  "vlm_result": "未发现明确偏航",
+  "first_bad_segment": null,
+  "first_bad_steps": null,
+  "reason": "The instruction requires going through the dining room past the table, then continuing through the required doorway onto the patio and proceeding straight to wait at a door. S2 and F27/F31 show the route passing through the dining-room table area, while the measured trace continues through the connected interior and reaches the patio opening at N5 before proceeding straight in S5. F92-F95 confirm the patio scene and pool table, but the reviewed prefix ends shortly after entering the patio and does not establish arrival at or passage beyond the final door; incomplete progress is not a deviation.",
+  "reviewed_to_step": 96,
+  "total_steps": 100,
+  "unreviewed_tail": [
+    97,
+    100
+  ],
+  "evidence_segments_at_review": [
+    "S2",
+    "S4",
+    "S5"
+  ],
+  "evidence_frames": [
+    "F27",
+    "F31",
+    "F92",
+    "F93",
+    "F94",
+    "F95"
+  ],
+  "evidence_objects": [
+    "O8"
+  ]
+}

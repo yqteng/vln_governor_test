@@ -1,0 +1,47 @@
+[
+  {
+    "segment": "S1",
+    "name": "recreation room",
+    "floor": 1,
+    "steps": [
+      0,
+      18
+    ],
+    "samples": [
+      "F11",
+      "F13",
+      "F14",
+      "F17"
+    ]
+  },
+  {
+    "segment": "S2",
+    "name": "great room",
+    "floor": 1,
+    "steps": [
+      18,
+      38
+    ],
+    "samples": [
+      "F24",
+      "F27",
+      "F30",
+      "F34"
+    ]
+  },
+  {
+    "segment": "S3",
+    "name": "recreation room",
+    "floor": 1,
+    "steps": [
+      38,
+      100
+    ],
+    "samples": [
+      "F42",
+      "F44",
+      "F45",
+      "F46"
+    ]
+  }
+]

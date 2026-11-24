@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 141,
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 4.0348052978515625,
+  "steps": 58,
+  "episode_instruction": "Turn right. Go forward. Turn right at doorway. Go forward. Turn right again. Go forward and stop. ",
+  "final_instruction": "Turn right. Go forward. Turn right at doorway. Go forward. Turn right again. Go forward and stop. ",
+  "num_rewrites": 0
+}

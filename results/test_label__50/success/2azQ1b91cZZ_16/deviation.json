@@ -1,0 +1,26 @@
+{
+  "instruction": "turn round and walk past the billiard table, walk straight on, stop by the window. ",
+  "baseline_result": "success",
+  "vlm_result": "未发现明确偏航",
+  "first_bad_segment": null,
+  "first_bad_steps": null,
+  "reason": "The instruction requires turning around, passing the billiard table, continuing straight and stopping by a window. In S1, the measured route proceeds predominantly west along the northern side of confirmed O8, clears its western extent around steps 34–35, and continues toward the western end without an incompatible branch or substantial turn. F14 and F24 show the table beside the aisle, while F33 and F42 show increasingly close arched glazed openings ahead, supporting continued progress toward a window despite unresolved individual window-box correspondence. The initial turnaround cannot be verified without historical orientation, and neither explicit STOP information nor a final-step photograph is supplied, so stopping completion is unverified rather than contradicted. Through step 48, no executed behavior reliably violates the instruction.",
+  "reviewed_to_step": 48,
+  "total_steps": 51,
+  "unreviewed_tail": [
+    49,
+    51
+  ],
+  "evidence_segments_at_review": [
+    "S1"
+  ],
+  "evidence_frames": [
+    "F14",
+    "F24",
+    "F33",
+    "F42"
+  ],
+  "evidence_objects": [
+    "O8"
+  ]
+}

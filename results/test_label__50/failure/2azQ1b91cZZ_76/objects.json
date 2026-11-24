@@ -1,0 +1,427 @@
+[
+  {
+    "id": "O1",
+    "name": "the doorway into the dining room",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O1"
+    ]
+  },
+  {
+    "id": "O2",
+    "name": "the doorway into the dining room",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O2"
+    ]
+  },
+  {
+    "id": "O3",
+    "name": "the doorway into the dining room",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O3"
+    ]
+  },
+  {
+    "id": "O4",
+    "name": "the doorway into the dining room",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O4"
+    ]
+  },
+  {
+    "id": "O5",
+    "name": "the doorway into the dining room",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O5"
+    ]
+  },
+  {
+    "id": "O6",
+    "name": "the doorway into the dining room",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O6"
+    ]
+  },
+  {
+    "id": "O7",
+    "name": "the doorway into the dining room",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O7"
+    ]
+  },
+  {
+    "id": "O8",
+    "name": "the doorway into the dining room",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O8"
+    ]
+  },
+  {
+    "id": "O9",
+    "name": "the doorway into the dining room",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O9"
+    ]
+  },
+  {
+    "id": "O10",
+    "name": "the doorway into the dining room",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O10"
+    ]
+  },
+  {
+    "id": "O11",
+    "name": "the doorway into the dining room",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O11"
+    ]
+  },
+  {
+    "id": "O12",
+    "name": "the door leading outside",
+    "floor": 1,
+    "status": "已确认",
+    "source_ids": [
+      "O12"
+    ]
+  },
+  {
+    "id": "O13",
+    "name": "the door leading outside",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O13"
+    ]
+  },
+  {
+    "id": "O14",
+    "name": "the door leading outside",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O14"
+    ]
+  },
+  {
+    "id": "O15",
+    "name": "the door leading outside",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O15"
+    ]
+  },
+  {
+    "id": "O16",
+    "name": "the door leading outside",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O16"
+    ]
+  },
+  {
+    "id": "O17",
+    "name": "the door leading outside",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O17"
+    ]
+  },
+  {
+    "id": "O18",
+    "name": "the door leading outside",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O18"
+    ]
+  },
+  {
+    "id": "O19",
+    "name": "the doorway of another dining area",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O19"
+    ]
+  },
+  {
+    "id": "O20",
+    "name": "the doorway of another dining area",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O20"
+    ]
+  },
+  {
+    "id": "O21",
+    "name": "the doorway of another dining area",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O21"
+    ]
+  },
+  {
+    "id": "O22",
+    "name": "the doorway of another dining area",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O22"
+    ]
+  },
+  {
+    "id": "O23",
+    "name": "the doorway of another dining area",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O23"
+    ]
+  },
+  {
+    "id": "O24",
+    "name": "the doorway of another dining area",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O24"
+    ]
+  },
+  {
+    "id": "O25",
+    "name": "the doorway of another dining area",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O25"
+    ]
+  },
+  {
+    "id": "O26",
+    "name": "the doorway of another dining area",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O26"
+    ]
+  },
+  {
+    "id": "O27",
+    "name": "the doorway of another dining area",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O27"
+    ]
+  },
+  {
+    "id": "O28",
+    "name": "the doorway of another dining area",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O28"
+    ]
+  },
+  {
+    "id": "O29",
+    "name": "the doorway of another dining area",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O29"
+    ]
+  },
+  {
+    "id": "O30",
+    "name": "the door leading outside",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O30"
+    ]
+  },
+  {
+    "id": "O31",
+    "name": "the doorway into the dining room",
+    "floor": 1,
+    "status": "已确认",
+    "source_ids": [
+      "O31",
+      "O33"
+    ]
+  },
+  {
+    "id": "O32",
+    "name": "the door leading outside",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O32"
+    ]
+  },
+  {
+    "id": "O34",
+    "name": "the door leading outside",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O34"
+    ]
+  },
+  {
+    "id": "O35",
+    "name": "the doorway into the dining room",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O35"
+    ]
+  },
+  {
+    "id": "O36",
+    "name": "the doorway into the dining room",
+    "floor": 1,
+    "status": "已确认",
+    "source_ids": [
+      "O36",
+      "O39"
+    ]
+  },
+  {
+    "id": "O37",
+    "name": "the door leading outside",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O37"
+    ]
+  },
+  {
+    "id": "O38",
+    "name": "the doorway of another dining area",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O38"
+    ]
+  },
+  {
+    "id": "O40",
+    "name": "the doorway into the dining room",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O40"
+    ]
+  },
+  {
+    "id": "O41",
+    "name": "the door leading outside",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O41"
+    ]
+  },
+  {
+    "id": "O42",
+    "name": "the doorway of another dining area",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O42"
+    ]
+  },
+  {
+    "id": "O43",
+    "name": "the doorway into the dining room",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O43"
+    ]
+  },
+  {
+    "id": "O44",
+    "name": "the doorway of another dining area",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O44"
+    ]
+  },
+  {
+    "id": "O45",
+    "name": "the doorway into the dining room",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O45"
+    ]
+  },
+  {
+    "id": "O46",
+    "name": "the doorway of another dining area",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O46"
+    ]
+  },
+  {
+    "id": "O47",
+    "name": "the doorway into the dining room",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O47"
+    ]
+  },
+  {
+    "id": "O48",
+    "name": "the door leading outside",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O48"
+    ]
+  },
+  {
+    "id": "O49",
+    "name": "the doorway of another dining area",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O49"
+    ]
+  }
+]

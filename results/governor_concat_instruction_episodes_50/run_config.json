@@ -1,0 +1,6 @@
+{
+  "output_format": "governor_streaming_v10",
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "baseline_result_path": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/result.json",
+  "classification_rule": "intervened iff deviations > 0 or stop_returns > 0 or termination_reason == governor_stop; success iff success == 1; baseline -> current"
+}

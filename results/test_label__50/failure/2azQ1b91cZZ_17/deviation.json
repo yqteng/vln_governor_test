@@ -1,0 +1,33 @@
+{
+  "instruction": "Travel to the window overlooking the garden on the opposite end of the billiard room. ",
+  "baseline_result": "failure",
+  "vlm_result": "未发现明确偏航",
+  "first_bad_segment": null,
+  "first_bad_steps": null,
+  "reason": "The instruction requires reaching the garden-overlooking window at the opposite end of the billiard room, not entering the garden or following a uniquely specified intermediate path. S1 moves west from the eastern starting area toward the end containing O5, and S2 bends southwest toward O4 beside the billiard table; F24 and F34 show the glazing and courtyard beyond without establishing an exterior crossing or an incompatible branch. S3 makes a small northward adjustment and further westward progress, while F42, F44 and F46 show the same billiard-room interior; the measured position remains unchanged from step 69 through step 96. This preserves the earlier no-supported-deviation verdict, although arrival at the instruction-specific window remains unestablished, and stationary coordinates without explicit STOP do not establish termination or a stopping error.",
+  "reviewed_to_step": 96,
+  "total_steps": 100,
+  "unreviewed_tail": [
+    97,
+    100
+  ],
+  "evidence_segments_at_review": [
+    "S1",
+    "S2",
+    "S3"
+  ],
+  "evidence_frames": [
+    "F11",
+    "F17",
+    "F24",
+    "F34",
+    "F42",
+    "F44",
+    "F46"
+  ],
+  "evidence_objects": [
+    "O4",
+    "O5"
+  ],
+  "action_limit_truncated": true
+}

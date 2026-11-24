@@ -1,0 +1,33 @@
+{
+  "instruction": "Go forward through an archway towards the console table, and veer right to an open doorway, and go through it. Wait there. ",
+  "baseline_result": "success",
+  "vlm_result": "未发现明确偏航",
+  "first_bad_segment": null,
+  "first_bad_steps": null,
+  "reason": "The instruction requires passing through an arch toward the console table, then veering right toward an open doorway, going through it, and waiting. S1 and S2 approach and pass the mapped arch O1 while advancing toward console O5, consistent with F2, F6, F11, and F17. In S3, the measured movement changes from predominantly decreasing x to predominantly decreasing z, a sustained rightward turn relative to the preceding approach; F23 through F30 show an open doorway ahead becoming more prominent. The supplied evidence does not establish entry into an incompatible branch or passage beyond the required stopping location, although the precise mapped identity and completed crossing of the later doorway remain unresolved. The earlier no-deviation judgment therefore remains supported through step 32; doorway traversal and waiting are not yet established, and no explicit STOP is supplied.",
+  "reviewed_to_step": 32,
+  "total_steps": 41,
+  "unreviewed_tail": [
+    33,
+    41
+  ],
+  "evidence_segments_at_review": [
+    "S1",
+    "S2",
+    "S3"
+  ],
+  "evidence_frames": [
+    "F2",
+    "F6",
+    "F11",
+    "F17",
+    "F23",
+    "F25",
+    "F28",
+    "F30"
+  ],
+  "evidence_objects": [
+    "O1",
+    "O5"
+  ]
+}

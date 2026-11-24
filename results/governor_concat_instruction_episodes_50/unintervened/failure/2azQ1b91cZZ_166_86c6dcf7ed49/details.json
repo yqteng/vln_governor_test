@@ -1,0 +1,79 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 166,
+  "episode_instruction": "Go forward by the windows, and then stop by the lamp. ",
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 15.81100082397461,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 85,
+  "effective_steps": 84,
+  "corrections": 0,
+  "deviations": 0,
+  "intervened": false,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 21,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "Go forward by the windows, and then stop by the lamp. ",
+  "termination_reason": "global_stop",
+  "phase_steps": {
+    "normal": 84,
+    "rollback": 0,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 1,
+    "governor_stop": 0
+  },
+  "action_counts": {
+    "STOP": 1,
+    "MOVE_FORWARD": 50,
+    "TURN_LEFT": 10,
+    "TURN_RIGHT": 24,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 0,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 12.505751430988312,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "Completed: None. Currently: The agent has turned right 10 times (150 degrees total) and moved forward twice, now facing a doorway into an interior room with tiled flooring and a painting on the wall. The windows have been passed, fulfilling the first part of the instruction. Remaining: Stop by the lamp. Uncertain: The lamp’s location is not visible in the current view or prior images; the agent must proceed to locate and stop by it."
+    },
+    {
+      "start": 17,
+      "end": 32,
+      "text": "Completed: Go forward by the windows — now fulfilled after turning right 10 times (150°) and moving forward twice, arriving at the doorway into the interior room. Currently: Agent is inside the room, having moved forward 7 steps after turning right 5 times (75°), then turned left 1 time (15°), moved forward 1 step, turned right 1 time (15°), moved forward 2 steps, and turned right 1 time (15°), now facing toward a kitchen area with cabinets and a sink visible. Remaining: Stop by the lamp — the lamp has not yet been located or approached; no lamp is visible in any of the images from 16 to 32. Uncertain: The lamp’s location remains unknown; agent must continue searching the room or adjacent areas to locate it before stopping."
+    },
+    {
+      "start": 33,
+      "end": 48,
+      "text": "Completed: Go forward by the windows — fulfilled after turning right 10 times (150°) and moving forward twice, arriving at the doorway into the interior room. Currently: Agent is inside the kitchen area, having moved forward 7 steps after a series of turns (including right 5 times, left 1 time, right 2 times), now facing forward toward the center of the room with cabinets, sink, and ovens visible. Remaining: Stop by the lamp — the lamp has not yet been located or approached; no lamp is visible in any of the images from 32 to 48. Uncertain: The lamp’s location remains unknown; agent must continue searching the room or adjacent areas to locate it before stopping."
+    },
+    {
+      "start": 49,
+      "end": 64,
+      "text": "Completed: Go forward by the windows — fulfilled after turning right 10 times (150°) and moving forward twice, arriving at the doorway into the interior room. Currently: Agent is in a hallway adjacent to the kitchen, having moved forward 13 steps after a series of turns (including right 5 times, left 1 time, right 2 times, left 5 times), now facing forward toward a living area with a fireplace, rug, and console table visible. Remaining: Stop by the lamp — the lamp has not yet been located or approached; no lamp is visible in any of the images from 48 to 64. Uncertain: The lamp’s location remains unknown; agent must continue searching the room or adjacent areas to locate it before stopping."
+    },
+    {
+      "start": 65,
+      "end": 80,
+      "text": "Completed: Go forward by the windows — fulfilled after turning right 10 times (150°) and moving forward twice, arriving at the doorway into the interior room. Currently: Agent is in the living area, having moved forward 10 steps after a series of turns (including left 1 time, right 1 time, left 5 times, right 1 time, left 1 time), now facing forward toward a fireplace and console table with a vase of flowers visible on the table. Remaining: Stop by the lamp — the lamp has not yet been located or approached; no lamp is visible in any of the images from 64 to 80. Uncertain: The lamp’s location remains unknown; agent must continue searching the room or adjacent areas to locate it before stopping."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "unintervened/failure",
+  "baseline": {
+    "success": 0.0,
+    "spl": 0.0,
+    "os": 0.0,
+    "ne": 11.408599853515625
+  },
+  "artifact_dir": "unintervened/failure/2azQ1b91cZZ_166_86c6dcf7ed49"
+}

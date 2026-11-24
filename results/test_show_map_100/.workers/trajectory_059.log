@@ -1,0 +1,471 @@
+[show-map] OURS uses original geometry source: /mnt/disk8t1/zwm/StreamVLN/streamvln/governor_topdown_map/rgb_mapping.py
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+2026-11-17 19:44:50,954 Initializing dataset R2RVLN-v1
+2026-11-17 19:44:51,140 initializing sim Sim-v0
+[19:44:51:172205]:[Metadata] AttributesManagerBase.h(380)::createFromJsonOrDefaultInternal : <Dataset>: Proposing JSON name : default.scene_dataset_config.json from original name : default| This file does not exist.
+[19:44:51:172802]:[Metadata] AssetAttributesManager.cpp(123)::createObject : Asset attributes (capsule3DSolid:capsule3DSolid_hemiRings_4_cylRings_1_segments_12_halfLen_0.75_useTexCoords_false_useTangents_false) created and registered.
+[19:44:51:172881]:[Metadata] AssetAttributesManager.cpp(123)::createObject : Asset attributes (capsule3DWireframe:capsule3DWireframe_hemiRings_8_cylRings_1_segments_16_halfLen_1) created and registered.
+[19:44:51:172943]:[Metadata] AssetAttributesManager.cpp(123)::createObject : Asset attributes (coneSolid:coneSolid_segments_12_halfLen_1.25_rings_1_useTexCoords_false_useTangents_false_capEnd_true) created and registered.
+[19:44:51:172997]:[Metadata] AssetAttributesManager.cpp(123)::createObject : Asset attributes (coneWireframe:coneWireframe_segments_32_halfLen_1.25) created and registered.
+[19:44:51:173046]:[Metadata] AssetAttributesManager.cpp(123)::createObject : Asset attributes (cubeSolid:cubeSolid) created and registered.
+[19:44:51:173091]:[Metadata] AssetAttributesManager.cpp(123)::createObject : Asset attributes (cubeWireframe:cubeWireframe) created and registered.
+[19:44:51:173144]:[Metadata] AssetAttributesManager.cpp(123)::createObject : Asset attributes (cylinderSolid:cylinderSolid_rings_1_segments_12_halfLen_1_useTexCoords_false_useTangents_false_capEnds_true) created and registered.
+[19:44:51:173198]:[Metadata] AssetAttributesManager.cpp(123)::createObject : Asset attributes (cylinderWireframe:cylinderWireframe_rings_1_segments_32_halfLen_1) created and registered.
+[19:44:51:173253]:[Metadata] AssetAttributesManager.cpp(123)::createObject : Asset attributes (icosphereSolid:icosphereSolid_subdivs_1) created and registered.
+[19:44:51:173301]:[Metadata] AssetAttributesManager.cpp(123)::createObject : Asset attributes (icosphereWireframe:icosphereWireframe_subdivs_1) created and registered.
+[19:44:51:173352]:[Metadata] AssetAttributesManager.cpp(123)::createObject : Asset attributes (uvSphereSolid:uvSphereSolid_rings_8_segments_16_useTexCoords_false_useTangents_false) created and registered.
+[19:44:51:173398]:[Metadata] AssetAttributesManager.cpp(123)::createObject : Asset attributes (uvSphereWireframe:uvSphereWireframe_rings_16_segments_32) created and registered.
+[19:44:51:173438]:[Metadata] AssetAttributesManager.cpp(112)::AssetAttributesManager : Built default primitive asset templates : 12
+[19:44:51:173882]:[Metadata] SceneDatasetAttributesManager.cpp(37)::createObject : File (default) not found, so new default dataset attributes created  and registered.
+[19:44:51:173933]:[Metadata] MetadataMediator.cpp(120)::createSceneDataset : Dataset default successfully created.
+[19:44:51:173968]:[Metadata] AttributesManagerBase.h(380)::createFromJsonOrDefaultInternal : <Physics Manager>: Proposing JSON name : ./data/default.physics_config.json from original name : ./data/default.physics_config.json| This file does not exist.
+[19:44:51:174018]:[Metadata] PhysicsAttributesManager.cpp(26)::createObject : File (./data/default.physics_config.json) not found, so new default physics manager attributes created and registered.
+[19:44:51:174046]:[Metadata] MetadataMediator.cpp(203)::setActiveSceneDatasetName : Previous active dataset  changed to default successfully.
+[19:44:51:174077]:[Metadata] MetadataMediator.cpp(175)::setCurrPhysicsAttributesHandle : Old physics manager attributes  changed to ./data/default.physics_config.json successfully.
+[19:44:51:174130]:[Metadata] MetadataMediator.cpp(66)::setSimulatorConfiguration : Set new simulator config for scene/stage : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb and dataset : default which is currently active dataset.
+Renderer: NVIDIA GeForce RTX 3090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.309.01
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+[19:44:51:423909]:[Metadata] MetadataMediator.cpp(297)::getSceneInstanceAttributesByName : Dataset : default has no preloaded SceneInstanceAttributes or StageAttributes named : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb so loading/creating a new StageAttributes with this name, and then creating a SceneInstanceAttributes with the same name that references this stage.
+[19:44:51:423989]:[Metadata] AttributesManagerBase.h(380)::createFromJsonOrDefaultInternal : <Stage Template>: Proposing JSON name : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.stage_config.json from original name : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb| This file does not exist.
+[19:44:51:424108]:[Metadata] AbstractObjectAttributesManagerBase.h(184)::createObject : File (data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb) exists but is not a recognized config filename extension, so new default Stage Template attributes created and registered.
+[19:44:51:424205]:[Metadata] SceneDatasetAttributes.cpp(47)::addNewSceneInstanceToDataset : Dataset : 'default' : Stage Attributes 'data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb' specified in Scene Attributes exists in dataset library.
+[19:44:51:424235]:[Metadata] SceneDatasetAttributes.cpp(84)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating.
+[19:44:51:424265]:[Metadata] AttributesManagerBase.h(380)::createFromJsonOrDefaultInternal : <Lighting Layout>: Proposing JSON name : no_lights.lighting_config.json from original name : no_lights| This file does not exist.
+[19:44:51:424313]:[Metadata] LightLayoutAttributesManager.cpp(38)::createObject : File (no_lights) not found, so new default light layout attributes created and registered.
+[19:44:51:424347]:[Sim] Simulator.cpp(235)::createSceneInstance : Navmesh file location in scene instance : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.navmesh
+[19:44:51:424382]:[Sim] Simulator.cpp(240)::createSceneInstance : Loading navmesh from data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.navmesh
+[19:44:51:424426]:[Nav] PathFinder.cpp(1035)::loadNavMesh : NavMeshSettings aren't present, guessing that they are the default
+[19:44:51:425274]:[Sim] Simulator.cpp(242)::createSceneInstance : Navmesh Loaded.
+[19:44:51:425862]:[Scene] SceneGraph.h(85)::createDrawableGroup : Created DrawableGroup: 
+[19:44:51:425897]:[Assets] ResourceManager.cpp(308)::loadSemanticSceneDescriptor : SceneInstance : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb proposed Semantic Scene Descriptor filename : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.house
+[19:44:51:794335]:[Assets] ResourceManager.cpp(319)::loadSemanticSceneDescriptor : SSD with SceneInstanceAttributes-provided name  data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.house successfully found and loaded
+[19:44:51:796211]:[Assets] ResourceManager.cpp(1666)::configureImporterManagerGLExtensions : Importing Basis files as BC7.
+[19:44:51:796879]:[Sim] Simulator.cpp(309)::createSceneInstance : Using scene instance-specified Light key : - no_lights -
+[19:44:51:797440]:[Metadata] MetadataMediator.cpp(66)::setSimulatorConfiguration : Set new simulator config for scene/stage : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb and dataset : default which is currently active dataset.
+[19:44:51:797553]:[Sim] Simulator.cpp(419)::instanceStageForSceneAttributes : Start to load stage named : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb with render asset : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb and collision asset : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb
+[19:44:51:797678]:[Assets] ResourceManager.cpp(702)::createStageAssetInfosFromAttributes : Frame :{"up":[0,0,1],"front":[0,1,0],"origin":[0,0,0]} for render mesh named : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb|{"up":[0,0,1],"front":[0,1,0],"origin":[0,0,0]} for semantic mesh named : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ_semantic.ply with type specified as semantic|Semantic Txtrs : False
+[19:44:51:797715]:[Assets] ResourceManager.cpp(442)::loadStage : Loading Semantic Stage mesh : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ_semantic.ply
+[19:44:51:797738]:[Scene] SceneGraph.h(85)::createDrawableGroup : Created DrawableGroup: 
+[19:44:51:797758]:[Assets] ResourceManager.cpp(984)::loadStageInternal : Attempting to load stage data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ_semantic.ply 
+[19:44:51:797781]:[Assets] ResourceManager.cpp(863)::loadRenderAsset : Loading Semantic Mesh asset named: data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ_semantic.ply
+[19:44:51:797803]:[Assets] ResourceManager.cpp(1666)::configureImporterManagerGLExtensions : Importing Basis files as BC7.
+[19:45:26:871822]:[Assets] ResourceManager.cpp(475)::loadStage : Semantic Stage mesh : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ_semantic.ply loaded.
+[19:45:26:871969]:[Assets] ResourceManager.cpp(518)::loadStage : Start load render asset data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb .
+[19:45:26:872010]:[Assets] ResourceManager.cpp(984)::loadStageInternal : Attempting to load stage data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb 
+[19:45:26:872061]:[Assets] ResourceManager.cpp(866)::loadRenderAsset : Loading general asset named: data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb
+[19:45:26:872100]:[Assets] ResourceManager.cpp(1666)::configureImporterManagerGLExtensions : Importing Basis files as BC7.
+[19:45:39:375028]:[Assets] ResourceManager.cpp(2105)::loadMaterials : Building 134 materials for asset named '2azQ1b91cZZ.glb' : 
+[19:45:39:375602]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 00:Flat.
+[19:45:39:375667]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 01:Flat.
+[19:45:39:375709]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 02:Flat.
+[19:45:39:375748]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 03:Flat.
+[19:45:39:375783]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 04:Flat.
+[19:45:39:375819]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 05:Flat.
+[19:45:39:375853]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 06:Flat.
+[19:45:39:375888]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 07:Flat.
+[19:45:39:375923]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 08:Flat.
+[19:45:39:375958]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 09:Flat.
+[19:45:39:375992]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 10:Flat.
+[19:45:39:376027]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 11:Flat.
+[19:45:39:376062]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 12:Flat.
+[19:45:39:376097]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 13:Flat.
+[19:45:39:376133]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 14:Flat.
+[19:45:39:376185]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 15:Flat.
+[19:45:39:376217]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 16:Flat.
+[19:45:39:376244]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 17:Flat.
+[19:45:39:376273]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 18:Flat.
+[19:45:39:376301]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 19:Flat.
+[19:45:39:376337]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 20:Flat.
+[19:45:39:376364]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 21:Flat.
+[19:45:39:376392]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 22:Flat.
+[19:45:39:376420]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 23:Flat.
+[19:45:39:376449]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 24:Flat.
+[19:45:39:376476]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 25:Flat.
+[19:45:39:376505]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 26:Flat.
+[19:45:39:376534]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 27:Flat.
+[19:45:39:376562]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 28:Flat.
+[19:45:39:376590]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 29:Flat.
+[19:45:39:376617]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 30:Flat.
+[19:45:39:376645]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 31:Flat.
+[19:45:39:376695]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 32:Flat.
+[19:45:39:376726]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 33:Flat.
+[19:45:39:376755]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 34:Flat.
+[19:45:39:376783]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 35:Flat.
+[19:45:39:376811]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 36:Flat.
+[19:45:39:376839]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 37:Flat.
+[19:45:39:376868]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 38:Flat.
+[19:45:39:376897]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 39:Flat.
+[19:45:39:376926]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 40:Flat.
+[19:45:39:376954]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 41:Flat.
+[19:45:39:376982]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 42:Flat.
+[19:45:39:377010]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 43:Flat.
+[19:45:39:377038]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 44:Flat.
+[19:45:39:377067]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 45:Flat.
+[19:45:39:377094]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 46:Flat.
+[19:45:39:377123]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 47:Flat.
+[19:45:39:377153]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 48:Flat.
+[19:45:39:377180]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 49:Flat.
+[19:45:39:377208]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 50:Flat.
+[19:45:39:377237]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 51:Flat.
+[19:45:39:377265]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 52:Flat.
+[19:45:39:377292]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 53:Flat.
+[19:45:39:377320]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 54:Flat.
+[19:45:39:377349]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 55:Flat.
+[19:45:39:377377]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 56:Flat.
+[19:45:39:377409]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 57:Flat.
+[19:45:39:377438]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 58:Flat.
+[19:45:39:377465]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 59:Flat.
+[19:45:39:377494]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 60:Flat.
+[19:45:39:377522]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 61:Flat.
+[19:45:39:377556]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 62:Flat.
+[19:45:39:377584]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 63:Flat.
+[19:45:39:377630]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 64:Flat.
+[19:45:39:377671]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 65:Flat.
+[19:45:39:377711]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 66:Flat.
+[19:45:39:377740]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 67:Flat.
+[19:45:39:377768]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 68:Flat.
+[19:45:39:377795]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 69:Flat.
+[19:45:39:377822]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 70:Flat.
+[19:45:39:377850]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 71:Flat.
+[19:45:39:377878]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 72:Flat.
+[19:45:39:377906]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 73:Flat.
+[19:45:39:377934]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 74:Flat.
+[19:45:39:377961]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 75:Flat.
+[19:45:39:377988]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 76:Flat.
+[19:45:39:378015]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 77:Flat.
+[19:45:39:378043]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 78:Flat.
+[19:45:39:378070]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 79:Flat.
+[19:45:39:378100]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 80:Flat.
+[19:45:39:378128]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 81:Flat.
+[19:45:39:378155]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 82:Flat.
+[19:45:39:378183]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 83:Flat.
+[19:45:39:378211]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 84:Flat.
+[19:45:39:378238]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 85:Flat.
+[19:45:39:378266]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 86:Flat.
+[19:45:39:378293]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 87:Flat.
+[19:45:39:378321]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 88:Flat.
+[19:45:39:378352]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 89:Flat.
+[19:45:39:378386]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 90:Flat.
+[19:45:39:378414]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 91:Flat.
+[19:45:39:378443]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 92:Flat.
+[19:45:39:378472]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 93:Flat.
+[19:45:39:378499]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 94:Flat.
+[19:45:39:378526]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 95:Flat.
+[19:45:39:378555]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 96:Flat.
+[19:45:39:378582]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 97:Flat.
+[19:45:39:378612]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 98:Flat.
+[19:45:39:378981]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 99:Flat.
+[19:45:39:379783]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 100:Flat.
+[19:45:39:380585]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 101:Flat.
+[19:45:39:381605]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 102:Flat.
+[19:45:39:381713]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 103:Flat.
+[19:45:39:381803]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 104:Flat.
+[19:45:39:381873]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 105:Flat.
+[19:45:39:381939]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 106:Flat.
+[19:45:39:382021]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 107:Flat.
+[19:45:39:382095]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 108:Flat.
+[19:45:39:382180]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 109:Flat.
+[19:45:39:382253]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 110:Flat.
+[19:45:39:382336]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 111:Flat.
+[19:45:39:382416]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 112:Flat.
+[19:45:39:382493]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 113:Flat.
+[19:45:39:382577]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 114:Flat.
+[19:45:39:382636]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 115:Flat.
+[19:45:39:382687]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 116:Flat.
+[19:45:39:382724]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 117:Flat.
+[19:45:39:382779]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 118:Flat.
+[19:45:39:382847]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 119:Flat.
+[19:45:39:382909]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 120:Flat.
+[19:45:39:382969]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 121:Flat.
+[19:45:39:383013]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 122:Flat.
+[19:45:39:383072]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 123:Flat.
+[19:45:39:383137]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 124:Flat.
+[19:45:39:383227]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 125:Flat.
+[19:45:39:383287]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 126:Flat.
+[19:45:39:383332]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 127:Flat.
+[19:45:39:383367]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 128:Flat.
+[19:45:39:383399]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 129:Flat.
+[19:45:39:383430]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 130:Flat.
+[19:45:39:383465]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 131:Flat.
+[19:45:39:383498]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 132:Flat.
+[19:45:39:383530]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 133:Flat.
+[19:45:39:703805]:[Sim] Simulator.cpp(446)::instanceStageForSceneAttributes : Successfully loaded stage named : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb
+[19:45:39:704498]:[Sim] Simulator.cpp(203)::reconfigure : CreateSceneInstance success == true for active scene name : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb  with renderer.
+2026-11-17 19:45:39,713 Initializing task VLN-v0
+Initialized data for new floor level: 0
+Switching pcds to floor level: 0
+Initialized data for new floor level: 0
+Switching pcds to floor level: 0
+Initialized data for new floor level: 0
+Switching pcds to floor level: 0
+Initialized data for new floor level: 0
+Switching pcds to floor level: 0
+Initialized data for new floor level: 0
+Switching pcds to floor level: 0
+Initialized data for new floor level: 0
+Switching pcds to floor level: 0
+Calculated floor height difference: 2.75m
+Calculated floor height difference: 2.75m
+Calculated floor height difference: 2.75m
+[StairDetect] normals=0.5064s, cpu=0.0001s, cluster=0.0608s, loop=0.0065s, total=0.5840s
+--- Height change stabilized. Height diff: -0.32, On platform: False, Metrics: {'inlier_count': 3725, 'local_count': 13569, 'support_ratio': 0.2745228093245985, 'vertical_score': 1.0, 'plane_height_mean': 0.3282468318939209, 'agent_z': -1.573946189880371, 'vertical_diff': 1.902193021774292, 'area_xy': 2.1456, 'radius_est': 0.8264173835271988, 'z_std': 0.029246319085359573, 'occupied_cells': 149, 'bottom_height_tolerance': 0.1}
+--- No significant floor change. Height diff: -0.32, On platform: False, Metrics: {'inlier_count': 3725, 'local_count': 13569, 'support_ratio': 0.2745228093245985, 'vertical_score': 1.0, 'plane_height_mean': 0.3282468318939209, 'agent_z': -1.573946189880371, 'vertical_diff': 1.902193021774292, 'area_xy': 2.1456, 'radius_est': 0.8264173835271988, 'z_std': 0.029246319085359573, 'occupied_cells': 149, 'bottom_height_tolerance': 0.1}
+Updated floor height: -1.42, ceiling height: 0.38
+--- Height change stabilized. Height diff: -0.32, On platform: False, Metrics: {'inlier_count': 3776, 'local_count': 14673, 'support_ratio': 0.25734341986932846, 'vertical_score': 1.0, 'plane_height_mean': 0.3279997706413269, 'agent_z': -1.573946189880371, 'vertical_diff': 1.901945960521698, 'area_xy': 2.1744, 'radius_est': 0.8319453206299284, 'z_std': 0.029315536841750145, 'occupied_cells': 151, 'bottom_height_tolerance': 0.1}
+--- No significant floor change. Height diff: -0.32, On platform: False, Metrics: {'inlier_count': 3776, 'local_count': 14673, 'support_ratio': 0.25734341986932846, 'vertical_score': 1.0, 'plane_height_mean': 0.3279997706413269, 'agent_z': -1.573946189880371, 'vertical_diff': 1.901945960521698, 'area_xy': 2.1744, 'radius_est': 0.8319453206299284, 'z_std': 0.029315536841750145, 'occupied_cells': 151, 'bottom_height_tolerance': 0.1}
+Updated floor height: -1.42, ceiling height: 0.38
+--- Height change stabilized. Height diff: -0.32, On platform: False, Metrics: {'inlier_count': 3805, 'local_count': 15178, 'support_ratio': 0.2506917907332526, 'vertical_score': 1.0, 'plane_height_mean': 0.3279767334461212, 'agent_z': -1.573946189880371, 'vertical_diff': 1.9019229233264923, 'area_xy': 2.1744, 'radius_est': 0.8319453206299284, 'z_std': 0.029491545632481575, 'occupied_cells': 151, 'bottom_height_tolerance': 0.1}
+--- No significant floor change. Height diff: -0.32, On platform: False, Metrics: {'inlier_count': 3805, 'local_count': 15178, 'support_ratio': 0.2506917907332526, 'vertical_score': 1.0, 'plane_height_mean': 0.3279767334461212, 'agent_z': -1.573946189880371, 'vertical_diff': 1.9019229233264923, 'area_xy': 2.1744, 'radius_est': 0.8319453206299284, 'z_std': 0.029491545632481575, 'occupied_cells': 151, 'bottom_height_tolerance': 0.1}
+Updated floor height: -1.42, ceiling height: 0.38
+[StairDetect] normals=0.4241s, cpu=0.0001s, cluster=0.0533s, loop=0.0061s, total=0.4946s
+--- Height change stabilized. Height diff: -0.42, On platform: False, Metrics: {'inlier_count': 120, 'local_count': 16028, 'support_ratio': 0.007486897928157793, 'vertical_score': 1.0, 'plane_height_mean': -1.2553820610046387, 'agent_z': -1.6697518348693847, 'vertical_diff': 0.41436977386474605, 'area_xy': 0.1152, 'radius_est': 0.19149229459268768, 'z_std': 0.03919189050793648, 'occupied_cells': 8, 'bottom_height_tolerance': 0.1}
+--- No significant floor change. Height diff: -0.42, On platform: False, Metrics: {'inlier_count': 120, 'local_count': 16028, 'support_ratio': 0.007486897928157793, 'vertical_score': 1.0, 'plane_height_mean': -1.2553820610046387, 'agent_z': -1.6697518348693847, 'vertical_diff': 0.41436977386474605, 'area_xy': 0.1152, 'radius_est': 0.19149229459268768, 'z_std': 0.03919189050793648, 'occupied_cells': 8, 'bottom_height_tolerance': 0.1}
+Updated floor height: -1.52, ceiling height: 0.28
+--- Height change stabilized. Height diff: -0.42, On platform: False, Metrics: {'inlier_count': 120, 'local_count': 18075, 'support_ratio': 0.00663900414901029, 'vertical_score': 1.0, 'plane_height_mean': -1.2553820610046387, 'agent_z': -1.6697518348693847, 'vertical_diff': 0.41436977386474605, 'area_xy': 0.1152, 'radius_est': 0.19149229459268768, 'z_std': 0.03919189050793648, 'occupied_cells': 8, 'bottom_height_tolerance': 0.1}
+--- No significant floor change. Height diff: -0.42, On platform: False, Metrics: {'inlier_count': 120, 'local_count': 18075, 'support_ratio': 0.00663900414901029, 'vertical_score': 1.0, 'plane_height_mean': -1.2553820610046387, 'agent_z': -1.6697518348693847, 'vertical_diff': 0.41436977386474605, 'area_xy': 0.1152, 'radius_est': 0.19149229459268768, 'z_std': 0.03919189050793648, 'occupied_cells': 8, 'bottom_height_tolerance': 0.1}
+Updated floor height: -1.52, ceiling height: 0.28
+--- Height change stabilized. Height diff: -0.42, On platform: False, Metrics: {'inlier_count': 120, 'local_count': 19070, 'support_ratio': 0.006292606187399444, 'vertical_score': 1.0, 'plane_height_mean': -1.2553820610046387, 'agent_z': -1.6697518348693847, 'vertical_diff': 0.41436977386474605, 'area_xy': 0.1152, 'radius_est': 0.19149229459268768, 'z_std': 0.03919189050793648, 'occupied_cells': 8, 'bottom_height_tolerance': 0.1}
+--- No significant floor change. Height diff: -0.42, On platform: False, Metrics: {'inlier_count': 120, 'local_count': 19070, 'support_ratio': 0.006292606187399444, 'vertical_score': 1.0, 'plane_height_mean': -1.2553820610046387, 'agent_z': -1.6697518348693847, 'vertical_diff': 0.41436977386474605, 'area_xy': 0.1152, 'radius_est': 0.19149229459268768, 'z_std': 0.03919189050793648, 'occupied_cells': 8, 'bottom_height_tolerance': 0.1}
+Updated floor height: -1.52, ceiling height: 0.28
+[StairDetect] normals=0.5610s, cpu=0.0004s, cluster=0.0572s, loop=0.0065s, total=0.6347s
+--- Height change stabilized. Height diff: -0.52, On platform: False, Metrics: {'inlier_count': 114, 'local_count': 16676, 'support_ratio': 0.006836171743413518, 'vertical_score': 1.0, 'plane_height_mean': -1.386509656906128, 'agent_z': -1.7710635185241699, 'vertical_diff': 0.38455386161804195, 'area_xy': 0.1152, 'radius_est': 0.19149229459268768, 'z_std': 0.041602641344070435, 'occupied_cells': 8, 'bottom_height_tolerance': 0.1}
+--- No significant floor change. Height diff: -0.52, On platform: False, Metrics: {'inlier_count': 114, 'local_count': 16676, 'support_ratio': 0.006836171743413518, 'vertical_score': 1.0, 'plane_height_mean': -1.386509656906128, 'agent_z': -1.7710635185241699, 'vertical_diff': 0.38455386161804195, 'area_xy': 0.1152, 'radius_est': 0.19149229459268768, 'z_std': 0.041602641344070435, 'occupied_cells': 8, 'bottom_height_tolerance': 0.1}
+Updated floor height: -1.62, ceiling height: 0.18
+--- Height change stabilized. Height diff: -0.52, On platform: False, Metrics: {'inlier_count': 114, 'local_count': 19167, 'support_ratio': 0.005947722647991458, 'vertical_score': 1.0, 'plane_height_mean': -1.386509656906128, 'agent_z': -1.7710635185241699, 'vertical_diff': 0.38455386161804195, 'area_xy': 0.1152, 'radius_est': 0.19149229459268768, 'z_std': 0.041602641344070435, 'occupied_cells': 8, 'bottom_height_tolerance': 0.1}
+--- No significant floor change. Height diff: -0.52, On platform: False, Metrics: {'inlier_count': 114, 'local_count': 19167, 'support_ratio': 0.005947722647991458, 'vertical_score': 1.0, 'plane_height_mean': -1.386509656906128, 'agent_z': -1.7710635185241699, 'vertical_diff': 0.38455386161804195, 'area_xy': 0.1152, 'radius_est': 0.19149229459268768, 'z_std': 0.041602641344070435, 'occupied_cells': 8, 'bottom_height_tolerance': 0.1}
+Updated floor height: -1.62, ceiling height: 0.18
+--- Height change stabilized. Height diff: -0.52, On platform: False, Metrics: {'inlier_count': 114, 'local_count': 20050, 'support_ratio': 0.00568578553587602, 'vertical_score': 1.0, 'plane_height_mean': -1.386509656906128, 'agent_z': -1.7710635185241699, 'vertical_diff': 0.38455386161804195, 'area_xy': 0.1152, 'radius_est': 0.19149229459268768, 'z_std': 0.041602641344070435, 'occupied_cells': 8, 'bottom_height_tolerance': 0.1}
+--- No significant floor change. Height diff: -0.52, On platform: False, Metrics: {'inlier_count': 114, 'local_count': 20050, 'support_ratio': 0.00568578553587602, 'vertical_score': 1.0, 'plane_height_mean': -1.386509656906128, 'agent_z': -1.7710635185241699, 'vertical_diff': 0.38455386161804195, 'area_xy': 0.1152, 'radius_est': 0.19149229459268768, 'z_std': 0.041602641344070435, 'occupied_cells': 8, 'bottom_height_tolerance': 0.1}
+Updated floor height: -1.62, ceiling height: 0.18
+[StairDetect] normals=0.7987s, cpu=0.0001s, cluster=0.1658s, loop=0.0130s, total=1.0060s
+[StairDetect] normals=0.5095s, cpu=0.0001s, cluster=0.0548s, loop=0.0065s, total=0.5804s
+[show-map] 2azQ1b91cZZ_272 step=5/52; five maps updated
+--- Height change stabilized. Height diff: -0.62, On platform: False, Metrics: {'inlier_count': 55, 'local_count': 16259, 'support_ratio': 0.0033827418658353686, 'vertical_score': 1.0, 'plane_height_mean': -1.4630143642425537, 'agent_z': -1.8686758995056152, 'vertical_diff': 0.4056615352630615, 'area_xy': 0.0576, 'radius_est': 0.1354055000514615, 'z_std': 0.03796984627842903, 'occupied_cells': 4, 'bottom_height_tolerance': 0.1}
+--- No significant floor change. Height diff: -0.62, On platform: False, Metrics: {'inlier_count': 55, 'local_count': 16259, 'support_ratio': 0.0033827418658353686, 'vertical_score': 1.0, 'plane_height_mean': -1.4630143642425537, 'agent_z': -1.8686758995056152, 'vertical_diff': 0.4056615352630615, 'area_xy': 0.0576, 'radius_est': 0.1354055000514615, 'z_std': 0.03796984627842903, 'occupied_cells': 4, 'bottom_height_tolerance': 0.1}
+Updated floor height: -1.72, ceiling height: 0.08
+--- Height change stabilized. Height diff: -0.62, On platform: False, Metrics: {'inlier_count': 55, 'local_count': 19410, 'support_ratio': 0.0028335909323630296, 'vertical_score': 1.0, 'plane_height_mean': -1.4630143642425537, 'agent_z': -1.8686758995056152, 'vertical_diff': 0.4056615352630615, 'area_xy': 0.0576, 'radius_est': 0.1354055000514615, 'z_std': 0.03796984627842903, 'occupied_cells': 4, 'bottom_height_tolerance': 0.1}
+--- No significant floor change. Height diff: -0.62, On platform: False, Metrics: {'inlier_count': 55, 'local_count': 19410, 'support_ratio': 0.0028335909323630296, 'vertical_score': 1.0, 'plane_height_mean': -1.4630143642425537, 'agent_z': -1.8686758995056152, 'vertical_diff': 0.4056615352630615, 'area_xy': 0.0576, 'radius_est': 0.1354055000514615, 'z_std': 0.03796984627842903, 'occupied_cells': 4, 'bottom_height_tolerance': 0.1}
+Updated floor height: -1.72, ceiling height: 0.08
+--- Height change stabilized. Height diff: -0.62, On platform: False, Metrics: {'inlier_count': 55, 'local_count': 19988, 'support_ratio': 0.0027516509904566915, 'vertical_score': 1.0, 'plane_height_mean': -1.4630143642425537, 'agent_z': -1.8686758995056152, 'vertical_diff': 0.4056615352630615, 'area_xy': 0.0576, 'radius_est': 0.1354055000514615, 'z_std': 0.03796984627842903, 'occupied_cells': 4, 'bottom_height_tolerance': 0.1}
+--- No significant floor change. Height diff: -0.62, On platform: False, Metrics: {'inlier_count': 55, 'local_count': 19988, 'support_ratio': 0.0027516509904566915, 'vertical_score': 1.0, 'plane_height_mean': -1.4630143642425537, 'agent_z': -1.8686758995056152, 'vertical_diff': 0.4056615352630615, 'area_xy': 0.0576, 'radius_est': 0.1354055000514615, 'z_std': 0.03796984627842903, 'occupied_cells': 4, 'bottom_height_tolerance': 0.1}
+Updated floor height: -1.72, ceiling height: 0.08
+[StairDetect] normals=0.7345s, cpu=0.0002s, cluster=0.1732s, loop=0.0273s, total=0.9704s
+[StairDetect] normals=0.7547s, cpu=0.0002s, cluster=0.1978s, loop=0.0235s, total=1.0020s
+[StairDetect] normals=0.6154s, cpu=0.0001s, cluster=0.0638s, loop=0.0071s, total=0.6941s
+[StairDetect] normals=0.5538s, cpu=0.0001s, cluster=0.0627s, loop=0.0084s, total=0.6360s
+--- Height change stabilized. Height diff: -0.77, On platform: False, Metrics: {'inlier_count': 3312, 'local_count': 15525, 'support_ratio': 0.21333333331959206, 'vertical_score': 1.0, 'plane_height_mean': 0.33111798763275146, 'agent_z': -2.0171091079711916, 'vertical_diff': 2.348227095603943, 'area_xy': 2.0592, 'radius_est': 0.8096071378327033, 'z_std': 0.0244774017482996, 'occupied_cells': 143, 'bottom_height_tolerance': 0.1}
+--- No significant floor change. Height diff: -0.77, On platform: False, Metrics: {'inlier_count': 3312, 'local_count': 15525, 'support_ratio': 0.21333333331959206, 'vertical_score': 1.0, 'plane_height_mean': 0.33111798763275146, 'agent_z': -2.0171091079711916, 'vertical_diff': 2.348227095603943, 'area_xy': 2.0592, 'radius_est': 0.8096071378327033, 'z_std': 0.0244774017482996, 'occupied_cells': 143, 'bottom_height_tolerance': 0.1}
+Updated floor height: -1.87, ceiling height: -0.07
+--- Height change stabilized. Height diff: -0.77, On platform: False, Metrics: {'inlier_count': 3350, 'local_count': 19090, 'support_ratio': 0.17548454687399243, 'vertical_score': 1.0, 'plane_height_mean': 0.33105432987213135, 'agent_z': -2.0171091079711916, 'vertical_diff': 2.348163437843323, 'area_xy': 2.0879999999999996, 'radius_est': 0.8152490676791694, 'z_std': 0.024513673037290573, 'occupied_cells': 145, 'bottom_height_tolerance': 0.1}
+--- No significant floor change. Height diff: -0.77, On platform: False, Metrics: {'inlier_count': 3350, 'local_count': 19090, 'support_ratio': 0.17548454687399243, 'vertical_score': 1.0, 'plane_height_mean': 0.33105432987213135, 'agent_z': -2.0171091079711916, 'vertical_diff': 2.348163437843323, 'area_xy': 2.0879999999999996, 'radius_est': 0.8152490676791694, 'z_std': 0.024513673037290573, 'occupied_cells': 145, 'bottom_height_tolerance': 0.1}
+Updated floor height: -1.87, ceiling height: -0.07
+[StairDetect] normals=0.3857s, cpu=0.0001s, cluster=0.0343s, loop=0.0053s, total=0.4319s
+--- Height change stabilized. Height diff: -0.77, On platform: False, Metrics: {'inlier_count': 3350, 'local_count': 19524, 'support_ratio': 0.17158369185763248, 'vertical_score': 1.0, 'plane_height_mean': 0.33105432987213135, 'agent_z': -2.0171091079711916, 'vertical_diff': 2.348163437843323, 'area_xy': 2.0879999999999996, 'radius_est': 0.8152490676791694, 'z_std': 0.024513673037290573, 'occupied_cells': 145, 'bottom_height_tolerance': 0.1}
+--- No significant floor change. Height diff: -0.77, On platform: False, Metrics: {'inlier_count': 3350, 'local_count': 19524, 'support_ratio': 0.17158369185763248, 'vertical_score': 1.0, 'plane_height_mean': 0.33105432987213135, 'agent_z': -2.0171091079711916, 'vertical_diff': 2.348163437843323, 'area_xy': 2.0879999999999996, 'radius_est': 0.8152490676791694, 'z_std': 0.024513673037290573, 'occupied_cells': 145, 'bottom_height_tolerance': 0.1}
+Updated floor height: -1.87, ceiling height: -0.07
+[StairDetect] normals=0.5394s, cpu=0.0003s, cluster=0.0593s, loop=0.0124s, total=0.6235s
+--- Height change stabilized. Height diff: -0.88, On platform: False, Metrics: {'inlier_count': 3161, 'local_count': 14691, 'support_ratio': 0.21516574772206346, 'vertical_score': 1.0, 'plane_height_mean': 0.33078891038894653, 'agent_z': -2.128353786468506, 'vertical_diff': 2.4591426968574526, 'area_xy': 2.0016, 'radius_est': 0.7982036508219411, 'z_std': 0.023332646116614342, 'occupied_cells': 139, 'bottom_height_tolerance': 0.1}
+--- No significant floor change. Height diff: -0.88, On platform: False, Metrics: {'inlier_count': 3161, 'local_count': 14691, 'support_ratio': 0.21516574772206346, 'vertical_score': 1.0, 'plane_height_mean': 0.33078891038894653, 'agent_z': -2.128353786468506, 'vertical_diff': 2.4591426968574526, 'area_xy': 2.0016, 'radius_est': 0.7982036508219411, 'z_std': 0.023332646116614342, 'occupied_cells': 139, 'bottom_height_tolerance': 0.1}
+Updated floor height: -1.98, ceiling height: -0.18
+--- Height change stabilized. Height diff: -0.88, On platform: False, Metrics: {'inlier_count': 3200, 'local_count': 18140, 'support_ratio': 0.17640573317660388, 'vertical_score': 1.0, 'plane_height_mean': 0.3306507170200348, 'agent_z': -2.128353786468506, 'vertical_diff': 2.459004503488541, 'area_xy': 2.0303999999999998, 'radius_est': 0.8039256140387421, 'z_std': 0.023379569873213768, 'occupied_cells': 141, 'bottom_height_tolerance': 0.1}
+--- No significant floor change. Height diff: -0.88, On platform: False, Metrics: {'inlier_count': 3200, 'local_count': 18140, 'support_ratio': 0.17640573317660388, 'vertical_score': 1.0, 'plane_height_mean': 0.3306507170200348, 'agent_z': -2.128353786468506, 'vertical_diff': 2.459004503488541, 'area_xy': 2.0303999999999998, 'radius_est': 0.8039256140387421, 'z_std': 0.023379569873213768, 'occupied_cells': 141, 'bottom_height_tolerance': 0.1}
+Updated floor height: -1.98, ceiling height: -0.18
+[StairDetect] normals=0.5065s, cpu=0.0001s, cluster=0.1260s, loop=0.0150s, total=0.6810s
+--- Height change stabilized. Height diff: -0.88, On platform: False, Metrics: {'inlier_count': 3200, 'local_count': 18679, 'support_ratio': 0.1713153808998707, 'vertical_score': 1.0, 'plane_height_mean': 0.3306507170200348, 'agent_z': -2.128353786468506, 'vertical_diff': 2.459004503488541, 'area_xy': 2.0303999999999998, 'radius_est': 0.8039256140387421, 'z_std': 0.023379569873213768, 'occupied_cells': 141, 'bottom_height_tolerance': 0.1}
+--- No significant floor change. Height diff: -0.88, On platform: False, Metrics: {'inlier_count': 3200, 'local_count': 18679, 'support_ratio': 0.1713153808998707, 'vertical_score': 1.0, 'plane_height_mean': 0.3306507170200348, 'agent_z': -2.128353786468506, 'vertical_diff': 2.459004503488541, 'area_xy': 2.0303999999999998, 'radius_est': 0.8039256140387421, 'z_std': 0.023379569873213768, 'occupied_cells': 141, 'bottom_height_tolerance': 0.1}
+Updated floor height: -1.98, ceiling height: -0.18
+[StairDetect] normals=0.6605s, cpu=0.0001s, cluster=0.1855s, loop=0.0238s, total=0.9143s
+[show-map] 2azQ1b91cZZ_272 step=10/52; five maps updated
+--- Height change stabilized. Height diff: -0.99, On platform: False, Metrics: {'inlier_count': 3085, 'local_count': 14162, 'support_ratio': 0.21783646376092103, 'vertical_score': 1.0, 'plane_height_mean': 0.33070558309555054, 'agent_z': -2.2395984649658205, 'vertical_diff': 2.570304048061371, 'area_xy': 1.9295999999999998, 'radius_est': 0.783715992168236, 'z_std': 0.02259722165763378, 'occupied_cells': 134, 'bottom_height_tolerance': 0.1}
+--- No significant floor change. Height diff: -0.99, On platform: False, Metrics: {'inlier_count': 3085, 'local_count': 14162, 'support_ratio': 0.21783646376092103, 'vertical_score': 1.0, 'plane_height_mean': 0.33070558309555054, 'agent_z': -2.2395984649658205, 'vertical_diff': 2.570304048061371, 'area_xy': 1.9295999999999998, 'radius_est': 0.783715992168236, 'z_std': 0.02259722165763378, 'occupied_cells': 134, 'bottom_height_tolerance': 0.1}
+Updated floor height: -2.09, ceiling height: -0.29
+--- Height change stabilized. Height diff: -0.99, On platform: False, Metrics: {'inlier_count': 3106, 'local_count': 17103, 'support_ratio': 0.18160556626430419, 'vertical_score': 1.0, 'plane_height_mean': 0.3306407332420349, 'agent_z': -2.2395984649658205, 'vertical_diff': 2.5702391982078554, 'area_xy': 1.9584, 'radius_est': 0.7895429570975449, 'z_std': 0.02262819930911064, 'occupied_cells': 136, 'bottom_height_tolerance': 0.1}
+--- No significant floor change. Height diff: -0.99, On platform: False, Metrics: {'inlier_count': 3106, 'local_count': 17103, 'support_ratio': 0.18160556626430419, 'vertical_score': 1.0, 'plane_height_mean': 0.3306407332420349, 'agent_z': -2.2395984649658205, 'vertical_diff': 2.5702391982078554, 'area_xy': 1.9584, 'radius_est': 0.7895429570975449, 'z_std': 0.02262819930911064, 'occupied_cells': 136, 'bottom_height_tolerance': 0.1}
+Updated floor height: -2.09, ceiling height: -0.29
+[StairDetect] normals=0.4744s, cpu=0.0142s, cluster=0.1402s, loop=0.0214s, total=0.6763s
+--- Height change stabilized. Height diff: -0.99, On platform: False, Metrics: {'inlier_count': 3149, 'local_count': 18020, 'support_ratio': 0.17475027745978078, 'vertical_score': 1.0, 'plane_height_mean': 0.3295251727104187, 'agent_z': -2.2395984649658205, 'vertical_diff': 2.569123637676239, 'area_xy': 1.9584, 'radius_est': 0.7895429570975449, 'z_std': 0.02318541333079338, 'occupied_cells': 136, 'bottom_height_tolerance': 0.1}
+--- No significant floor change. Height diff: -0.99, On platform: False, Metrics: {'inlier_count': 3149, 'local_count': 18020, 'support_ratio': 0.17475027745978078, 'vertical_score': 1.0, 'plane_height_mean': 0.3295251727104187, 'agent_z': -2.2395984649658205, 'vertical_diff': 2.569123637676239, 'area_xy': 1.9584, 'radius_est': 0.7895429570975449, 'z_std': 0.02318541333079338, 'occupied_cells': 136, 'bottom_height_tolerance': 0.1}
+Updated floor height: -2.09, ceiling height: -0.29
+[StairDetect] normals=0.8151s, cpu=0.0001s, cluster=0.1790s, loop=0.0217s, total=1.0602s
+--- Height change stabilized. Height diff: -1.10, On platform: False, Metrics: {'inlier_count': 2959, 'local_count': 13442, 'support_ratio': 0.220130932880514, 'vertical_score': 1.0, 'plane_height_mean': 0.330098032951355, 'agent_z': -2.350843143463135, 'vertical_diff': 2.68094117641449, 'area_xy': 1.8863999999999999, 'radius_est': 0.7748933922141178, 'z_std': 0.020676273852586746, 'occupied_cells': 131, 'bottom_height_tolerance': 0.1}
+--- No significant floor change. Height diff: -1.10, On platform: False, Metrics: {'inlier_count': 2959, 'local_count': 13442, 'support_ratio': 0.220130932880514, 'vertical_score': 1.0, 'plane_height_mean': 0.330098032951355, 'agent_z': -2.350843143463135, 'vertical_diff': 2.68094117641449, 'area_xy': 1.8863999999999999, 'radius_est': 0.7748933922141178, 'z_std': 0.020676273852586746, 'occupied_cells': 131, 'bottom_height_tolerance': 0.1}
+Updated floor height: -2.20, ceiling height: -0.40
+--- Height change stabilized. Height diff: -1.10, On platform: False, Metrics: {'inlier_count': 2959, 'local_count': 15764, 'support_ratio': 0.18770616593582173, 'vertical_score': 1.0, 'plane_height_mean': 0.330098032951355, 'agent_z': -2.350843143463135, 'vertical_diff': 2.68094117641449, 'area_xy': 1.8863999999999999, 'radius_est': 0.7748933922141178, 'z_std': 0.020676273852586746, 'occupied_cells': 131, 'bottom_height_tolerance': 0.1}
+--- No significant floor change. Height diff: -1.10, On platform: False, Metrics: {'inlier_count': 2959, 'local_count': 15764, 'support_ratio': 0.18770616593582173, 'vertical_score': 1.0, 'plane_height_mean': 0.330098032951355, 'agent_z': -2.350843143463135, 'vertical_diff': 2.68094117641449, 'area_xy': 1.8863999999999999, 'radius_est': 0.7748933922141178, 'z_std': 0.020676273852586746, 'occupied_cells': 131, 'bottom_height_tolerance': 0.1}
+Updated floor height: -2.20, ceiling height: -0.40
+--- Height change stabilized. Height diff: -1.10, On platform: False, Metrics: {'inlier_count': 2962, 'local_count': 16893, 'support_ratio': 0.17533889775792702, 'vertical_score': 1.0, 'plane_height_mean': 0.32993584871292114, 'agent_z': -2.350843143463135, 'vertical_diff': 2.680778992176056, 'area_xy': 1.8863999999999999, 'radius_est': 0.7748933922141178, 'z_std': 0.02069218084216118, 'occupied_cells': 131, 'bottom_height_tolerance': 0.1}
+--- No significant floor change. Height diff: -1.10, On platform: False, Metrics: {'inlier_count': 2962, 'local_count': 16893, 'support_ratio': 0.17533889775792702, 'vertical_score': 1.0, 'plane_height_mean': 0.32993584871292114, 'agent_z': -2.350843143463135, 'vertical_diff': 2.680778992176056, 'area_xy': 1.8863999999999999, 'radius_est': 0.7748933922141178, 'z_std': 0.02069218084216118, 'occupied_cells': 131, 'bottom_height_tolerance': 0.1}
+Updated floor height: -2.20, ceiling height: -0.40
+[StairDetect] normals=0.7834s, cpu=0.0033s, cluster=0.1047s, loop=0.0112s, total=0.9274s
+--- Height change stabilized. Height diff: -1.26, On platform: False, Metrics: {'inlier_count': 2297, 'local_count': 11616, 'support_ratio': 0.19774449034110325, 'vertical_score': 1.0, 'plane_height_mean': 0.32578596472740173, 'agent_z': -2.512293291091919, 'vertical_diff': 2.838079255819321, 'area_xy': 1.5695999999999999, 'radius_est': 0.7068374617647807, 'z_std': 0.013646361418068409, 'occupied_cells': 109, 'bottom_height_tolerance': 0.1}
+--- No significant floor change. Height diff: -1.26, On platform: False, Metrics: {'inlier_count': 2297, 'local_count': 11616, 'support_ratio': 0.19774449034110325, 'vertical_score': 1.0, 'plane_height_mean': 0.32578596472740173, 'agent_z': -2.512293291091919, 'vertical_diff': 2.838079255819321, 'area_xy': 1.5695999999999999, 'radius_est': 0.7068374617647807, 'z_std': 0.013646361418068409, 'occupied_cells': 109, 'bottom_height_tolerance': 0.1}
+Updated floor height: -2.36, ceiling height: -0.56
+--- Height change stabilized. Height diff: -1.26, On platform: False, Metrics: {'inlier_count': 2457, 'local_count': 14621, 'support_ratio': 0.1680459612770641, 'vertical_score': 1.0, 'plane_height_mean': 0.32499441504478455, 'agent_z': -2.512293291091919, 'vertical_diff': 2.8372877061367037, 'area_xy': 1.5695999999999999, 'radius_est': 0.7068374617647807, 'z_std': 0.020121024921536446, 'occupied_cells': 109, 'bottom_height_tolerance': 0.1}
+--- No significant floor change. Height diff: -1.26, On platform: False, Metrics: {'inlier_count': 2457, 'local_count': 14621, 'support_ratio': 0.1680459612770641, 'vertical_score': 1.0, 'plane_height_mean': 0.32499441504478455, 'agent_z': -2.512293291091919, 'vertical_diff': 2.8372877061367037, 'area_xy': 1.5695999999999999, 'radius_est': 0.7068374617647807, 'z_std': 0.020121024921536446, 'occupied_cells': 109, 'bottom_height_tolerance': 0.1}
+Updated floor height: -2.36, ceiling height: -0.56
+--- Height change stabilized. Height diff: -1.26, On platform: False, Metrics: {'inlier_count': 2459, 'local_count': 15719, 'support_ratio': 0.15643488770555156, 'vertical_score': 1.0, 'plane_height_mean': 0.324955552816391, 'agent_z': -2.512293291091919, 'vertical_diff': 2.83724884390831, 'area_xy': 1.5695999999999999, 'radius_est': 0.7068374617647807, 'z_std': 0.02022465318441391, 'occupied_cells': 109, 'bottom_height_tolerance': 0.1}
+--- No significant floor change. Height diff: -1.26, On platform: False, Metrics: {'inlier_count': 2459, 'local_count': 15719, 'support_ratio': 0.15643488770555156, 'vertical_score': 1.0, 'plane_height_mean': 0.324955552816391, 'agent_z': -2.512293291091919, 'vertical_diff': 2.83724884390831, 'area_xy': 1.5695999999999999, 'radius_est': 0.7068374617647807, 'z_std': 0.02022465318441391, 'occupied_cells': 109, 'bottom_height_tolerance': 0.1}
+Updated floor height: -2.36, ceiling height: -0.56
+[StairDetect] normals=1.3668s, cpu=0.0002s, cluster=0.1250s, loop=0.0226s, total=1.5632s
+--- Height change stabilized. Height diff: -1.42, On platform: False, Metrics: {'inlier_count': 1740, 'local_count': 9754, 'support_ratio': 0.1783883534777129, 'vertical_score': 1.0, 'plane_height_mean': 0.3233813941478729, 'agent_z': -2.669751834869385, 'vertical_diff': 2.993133229017258, 'area_xy': 1.224, 'radius_est': 0.6241885137432118, 'z_std': 0.013076907023787498, 'occupied_cells': 85, 'bottom_height_tolerance': 0.1}
+--- No significant floor change. Height diff: -1.42, On platform: False, Metrics: {'inlier_count': 1740, 'local_count': 9754, 'support_ratio': 0.1783883534777129, 'vertical_score': 1.0, 'plane_height_mean': 0.3233813941478729, 'agent_z': -2.669751834869385, 'vertical_diff': 2.993133229017258, 'area_xy': 1.224, 'radius_est': 0.6241885137432118, 'z_std': 0.013076907023787498, 'occupied_cells': 85, 'bottom_height_tolerance': 0.1}
+Updated floor height: -2.52, ceiling height: -0.72
+--- Height change stabilized. Height diff: -1.42, On platform: False, Metrics: {'inlier_count': 1871, 'local_count': 13710, 'support_ratio': 0.13646973011404306, 'vertical_score': 1.0, 'plane_height_mean': 0.32204464077949524, 'agent_z': -2.669751834869385, 'vertical_diff': 2.99179647564888, 'area_xy': 1.224, 'radius_est': 0.6241885137432118, 'z_std': 0.019639836624264717, 'occupied_cells': 85, 'bottom_height_tolerance': 0.1}
+--- No significant floor change. Height diff: -1.42, On platform: False, Metrics: {'inlier_count': 1871, 'local_count': 13710, 'support_ratio': 0.13646973011404306, 'vertical_score': 1.0, 'plane_height_mean': 0.32204464077949524, 'agent_z': -2.669751834869385, 'vertical_diff': 2.99179647564888, 'area_xy': 1.224, 'radius_est': 0.6241885137432118, 'z_std': 0.019639836624264717, 'occupied_cells': 85, 'bottom_height_tolerance': 0.1}
+Updated floor height: -2.52, ceiling height: -0.72
+--- Height change stabilized. Height diff: -1.42, On platform: False, Metrics: {'inlier_count': 1871, 'local_count': 15049, 'support_ratio': 0.12432719781219169, 'vertical_score': 1.0, 'plane_height_mean': 0.32204464077949524, 'agent_z': -2.669751834869385, 'vertical_diff': 2.99179647564888, 'area_xy': 1.224, 'radius_est': 0.6241885137432118, 'z_std': 0.019639836624264717, 'occupied_cells': 85, 'bottom_height_tolerance': 0.1}
+--- No significant floor change. Height diff: -1.42, On platform: False, Metrics: {'inlier_count': 1871, 'local_count': 15049, 'support_ratio': 0.12432719781219169, 'vertical_score': 1.0, 'plane_height_mean': 0.32204464077949524, 'agent_z': -2.669751834869385, 'vertical_diff': 2.99179647564888, 'area_xy': 1.224, 'radius_est': 0.6241885137432118, 'z_std': 0.019639836624264717, 'occupied_cells': 85, 'bottom_height_tolerance': 0.1}
+Updated floor height: -2.52, ceiling height: -0.72
+[StairDetect] normals=1.4603s, cpu=0.0002s, cluster=0.1775s, loop=0.0155s, total=1.6898s
+[StairDetect] normals=0.3788s, cpu=0.0002s, cluster=0.0411s, loop=0.0642s, total=0.5103s
+[StairDetect] normals=1.4632s, cpu=0.0035s, cluster=0.1356s, loop=0.0945s, total=1.7687s
+[StairDetect] normals=1.8900s, cpu=0.0078s, cluster=0.1981s, loop=0.1092s, total=2.2902s
+[show-map] 2azQ1b91cZZ_272 step=15/52; five maps updated
+[StairDetect] normals=1.6192s, cpu=0.0002s, cluster=0.2361s, loop=0.0103s, total=1.9166s
+[StairDetect] normals=1.1405s, cpu=0.0003s, cluster=0.1089s, loop=0.0203s, total=1.3146s
+[StairDetect] normals=2.5705s, cpu=0.0002s, cluster=0.1740s, loop=0.0192s, total=2.8215s
+[StairDetect] normals=1.3259s, cpu=0.0003s, cluster=0.2839s, loop=0.0196s, total=1.6927s
+[StairDetect] normals=2.2528s, cpu=0.0003s, cluster=0.2419s, loop=0.0169s, total=2.6002s
+[StairDetect] normals=2.1901s, cpu=0.0033s, cluster=0.1534s, loop=0.0197s, total=2.4172s
+[show-map] 2azQ1b91cZZ_272 step=20/52; five maps updated
+[StairDetect] normals=2.3636s, cpu=0.0002s, cluster=0.2538s, loop=0.0261s, total=2.7251s
+[StairDetect] normals=2.5931s, cpu=0.0002s, cluster=0.2623s, loop=0.0274s, total=2.9500s
+[StairDetect] normals=2.9126s, cpu=0.0002s, cluster=0.2349s, loop=0.0217s, total=3.2294s
+[StairDetect] normals=2.7726s, cpu=0.0002s, cluster=0.2295s, loop=0.0178s, total=3.0751s
+[StairDetect] normals=2.6954s, cpu=0.0002s, cluster=0.1586s, loop=0.0182s, total=2.9259s
+[StairDetect] normals=2.4010s, cpu=0.0003s, cluster=0.2573s, loop=0.0170s, total=2.7253s
+[StairDetect] normals=3.1238s, cpu=0.0003s, cluster=0.2845s, loop=0.0382s, total=3.5413s
+[StairDetect] normals=2.7014s, cpu=0.0003s, cluster=0.2547s, loop=0.0166s, total=3.0415s
+[StairDetect] normals=2.8770s, cpu=0.0003s, cluster=0.2868s, loop=0.0183s, total=3.2303s
+[show-map] 2azQ1b91cZZ_272 step=25/52; five maps updated
+[StairDetect] normals=2.3303s, cpu=0.0003s, cluster=0.2378s, loop=0.0258s, total=2.6506s
+[StairDetect] normals=2.6373s, cpu=0.0011s, cluster=0.2799s, loop=0.0367s, total=3.0505s
+[StairDetect] normals=2.0213s, cpu=0.0002s, cluster=0.1555s, loop=0.0356s, total=2.2844s
+[StairDetect] normals=2.3109s, cpu=0.0003s, cluster=0.2381s, loop=0.0206s, total=2.6322s
+[StairDetect] normals=1.1493s, cpu=0.0002s, cluster=0.0954s, loop=0.0903s, total=1.3832s
+[StairDetect] normals=0.9583s, cpu=0.0002s, cluster=0.0905s, loop=0.0935s, total=1.1932s
+[StairDetect] normals=2.0651s, cpu=0.0003s, cluster=0.2289s, loop=0.0297s, total=2.3833s
+[StairDetect] normals=2.0646s, cpu=0.0002s, cluster=0.1738s, loop=0.0136s, total=2.3156s
+[StairDetect] normals=1.5045s, cpu=0.0053s, cluster=0.1491s, loop=0.0368s, total=1.7819s
+[StairDetect] normals=1.8953s, cpu=0.0002s, cluster=0.1465s, loop=0.0253s, total=2.1423s
+[StairDetect] normals=1.5442s, cpu=0.0002s, cluster=0.2002s, loop=0.0179s, total=1.8514s
+[show-map] 2azQ1b91cZZ_272 step=30/52; five maps updated
+[StairDetect] normals=1.7427s, cpu=0.0002s, cluster=0.1692s, loop=0.0295s, total=2.0153s
+[StairDetect] normals=2.2498s, cpu=0.0002s, cluster=0.2104s, loop=0.0185s, total=2.5458s
+[StairDetect] normals=1.4962s, cpu=0.0002s, cluster=0.1671s, loop=0.0129s, total=1.7285s
+[StairDetect] normals=1.7539s, cpu=0.0002s, cluster=0.2279s, loop=0.0376s, total=2.1277s
+[StairDetect] normals=0.7884s, cpu=0.0019s, cluster=0.1080s, loop=0.0471s, total=1.0227s
+[StairDetect] normals=1.4945s, cpu=0.0002s, cluster=0.1403s, loop=0.0621s, total=1.7437s
+[StairDetect] normals=2.3099s, cpu=0.0003s, cluster=0.2360s, loop=0.0887s, total=2.7470s
+[StairDetect] normals=1.5733s, cpu=0.0002s, cluster=0.0968s, loop=0.0251s, total=1.7473s
+[StairDetect] normals=2.3643s, cpu=0.0002s, cluster=0.1906s, loop=0.0749s, total=2.7180s
+[StairDetect] normals=2.0012s, cpu=0.0003s, cluster=0.1845s, loop=0.0443s, total=2.3333s
+[StairDetect] normals=1.7308s, cpu=0.0002s, cluster=0.0944s, loop=0.0483s, total=1.9421s
+[StairDetect] normals=2.0278s, cpu=0.0002s, cluster=0.2040s, loop=0.0515s, total=2.3641s
+[StairDetect] normals=2.6344s, cpu=0.0003s, cluster=0.1885s, loop=0.0939s, total=3.0196s
+[show-map] 2azQ1b91cZZ_272 step=35/52; five maps updated
+[StairDetect] normals=0.9074s, cpu=0.0002s, cluster=0.1031s, loop=0.0372s, total=1.1133s
+[StairDetect] normals=2.5395s, cpu=0.0053s, cluster=0.2234s, loop=0.0456s, total=2.8628s
+[StairDetect] normals=2.6419s, cpu=0.0003s, cluster=0.2644s, loop=0.1051s, total=3.1276s
+[StairDetect] normals=0.7772s, cpu=0.0003s, cluster=0.0493s, loop=0.0303s, total=0.8888s
+[StairDetect] normals=2.4166s, cpu=0.0002s, cluster=0.2032s, loop=0.0484s, total=2.7188s
+[StairDetect] normals=2.6100s, cpu=0.0003s, cluster=0.2293s, loop=0.0821s, total=3.0338s
+[StairDetect] normals=1.2176s, cpu=0.0002s, cluster=0.0473s, loop=0.0308s, total=1.3283s
+[StairDetect] normals=2.3743s, cpu=0.0035s, cluster=0.2337s, loop=0.0454s, total=2.7172s
+[StairDetect] normals=2.6254s, cpu=0.0003s, cluster=0.3003s, loop=0.0508s, total=3.0730s
+[StairDetect] normals=1.4262s, cpu=0.0002s, cluster=0.1373s, loop=0.0633s, total=1.7008s
+[StairDetect] normals=2.6349s, cpu=0.0003s, cluster=0.2352s, loop=0.0500s, total=2.9718s
+[StairDetect] normals=2.7242s, cpu=0.0003s, cluster=0.1736s, loop=0.0682s, total=3.0632s
+[StairDetect] normals=1.5193s, cpu=0.0032s, cluster=0.1186s, loop=0.0318s, total=1.7053s
+[StairDetect] normals=2.2126s, cpu=0.0002s, cluster=0.2191s, loop=0.0705s, total=2.5830s
+[StairDetect] normals=1.9667s, cpu=0.0002s, cluster=0.1402s, loop=0.0557s, total=2.2167s
+[show-map] 2azQ1b91cZZ_272 step=40/52; five maps updated
+[StairDetect] normals=1.2286s, cpu=0.0026s, cluster=0.1172s, loop=0.0413s, total=1.4567s
+[StairDetect] normals=2.2758s, cpu=0.0002s, cluster=0.2228s, loop=0.0808s, total=2.6362s
+[StairDetect] normals=2.7172s, cpu=0.0003s, cluster=0.2998s, loop=0.0571s, total=3.1917s
+[StairDetect] normals=0.9682s, cpu=0.0002s, cluster=0.1185s, loop=0.0619s, total=1.2126s
+[StairDetect] normals=1.9410s, cpu=0.0002s, cluster=0.1247s, loop=0.0456s, total=2.1533s
+[StairDetect] normals=2.2578s, cpu=0.0003s, cluster=0.1869s, loop=0.0479s, total=2.5520s
+[StairDetect] normals=0.9331s, cpu=0.0002s, cluster=0.0549s, loop=0.0322s, total=1.0492s
+[StairDetect] normals=1.9748s, cpu=0.0003s, cluster=0.2496s, loop=0.0499s, total=2.3253s
+[StairDetect] normals=2.7431s, cpu=0.0003s, cluster=0.1814s, loop=0.0667s, total=3.0574s
+[StairDetect] normals=1.2302s, cpu=0.0002s, cluster=0.0762s, loop=0.0481s, total=1.4001s
+[StairDetect] normals=2.6170s, cpu=0.0003s, cluster=0.1843s, loop=0.0535s, total=2.9052s
+[StairDetect] normals=2.7087s, cpu=0.0003s, cluster=0.1723s, loop=0.0960s, total=3.0247s
+[StairDetect] normals=1.4499s, cpu=0.0002s, cluster=0.1278s, loop=0.0547s, total=1.6726s
+[StairDetect] normals=1.9292s, cpu=0.0002s, cluster=0.2172s, loop=0.0527s, total=2.2477s
+[StairDetect] normals=2.4585s, cpu=0.0003s, cluster=0.2819s, loop=0.0949s, total=2.9089s
+[show-map] 2azQ1b91cZZ_272 step=45/52; five maps updated
+[StairDetect] normals=1.4128s, cpu=0.0002s, cluster=0.1237s, loop=0.0756s, total=1.6635s
+[StairDetect] normals=2.2066s, cpu=0.0005s, cluster=0.2461s, loop=0.0618s, total=2.5972s
+[StairDetect] normals=2.6306s, cpu=0.0003s, cluster=0.2951s, loop=0.0544s, total=3.0338s
+[StairDetect] normals=1.5225s, cpu=0.0036s, cluster=0.0851s, loop=0.0823s, total=1.7417s
+[StairDetect] normals=1.9410s, cpu=0.0002s, cluster=0.1765s, loop=0.1218s, total=2.3059s
+[StairDetect] normals=2.1447s, cpu=0.0003s, cluster=0.2069s, loop=0.0655s, total=2.4791s
+[StairDetect] normals=1.3183s, cpu=0.0002s, cluster=0.1317s, loop=0.0897s, total=1.5890s
+[StairDetect] normals=1.9428s, cpu=0.0002s, cluster=0.1829s, loop=0.0702s, total=2.2609s
+[StairDetect] normals=2.7579s, cpu=0.0002s, cluster=0.1828s, loop=0.1008s, total=3.1332s
+[StairDetect] normals=1.4320s, cpu=0.0002s, cluster=0.1441s, loop=0.0671s, total=1.7189s
+[StairDetect] normals=2.2502s, cpu=0.0002s, cluster=0.2543s, loop=0.0925s, total=2.6893s
+[StairDetect] normals=2.4425s, cpu=0.0003s, cluster=0.2427s, loop=0.0827s, total=2.8332s
+[StairDetect] normals=1.4583s, cpu=0.0002s, cluster=0.1294s, loop=0.0493s, total=1.6878s
+[StairDetect] normals=2.0615s, cpu=0.0002s, cluster=0.1695s, loop=0.0980s, total=2.3861s
+[StairDetect] normals=2.5308s, cpu=0.0003s, cluster=0.2227s, loop=0.0581s, total=2.8795s
+[show-map] 2azQ1b91cZZ_272 step=50/52; five maps updated
+[StairDetect] normals=0.7679s, cpu=0.0002s, cluster=0.1853s, loop=0.1027s, total=1.1452s
+[StairDetect] normals=2.1144s, cpu=0.0003s, cluster=0.1706s, loop=0.1076s, total=2.4832s
+[StairDetect] normals=2.2337s, cpu=0.0003s, cluster=0.2804s, loop=0.0988s, total=2.6765s
+[StairDetect] normals=1.2987s, cpu=0.0002s, cluster=0.1615s, loop=0.0559s, total=1.5695s
+[StairDetect] normals=2.3204s, cpu=0.0002s, cluster=0.1902s, loop=0.1042s, total=2.6760s
+[StairDetect] normals=1.1964s, cpu=0.0002s, cluster=0.1464s, loop=0.0739s, total=1.4678s
+[show-map] 2azQ1b91cZZ_272: rendering independent scene RGB reference at floor 0.13
+[20:08:32:706285]:[Sensor] CameraSensor.h(90)::setFOV : Only Perspective-base CameraSensors use FOV. Specified value saved but will not be consumed by this CameraSensor.
+[20:08:32:708111]:[Sensor] CameraSensor.h(90)::setFOV : Only Perspective-base CameraSensors use FOV. Specified value saved but will not be consumed by this CameraSensor.
+[show-map] 2azQ1b91cZZ_272: rendering independent scene RGB reference at floor 0.93
+[20:08:45:428900]:[Sensor] CameraSensor.h(90)::setFOV : Only Perspective-base CameraSensors use FOV. Specified value saved but will not be consumed by this CameraSensor.
+[20:08:45:430253]:[Sensor] CameraSensor.h(90)::setFOV : Only Perspective-base CameraSensors use FOV. Specified value saved but will not be consumed by this CameraSensor.
+[show-map] 2azQ1b91cZZ_272: rendering independent scene RGB reference at floor 1.60
+[20:08:59:890471]:[Sensor] CameraSensor.h(90)::setFOV : Only Perspective-base CameraSensors use FOV. Specified value saved but will not be consumed by this CameraSensor.
+[20:08:59:893143]:[Sensor] CameraSensor.h(90)::setFOV : Only Perspective-base CameraSensors use FOV. Specified value saved but will not be consumed by this CameraSensor.
+[20:09:15:454350]:[Physics] PhysicsManager.cpp(54)::~PhysicsManager : Deconstructing PhysicsManager
+[20:09:15:454535]:[Scene] SceneManager.h(21)::~SceneManager : Deconstructing SceneManager
+[20:09:15:454567]:[Scene] SceneGraph.h(25)::~SceneGraph : Deconstructing SceneGraph
+[20:09:15:455688]:[Sensor] Sensor.cpp(69)::~Sensor : Deconstructing Sensor
+[20:09:15:456151]:[Sensor] Sensor.cpp(69)::~Sensor : Deconstructing Sensor
+[20:09:15:456553]:[Sensor] Sensor.cpp(69)::~Sensor : Deconstructing Sensor
+[20:09:15:457045]:[Sensor] Sensor.cpp(69)::~Sensor : Deconstructing Sensor
+[20:09:15:457432]:[Sensor] Sensor.cpp(69)::~Sensor : Deconstructing Sensor
+[20:09:15:460688]:[Sensor] Sensor.cpp(69)::~Sensor : Deconstructing Sensor
+[20:09:15:461154]:[Sensor] Sensor.cpp(69)::~Sensor : Deconstructing Sensor
+[20:09:15:461710]:[Sensor] Sensor.cpp(69)::~Sensor : Deconstructing Sensor
+[20:09:15:461779]:[Scene] SceneGraph.h(25)::~SceneGraph : Deconstructing SceneGraph
+[20:09:15:463586]:[Scene] SemanticScene.h(48)::~SemanticScene : Deconstructing SemanticScene
+[20:09:15:508488]:[Gfx] Renderer.cpp(71)::~Impl : Deconstructing Renderer
+[20:09:15:508644]:[Gfx] WindowlessContext.h(17)::~WindowlessContext : Deconstructing WindowlessContext

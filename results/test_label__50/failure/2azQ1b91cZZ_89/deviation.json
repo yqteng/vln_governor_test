@@ -1,0 +1,40 @@
+{
+  "instruction": "Enter the dining room and walk to the other end. Go through the double doors on the right. Walk straight across the walkway and wait outside on the mat. ",
+  "baseline_result": "failure",
+  "vlm_result": "偏航",
+  "first_bad_segment": "S2",
+  "first_bad_steps": [
+    37,
+    57
+  ],
+  "reason": "The instruction requires entering and traversing the dining room before taking its right-hand double doors, crossing the walkway, and waiting outside on the mat. S1 follows the circulation strip north of the mapped dining furniture, while F21 and F26 show a furnished-room opening beside rather than traversed by the route. In S2 the measured trace crosses the finite opening beyond N2 into the separate stair foyer, corroborated by F39, F45, F49 and rug O14, establishing an out-of-order branch before the required dining-room traversal. S3–S6 continue across the foyer and rounded hall by O21, then enter a bedroom with a bed and rug O22 visible in F93 and F95, without recovering the required sequence. The earlier S2 onset remains supported by the unchanged step intervals and current evidence; no explicit STOP is supplied.",
+  "reviewed_to_step": 96,
+  "total_steps": 96,
+  "unreviewed_tail": null,
+  "evidence_segments_at_review": [
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6"
+  ],
+  "evidence_frames": [
+    "F21",
+    "F26",
+    "F39",
+    "F45",
+    "F49",
+    "F63",
+    "F65",
+    "F79",
+    "F91",
+    "F93",
+    "F95"
+  ],
+  "evidence_objects": [
+    "O14",
+    "O21",
+    "O22"
+  ]
+}

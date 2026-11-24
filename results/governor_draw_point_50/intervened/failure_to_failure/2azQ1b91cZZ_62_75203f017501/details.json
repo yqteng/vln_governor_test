@@ -1,0 +1,71 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 62,
+  "episode_instruction": "Exit the bathroom and go right, then turn left at the big clock and go into the bedroom and wait next to the bed. ",
+  "steps": 63,
+  "effective_steps": 63,
+  "num_rewrites": 0,
+  "corrections": 1,
+  "deviations": 0,
+  "blockage_recoveries": 0,
+  "stop_returns": 0,
+  "stop_rejections": 1,
+  "max_task_depth": 0,
+  "point_runs": 0,
+  "point_completed": 0,
+  "correction_images": [
+    "correction_images/2azQ1b91cZZ_62_75203f017501_step_0063_effective_0063_correction_001_attempt_1.png",
+    "correction_images/2azQ1b91cZZ_62_75203f017501_step_0063_effective_0063_correction_001_attempt_2.png"
+  ],
+  "final_instruction": "Exit the bathroom and go right, then turn left at the big clock and go into the bedroom and wait next to the bed. ",
+  "termination_reason": "rejected_stop_recovery_failed",
+  "summaries": [
+    {
+      "start": 0,
+      "end": 16,
+      "text": "The robot has exited the bathroom and moved right into a hallway. It has not yet turned left at the big clock or entered the bedroom. The current position is in the hallway, approaching the doorway to the bedroom, but the big clock is not visible in the current view. The task requires turning left at the big clock before entering the bedroom and waiting next to the bed, which has not been completed.",
+      "grounding": "State 3 shows the robot exiting the bathroom into a hallway with a window and curtains. State 16 shows the robot still in the hallway, approaching a doorway that leads to the bedroom, but the big clock is not visible in the current view. The robot has not yet turned left at the big clock or entered the bedroom.",
+      "anchor_steps": [
+        3,
+        16
+      ],
+      "anchor_source": "vlm"
+    },
+    {
+      "start": 16,
+      "end": 32,
+      "text": "The robot has reached the area with the big clock and is now facing it. It has not yet turned left at the clock or entered the bedroom. The task requires turning left at the big clock before entering the bedroom and waiting next to the bed, which has not been completed.",
+      "grounding": "State 16 shows the robot in a hallway approaching a doorway to the bedroom, but the big clock is not visible. State 32 shows the robot has moved forward into a circular room with a large clock on the wall, confirming arrival at the location of the big clock. The robot has not turned left at the clock or entered the bedroom yet.",
+      "anchor_steps": [
+        16,
+        32
+      ],
+      "anchor_source": "vlm"
+    },
+    {
+      "start": 32,
+      "end": 48,
+      "text": "The robot has turned left at the big clock and entered the bedroom. It is now positioned at the doorway of the bedroom, looking into the room where the bed is visible. The task requires waiting next to the bed, which has not yet been completed.",
+      "grounding": "State 32 shows the robot at the location of the big clock, facing it. State 48 shows the robot has turned left and is now at the doorway of the bedroom, with the bed visible inside. The robot has entered the bedroom but has not yet reached the bed or waited next to it.",
+      "anchor_steps": [
+        32,
+        48
+      ],
+      "anchor_source": "vlm"
+    }
+  ],
+  "intervened": true,
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 1.0,
+  "ne": 0.11040223389863968,
+  "category": "intervened/failure_to_failure",
+  "baseline": {
+    "success": 0.0,
+    "spl": 0.0,
+    "os": 0.0,
+    "ne": 11.984439849853516
+  },
+  "version": "governor_clean_remake_14_single_stop_decision",
+  "correction_mode": "point"
+}

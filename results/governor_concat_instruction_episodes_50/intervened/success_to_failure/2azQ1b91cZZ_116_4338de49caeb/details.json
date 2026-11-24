@@ -1,0 +1,79 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 116,
+  "episode_instruction": "you are in a closet, walk forward, turn right to walk out of closet into a bed room. turn right and see bath room, walk into bathroom and wait near the tub and sink. ",
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 7.037326812744141,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 100,
+  "effective_steps": 96,
+  "corrections": 2,
+  "deviations": 2,
+  "intervened": true,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 20,
+  "stop_returns": 0,
+  "num_rewrites": 2,
+  "max_task_depth": 2,
+  "final_instruction": "walk into the bathroom and wait near the tub and sink",
+  "termination_reason": "environment_limit",
+  "phase_steps": {
+    "normal": 33,
+    "rollback": 2,
+    "alignment": 18,
+    "initialization": 0,
+    "correction": 47,
+    "global_stop": 0,
+    "governor_stop": 0
+  },
+  "action_counts": {
+    "STOP": 0,
+    "MOVE_FORWARD": 40,
+    "TURN_LEFT": 31,
+    "TURN_RIGHT": 29,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 0,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 10.011812299489975,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "Completed: None. Currently: Agent is standing in the doorway of the bedroom, having exited the closet after moving forward and turning right. The bedroom is visible, including the bed and wooden beams. Remaining: Turn right to see the bathroom, walk into the bathroom, and wait near the tub and sink. Uncertain: Whether the bathroom is visible or accessible from current position; no bathroom features are visible in current view."
+    },
+    {
+      "start": 17,
+      "end": 32,
+      "text": "Completed: Agent has walked forward from the closet, turned right to enter the bedroom, and turned right again to face the doorway. Currently: Agent is back inside the closet, facing inward, as shown in frames 24–32, with no further progress toward the bathroom. Remaining: Turn right to see the bathroom, walk into the bathroom, and wait near the tub and sink. Uncertain: Bathroom visibility or accessibility from current position; no bathroom features are visible in current view."
+    },
+    {
+      "start": 33,
+      "end": 48,
+      "text": "Completed: Agent has walked forward from the closet, turned right to enter the bedroom, and turned right again to face the doorway. Currently: Agent is standing in the bedroom doorway, facing inward, with the bedroom visible behind and the bathroom not yet visible or accessible. Remaining: Turn right to see the bathroom, walk into the bathroom, and wait near the tub and sink. Uncertain: Whether the bathroom is visible or accessible from current position; no bathroom features are visible in current view."
+    },
+    {
+      "start": 49,
+      "end": 64,
+      "text": "Completed: Agent has walked forward from the closet, turned right to enter the bedroom, and turned right again to face the doorway. Currently: Agent is standing in the bedroom doorway, facing inward, with the bedroom visible behind and the bathroom not yet visible or accessible. Remaining: Turn right to see the bathroom, walk into the bathroom, and wait near the tub and sink. Uncertain: Whether the bathroom is visible or accessible from current position; no bathroom features are visible in current view."
+    },
+    {
+      "start": 65,
+      "end": 80,
+      "text": "Completed: Agent has walked forward from the closet, turned right to enter the bedroom, and turned right again to face the doorway. Currently: Agent is standing in the bedroom doorway, facing inward, with the bedroom visible behind and the bathroom not yet visible or accessible. Remaining: Turn right to see the bathroom, walk into the bathroom, and wait near the tub and sink. Uncertain: Whether the bathroom is visible or accessible from current position; no bathroom features are visible in current view."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "intervened/success_to_failure",
+  "baseline": {
+    "success": 1.0,
+    "spl": 0.6355038723762707,
+    "os": 1.0,
+    "ne": 0.5797445774078369
+  },
+  "artifact_dir": "intervened/success_to_failure/2azQ1b91cZZ_116_4338de49caeb"
+}

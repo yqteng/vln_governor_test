@@ -1,0 +1,69 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 115,
+  "episode_instruction": "turn around and exit the closet. walk into the bedroom through the door on the right. turn left and go into the bathroom. ",
+  "success": 1.0,
+  "spl": 0.8784934646437023,
+  "os": 1.0,
+  "ne": 0.13133297860622406,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 60,
+  "effective_steps": 59,
+  "corrections": 0,
+  "deviations": 0,
+  "intervened": false,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 12,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "turn around and exit the closet. walk into the bedroom through the door on the right. turn left and go into the bathroom. ",
+  "termination_reason": "global_stop",
+  "phase_steps": {
+    "normal": 59,
+    "rollback": 0,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 1,
+    "governor_stop": 0
+  },
+  "action_counts": {
+    "STOP": 1,
+    "MOVE_FORWARD": 26,
+    "TURN_LEFT": 11,
+    "TURN_RIGHT": 22,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 2,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 6.403601035475731,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "Completed: None. Currently: The agent has turned right 11 times (165 degrees total) and moved forward once, now facing a wooden door on the right side of the closet, visible in image 16. Remaining: turn around and exit the closet, walk into the bedroom through the door on the right, turn left and go into the bathroom. Uncertain: Whether the turn around requirement is fulfilled as the agent has not yet faced the closet exit direction; the current heading may not align with the required 180-degree turn from the initial facing direction."
+    },
+    {
+      "start": 17,
+      "end": 32,
+      "text": "Completed: None. Currently: The agent has turned right 11 times (165 degrees total) and moved forward once, now facing a wooden door on the right side of the closet, visible in image 16. Remaining: turn around and exit the closet, walk into the bedroom through the door on the right, turn left and go into the bathroom. Uncertain: Whether the turn around requirement is fulfilled as the agent has not yet faced the closet exit direction; the current heading may not align with the required 180-degree turn from the initial facing direction."
+    },
+    {
+      "start": 33,
+      "end": 48,
+      "text": "Completed: turn around and exit the closet, walk into the bedroom through the door on the right. Currently: Inside the bedroom, facing a wooden door on the left (image 48), which appears to be the bathroom door. Remaining: turn left and go into the bathroom. Uncertain: None."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "unintervened/success",
+  "baseline": {
+    "success": 1.0,
+    "spl": 0.8148677235174869,
+    "os": 1.0,
+    "ne": 0.4464143216609955
+  },
+  "artifact_dir": "unintervened/success/2azQ1b91cZZ_115_05e68657d45d"
+}

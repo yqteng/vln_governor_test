@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 62,
+  "success": 1.0,
+  "spl": 1.0,
+  "os": 1.0,
+  "ne": 1.704856514930725,
+  "steps": 53,
+  "episode_instruction": "Exit the bathroom and go right, then turn left at the big clock and go into the bedroom and wait next to the bed. ",
+  "final_instruction": "Exit the bathroom and go right, then turn left at the big clock and go into the bedroom and wait next to the bed. ",
+  "num_rewrites": 0
+}

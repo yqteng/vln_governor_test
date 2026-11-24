@@ -1,0 +1,74 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 45,
+  "episode_instruction": "Walk down the hallway and walk into the kitchen and take a left at the island counter into the hallway and take a right into the dining room and walk through the dining room into the living room and stop nest to the edge of the couch  behind the end table. ",
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 13.702799797058105,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 75,
+  "effective_steps": 74,
+  "corrections": 0,
+  "deviations": 0,
+  "intervened": false,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 23,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "Walk down the hallway and walk into the kitchen and take a left at the island counter into the hallway and take a right into the dining room and walk through the dining room into the living room and stop nest to the edge of the couch  behind the end table. ",
+  "termination_reason": "global_stop",
+  "phase_steps": {
+    "normal": 74,
+    "rollback": 0,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 1,
+    "governor_stop": 0
+  },
+  "action_counts": {
+    "STOP": 1,
+    "MOVE_FORWARD": 51,
+    "TURN_LEFT": 13,
+    "TURN_RIGHT": 10,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 2,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 12.697683036327362,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "Completed: Walk down the hallway and walk into the kitchen. Currently: Positioned in the kitchen, facing the dining room archway after turning right at the island counter. Remaining: Take a right into the dining room and walk through the dining room into the living room and stop next to the edge of the couch behind the end table. Uncertain: Exact position relative to the couch and end table in the living room; no visual confirmation of the couch or end table in current view."
+    },
+    {
+      "start": 17,
+      "end": 32,
+      "text": "Completed: Walk down the hallway and walk into the kitchen. Currently: Positioned in the kitchen, facing the dining room archway after turning right at the island counter; visual progression through the archway confirms ongoing approach to the dining room. Remaining: Take a right into the dining room and walk through the dining room into the living room and stop next to the edge of the couch behind the end table. Uncertain: Exact position relative to the couch and end table in the living room; no visual confirmation of the couch or end table in current view."
+    },
+    {
+      "start": 33,
+      "end": 48,
+      "text": "Completed: Walk down the hallway and walk into the kitchen; turned right at the island counter into the dining room. Currently: Positioned in the dining room, having entered through the archway and progressed toward the door on the left. Remaining: Walk through the dining room into the living room and stop next to the edge of the couch behind the end table. Uncertain: No visual confirmation of the living room, couch, or end table in current view; route progression beyond dining room not yet observed."
+    },
+    {
+      "start": 49,
+      "end": 64,
+      "text": "Completed: Walk down the hallway and walk into the kitchen; turned right at the island counter into the dining room. Currently: Positioned in the dining room, having progressed toward the right wall and passed the dining table and side console table, now facing the corner windows. Remaining: Walk through the dining room into the living room and stop next to the edge of the couch behind the end table. Uncertain: No visual confirmation of the living room, couch, or end table; route progression beyond dining room not yet observed."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "unintervened/failure",
+  "baseline": {
+    "success": 0.0,
+    "spl": 0.0,
+    "os": 0.0,
+    "ne": 13.409268379211426
+  },
+  "artifact_dir": "unintervened/failure/2azQ1b91cZZ_45_e19abfa2dc0f"
+}

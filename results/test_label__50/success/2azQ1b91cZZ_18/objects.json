@@ -1,0 +1,155 @@
+[
+  {
+    "id": "O1",
+    "name": "the pool table on your left side as you walk",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O1"
+    ]
+  },
+  {
+    "id": "O2",
+    "name": "the pool table on your left side as you walk",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O2"
+    ]
+  },
+  {
+    "id": "O3",
+    "name": "the pool table on your left side as you walk",
+    "floor": 1,
+    "status": "已确认",
+    "source_ids": [
+      "O3"
+    ]
+  },
+  {
+    "id": "O4",
+    "name": "the pool table on your left side as you walk",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O4"
+    ]
+  },
+  {
+    "id": "O5",
+    "name": "the wall across from the couch",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O5"
+    ]
+  },
+  {
+    "id": "O6",
+    "name": "the wall across from the couch",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O6"
+    ]
+  },
+  {
+    "id": "O7",
+    "name": "the wall across from the couch",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O7"
+    ]
+  },
+  {
+    "id": "O8",
+    "name": "the wall across from the couch",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O8"
+    ]
+  },
+  {
+    "id": "O9",
+    "name": "the wall across from the couch",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O9"
+    ]
+  },
+  {
+    "id": "O10",
+    "name": "the couch",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O10"
+    ]
+  },
+  {
+    "id": "O11",
+    "name": "the couch",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O11"
+    ]
+  },
+  {
+    "id": "O12",
+    "name": "the couch",
+    "floor": 1,
+    "status": "已确认",
+    "source_ids": [
+      "O12"
+    ]
+  },
+  {
+    "id": "O13",
+    "name": "the couch",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O13"
+    ]
+  },
+  {
+    "id": "O14",
+    "name": "the wall across from the couch",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O14"
+    ]
+  },
+  {
+    "id": "O16",
+    "name": "the wall across from the couch",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O16"
+    ]
+  },
+  {
+    "id": "O17",
+    "name": "the television mounted on the wall across from the couch",
+    "floor": 1,
+    "status": "已确认",
+    "source_ids": [
+      "O17"
+    ]
+  },
+  {
+    "id": "O18",
+    "name": "the pool table on your left side as you walk",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O18"
+    ]
+  }
+]

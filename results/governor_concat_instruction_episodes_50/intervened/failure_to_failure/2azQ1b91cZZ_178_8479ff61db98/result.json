@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 178,
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 8.99406909942627,
+  "steps": 27,
+  "episode_instruction": "go trough the doorway and take a hard left then walk straight towards the archway and then keep going until you are under the archway and then stop. ",
+  "final_instruction": "go trough the doorway and take a hard left then walk straight towards the archway and then keep going until you are under the archway and then stop. ",
+  "num_rewrites": 0
+}

@@ -1,0 +1,3963 @@
+{
+  "name": "2azQ1b91cZZ_115",
+  "instruction": "turn around and exit the closet. walk into the bedroom through the door on the right. turn left and go into the bathroom. ",
+  "complete": true,
+  "map_render_version": 11,
+  "report_layout": "four_view_momentum_only_v1",
+  "mapping_views": 4,
+  "map_branches": 1,
+  "replay_passes": 1,
+  "camera_pitch_degrees": -30,
+  "update_interval_actions": 4,
+  "initial_region": {
+    "region": "bedroom",
+    "cosine": 0.2089056819677353,
+    "margin": 0.006805971264839172,
+    "scores": {
+      "bathroom": 0.20209971070289612,
+      "bedroom": 0.2089056819677353,
+      "closet": 0.18817053735256195,
+      "dining room": 0.15859408676624298,
+      "entryway/foyer/lobby": 0.15940961241722107,
+      "family room": 0.16292071342468262,
+      "garage": 0.15707354247570038,
+      "hallway": 0.19158490002155304,
+      "library": 0.1362685114145279,
+      "laundry room/mudroom": 0.18728473782539368,
+      "kitchen": 0.1983596682548523,
+      "living room": 0.1833367496728897,
+      "meeting room/conference room": 0.15793544054031372,
+      "lounge": 0.13691624999046326,
+      "office": 0.1571856439113617,
+      "porch/terrace/deck/driveway": 0.1505306214094162,
+      "recreation room/game room": 0.18692860007286072,
+      "stairs": 0.1907450258731842,
+      "toilet room": 0.2006646990776062,
+      "utility room/tool room": 0.19091761112213135,
+      "tv room": 0.08757651597261429,
+      "gym/exercise room": 0.15121319890022278,
+      "outdoor green area": 0.10639788210391998,
+      "balcony": 0.1537502259016037,
+      "bar": 0.16573187708854675,
+      "classroom": 0.1547395884990692,
+      "dining booth": 0.17410364747047424,
+      "spa/sauna": 0.17011596262454987
+    },
+    "per_view": [
+      {
+        "direction": "front",
+        "region": "kitchen",
+        "cosine": 0.20193523168563843
+      },
+      {
+        "direction": "left",
+        "region": "laundry room/mudroom",
+        "cosine": 0.2181839644908905
+      },
+      {
+        "direction": "right",
+        "region": "bedroom",
+        "cosine": 0.22077733278274536
+      },
+      {
+        "direction": "back",
+        "region": "bathroom",
+        "cosine": 0.23057255148887634
+      }
+    ],
+    "view_agreement": 1,
+    "tau": 1.5,
+    "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+    "raw_region": "bedroom",
+    "raw_cosine": 0.2089056819677353,
+    "raw_margin": 0.006805971264839172,
+    "raw_view_agreement": 1,
+    "smoothed_scores": {
+      "bathroom": 0.20209971070289612,
+      "bedroom": 0.2089056819677353,
+      "closet": 0.18817053735256195,
+      "dining room": 0.15859408676624298,
+      "entryway/foyer/lobby": 0.15940961241722107,
+      "family room": 0.16292071342468262,
+      "garage": 0.15707354247570038,
+      "hallway": 0.19158490002155304,
+      "library": 0.1362685114145279,
+      "laundry room/mudroom": 0.18728473782539368,
+      "kitchen": 0.1983596682548523,
+      "living room": 0.1833367496728897,
+      "meeting room/conference room": 0.15793544054031372,
+      "lounge": 0.13691624999046326,
+      "office": 0.1571856439113617,
+      "porch/terrace/deck/driveway": 0.1505306214094162,
+      "recreation room/game room": 0.18692860007286072,
+      "stairs": 0.1907450258731842,
+      "toilet room": 0.2006646990776062,
+      "utility room/tool room": 0.19091761112213135,
+      "tv room": 0.08757651597261429,
+      "gym/exercise room": 0.15121319890022278,
+      "outdoor green area": 0.10639788210391998,
+      "balcony": 0.1537502259016037,
+      "bar": 0.16573187708854675,
+      "classroom": 0.1547395884990692,
+      "dining booth": 0.17410364747047424,
+      "spa/sauna": 0.17011596262454987
+    },
+    "decision_scores": {
+      "bathroom": 0.20209971070289612,
+      "bedroom": 0.2089056819677353,
+      "closet": 0.18817053735256195,
+      "dining room": 0.15859408676624298,
+      "entryway/foyer/lobby": 0.15940961241722107,
+      "family room": 0.16292071342468262,
+      "garage": 0.15707354247570038,
+      "hallway": 0.19158490002155304,
+      "library": 0.1362685114145279,
+      "laundry room/mudroom": 0.18728473782539368,
+      "kitchen": 0.1983596682548523,
+      "living room": 0.1833367496728897,
+      "meeting room/conference room": 0.15793544054031372,
+      "lounge": 0.13691624999046326,
+      "office": 0.1571856439113617,
+      "porch/terrace/deck/driveway": 0.1505306214094162,
+      "recreation room/game room": 0.18692860007286072,
+      "stairs": 0.1907450258731842,
+      "toilet room": 0.2006646990776062,
+      "utility room/tool room": 0.19091761112213135,
+      "tv room": 0.08757651597261429,
+      "gym/exercise room": 0.15121319890022278,
+      "outdoor green area": 0.10639788210391998,
+      "balcony": 0.1537502259016037,
+      "bar": 0.16573187708854675,
+      "classroom": 0.1547395884990692,
+      "dining booth": 0.17410364747047424,
+      "spa/sauna": 0.17011596262454987
+    },
+    "stability": {
+      "reason": "initial",
+      "previous_region": null,
+      "applied_bonus": 0.0,
+      "switched": false,
+      "suppressed": false,
+      "momentum": 0.6,
+      "stay_bonus": 0.0,
+      "bonus_enabled": false,
+      "fast_margin": 0.02,
+      "fast_min_views": 3
+    }
+  },
+  "region_stabilization": {
+    "momentum": 0.6,
+    "stay_bonus": 0.0,
+    "bonus_enabled": false,
+    "fast_margin": 0.02,
+    "fast_min_views": 3
+  },
+  "camera_settings": {
+    "hfov": 79.0,
+    "pitch_degrees": -30,
+    "depth_image_size": [
+      640,
+      480
+    ],
+    "rgb_image_size": [
+      640,
+      480
+    ]
+  },
+  "latest_views_image": "latest_views.jpg",
+  "color_semantics": "same region category always has the same color",
+  "region_semantics": "four-view endpoint predictions label preceding intervals; adjacent same-label intervals on the same floor merge; switch onset is localized only to an observation interval",
+  "instruction_targets": {
+    "objects": [],
+    "regions": [
+      {
+        "name": "closet",
+        "head": "closet",
+        "query": "closet",
+        "modifiers": [],
+        "mentioned_literally": true
+      },
+      {
+        "name": "bedroom",
+        "head": "bedroom",
+        "query": "bedroom",
+        "modifiers": [],
+        "mentioned_literally": true
+      },
+      {
+        "name": "bathroom",
+        "head": "bathroom",
+        "query": "bathroom",
+        "modifiers": [],
+        "mentioned_literally": true
+      }
+    ],
+    "base_regions": [
+      "bathroom",
+      "bedroom",
+      "closet",
+      "dining room",
+      "entryway/foyer/lobby",
+      "family room",
+      "garage",
+      "hallway",
+      "library",
+      "laundry room/mudroom",
+      "kitchen",
+      "living room",
+      "meeting room/conference room",
+      "lounge",
+      "office",
+      "porch/terrace/deck/driveway",
+      "recreation room/game room",
+      "stairs",
+      "toilet room",
+      "utility room/tool room",
+      "tv room",
+      "gym/exercise room",
+      "outdoor green area",
+      "balcony",
+      "bar",
+      "classroom",
+      "dining booth",
+      "spa/sauna"
+    ],
+    "instruction_region_heads": [
+      "closet",
+      "bedroom",
+      "bathroom"
+    ],
+    "dynamic_regions": [],
+    "region_vocabulary": [
+      "bathroom",
+      "bedroom",
+      "closet",
+      "dining room",
+      "entryway/foyer/lobby",
+      "family room",
+      "garage",
+      "hallway",
+      "library",
+      "laundry room/mudroom",
+      "kitchen",
+      "living room",
+      "meeting room/conference room",
+      "lounge",
+      "office",
+      "porch/terrace/deck/driveway",
+      "recreation room/game room",
+      "stairs",
+      "toilet room",
+      "utility room/tool room",
+      "tv room",
+      "gym/exercise room",
+      "outdoor green area",
+      "balcony",
+      "bar",
+      "classroom",
+      "dining booth",
+      "spa/sauna"
+    ],
+    "discarded_region_heads": [],
+    "selection_policy": "mp3d_base28_plus_instruction_heads_v1",
+    "dynamic_scope": "current_trajectory_only",
+    "dynamic_filter": {
+      "status": "not_needed",
+      "checked_heads": [],
+      "removed_heads": []
+    }
+  },
+  "target_selection_policy": "mp3d_base28_plus_instruction_heads_v1",
+  "route": [
+    {
+      "step": 0,
+      "floor": 0,
+      "position": [
+        29.01490020751953,
+        0.12711000442504883,
+        -2.6037700176239014
+      ]
+    },
+    {
+      "step": 1,
+      "floor": 0,
+      "position": [
+        29.01490020751953,
+        0.12711000442504883,
+        -2.6037700176239014
+      ]
+    },
+    {
+      "step": 2,
+      "floor": 0,
+      "position": [
+        29.01490020751953,
+        0.12711000442504883,
+        -2.6037700176239014
+      ]
+    },
+    {
+      "step": 3,
+      "floor": 0,
+      "position": [
+        29.01490020751953,
+        0.12711000442504883,
+        -2.6037700176239014
+      ]
+    },
+    {
+      "step": 4,
+      "floor": 0,
+      "position": [
+        29.01490020751953,
+        0.12711000442504883,
+        -2.6037700176239014
+      ]
+    },
+    {
+      "step": 5,
+      "floor": 0,
+      "position": [
+        29.01490020751953,
+        0.12711000442504883,
+        -2.6037700176239014
+      ]
+    },
+    {
+      "step": 6,
+      "floor": 0,
+      "position": [
+        29.01490020751953,
+        0.12711000442504883,
+        -2.6037700176239014
+      ]
+    },
+    {
+      "step": 7,
+      "floor": 0,
+      "position": [
+        29.01490020751953,
+        0.12711000442504883,
+        -2.6037700176239014
+      ]
+    },
+    {
+      "step": 8,
+      "floor": 0,
+      "position": [
+        29.01490020751953,
+        0.12711000442504883,
+        -2.6037700176239014
+      ]
+    },
+    {
+      "step": 9,
+      "floor": 0,
+      "position": [
+        29.01490020751953,
+        0.12711000442504883,
+        -2.6037700176239014
+      ]
+    },
+    {
+      "step": 10,
+      "floor": 0,
+      "position": [
+        29.01490020751953,
+        0.12711000442504883,
+        -2.6037700176239014
+      ]
+    },
+    {
+      "step": 11,
+      "floor": 0,
+      "position": [
+        29.01490020751953,
+        0.12711000442504883,
+        -2.6037700176239014
+      ]
+    },
+    {
+      "step": 12,
+      "floor": 0,
+      "position": [
+        29.25638198852539,
+        0.12711000442504883,
+        -2.539065361022949
+      ]
+    },
+    {
+      "step": 13,
+      "floor": 0,
+      "position": [
+        29.25638198852539,
+        0.12711000442504883,
+        -2.539065361022949
+      ]
+    },
+    {
+      "step": 14,
+      "floor": 0,
+      "position": [
+        29.25638198852539,
+        0.12711000442504883,
+        -2.539065361022949
+      ]
+    },
+    {
+      "step": 15,
+      "floor": 0,
+      "position": [
+        29.25638198852539,
+        0.12711000442504883,
+        -2.539065361022949
+      ]
+    },
+    {
+      "step": 16,
+      "floor": 0,
+      "position": [
+        29.25638198852539,
+        0.12711000442504883,
+        -2.539065361022949
+      ]
+    },
+    {
+      "step": 17,
+      "floor": 0,
+      "position": [
+        29.25638198852539,
+        0.12711000442504883,
+        -2.539065361022949
+      ]
+    },
+    {
+      "step": 18,
+      "floor": 0,
+      "position": [
+        29.25638198852539,
+        0.12711000442504883,
+        -2.289065361022949
+      ]
+    },
+    {
+      "step": 19,
+      "floor": 0,
+      "position": [
+        29.25638198852539,
+        0.12711000442504883,
+        -2.039065361022949
+      ]
+    },
+    {
+      "step": 20,
+      "floor": 0,
+      "position": [
+        29.25638198852539,
+        0.12711000442504883,
+        -1.7890653610229492
+      ]
+    },
+    {
+      "step": 21,
+      "floor": 0,
+      "position": [
+        29.25638198852539,
+        0.12711000442504883,
+        -1.7890653610229492
+      ]
+    },
+    {
+      "step": 22,
+      "floor": 0,
+      "position": [
+        29.25638198852539,
+        0.12711000442504883,
+        -1.7890653610229492
+      ]
+    },
+    {
+      "step": 23,
+      "floor": 0,
+      "position": [
+        29.25638198852539,
+        0.12711000442504883,
+        -1.7890653610229492
+      ]
+    },
+    {
+      "step": 24,
+      "floor": 0,
+      "position": [
+        29.25638198852539,
+        0.12711000442504883,
+        -1.7890653610229492
+      ]
+    },
+    {
+      "step": 25,
+      "floor": 0,
+      "position": [
+        29.039875030517578,
+        0.12711000442504883,
+        -1.6640653610229492
+      ]
+    },
+    {
+      "step": 26,
+      "floor": 0,
+      "position": [
+        28.823368072509766,
+        0.12711000442504883,
+        -1.5390653610229492
+      ]
+    },
+    {
+      "step": 27,
+      "floor": 0,
+      "position": [
+        28.606861114501953,
+        0.12711000442504883,
+        -1.4140653610229492
+      ]
+    },
+    {
+      "step": 28,
+      "floor": 0,
+      "position": [
+        28.39035415649414,
+        0.12711000442504883,
+        -1.2890653610229492
+      ]
+    },
+    {
+      "step": 29,
+      "floor": 0,
+      "position": [
+        28.173847198486328,
+        0.12711000442504883,
+        -1.1640653610229492
+      ]
+    },
+    {
+      "step": 30,
+      "floor": 0,
+      "position": [
+        28.173847198486328,
+        0.12711000442504883,
+        -1.1640653610229492
+      ]
+    },
+    {
+      "step": 31,
+      "floor": 0,
+      "position": [
+        27.93236541748047,
+        0.12711000442504883,
+        -1.099360466003418
+      ]
+    },
+    {
+      "step": 32,
+      "floor": 0,
+      "position": [
+        27.93236541748047,
+        0.12711000442504883,
+        -1.099360466003418
+      ]
+    },
+    {
+      "step": 33,
+      "floor": 0,
+      "position": [
+        27.93236541748047,
+        0.12711000442504883,
+        -1.099360466003418
+      ]
+    },
+    {
+      "step": 34,
+      "floor": 0,
+      "position": [
+        27.75558853149414,
+        0.12711000442504883,
+        -0.9225836992263794
+      ]
+    },
+    {
+      "step": 35,
+      "floor": 0,
+      "position": [
+        27.578811645507812,
+        0.12711000442504883,
+        -0.7458069324493408
+      ]
+    },
+    {
+      "step": 36,
+      "floor": 0,
+      "position": [
+        27.402034759521484,
+        0.12711000442504883,
+        -0.5690301656723022
+      ]
+    },
+    {
+      "step": 37,
+      "floor": 0,
+      "position": [
+        27.402034759521484,
+        0.12711000442504883,
+        -0.5690301656723022
+      ]
+    },
+    {
+      "step": 38,
+      "floor": 0,
+      "position": [
+        27.274076461791992,
+        0.12711000442504883,
+        -0.3821127116680145
+      ]
+    },
+    {
+      "step": 39,
+      "floor": 0,
+      "position": [
+        27.128877639770508,
+        0.12711000442504883,
+        -0.36759284138679504
+      ]
+    },
+    {
+      "step": 40,
+      "floor": 0,
+      "position": [
+        27.003877639770508,
+        0.12711000442504883,
+        -0.15108639001846313
+      ]
+    },
+    {
+      "step": 41,
+      "floor": 0,
+      "position": [
+        26.878877639770508,
+        0.12711000442504883,
+        0.06542006134986877
+      ]
+    },
+    {
+      "step": 42,
+      "floor": 0,
+      "position": [
+        26.753877639770508,
+        0.12711000442504883,
+        0.2819265127182007
+      ]
+    },
+    {
+      "step": 43,
+      "floor": 0,
+      "position": [
+        26.753877639770508,
+        0.12711000442504883,
+        0.2819265127182007
+      ]
+    },
+    {
+      "step": 44,
+      "floor": 0,
+      "position": [
+        26.753877639770508,
+        0.12711000442504883,
+        0.2819265127182007
+      ]
+    },
+    {
+      "step": 45,
+      "floor": 0,
+      "position": [
+        26.753877639770508,
+        0.12711000442504883,
+        0.2819265127182007
+      ]
+    },
+    {
+      "step": 46,
+      "floor": 0,
+      "position": [
+        26.753877639770508,
+        0.12711000442504883,
+        0.2819265127182007
+      ]
+    },
+    {
+      "step": 47,
+      "floor": 0,
+      "position": [
+        26.753877639770508,
+        0.12711000442504883,
+        0.2819265127182007
+      ]
+    },
+    {
+      "step": 48,
+      "floor": 0,
+      "position": [
+        26.753877639770508,
+        0.12711000442504883,
+        0.2819265127182007
+      ]
+    },
+    {
+      "step": 49,
+      "floor": 0,
+      "position": [
+        26.97038459777832,
+        0.12711000442504883,
+        0.4069265127182007
+      ]
+    },
+    {
+      "step": 50,
+      "floor": 0,
+      "position": [
+        27.186891555786133,
+        0.12711000442504883,
+        0.5319265127182007
+      ]
+    },
+    {
+      "step": 51,
+      "floor": 0,
+      "position": [
+        27.186891555786133,
+        0.12711000442504883,
+        0.5319265127182007
+      ]
+    },
+    {
+      "step": 52,
+      "floor": 0,
+      "position": [
+        27.428373336791992,
+        0.12711000442504883,
+        0.5966311693191528
+      ]
+    },
+    {
+      "step": 53,
+      "floor": 0,
+      "position": [
+        27.66985511779785,
+        0.12711000442504883,
+        0.7406206130981445
+      ]
+    },
+    {
+      "step": 54,
+      "floor": 0,
+      "position": [
+        27.66985511779785,
+        0.12711000442504883,
+        0.7406206130981445
+      ]
+    },
+    {
+      "step": 55,
+      "floor": 0,
+      "position": [
+        27.91985511779785,
+        0.12711000442504883,
+        0.7406206130981445
+      ]
+    },
+    {
+      "step": 56,
+      "floor": 0,
+      "position": [
+        28.16985511779785,
+        0.12711000442504883,
+        0.7406205534934998
+      ]
+    },
+    {
+      "step": 57,
+      "floor": 0,
+      "position": [
+        28.41985511779785,
+        0.12711000442504883,
+        0.740620493888855
+      ]
+    },
+    {
+      "step": 58,
+      "floor": 0,
+      "position": [
+        28.66985511779785,
+        0.12711000442504883,
+        0.7406204342842102
+      ]
+    },
+    {
+      "step": 59,
+      "floor": 0,
+      "position": [
+        28.91985511779785,
+        0.12711000442504883,
+        0.7406203746795654
+      ]
+    },
+    {
+      "step": 60,
+      "floor": 0,
+      "position": [
+        28.91985511779785,
+        0.12711000442504883,
+        0.7406203746795654
+      ]
+    },
+    {
+      "step": 61,
+      "floor": 0,
+      "position": [
+        29.16133689880371,
+        0.12711000442504883,
+        0.8053251504898071
+      ]
+    },
+    {
+      "step": 62,
+      "floor": 0,
+      "position": [
+        29.16133689880371,
+        0.12711000442504883,
+        0.8053251504898071
+      ]
+    }
+  ],
+  "segments": [
+    {
+      "id": 1,
+      "start_step": 0,
+      "end_step": 56,
+      "sampled_at_step": 56,
+      "floor": 0,
+      "color": "#234ac4",
+      "sample_steps": [
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28,
+        32,
+        36,
+        40,
+        44,
+        48,
+        52,
+        56
+      ],
+      "region": "bedroom",
+      "cosine": 0.20590367913246155,
+      "margin": -0.013727188110351562,
+      "scores": {
+        "bathroom": 0.2196308672428131,
+        "bedroom": 0.20590367913246155,
+        "closet": 0.1804877519607544,
+        "dining room": 0.16377492249011993,
+        "entryway/foyer/lobby": 0.1707993745803833,
+        "family room": 0.16856792569160461,
+        "garage": 0.16433359682559967,
+        "hallway": 0.19954553246498108,
+        "library": 0.1430417150259018,
+        "laundry room/mudroom": 0.1859370470046997,
+        "kitchen": 0.19067056477069855,
+        "living room": 0.18442592024803162,
+        "meeting room/conference room": 0.1698712855577469,
+        "lounge": 0.15406936407089233,
+        "office": 0.17368273437023163,
+        "porch/terrace/deck/driveway": 0.16624151170253754,
+        "recreation room/game room": 0.19178514182567596,
+        "stairs": 0.19140993058681488,
+        "toilet room": 0.2131989449262619,
+        "utility room/tool room": 0.1854526698589325,
+        "tv room": 0.1128142699599266,
+        "gym/exercise room": 0.15753260254859924,
+        "outdoor green area": 0.12580090761184692,
+        "balcony": 0.15324446558952332,
+        "bar": 0.17447182536125183,
+        "classroom": 0.16264379024505615,
+        "dining booth": 0.17568698525428772,
+        "spa/sauna": 0.17478039860725403
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "bathroom",
+          "cosine": 0.25163033604621887
+        },
+        {
+          "direction": "left",
+          "region": "bathroom",
+          "cosine": 0.25875282287597656
+        },
+        {
+          "direction": "right",
+          "region": "hallway",
+          "cosine": 0.2092440277338028
+        },
+        {
+          "direction": "back",
+          "region": "bedroom",
+          "cosine": 0.2273605912923813
+        }
+      ],
+      "view_agreement": 1,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "bathroom",
+      "raw_cosine": 0.2196308672428131,
+      "raw_margin": 0.0064319223165512085,
+      "raw_view_agreement": 2,
+      "smoothed_scores": {
+        "bathroom": 0.19516337060483205,
+        "bedroom": 0.2162418589196208,
+        "closet": 0.18009662816578484,
+        "dining room": 0.17207509464451332,
+        "entryway/foyer/lobby": 0.17592194298754432,
+        "family room": 0.17557099545402305,
+        "garage": 0.16151509708579492,
+        "hallway": 0.20132735666808776,
+        "library": 0.15762384007626143,
+        "laundry room/mudroom": 0.17710826051779355,
+        "kitchen": 0.18555817045266942,
+        "living room": 0.1996928985773796,
+        "meeting room/conference room": 0.17543037762663544,
+        "lounge": 0.16705232448554325,
+        "office": 0.17703558450730567,
+        "porch/terrace/deck/driveway": 0.16713386132096683,
+        "recreation room/game room": 0.195911871277891,
+        "stairs": 0.19221768473259943,
+        "toilet room": 0.19878514030735,
+        "utility room/tool room": 0.17549074437352516,
+        "tv room": 0.12693530651618773,
+        "gym/exercise room": 0.15963359529730173,
+        "outdoor green area": 0.13082381687696215,
+        "balcony": 0.15969608384137932,
+        "bar": 0.17571336720587502,
+        "classroom": 0.1673225598351185,
+        "dining booth": 0.18060914299934006,
+        "spa/sauna": 0.17012396829871845
+      },
+      "decision_scores": {
+        "bathroom": 0.19516337060483205,
+        "bedroom": 0.2162418589196208,
+        "closet": 0.18009662816578484,
+        "dining room": 0.17207509464451332,
+        "entryway/foyer/lobby": 0.17592194298754432,
+        "family room": 0.17557099545402305,
+        "garage": 0.16151509708579492,
+        "hallway": 0.20132735666808776,
+        "library": 0.15762384007626143,
+        "laundry room/mudroom": 0.17710826051779355,
+        "kitchen": 0.18555817045266942,
+        "living room": 0.1996928985773796,
+        "meeting room/conference room": 0.17543037762663544,
+        "lounge": 0.16705232448554325,
+        "office": 0.17703558450730567,
+        "porch/terrace/deck/driveway": 0.16713386132096683,
+        "recreation room/game room": 0.195911871277891,
+        "stairs": 0.19221768473259943,
+        "toilet room": 0.19878514030735,
+        "utility room/tool room": 0.17549074437352516,
+        "tv room": 0.12693530651618773,
+        "gym/exercise room": 0.15963359529730173,
+        "outdoor green area": 0.13082381687696215,
+        "balcony": 0.15969608384137932,
+        "bar": 0.17571336720587502,
+        "classroom": 0.1673225598351185,
+        "dining booth": 0.18060914299934006,
+        "spa/sauna": 0.17012396829871845
+      },
+      "stability": {
+        "reason": "held_by_momentum",
+        "previous_region": "bedroom",
+        "applied_bonus": 0.0,
+        "switched": false,
+        "suppressed": true,
+        "momentum": 0.6,
+        "stay_bonus": 0.0,
+        "bonus_enabled": false,
+        "fast_margin": 0.02,
+        "fast_min_views": 3
+      },
+      "sample_count": 14,
+      "current_position": [
+        28.16985511779785,
+        0.12711000442504883,
+        0.7406205534934998
+      ],
+      "label_position": [
+        27.578811645507812,
+        0.12711000442504883,
+        -0.7458069324493408
+      ]
+    },
+    {
+      "id": 2,
+      "start_step": 56,
+      "end_step": 62,
+      "sampled_at_step": 62,
+      "floor": 0,
+      "color": "#9fc423",
+      "sample_steps": [
+        60,
+        62
+      ],
+      "region": "bathroom",
+      "cosine": 0.23542936146259308,
+      "margin": 0.028381377458572388,
+      "scores": {
+        "bathroom": 0.23542936146259308,
+        "bedroom": 0.20053091645240784,
+        "closet": 0.16153204441070557,
+        "dining room": 0.15527194738388062,
+        "entryway/foyer/lobby": 0.16119471192359924,
+        "family room": 0.15962547063827515,
+        "garage": 0.14207790791988373,
+        "hallway": 0.18620967864990234,
+        "library": 0.13584956526756287,
+        "laundry room/mudroom": 0.17714670300483704,
+        "kitchen": 0.18860095739364624,
+        "living room": 0.1776830554008484,
+        "meeting room/conference room": 0.15760435163974762,
+        "lounge": 0.1509435772895813,
+        "office": 0.16283363103866577,
+        "porch/terrace/deck/driveway": 0.16364344954490662,
+        "recreation room/game room": 0.17848323285579681,
+        "stairs": 0.19038167595863342,
+        "toilet room": 0.2070479840040207,
+        "utility room/tool room": 0.1726192831993103,
+        "tv room": 0.0928492322564125,
+        "gym/exercise room": 0.15258997678756714,
+        "outdoor green area": 0.11671795696020126,
+        "balcony": 0.15235155820846558,
+        "bar": 0.15916317701339722,
+        "classroom": 0.14700405299663544,
+        "dining booth": 0.15925058722496033,
+        "spa/sauna": 0.1785416156053543
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "stairs",
+          "cosine": 0.22360756993293762
+        },
+        {
+          "direction": "left",
+          "region": "bathroom",
+          "cosine": 0.24522104859352112
+        },
+        {
+          "direction": "right",
+          "region": "bathroom",
+          "cosine": 0.22499383985996246
+        },
+        {
+          "direction": "back",
+          "region": "bathroom",
+          "cosine": 0.25321078300476074
+        }
+      ],
+      "view_agreement": 3,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "bathroom",
+      "raw_cosine": 0.23542936146259308,
+      "raw_margin": 0.028381377458572388,
+      "raw_view_agreement": 3,
+      "smoothed_scores": {
+        "bathroom": 0.23744244873523712,
+        "bedroom": 0.20030002295970917,
+        "closet": 0.1652139663696289,
+        "dining room": 0.15963871777057648,
+        "entryway/foyer/lobby": 0.159097295999527,
+        "family room": 0.16130037605762482,
+        "garage": 0.1453605204820633,
+        "hallway": 0.1865993857383728,
+        "library": 0.13442398905754088,
+        "laundry room/mudroom": 0.18162093162536622,
+        "kitchen": 0.194872185587883,
+        "living room": 0.17769274711608887,
+        "meeting room/conference room": 0.15875232815742493,
+        "lounge": 0.14893108010292053,
+        "office": 0.16519100666046144,
+        "porch/terrace/deck/driveway": 0.16377031803131104,
+        "recreation room/game room": 0.179270201921463,
+        "stairs": 0.18697692453861237,
+        "toilet room": 0.2107164144515991,
+        "utility room/tool room": 0.17860406041145327,
+        "tv room": 0.09119956642389297,
+        "gym/exercise room": 0.15184122920036314,
+        "outdoor green area": 0.11813729256391525,
+        "balcony": 0.15019266605377196,
+        "bar": 0.16175302863121033,
+        "classroom": 0.14964440166950227,
+        "dining booth": 0.16381326615810393,
+        "spa/sauna": 0.1776225298643112
+      },
+      "decision_scores": {
+        "bathroom": 0.23744244873523712,
+        "bedroom": 0.20030002295970917,
+        "closet": 0.1652139663696289,
+        "dining room": 0.15963871777057648,
+        "entryway/foyer/lobby": 0.159097295999527,
+        "family room": 0.16130037605762482,
+        "garage": 0.1453605204820633,
+        "hallway": 0.1865993857383728,
+        "library": 0.13442398905754088,
+        "laundry room/mudroom": 0.18162093162536622,
+        "kitchen": 0.194872185587883,
+        "living room": 0.17769274711608887,
+        "meeting room/conference room": 0.15875232815742493,
+        "lounge": 0.14893108010292053,
+        "office": 0.16519100666046144,
+        "porch/terrace/deck/driveway": 0.16377031803131104,
+        "recreation room/game room": 0.179270201921463,
+        "stairs": 0.18697692453861237,
+        "toilet room": 0.2107164144515991,
+        "utility room/tool room": 0.17860406041145327,
+        "tv room": 0.09119956642389297,
+        "gym/exercise room": 0.15184122920036314,
+        "outdoor green area": 0.11813729256391525,
+        "balcony": 0.15019266605377196,
+        "bar": 0.16175302863121033,
+        "classroom": 0.14964440166950227,
+        "dining booth": 0.16381326615810393,
+        "spa/sauna": 0.1776225298643112
+      },
+      "stability": {
+        "reason": "unchanged",
+        "previous_region": "bathroom",
+        "applied_bonus": 0.0,
+        "switched": false,
+        "suppressed": false,
+        "momentum": 0.6,
+        "stay_bonus": 0.0,
+        "bonus_enabled": false,
+        "fast_margin": 0.02,
+        "fast_min_views": 3
+      },
+      "transition_step_window": [
+        56,
+        60
+      ],
+      "sample_count": 2,
+      "current_position": [
+        29.16133689880371,
+        0.12711000442504883,
+        0.8053251504898071
+      ],
+      "label_position": [
+        28.66985511779785,
+        0.12711000442504883,
+        0.7406204342842102
+      ]
+    }
+  ],
+  "raw_segments": [
+    {
+      "id": 1,
+      "start_step": 0,
+      "end_step": 52,
+      "sampled_at_step": 52,
+      "floor": 0,
+      "color": "#234ac4",
+      "sample_steps": [
+        4,
+        8,
+        12,
+        16,
+        20,
+        24,
+        28,
+        32,
+        36,
+        40,
+        44,
+        48,
+        52
+      ],
+      "region": "bedroom",
+      "cosine": 0.2216837853193283,
+      "margin": 0.01244141161441803,
+      "scores": {
+        "bathroom": 0.18121910095214844,
+        "bedroom": 0.2216837853193283,
+        "closet": 0.1734800785779953,
+        "dining room": 0.17827287316322327,
+        "entryway/foyer/lobby": 0.17976132035255432,
+        "family room": 0.18053442239761353,
+        "garage": 0.16382309794425964,
+        "hallway": 0.2023371458053589,
+        "library": 0.1647741198539734,
+        "laundry room/mudroom": 0.16982576251029968,
+        "kitchen": 0.185804083943367,
+        "living room": 0.20924237370491028,
+        "meeting room/conference room": 0.18330784142017365,
+        "lounge": 0.1720230132341385,
+        "office": 0.17981979250907898,
+        "porch/terrace/deck/driveway": 0.16804754734039307,
+        "recreation room/game room": 0.20077529549598694,
+        "stairs": 0.19458062946796417,
+        "toilet room": 0.19105595350265503,
+        "utility room/tool room": 0.1697641909122467,
+        "tv room": 0.13545018434524536,
+        "gym/exercise room": 0.1607102006673813,
+        "outdoor green area": 0.13699159026145935,
+        "balcony": 0.16365988552570343,
+        "bar": 0.1764497309923172,
+        "classroom": 0.17370612919330597,
+        "dining booth": 0.18267822265625,
+        "spa/sauna": 0.16617202758789062
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "hallway",
+          "cosine": 0.23594307899475098
+        },
+        {
+          "direction": "left",
+          "region": "bedroom",
+          "cosine": 0.21913403272628784
+        },
+        {
+          "direction": "right",
+          "region": "living room",
+          "cosine": 0.20811960101127625
+        },
+        {
+          "direction": "back",
+          "region": "bedroom",
+          "cosine": 0.23994095623493195
+        }
+      ],
+      "view_agreement": 2,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "bedroom",
+      "raw_cosine": 0.2216837853193283,
+      "raw_margin": 0.01244141161441803,
+      "raw_view_agreement": 2,
+      "smoothed_scores": {
+        "bathroom": 0.17885170617951135,
+        "bedroom": 0.22313397877772695,
+        "closet": 0.17983587896913847,
+        "dining room": 0.1776085427474422,
+        "entryway/foyer/lobby": 0.17933698859231834,
+        "family room": 0.18023970862896865,
+        "garage": 0.15963609725925842,
+        "hallway": 0.2025152394701589,
+        "library": 0.16734525677650117,
+        "laundry room/mudroom": 0.1712224028598561,
+        "kitchen": 0.18214990757398336,
+        "living room": 0.2098708841302782,
+        "meeting room/conference room": 0.1791364390058945,
+        "lounge": 0.17570763142864385,
+        "office": 0.17927081793202168,
+        "porch/terrace/deck/driveway": 0.16772876106658635,
+        "recreation room/game room": 0.19866302424603438,
+        "stairs": 0.1927561874964558,
+        "toilet room": 0.1891759372280754,
+        "utility room/tool room": 0.16884946071658694,
+        "tv room": 0.1363493308870285,
+        "gym/exercise room": 0.16103425712977004,
+        "outdoor green area": 0.1341724230537056,
+        "balcony": 0.16399716267595,
+        "bar": 0.17654106176895715,
+        "classroom": 0.1704417395618268,
+        "dining booth": 0.1838905814960416,
+        "spa/sauna": 0.16701968142636142
+      },
+      "decision_scores": {
+        "bathroom": 0.17885170617951135,
+        "bedroom": 0.22313397877772695,
+        "closet": 0.17983587896913847,
+        "dining room": 0.1776085427474422,
+        "entryway/foyer/lobby": 0.17933698859231834,
+        "family room": 0.18023970862896865,
+        "garage": 0.15963609725925842,
+        "hallway": 0.2025152394701589,
+        "library": 0.16734525677650117,
+        "laundry room/mudroom": 0.1712224028598561,
+        "kitchen": 0.18214990757398336,
+        "living room": 0.2098708841302782,
+        "meeting room/conference room": 0.1791364390058945,
+        "lounge": 0.17570763142864385,
+        "office": 0.17927081793202168,
+        "porch/terrace/deck/driveway": 0.16772876106658635,
+        "recreation room/game room": 0.19866302424603438,
+        "stairs": 0.1927561874964558,
+        "toilet room": 0.1891759372280754,
+        "utility room/tool room": 0.16884946071658694,
+        "tv room": 0.1363493308870285,
+        "gym/exercise room": 0.16103425712977004,
+        "outdoor green area": 0.1341724230537056,
+        "balcony": 0.16399716267595,
+        "bar": 0.17654106176895715,
+        "classroom": 0.1704417395618268,
+        "dining booth": 0.1838905814960416,
+        "spa/sauna": 0.16701968142636142
+      },
+      "stability": {
+        "reason": "unchanged",
+        "previous_region": "bedroom",
+        "applied_bonus": 0.0,
+        "switched": false,
+        "suppressed": false,
+        "momentum": 0.6,
+        "stay_bonus": 0.0,
+        "bonus_enabled": false,
+        "fast_margin": 0.02,
+        "fast_min_views": 3
+      },
+      "sample_count": 13,
+      "label_position": [
+        28.823368072509766,
+        0.12711000442504883,
+        -1.5390653610229492
+      ]
+    },
+    {
+      "id": 2,
+      "start_step": 52,
+      "end_step": 62,
+      "sampled_at_step": 62,
+      "floor": 0,
+      "color": "#9fc423",
+      "sample_steps": [
+        56,
+        60,
+        62
+      ],
+      "region": "bathroom",
+      "cosine": 0.23542936146259308,
+      "margin": 0.028381377458572388,
+      "scores": {
+        "bathroom": 0.23542936146259308,
+        "bedroom": 0.20053091645240784,
+        "closet": 0.16153204441070557,
+        "dining room": 0.15527194738388062,
+        "entryway/foyer/lobby": 0.16119471192359924,
+        "family room": 0.15962547063827515,
+        "garage": 0.14207790791988373,
+        "hallway": 0.18620967864990234,
+        "library": 0.13584956526756287,
+        "laundry room/mudroom": 0.17714670300483704,
+        "kitchen": 0.18860095739364624,
+        "living room": 0.1776830554008484,
+        "meeting room/conference room": 0.15760435163974762,
+        "lounge": 0.1509435772895813,
+        "office": 0.16283363103866577,
+        "porch/terrace/deck/driveway": 0.16364344954490662,
+        "recreation room/game room": 0.17848323285579681,
+        "stairs": 0.19038167595863342,
+        "toilet room": 0.2070479840040207,
+        "utility room/tool room": 0.1726192831993103,
+        "tv room": 0.0928492322564125,
+        "gym/exercise room": 0.15258997678756714,
+        "outdoor green area": 0.11671795696020126,
+        "balcony": 0.15235155820846558,
+        "bar": 0.15916317701339722,
+        "classroom": 0.14700405299663544,
+        "dining booth": 0.15925058722496033,
+        "spa/sauna": 0.1785416156053543
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "stairs",
+          "cosine": 0.22360756993293762
+        },
+        {
+          "direction": "left",
+          "region": "bathroom",
+          "cosine": 0.24522104859352112
+        },
+        {
+          "direction": "right",
+          "region": "bathroom",
+          "cosine": 0.22499383985996246
+        },
+        {
+          "direction": "back",
+          "region": "bathroom",
+          "cosine": 0.25321078300476074
+        }
+      ],
+      "view_agreement": 3,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "bathroom",
+      "raw_cosine": 0.23542936146259308,
+      "raw_margin": 0.028381377458572388,
+      "raw_view_agreement": 3,
+      "smoothed_scores": {
+        "bathroom": 0.23744244873523712,
+        "bedroom": 0.20030002295970917,
+        "closet": 0.1652139663696289,
+        "dining room": 0.15963871777057648,
+        "entryway/foyer/lobby": 0.159097295999527,
+        "family room": 0.16130037605762482,
+        "garage": 0.1453605204820633,
+        "hallway": 0.1865993857383728,
+        "library": 0.13442398905754088,
+        "laundry room/mudroom": 0.18162093162536622,
+        "kitchen": 0.194872185587883,
+        "living room": 0.17769274711608887,
+        "meeting room/conference room": 0.15875232815742493,
+        "lounge": 0.14893108010292053,
+        "office": 0.16519100666046144,
+        "porch/terrace/deck/driveway": 0.16377031803131104,
+        "recreation room/game room": 0.179270201921463,
+        "stairs": 0.18697692453861237,
+        "toilet room": 0.2107164144515991,
+        "utility room/tool room": 0.17860406041145327,
+        "tv room": 0.09119956642389297,
+        "gym/exercise room": 0.15184122920036314,
+        "outdoor green area": 0.11813729256391525,
+        "balcony": 0.15019266605377196,
+        "bar": 0.16175302863121033,
+        "classroom": 0.14964440166950227,
+        "dining booth": 0.16381326615810393,
+        "spa/sauna": 0.1776225298643112
+      },
+      "decision_scores": {
+        "bathroom": 0.23744244873523712,
+        "bedroom": 0.20030002295970917,
+        "closet": 0.1652139663696289,
+        "dining room": 0.15963871777057648,
+        "entryway/foyer/lobby": 0.159097295999527,
+        "family room": 0.16130037605762482,
+        "garage": 0.1453605204820633,
+        "hallway": 0.1865993857383728,
+        "library": 0.13442398905754088,
+        "laundry room/mudroom": 0.18162093162536622,
+        "kitchen": 0.194872185587883,
+        "living room": 0.17769274711608887,
+        "meeting room/conference room": 0.15875232815742493,
+        "lounge": 0.14893108010292053,
+        "office": 0.16519100666046144,
+        "porch/terrace/deck/driveway": 0.16377031803131104,
+        "recreation room/game room": 0.179270201921463,
+        "stairs": 0.18697692453861237,
+        "toilet room": 0.2107164144515991,
+        "utility room/tool room": 0.17860406041145327,
+        "tv room": 0.09119956642389297,
+        "gym/exercise room": 0.15184122920036314,
+        "outdoor green area": 0.11813729256391525,
+        "balcony": 0.15019266605377196,
+        "bar": 0.16175302863121033,
+        "classroom": 0.14964440166950227,
+        "dining booth": 0.16381326615810393,
+        "spa/sauna": 0.1776225298643112
+      },
+      "stability": {
+        "reason": "unchanged",
+        "previous_region": "bathroom",
+        "applied_bonus": 0.0,
+        "switched": false,
+        "suppressed": false,
+        "momentum": 0.6,
+        "stay_bonus": 0.0,
+        "bonus_enabled": false,
+        "fast_margin": 0.02,
+        "fast_min_views": 3
+      },
+      "sample_count": 3,
+      "label_position": [
+        28.41985511779785,
+        0.12711000442504883,
+        0.740620493888855
+      ]
+    }
+  ],
+  "region_observations": [
+    {
+      "step": 0,
+      "floor": 0,
+      "position": [
+        29.01490020751953,
+        0.12711000442504883,
+        -2.6037700176239014
+      ],
+      "region": "bedroom",
+      "cosine": 0.2089056819677353,
+      "margin": 0.006805971264839172,
+      "scores": {
+        "bathroom": 0.20209971070289612,
+        "bedroom": 0.2089056819677353,
+        "closet": 0.18817053735256195,
+        "dining room": 0.15859408676624298,
+        "entryway/foyer/lobby": 0.15940961241722107,
+        "family room": 0.16292071342468262,
+        "garage": 0.15707354247570038,
+        "hallway": 0.19158490002155304,
+        "library": 0.1362685114145279,
+        "laundry room/mudroom": 0.18728473782539368,
+        "kitchen": 0.1983596682548523,
+        "living room": 0.1833367496728897,
+        "meeting room/conference room": 0.15793544054031372,
+        "lounge": 0.13691624999046326,
+        "office": 0.1571856439113617,
+        "porch/terrace/deck/driveway": 0.1505306214094162,
+        "recreation room/game room": 0.18692860007286072,
+        "stairs": 0.1907450258731842,
+        "toilet room": 0.2006646990776062,
+        "utility room/tool room": 0.19091761112213135,
+        "tv room": 0.08757651597261429,
+        "gym/exercise room": 0.15121319890022278,
+        "outdoor green area": 0.10639788210391998,
+        "balcony": 0.1537502259016037,
+        "bar": 0.16573187708854675,
+        "classroom": 0.1547395884990692,
+        "dining booth": 0.17410364747047424,
+        "spa/sauna": 0.17011596262454987
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "kitchen",
+          "cosine": 0.20193523168563843
+        },
+        {
+          "direction": "left",
+          "region": "laundry room/mudroom",
+          "cosine": 0.2181839644908905
+        },
+        {
+          "direction": "right",
+          "region": "bedroom",
+          "cosine": 0.22077733278274536
+        },
+        {
+          "direction": "back",
+          "region": "bathroom",
+          "cosine": 0.23057255148887634
+        }
+      ],
+      "view_agreement": 1,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "bedroom",
+      "raw_cosine": 0.2089056819677353,
+      "raw_margin": 0.006805971264839172,
+      "raw_view_agreement": 1,
+      "smoothed_scores": {
+        "bathroom": 0.20209971070289612,
+        "bedroom": 0.2089056819677353,
+        "closet": 0.18817053735256195,
+        "dining room": 0.15859408676624298,
+        "entryway/foyer/lobby": 0.15940961241722107,
+        "family room": 0.16292071342468262,
+        "garage": 0.15707354247570038,
+        "hallway": 0.19158490002155304,
+        "library": 0.1362685114145279,
+        "laundry room/mudroom": 0.18728473782539368,
+        "kitchen": 0.1983596682548523,
+        "living room": 0.1833367496728897,
+        "meeting room/conference room": 0.15793544054031372,
+        "lounge": 0.13691624999046326,
+        "office": 0.1571856439113617,
+        "porch/terrace/deck/driveway": 0.1505306214094162,
+        "recreation room/game room": 0.18692860007286072,
+        "stairs": 0.1907450258731842,
+        "toilet room": 0.2006646990776062,
+        "utility room/tool room": 0.19091761112213135,
+        "tv room": 0.08757651597261429,
+        "gym/exercise room": 0.15121319890022278,
+        "outdoor green area": 0.10639788210391998,
+        "balcony": 0.1537502259016037,
+        "bar": 0.16573187708854675,
+        "classroom": 0.1547395884990692,
+        "dining booth": 0.17410364747047424,
+        "spa/sauna": 0.17011596262454987
+      },
+      "decision_scores": {
+        "bathroom": 0.20209971070289612,
+        "bedroom": 0.2089056819677353,
+        "closet": 0.18817053735256195,
+        "dining room": 0.15859408676624298,
+        "entryway/foyer/lobby": 0.15940961241722107,
+        "family room": 0.16292071342468262,
+        "garage": 0.15707354247570038,
+        "hallway": 0.19158490002155304,
+        "library": 0.1362685114145279,
+        "laundry room/mudroom": 0.18728473782539368,
+        "kitchen": 0.1983596682548523,
+        "living room": 0.1833367496728897,
+        "meeting room/conference room": 0.15793544054031372,
+        "lounge": 0.13691624999046326,
+        "office": 0.1571856439113617,
+        "porch/terrace/deck/driveway": 0.1505306214094162,
+        "recreation room/game room": 0.18692860007286072,
+        "stairs": 0.1907450258731842,
+        "toilet room": 0.2006646990776062,
+        "utility room/tool room": 0.19091761112213135,
+        "tv room": 0.08757651597261429,
+        "gym/exercise room": 0.15121319890022278,
+        "outdoor green area": 0.10639788210391998,
+        "balcony": 0.1537502259016037,
+        "bar": 0.16573187708854675,
+        "classroom": 0.1547395884990692,
+        "dining booth": 0.17410364747047424,
+        "spa/sauna": 0.17011596262454987
+      },
+      "stability": {
+        "reason": "initial",
+        "previous_region": null,
+        "applied_bonus": 0.0,
+        "switched": false,
+        "suppressed": false,
+        "momentum": 0.6,
+        "stay_bonus": 0.0,
+        "bonus_enabled": false,
+        "fast_margin": 0.02,
+        "fast_min_views": 3
+      }
+    },
+    {
+      "step": 4,
+      "floor": 0,
+      "position": [
+        29.01490020751953,
+        0.12711000442504883,
+        -2.6037700176239014
+      ],
+      "region": "bedroom",
+      "cosine": 0.23043179512023926,
+      "margin": 0.012257128953933716,
+      "scores": {
+        "bathroom": 0.21473410725593567,
+        "bedroom": 0.23043179512023926,
+        "closet": 0.21275341510772705,
+        "dining room": 0.17270095646381378,
+        "entryway/foyer/lobby": 0.18462646007537842,
+        "family room": 0.1732146143913269,
+        "garage": 0.17809800803661346,
+        "hallway": 0.2131783366203308,
+        "library": 0.16843169927597046,
+        "laundry room/mudroom": 0.1951274573802948,
+        "kitchen": 0.2022387981414795,
+        "living room": 0.19410839676856995,
+        "meeting room/conference room": 0.17757411301136017,
+        "lounge": 0.1574135720729828,
+        "office": 0.17646026611328125,
+        "porch/terrace/deck/driveway": 0.1679116189479828,
+        "recreation room/game room": 0.19908463954925537,
+        "stairs": 0.21635177731513977,
+        "toilet room": 0.21817466616630554,
+        "utility room/tool room": 0.19510015845298767,
+        "tv room": 0.11154147982597351,
+        "gym/exercise room": 0.16695323586463928,
+        "outdoor green area": 0.13093851506710052,
+        "balcony": 0.18256697058677673,
+        "bar": 0.1810937076807022,
+        "classroom": 0.18322032690048218,
+        "dining booth": 0.1904698759317398,
+        "spa/sauna": 0.18634983897209167
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "stairs",
+          "cosine": 0.2151026427745819
+        },
+        {
+          "direction": "left",
+          "region": "bedroom",
+          "cosine": 0.23563821613788605
+        },
+        {
+          "direction": "right",
+          "region": "bedroom",
+          "cosine": 0.24775353074073792
+        },
+        {
+          "direction": "back",
+          "region": "stairs",
+          "cosine": 0.2476181834936142
+        }
+      ],
+      "view_agreement": 2,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "bedroom",
+      "raw_cosine": 0.23043179512023926,
+      "raw_margin": 0.012257128953933716,
+      "raw_view_agreement": 2,
+      "smoothed_scores": {
+        "bathroom": 0.20715346932411194,
+        "bedroom": 0.21751612722873687,
+        "closet": 0.19800368845462799,
+        "dining room": 0.16423683464527128,
+        "entryway/foyer/lobby": 0.169496351480484,
+        "family room": 0.16703827381134034,
+        "garage": 0.1654833287000656,
+        "hallway": 0.20022227466106415,
+        "library": 0.14913378655910492,
+        "laundry room/mudroom": 0.19042182564735413,
+        "kitchen": 0.19991132020950317,
+        "living room": 0.1876454085111618,
+        "meeting room/conference room": 0.1657909095287323,
+        "lounge": 0.14511517882347108,
+        "office": 0.1648954927921295,
+        "porch/terrace/deck/driveway": 0.15748302042484283,
+        "recreation room/game room": 0.19179101586341857,
+        "stairs": 0.20098772644996643,
+        "toilet room": 0.20766868591308596,
+        "utility room/tool room": 0.19259063005447385,
+        "tv room": 0.09716250151395797,
+        "gym/exercise room": 0.15750921368598936,
+        "outdoor green area": 0.1162141352891922,
+        "balcony": 0.1652769237756729,
+        "bar": 0.17187660932540894,
+        "classroom": 0.1661318838596344,
+        "dining booth": 0.1806501388549805,
+        "spa/sauna": 0.1766095131635666
+      },
+      "decision_scores": {
+        "bathroom": 0.20715346932411194,
+        "bedroom": 0.21751612722873687,
+        "closet": 0.19800368845462799,
+        "dining room": 0.16423683464527128,
+        "entryway/foyer/lobby": 0.169496351480484,
+        "family room": 0.16703827381134034,
+        "garage": 0.1654833287000656,
+        "hallway": 0.20022227466106415,
+        "library": 0.14913378655910492,
+        "laundry room/mudroom": 0.19042182564735413,
+        "kitchen": 0.19991132020950317,
+        "living room": 0.1876454085111618,
+        "meeting room/conference room": 0.1657909095287323,
+        "lounge": 0.14511517882347108,
+        "office": 0.1648954927921295,
+        "porch/terrace/deck/driveway": 0.15748302042484283,
+        "recreation room/game room": 0.19179101586341857,
+        "stairs": 0.20098772644996643,
+        "toilet room": 0.20766868591308596,
+        "utility room/tool room": 0.19259063005447385,
+        "tv room": 0.09716250151395797,
+        "gym/exercise room": 0.15750921368598936,
+        "outdoor green area": 0.1162141352891922,
+        "balcony": 0.1652769237756729,
+        "bar": 0.17187660932540894,
+        "classroom": 0.1661318838596344,
+        "dining booth": 0.1806501388549805,
+        "spa/sauna": 0.1766095131635666
+      },
+      "stability": {
+        "reason": "unchanged",
+        "previous_region": "bedroom",
+        "applied_bonus": 0.0,
+        "switched": false,
+        "suppressed": false,
+        "momentum": 0.6,
+        "stay_bonus": 0.0,
+        "bonus_enabled": false,
+        "fast_margin": 0.02,
+        "fast_min_views": 3
+      }
+    },
+    {
+      "step": 8,
+      "floor": 0,
+      "position": [
+        29.01490020751953,
+        0.12711000442504883,
+        -2.6037700176239014
+      ],
+      "region": "bedroom",
+      "cosine": 0.20842641592025757,
+      "margin": 0.0010911822319030762,
+      "scores": {
+        "bathroom": 0.2059832215309143,
+        "bedroom": 0.20842641592025757,
+        "closet": 0.19534024596214294,
+        "dining room": 0.16165122389793396,
+        "entryway/foyer/lobby": 0.16683419048786163,
+        "family room": 0.16671885550022125,
+        "garage": 0.16505205631256104,
+        "hallway": 0.19758272171020508,
+        "library": 0.14079338312149048,
+        "laundry room/mudroom": 0.19720429182052612,
+        "kitchen": 0.2073352336883545,
+        "living room": 0.18460527062416077,
+        "meeting room/conference room": 0.15740808844566345,
+        "lounge": 0.14159464836120605,
+        "office": 0.16102617979049683,
+        "porch/terrace/deck/driveway": 0.1567145437002182,
+        "recreation room/game room": 0.18762220442295074,
+        "stairs": 0.19791850447654724,
+        "toilet room": 0.20458588004112244,
+        "utility room/tool room": 0.2008744180202484,
+        "tv room": 0.0913299098610878,
+        "gym/exercise room": 0.15378457307815552,
+        "outdoor green area": 0.109371617436409,
+        "balcony": 0.15955747663974762,
+        "bar": 0.1696150004863739,
+        "classroom": 0.16214343905448914,
+        "dining booth": 0.17884647846221924,
+        "spa/sauna": 0.17026402056217194
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "kitchen",
+          "cosine": 0.2221246361732483
+        },
+        {
+          "direction": "left",
+          "region": "kitchen",
+          "cosine": 0.21682994067668915
+        },
+        {
+          "direction": "right",
+          "region": "stairs",
+          "cosine": 0.2307206690311432
+        },
+        {
+          "direction": "back",
+          "region": "utility room/tool room",
+          "cosine": 0.2056926190853119
+        }
+      ],
+      "view_agreement": 0,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "bedroom",
+      "raw_cosine": 0.20842641592025757,
+      "raw_margin": 0.0010911822319030762,
+      "raw_view_agreement": 0,
+      "smoothed_scores": {
+        "bathroom": 0.20668537020683286,
+        "bedroom": 0.21388024270534514,
+        "closet": 0.19693831145763396,
+        "dining room": 0.16320259034633633,
+        "entryway/foyer/lobby": 0.16843148708343506,
+        "family room": 0.1669105064868927,
+        "garage": 0.1653108197450638,
+        "hallway": 0.19916645348072054,
+        "library": 0.14579762518405914,
+        "laundry room/mudroom": 0.19313481211662292,
+        "kitchen": 0.2028808856010437,
+        "living room": 0.18642935335636138,
+        "meeting room/conference room": 0.16243778109550477,
+        "lounge": 0.14370696663856508,
+        "office": 0.16334776759147646,
+        "porch/terrace/deck/driveway": 0.157175629734993,
+        "recreation room/game room": 0.19012349128723144,
+        "stairs": 0.19976003766059874,
+        "toilet room": 0.20643556356430054,
+        "utility room/tool room": 0.1959041452407837,
+        "tv room": 0.09482946485280991,
+        "gym/exercise room": 0.15601935744285583,
+        "outdoor green area": 0.1134771281480789,
+        "balcony": 0.1629891449213028,
+        "bar": 0.1709719657897949,
+        "classroom": 0.1645365059375763,
+        "dining booth": 0.179928674697876,
+        "spa/sauna": 0.17407131612300875
+      },
+      "decision_scores": {
+        "bathroom": 0.20668537020683286,
+        "bedroom": 0.21388024270534514,
+        "closet": 0.19693831145763396,
+        "dining room": 0.16320259034633633,
+        "entryway/foyer/lobby": 0.16843148708343506,
+        "family room": 0.1669105064868927,
+        "garage": 0.1653108197450638,
+        "hallway": 0.19916645348072054,
+        "library": 0.14579762518405914,
+        "laundry room/mudroom": 0.19313481211662292,
+        "kitchen": 0.2028808856010437,
+        "living room": 0.18642935335636138,
+        "meeting room/conference room": 0.16243778109550477,
+        "lounge": 0.14370696663856508,
+        "office": 0.16334776759147646,
+        "porch/terrace/deck/driveway": 0.157175629734993,
+        "recreation room/game room": 0.19012349128723144,
+        "stairs": 0.19976003766059874,
+        "toilet room": 0.20643556356430054,
+        "utility room/tool room": 0.1959041452407837,
+        "tv room": 0.09482946485280991,
+        "gym/exercise room": 0.15601935744285583,
+        "outdoor green area": 0.1134771281480789,
+        "balcony": 0.1629891449213028,
+        "bar": 0.1709719657897949,
+        "classroom": 0.1645365059375763,
+        "dining booth": 0.179928674697876,
+        "spa/sauna": 0.17407131612300875
+      },
+      "stability": {
+        "reason": "unchanged",
+        "previous_region": "bedroom",
+        "applied_bonus": 0.0,
+        "switched": false,
+        "suppressed": false,
+        "momentum": 0.6,
+        "stay_bonus": 0.0,
+        "bonus_enabled": false,
+        "fast_margin": 0.02,
+        "fast_min_views": 3
+      }
+    },
+    {
+      "step": 12,
+      "floor": 0,
+      "position": [
+        29.25638198852539,
+        0.12711000442504883,
+        -2.539065361022949
+      ],
+      "region": "bedroom",
+      "cosine": 0.21932826936244965,
+      "margin": 0.0146760493516922,
+      "scores": {
+        "bathroom": 0.20465222001075745,
+        "bedroom": 0.21932826936244965,
+        "closet": 0.20148718357086182,
+        "dining room": 0.16538244485855103,
+        "entryway/foyer/lobby": 0.17323380708694458,
+        "family room": 0.16853395104408264,
+        "garage": 0.16536307334899902,
+        "hallway": 0.20154771208763123,
+        "library": 0.15686237812042236,
+        "laundry room/mudroom": 0.19061622023582458,
+        "kitchen": 0.20325934886932373,
+        "living room": 0.1901848316192627,
+        "meeting room/conference room": 0.16467022895812988,
+        "lounge": 0.14280645549297333,
+        "office": 0.16401700675487518,
+        "porch/terrace/deck/driveway": 0.15689514577388763,
+        "recreation room/game room": 0.19123351573944092,
+        "stairs": 0.2032717764377594,
+        "toilet room": 0.20275047421455383,
+        "utility room/tool room": 0.18898315727710724,
+        "tv room": 0.10087818652391434,
+        "gym/exercise room": 0.1546916365623474,
+        "outdoor green area": 0.11709848791360855,
+        "balcony": 0.1617755889892578,
+        "bar": 0.17051777243614197,
+        "classroom": 0.168571338057518,
+        "dining booth": 0.18235957622528076,
+        "spa/sauna": 0.17205466330051422
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "bathroom",
+          "cosine": 0.23377880454063416
+        },
+        {
+          "direction": "left",
+          "region": "bedroom",
+          "cosine": 0.2251768261194229
+        },
+        {
+          "direction": "right",
+          "region": "closet",
+          "cosine": 0.23229488730430603
+        },
+        {
+          "direction": "back",
+          "region": "kitchen",
+          "cosine": 0.21651996672153473
+        }
+      ],
+      "view_agreement": 1,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "bedroom",
+      "raw_cosine": 0.21932826936244965,
+      "raw_margin": 0.0146760493516922,
+      "raw_view_agreement": 1,
+      "smoothed_scores": {
+        "bathroom": 0.20587211012840267,
+        "bedroom": 0.21605945336818694,
+        "closet": 0.1987578603029251,
+        "dining room": 0.1640745321512222,
+        "entryway/foyer/lobby": 0.17035241508483887,
+        "family room": 0.16755988430976868,
+        "garage": 0.1653317211866379,
+        "hallway": 0.2001189569234848,
+        "library": 0.15022352635860442,
+        "laundry room/mudroom": 0.19212737536430358,
+        "kitchen": 0.2030322709083557,
+        "living room": 0.1879315446615219,
+        "meeting room/conference room": 0.16333076024055482,
+        "lounge": 0.14334676218032838,
+        "office": 0.16361546325683596,
+        "porch/terrace/deck/driveway": 0.15706343615055085,
+        "recreation room/game room": 0.19056750106811524,
+        "stairs": 0.201164733171463,
+        "toilet room": 0.20496152782440186,
+        "utility room/tool room": 0.1931357500553131,
+        "tv room": 0.09724895352125168,
+        "gym/exercise room": 0.15548826909065244,
+        "outdoor green area": 0.11492567205429077,
+        "balcony": 0.1625037225484848,
+        "bar": 0.17079028844833372,
+        "classroom": 0.16615043878555297,
+        "dining booth": 0.1809010353088379,
+        "spa/sauna": 0.17326465499401095
+      },
+      "decision_scores": {
+        "bathroom": 0.20587211012840267,
+        "bedroom": 0.21605945336818694,
+        "closet": 0.1987578603029251,
+        "dining room": 0.1640745321512222,
+        "entryway/foyer/lobby": 0.17035241508483887,
+        "family room": 0.16755988430976868,
+        "garage": 0.1653317211866379,
+        "hallway": 0.2001189569234848,
+        "library": 0.15022352635860442,
+        "laundry room/mudroom": 0.19212737536430358,
+        "kitchen": 0.2030322709083557,
+        "living room": 0.1879315446615219,
+        "meeting room/conference room": 0.16333076024055482,
+        "lounge": 0.14334676218032838,
+        "office": 0.16361546325683596,
+        "porch/terrace/deck/driveway": 0.15706343615055085,
+        "recreation room/game room": 0.19056750106811524,
+        "stairs": 0.201164733171463,
+        "toilet room": 0.20496152782440186,
+        "utility room/tool room": 0.1931357500553131,
+        "tv room": 0.09724895352125168,
+        "gym/exercise room": 0.15548826909065244,
+        "outdoor green area": 0.11492567205429077,
+        "balcony": 0.1625037225484848,
+        "bar": 0.17079028844833372,
+        "classroom": 0.16615043878555297,
+        "dining booth": 0.1809010353088379,
+        "spa/sauna": 0.17326465499401095
+      },
+      "stability": {
+        "reason": "unchanged",
+        "previous_region": "bedroom",
+        "applied_bonus": 0.0,
+        "switched": false,
+        "suppressed": false,
+        "momentum": 0.6,
+        "stay_bonus": 0.0,
+        "bonus_enabled": false,
+        "fast_margin": 0.02,
+        "fast_min_views": 3
+      }
+    },
+    {
+      "step": 16,
+      "floor": 0,
+      "position": [
+        29.25638198852539,
+        0.12711000442504883,
+        -2.539065361022949
+      ],
+      "region": "bedroom",
+      "cosine": 0.22695592045783997,
+      "margin": 0.008862659335136414,
+      "scores": {
+        "bathroom": 0.21809326112270355,
+        "bedroom": 0.22695592045783997,
+        "closet": 0.207322895526886,
+        "dining room": 0.1651860773563385,
+        "entryway/foyer/lobby": 0.17230632901191711,
+        "family room": 0.17139610648155212,
+        "garage": 0.16665762662887573,
+        "hallway": 0.20556218922138214,
+        "library": 0.1505829095840454,
+        "laundry room/mudroom": 0.19252432882785797,
+        "kitchen": 0.20324034988880157,
+        "living room": 0.18829435110092163,
+        "meeting room/conference room": 0.1682201325893402,
+        "lounge": 0.14533883333206177,
+        "office": 0.16647444665431976,
+        "porch/terrace/deck/driveway": 0.154997318983078,
+        "recreation room/game room": 0.19004562497138977,
+        "stairs": 0.2016715407371521,
+        "toilet room": 0.21740835905075073,
+        "utility room/tool room": 0.19448471069335938,
+        "tv room": 0.09882645308971405,
+        "gym/exercise room": 0.15980952978134155,
+        "outdoor green area": 0.12061579525470734,
+        "balcony": 0.16173602640628815,
+        "bar": 0.17541489005088806,
+        "classroom": 0.17238499224185944,
+        "dining booth": 0.1830635368824005,
+        "spa/sauna": 0.18130621314048767
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "toilet room",
+          "cosine": 0.24140168726444244
+        },
+        {
+          "direction": "left",
+          "region": "bathroom",
+          "cosine": 0.24207711219787598
+        },
+        {
+          "direction": "right",
+          "region": "closet",
+          "cosine": 0.20997875928878784
+        },
+        {
+          "direction": "back",
+          "region": "bedroom",
+          "cosine": 0.2227400690317154
+        }
+      ],
+      "view_agreement": 1,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "bedroom",
+      "raw_cosine": 0.22695592045783997,
+      "raw_margin": 0.008862659335136414,
+      "raw_view_agreement": 1,
+      "smoothed_scores": {
+        "bathroom": 0.21076057052612301,
+        "bedroom": 0.22041804020404815,
+        "closet": 0.20218387439250946,
+        "dining room": 0.1645191502332687,
+        "entryway/foyer/lobby": 0.17113398065567015,
+        "family room": 0.16909437317848205,
+        "garage": 0.16586208336353303,
+        "hallway": 0.20229624984264372,
+        "library": 0.15036727964878083,
+        "laundry room/mudroom": 0.19228615674972532,
+        "kitchen": 0.20311550250053406,
+        "living room": 0.18807666723728178,
+        "meeting room/conference room": 0.16528650918006899,
+        "lounge": 0.14414359064102172,
+        "office": 0.16475905661582949,
+        "porch/terrace/deck/driveway": 0.15623698928356172,
+        "recreation room/game room": 0.19035875062942503,
+        "stairs": 0.20136745619773863,
+        "toilet room": 0.2099402603149414,
+        "utility room/tool room": 0.19367533431053163,
+        "tv room": 0.09787995334863664,
+        "gym/exercise room": 0.15721677336692808,
+        "outdoor green area": 0.11720172133445739,
+        "balcony": 0.16219664409160614,
+        "bar": 0.17264012908935544,
+        "classroom": 0.16864426016807554,
+        "dining booth": 0.18176603593826296,
+        "spa/sauna": 0.17648127825260163
+      },
+      "decision_scores": {
+        "bathroom": 0.21076057052612301,
+        "bedroom": 0.22041804020404815,
+        "closet": 0.20218387439250946,
+        "dining room": 0.1645191502332687,
+        "entryway/foyer/lobby": 0.17113398065567015,
+        "family room": 0.16909437317848205,
+        "garage": 0.16586208336353303,
+        "hallway": 0.20229624984264372,
+        "library": 0.15036727964878083,
+        "laundry room/mudroom": 0.19228615674972532,
+        "kitchen": 0.20311550250053406,
+        "living room": 0.18807666723728178,
+        "meeting room/conference room": 0.16528650918006899,
+        "lounge": 0.14414359064102172,
+        "office": 0.16475905661582949,
+        "porch/terrace/deck/driveway": 0.15623698928356172,
+        "recreation room/game room": 0.19035875062942503,
+        "stairs": 0.20136745619773863,
+        "toilet room": 0.2099402603149414,
+        "utility room/tool room": 0.19367533431053163,
+        "tv room": 0.09787995334863664,
+        "gym/exercise room": 0.15721677336692808,
+        "outdoor green area": 0.11720172133445739,
+        "balcony": 0.16219664409160614,
+        "bar": 0.17264012908935544,
+        "classroom": 0.16864426016807554,
+        "dining booth": 0.18176603593826296,
+        "spa/sauna": 0.17648127825260163
+      },
+      "stability": {
+        "reason": "unchanged",
+        "previous_region": "bedroom",
+        "applied_bonus": 0.0,
+        "switched": false,
+        "suppressed": false,
+        "momentum": 0.6,
+        "stay_bonus": 0.0,
+        "bonus_enabled": false,
+        "fast_margin": 0.02,
+        "fast_min_views": 3
+      }
+    },
+    {
+      "step": 20,
+      "floor": 0,
+      "position": [
+        29.25638198852539,
+        0.12711000442504883,
+        -1.7890653610229492
+      ],
+      "region": "bedroom",
+      "cosine": 0.22118917107582092,
+      "margin": 0.0009784549474716187,
+      "scores": {
+        "bathroom": 0.20646603405475616,
+        "bedroom": 0.22118917107582092,
+        "closet": 0.2202107161283493,
+        "dining room": 0.16931477189064026,
+        "entryway/foyer/lobby": 0.18346890807151794,
+        "family room": 0.17445571720600128,
+        "garage": 0.17252081632614136,
+        "hallway": 0.2161751389503479,
+        "library": 0.16931787133216858,
+        "laundry room/mudroom": 0.20343181490898132,
+        "kitchen": 0.2004930078983307,
+        "living room": 0.19172735512256622,
+        "meeting room/conference room": 0.17559413611888885,
+        "lounge": 0.15153661370277405,
+        "office": 0.17651090025901794,
+        "porch/terrace/deck/driveway": 0.16269344091415405,
+        "recreation room/game room": 0.19292500615119934,
+        "stairs": 0.21275398135185242,
+        "toilet room": 0.21338529884815216,
+        "utility room/tool room": 0.19687679409980774,
+        "tv room": 0.1117565706372261,
+        "gym/exercise room": 0.16607029736042023,
+        "outdoor green area": 0.11303239315748215,
+        "balcony": 0.16890087723731995,
+        "bar": 0.17438563704490662,
+        "classroom": 0.1798841655254364,
+        "dining booth": 0.18488675355911255,
+        "spa/sauna": 0.17565859854221344
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "stairs",
+          "cosine": 0.24292656779289246
+        },
+        {
+          "direction": "left",
+          "region": "bedroom",
+          "cosine": 0.2149444967508316
+        },
+        {
+          "direction": "right",
+          "region": "bedroom",
+          "cosine": 0.2237444967031479
+        },
+        {
+          "direction": "back",
+          "region": "closet",
+          "cosine": 0.2529723048210144
+        }
+      ],
+      "view_agreement": 2,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "bedroom",
+      "raw_cosine": 0.22118917107582092,
+      "raw_margin": 0.0009784549474716187,
+      "raw_view_agreement": 2,
+      "smoothed_scores": {
+        "bathroom": 0.20904275593757626,
+        "bedroom": 0.22072649255275728,
+        "closet": 0.2093946110868454,
+        "dining room": 0.16643739889621734,
+        "entryway/foyer/lobby": 0.17606795162200928,
+        "family room": 0.17123891078948975,
+        "garage": 0.16852557654857636,
+        "hallway": 0.2078478054857254,
+        "library": 0.15794751632213594,
+        "laundry room/mudroom": 0.19674442001342773,
+        "kitchen": 0.2020665046596527,
+        "living room": 0.18953694239139557,
+        "meeting room/conference room": 0.16940955995559692,
+        "lounge": 0.14710079986572266,
+        "office": 0.16945979407310485,
+        "porch/terrace/deck/driveway": 0.15881956993579865,
+        "recreation room/game room": 0.19138525283813473,
+        "stairs": 0.20592206625938414,
+        "toilet room": 0.2113182757282257,
+        "utility room/tool room": 0.1949559182262421,
+        "tv room": 0.10343060026407241,
+        "gym/exercise room": 0.16075818296432492,
+        "outdoor green area": 0.1155339900636673,
+        "balcony": 0.16487833734989166,
+        "bar": 0.1733383322715759,
+        "classroom": 0.1731402223110199,
+        "dining booth": 0.1830143229866028,
+        "spa/sauna": 0.17615220636844636
+      },
+      "decision_scores": {
+        "bathroom": 0.20904275593757626,
+        "bedroom": 0.22072649255275728,
+        "closet": 0.2093946110868454,
+        "dining room": 0.16643739889621734,
+        "entryway/foyer/lobby": 0.17606795162200928,
+        "family room": 0.17123891078948975,
+        "garage": 0.16852557654857636,
+        "hallway": 0.2078478054857254,
+        "library": 0.15794751632213594,
+        "laundry room/mudroom": 0.19674442001342773,
+        "kitchen": 0.2020665046596527,
+        "living room": 0.18953694239139557,
+        "meeting room/conference room": 0.16940955995559692,
+        "lounge": 0.14710079986572266,
+        "office": 0.16945979407310485,
+        "porch/terrace/deck/driveway": 0.15881956993579865,
+        "recreation room/game room": 0.19138525283813473,
+        "stairs": 0.20592206625938414,
+        "toilet room": 0.2113182757282257,
+        "utility room/tool room": 0.1949559182262421,
+        "tv room": 0.10343060026407241,
+        "gym/exercise room": 0.16075818296432492,
+        "outdoor green area": 0.1155339900636673,
+        "balcony": 0.16487833734989166,
+        "bar": 0.1733383322715759,
+        "classroom": 0.1731402223110199,
+        "dining booth": 0.1830143229866028,
+        "spa/sauna": 0.17615220636844636
+      },
+      "stability": {
+        "reason": "unchanged",
+        "previous_region": "bedroom",
+        "applied_bonus": 0.0,
+        "switched": false,
+        "suppressed": false,
+        "momentum": 0.6,
+        "stay_bonus": 0.0,
+        "bonus_enabled": false,
+        "fast_margin": 0.02,
+        "fast_min_views": 3
+      }
+    },
+    {
+      "step": 24,
+      "floor": 0,
+      "position": [
+        29.25638198852539,
+        0.12711000442504883,
+        -1.7890653610229492
+      ],
+      "region": "bedroom",
+      "cosine": 0.21858413517475128,
+      "margin": 0.0017292946577072144,
+      "scores": {
+        "bathroom": 0.194959819316864,
+        "bedroom": 0.21858413517475128,
+        "closet": 0.20473405718803406,
+        "dining room": 0.16976472735404968,
+        "entryway/foyer/lobby": 0.18964067101478577,
+        "family room": 0.17343005537986755,
+        "garage": 0.16880956292152405,
+        "hallway": 0.21685484051704407,
+        "library": 0.1621522456407547,
+        "laundry room/mudroom": 0.1915183961391449,
+        "kitchen": 0.19681888818740845,
+        "living room": 0.1955244243144989,
+        "meeting room/conference room": 0.17337530851364136,
+        "lounge": 0.14681294560432434,
+        "office": 0.17058996856212616,
+        "porch/terrace/deck/driveway": 0.1651999056339264,
+        "recreation room/game room": 0.19681616127490997,
+        "stairs": 0.21391749382019043,
+        "toilet room": 0.19865946471691132,
+        "utility room/tool room": 0.18794898688793182,
+        "tv room": 0.1104002520442009,
+        "gym/exercise room": 0.1660914272069931,
+        "outdoor green area": 0.1126827746629715,
+        "balcony": 0.16531796753406525,
+        "bar": 0.17743897438049316,
+        "classroom": 0.17463475465774536,
+        "dining booth": 0.18283048272132874,
+        "spa/sauna": 0.17655465006828308
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "bedroom",
+          "cosine": 0.23079416155815125
+        },
+        {
+          "direction": "left",
+          "region": "stairs",
+          "cosine": 0.2522951066493988
+        },
+        {
+          "direction": "right",
+          "region": "closet",
+          "cosine": 0.20955969393253326
+        },
+        {
+          "direction": "back",
+          "region": "bedroom",
+          "cosine": 0.2262834757566452
+        }
+      ],
+      "view_agreement": 2,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "bedroom",
+      "raw_cosine": 0.21858413517475128,
+      "raw_margin": 0.0017292946577072144,
+      "raw_view_agreement": 2,
+      "smoothed_scores": {
+        "bathroom": 0.20340958128929137,
+        "bedroom": 0.21986954960155486,
+        "closet": 0.20753038952732086,
+        "dining room": 0.1677683302793503,
+        "entryway/foyer/lobby": 0.18149703937911987,
+        "family room": 0.17211536862564086,
+        "garage": 0.16863917109775545,
+        "hallway": 0.2114506194982529,
+        "library": 0.15962940804958345,
+        "laundry room/mudroom": 0.1946540104637146,
+        "kitchen": 0.199967458070755,
+        "living room": 0.1919319351606369,
+        "meeting room/conference room": 0.17099585937881467,
+        "lounge": 0.14698565816116332,
+        "office": 0.16991186386871338,
+        "porch/terrace/deck/driveway": 0.16137170421504976,
+        "recreation room/game room": 0.19355761621284484,
+        "stairs": 0.20912023728370666,
+        "toilet room": 0.20625475132369994,
+        "utility room/tool room": 0.19215314569091796,
+        "tv room": 0.10621846097612381,
+        "gym/exercise room": 0.1628914806613922,
+        "outdoor green area": 0.11439350390338898,
+        "balcony": 0.1650541894235611,
+        "bar": 0.1749785891151428,
+        "classroom": 0.17373803524971007,
+        "dining booth": 0.1829407868804932,
+        "spa/sauna": 0.17631318384838104
+      },
+      "decision_scores": {
+        "bathroom": 0.20340958128929137,
+        "bedroom": 0.21986954960155486,
+        "closet": 0.20753038952732086,
+        "dining room": 0.1677683302793503,
+        "entryway/foyer/lobby": 0.18149703937911987,
+        "family room": 0.17211536862564086,
+        "garage": 0.16863917109775545,
+        "hallway": 0.2114506194982529,
+        "library": 0.15962940804958345,
+        "laundry room/mudroom": 0.1946540104637146,
+        "kitchen": 0.199967458070755,
+        "living room": 0.1919319351606369,
+        "meeting room/conference room": 0.17099585937881467,
+        "lounge": 0.14698565816116332,
+        "office": 0.16991186386871338,
+        "porch/terrace/deck/driveway": 0.16137170421504976,
+        "recreation room/game room": 0.19355761621284484,
+        "stairs": 0.20912023728370666,
+        "toilet room": 0.20625475132369994,
+        "utility room/tool room": 0.19215314569091796,
+        "tv room": 0.10621846097612381,
+        "gym/exercise room": 0.1628914806613922,
+        "outdoor green area": 0.11439350390338898,
+        "balcony": 0.1650541894235611,
+        "bar": 0.1749785891151428,
+        "classroom": 0.17373803524971007,
+        "dining booth": 0.1829407868804932,
+        "spa/sauna": 0.17631318384838104
+      },
+      "stability": {
+        "reason": "unchanged",
+        "previous_region": "bedroom",
+        "applied_bonus": 0.0,
+        "switched": false,
+        "suppressed": false,
+        "momentum": 0.6,
+        "stay_bonus": 0.0,
+        "bonus_enabled": false,
+        "fast_margin": 0.02,
+        "fast_min_views": 3
+      }
+    },
+    {
+      "step": 28,
+      "floor": 0,
+      "position": [
+        28.39035415649414,
+        0.12711000442504883,
+        -1.2890653610229492
+      ],
+      "region": "bedroom",
+      "cosine": 0.2241823524236679,
+      "margin": 0.011084258556365967,
+      "scores": {
+        "bathroom": 0.20092463493347168,
+        "bedroom": 0.2241823524236679,
+        "closet": 0.20516259968280792,
+        "dining room": 0.17395687103271484,
+        "entryway/foyer/lobby": 0.17976684868335724,
+        "family room": 0.17612433433532715,
+        "garage": 0.16878274083137512,
+        "hallway": 0.21309809386730194,
+        "library": 0.15729711949825287,
+        "laundry room/mudroom": 0.19592317938804626,
+        "kitchen": 0.1974688321352005,
+        "living room": 0.1987486481666565,
+        "meeting room/conference room": 0.1743723452091217,
+        "lounge": 0.15666890144348145,
+        "office": 0.1762392669916153,
+        "porch/terrace/deck/driveway": 0.1696823537349701,
+        "recreation room/game room": 0.2033381313085556,
+        "stairs": 0.20224659144878387,
+        "toilet room": 0.21037490665912628,
+        "utility room/tool room": 0.19099193811416626,
+        "tv room": 0.12258872389793396,
+        "gym/exercise room": 0.17120927572250366,
+        "outdoor green area": 0.12726624310016632,
+        "balcony": 0.16615109145641327,
+        "bar": 0.17703238129615784,
+        "classroom": 0.17057248950004578,
+        "dining booth": 0.18632708489894867,
+        "spa/sauna": 0.18046382069587708
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "bedroom",
+          "cosine": 0.2451239973306656
+        },
+        {
+          "direction": "left",
+          "region": "hallway",
+          "cosine": 0.22532843053340912
+        },
+        {
+          "direction": "right",
+          "region": "bedroom",
+          "cosine": 0.21200662851333618
+        },
+        {
+          "direction": "back",
+          "region": "bedroom",
+          "cosine": 0.2233893871307373
+        }
+      ],
+      "view_agreement": 3,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "bedroom",
+      "raw_cosine": 0.2241823524236679,
+      "raw_margin": 0.011084258556365967,
+      "raw_view_agreement": 3,
+      "smoothed_scores": {
+        "bathroom": 0.20241560274696352,
+        "bedroom": 0.22159467073040007,
+        "closet": 0.20658327358951567,
+        "dining room": 0.1702437465806961,
+        "entryway/foyer/lobby": 0.18080496310081484,
+        "family room": 0.1737189549095154,
+        "garage": 0.16869659899120332,
+        "hallway": 0.21210960924587252,
+        "library": 0.15869649262905122,
+        "laundry room/mudroom": 0.19516167803344728,
+        "kitchen": 0.19896800769653322,
+        "living room": 0.19465862036304474,
+        "meeting room/conference room": 0.17234645371093749,
+        "lounge": 0.15085895547409056,
+        "office": 0.17244282511787412,
+        "porch/terrace/deck/driveway": 0.1646959640230179,
+        "recreation room/game room": 0.19746982225112913,
+        "stairs": 0.20637077894973754,
+        "toilet room": 0.20790281345787048,
+        "utility room/tool room": 0.19168866266021728,
+        "tv room": 0.11276656614484787,
+        "gym/exercise room": 0.16621859868583677,
+        "outdoor green area": 0.11954259958209992,
+        "balcony": 0.16549295023670196,
+        "bar": 0.1758001059875488,
+        "classroom": 0.17247181694984437,
+        "dining booth": 0.1842953060878754,
+        "spa/sauna": 0.17797343858737946
+      },
+      "decision_scores": {
+        "bathroom": 0.20241560274696352,
+        "bedroom": 0.22159467073040007,
+        "closet": 0.20658327358951567,
+        "dining room": 0.1702437465806961,
+        "entryway/foyer/lobby": 0.18080496310081484,
+        "family room": 0.1737189549095154,
+        "garage": 0.16869659899120332,
+        "hallway": 0.21210960924587252,
+        "library": 0.15869649262905122,
+        "laundry room/mudroom": 0.19516167803344728,
+        "kitchen": 0.19896800769653322,
+        "living room": 0.19465862036304474,
+        "meeting room/conference room": 0.17234645371093749,
+        "lounge": 0.15085895547409056,
+        "office": 0.17244282511787412,
+        "porch/terrace/deck/driveway": 0.1646959640230179,
+        "recreation room/game room": 0.19746982225112913,
+        "stairs": 0.20637077894973754,
+        "toilet room": 0.20790281345787048,
+        "utility room/tool room": 0.19168866266021728,
+        "tv room": 0.11276656614484787,
+        "gym/exercise room": 0.16621859868583677,
+        "outdoor green area": 0.11954259958209992,
+        "balcony": 0.16549295023670196,
+        "bar": 0.1758001059875488,
+        "classroom": 0.17247181694984437,
+        "dining booth": 0.1842953060878754,
+        "spa/sauna": 0.17797343858737946
+      },
+      "stability": {
+        "reason": "unchanged",
+        "previous_region": "bedroom",
+        "applied_bonus": 0.0,
+        "switched": false,
+        "suppressed": false,
+        "momentum": 0.6,
+        "stay_bonus": 0.0,
+        "bonus_enabled": false,
+        "fast_margin": 0.02,
+        "fast_min_views": 3
+      }
+    },
+    {
+      "step": 32,
+      "floor": 0,
+      "position": [
+        27.93236541748047,
+        0.12711000442504883,
+        -1.099360466003418
+      ],
+      "region": "bedroom",
+      "cosine": 0.22568202018737793,
+      "margin": 0.014836758375167847,
+      "scores": {
+        "bathroom": 0.19235970079898834,
+        "bedroom": 0.22568202018737793,
+        "closet": 0.19683021306991577,
+        "dining room": 0.17064803838729858,
+        "entryway/foyer/lobby": 0.18081769347190857,
+        "family room": 0.17292800545692444,
+        "garage": 0.16574084758758545,
+        "hallway": 0.21084526181221008,
+        "library": 0.1548062562942505,
+        "laundry room/mudroom": 0.18271242082118988,
+        "kitchen": 0.19378817081451416,
+        "living room": 0.20018106698989868,
+        "meeting room/conference room": 0.17397186160087585,
+        "lounge": 0.15215842425823212,
+        "office": 0.17189694941043854,
+        "porch/terrace/deck/driveway": 0.16437874734401703,
+        "recreation room/game room": 0.2016240656375885,
+        "stairs": 0.1970973014831543,
+        "toilet room": 0.20929834246635437,
+        "utility room/tool room": 0.18200862407684326,
+        "tv room": 0.11781841516494751,
+        "gym/exercise room": 0.1585722267627716,
+        "outdoor green area": 0.13043250143527985,
+        "balcony": 0.16529580950737,
+        "bar": 0.1793951690196991,
+        "classroom": 0.1740284115076065,
+        "dining booth": 0.1861979067325592,
+        "spa/sauna": 0.17917943000793457
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "bedroom",
+          "cosine": 0.23992948234081268
+        },
+        {
+          "direction": "left",
+          "region": "toilet room",
+          "cosine": 0.2119596004486084
+        },
+        {
+          "direction": "right",
+          "region": "bedroom",
+          "cosine": 0.22705210745334625
+        },
+        {
+          "direction": "back",
+          "region": "bedroom",
+          "cosine": 0.22489437460899353
+        }
+      ],
+      "view_agreement": 3,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "bedroom",
+      "raw_cosine": 0.22568202018737793,
+      "raw_margin": 0.014836758375167847,
+      "raw_view_agreement": 3,
+      "smoothed_scores": {
+        "bathroom": 0.19839324196777344,
+        "bedroom": 0.22322961051319123,
+        "closet": 0.20268204938167572,
+        "dining room": 0.1704054633033371,
+        "entryway/foyer/lobby": 0.1808100552492523,
+        "family room": 0.173402575128479,
+        "garage": 0.16751429842975618,
+        "hallway": 0.21160387027240754,
+        "library": 0.15714039809513092,
+        "laundry room/mudroom": 0.19018197514854432,
+        "kitchen": 0.1968960729437256,
+        "living room": 0.1968675990137863,
+        "meeting room/conference room": 0.17299661686691284,
+        "lounge": 0.15137874298774717,
+        "office": 0.1722244748348999,
+        "porch/terrace/deck/driveway": 0.16456907735141757,
+        "recreation room/game room": 0.1991315196057129,
+        "stairs": 0.20266138796310423,
+        "toilet room": 0.20846102506126404,
+        "utility room/tool room": 0.18781664722686767,
+        "tv room": 0.11478730575288772,
+        "gym/exercise room": 0.1631600499166107,
+        "outdoor green area": 0.1238985603233719,
+        "balcony": 0.1654140939449692,
+        "bar": 0.17723813120040893,
+        "classroom": 0.1730944547729492,
+        "dining booth": 0.1850563463457489,
+        "spa/sauna": 0.1784558351556015
+      },
+      "decision_scores": {
+        "bathroom": 0.19839324196777344,
+        "bedroom": 0.22322961051319123,
+        "closet": 0.20268204938167572,
+        "dining room": 0.1704054633033371,
+        "entryway/foyer/lobby": 0.1808100552492523,
+        "family room": 0.173402575128479,
+        "garage": 0.16751429842975618,
+        "hallway": 0.21160387027240754,
+        "library": 0.15714039809513092,
+        "laundry room/mudroom": 0.19018197514854432,
+        "kitchen": 0.1968960729437256,
+        "living room": 0.1968675990137863,
+        "meeting room/conference room": 0.17299661686691284,
+        "lounge": 0.15137874298774717,
+        "office": 0.1722244748348999,
+        "porch/terrace/deck/driveway": 0.16456907735141757,
+        "recreation room/game room": 0.1991315196057129,
+        "stairs": 0.20266138796310423,
+        "toilet room": 0.20846102506126404,
+        "utility room/tool room": 0.18781664722686767,
+        "tv room": 0.11478730575288772,
+        "gym/exercise room": 0.1631600499166107,
+        "outdoor green area": 0.1238985603233719,
+        "balcony": 0.1654140939449692,
+        "bar": 0.17723813120040893,
+        "classroom": 0.1730944547729492,
+        "dining booth": 0.1850563463457489,
+        "spa/sauna": 0.1784558351556015
+      },
+      "stability": {
+        "reason": "unchanged",
+        "previous_region": "bedroom",
+        "applied_bonus": 0.0,
+        "switched": false,
+        "suppressed": false,
+        "momentum": 0.6,
+        "stay_bonus": 0.0,
+        "bonus_enabled": false,
+        "fast_margin": 0.02,
+        "fast_min_views": 3
+      }
+    },
+    {
+      "step": 36,
+      "floor": 0,
+      "position": [
+        27.402034759521484,
+        0.12711000442504883,
+        -0.5690301656723022
+      ],
+      "region": "bedroom",
+      "cosine": 0.22477583587169647,
+      "margin": 0.020158842206001282,
+      "scores": {
+        "bathroom": 0.18297243118286133,
+        "bedroom": 0.22477583587169647,
+        "closet": 0.18166331946849823,
+        "dining room": 0.17068526148796082,
+        "entryway/foyer/lobby": 0.18260762095451355,
+        "family room": 0.17738263309001923,
+        "garage": 0.1646999716758728,
+        "hallway": 0.2046169936656952,
+        "library": 0.16317008435726166,
+        "laundry room/mudroom": 0.16653595864772797,
+        "kitchen": 0.1813368797302246,
+        "living room": 0.20220938324928284,
+        "meeting room/conference room": 0.18071860074996948,
+        "lounge": 0.1648426502943039,
+        "office": 0.17655889689922333,
+        "porch/terrace/deck/driveway": 0.16357453167438507,
+        "recreation room/game room": 0.20078708231449127,
+        "stairs": 0.19450940191745758,
+        "toilet room": 0.1949462592601776,
+        "utility room/tool room": 0.1682446002960205,
+        "tv room": 0.1331992745399475,
+        "gym/exercise room": 0.1622389256954193,
+        "outdoor green area": 0.13933180272579193,
+        "balcony": 0.16415484249591827,
+        "bar": 0.18541741371154785,
+        "classroom": 0.17638802528381348,
+        "dining booth": 0.1871008425951004,
+        "spa/sauna": 0.1770387589931488
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "bedroom",
+          "cosine": 0.22312700748443604
+        },
+        {
+          "direction": "left",
+          "region": "bedroom",
+          "cosine": 0.2221088707447052
+        },
+        {
+          "direction": "right",
+          "region": "bedroom",
+          "cosine": 0.20774883031845093
+        },
+        {
+          "direction": "back",
+          "region": "bedroom",
+          "cosine": 0.24611862003803253
+        }
+      ],
+      "view_agreement": 4,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "bedroom",
+      "raw_cosine": 0.22477583587169647,
+      "raw_margin": 0.020158842206001282,
+      "raw_view_agreement": 4,
+      "smoothed_scores": {
+        "bathroom": 0.19222491765380859,
+        "bedroom": 0.22384810065659333,
+        "closet": 0.19427455741640473,
+        "dining room": 0.1705173825771866,
+        "entryway/foyer/lobby": 0.1815290815313568,
+        "family room": 0.1749945983130951,
+        "garage": 0.16638856772820282,
+        "hallway": 0.2088091196297226,
+        "library": 0.15955227259998322,
+        "laundry room/mudroom": 0.18072356854821778,
+        "kitchen": 0.1906723956583252,
+        "living room": 0.1990043127079849,
+        "meeting room/conference room": 0.17608541042013548,
+        "lounge": 0.15676430591036986,
+        "office": 0.17395824366062926,
+        "porch/terrace/deck/driveway": 0.1641712590806046,
+        "recreation room/game room": 0.19979374468922423,
+        "stairs": 0.19940059354484557,
+        "toilet room": 0.2030551187408295,
+        "utility room/tool room": 0.17998782845452882,
+        "tv room": 0.12215209326771165,
+        "gym/exercise room": 0.16279160022813416,
+        "outdoor green area": 0.13007185728433993,
+        "balcony": 0.16491039336534882,
+        "bar": 0.1805098442048645,
+        "classroom": 0.17441188297729493,
+        "dining booth": 0.1858741448454895,
+        "spa/sauna": 0.1778890046906204
+      },
+      "decision_scores": {
+        "bathroom": 0.19222491765380859,
+        "bedroom": 0.22384810065659333,
+        "closet": 0.19427455741640473,
+        "dining room": 0.1705173825771866,
+        "entryway/foyer/lobby": 0.1815290815313568,
+        "family room": 0.1749945983130951,
+        "garage": 0.16638856772820282,
+        "hallway": 0.2088091196297226,
+        "library": 0.15955227259998322,
+        "laundry room/mudroom": 0.18072356854821778,
+        "kitchen": 0.1906723956583252,
+        "living room": 0.1990043127079849,
+        "meeting room/conference room": 0.17608541042013548,
+        "lounge": 0.15676430591036986,
+        "office": 0.17395824366062926,
+        "porch/terrace/deck/driveway": 0.1641712590806046,
+        "recreation room/game room": 0.19979374468922423,
+        "stairs": 0.19940059354484557,
+        "toilet room": 0.2030551187408295,
+        "utility room/tool room": 0.17998782845452882,
+        "tv room": 0.12215209326771165,
+        "gym/exercise room": 0.16279160022813416,
+        "outdoor green area": 0.13007185728433993,
+        "balcony": 0.16491039336534882,
+        "bar": 0.1805098442048645,
+        "classroom": 0.17441188297729493,
+        "dining booth": 0.1858741448454895,
+        "spa/sauna": 0.1778890046906204
+      },
+      "stability": {
+        "reason": "unchanged",
+        "previous_region": "bedroom",
+        "applied_bonus": 0.0,
+        "switched": false,
+        "suppressed": false,
+        "momentum": 0.6,
+        "stay_bonus": 0.0,
+        "bonus_enabled": false,
+        "fast_margin": 0.02,
+        "fast_min_views": 3
+      }
+    },
+    {
+      "step": 40,
+      "floor": 0,
+      "position": [
+        27.003877639770508,
+        0.12711000442504883,
+        -0.15108639001846313
+      ],
+      "region": "bedroom",
+      "cosine": 0.22814302146434784,
+      "margin": 0.021519511938095093,
+      "scores": {
+        "bathroom": 0.18624354898929596,
+        "bedroom": 0.22814302146434784,
+        "closet": 0.18875879049301147,
+        "dining room": 0.17355743050575256,
+        "entryway/foyer/lobby": 0.17453953623771667,
+        "family room": 0.18035480380058289,
+        "garage": 0.1567874252796173,
+        "hallway": 0.20034682750701904,
+        "library": 0.16456744074821472,
+        "laundry room/mudroom": 0.1737159788608551,
+        "kitchen": 0.18044699728488922,
+        "living room": 0.20662350952625275,
+        "meeting room/conference room": 0.17795054614543915,
+        "lounge": 0.17057031393051147,
+        "office": 0.1791926771402359,
+        "porch/terrace/deck/driveway": 0.16454321146011353,
+        "recreation room/game room": 0.1991288810968399,
+        "stairs": 0.18916189670562744,
+        "toilet room": 0.19275067746639252,
+        "utility room/tool room": 0.17280012369155884,
+        "tv room": 0.1300066113471985,
+        "gym/exercise room": 0.15936017036437988,
+        "outdoor green area": 0.13532406091690063,
+        "balcony": 0.1606675684452057,
+        "bar": 0.175460085272789,
+        "classroom": 0.17005279660224915,
+        "dining booth": 0.18123193085193634,
+        "spa/sauna": 0.17034205794334412
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "bedroom",
+          "cosine": 0.22696761786937714
+        },
+        {
+          "direction": "left",
+          "region": "bedroom",
+          "cosine": 0.212760329246521
+        },
+        {
+          "direction": "right",
+          "region": "bedroom",
+          "cosine": 0.2429400086402893
+        },
+        {
+          "direction": "back",
+          "region": "bedroom",
+          "cosine": 0.22990413010120392
+        }
+      ],
+      "view_agreement": 4,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "bedroom",
+      "raw_cosine": 0.22814302146434784,
+      "raw_margin": 0.021519511938095093,
+      "raw_view_agreement": 4,
+      "smoothed_scores": {
+        "bathroom": 0.18983237018800353,
+        "bedroom": 0.2255660689796951,
+        "closet": 0.1920682506470474,
+        "dining room": 0.17173340174861298,
+        "entryway/foyer/lobby": 0.17873326341390075,
+        "family room": 0.17713868050809023,
+        "garage": 0.16254811074876863,
+        "hallway": 0.20542420278064116,
+        "library": 0.1615583398592758,
+        "laundry room/mudroom": 0.1779205326732727,
+        "kitchen": 0.18658223630895082,
+        "living room": 0.20205199143529207,
+        "meeting room/conference room": 0.17683146471025696,
+        "lounge": 0.16228670911842652,
+        "office": 0.17605201705247192,
+        "porch/terrace/deck/driveway": 0.16432004003240816,
+        "recreation room/game room": 0.1995277992522705,
+        "stairs": 0.1953051148091583,
+        "toilet room": 0.1989333422310547,
+        "utility room/tool room": 0.17711274654934084,
+        "tv room": 0.1252939004995064,
+        "gym/exercise room": 0.16141902828263244,
+        "outdoor green area": 0.1321727387373642,
+        "balcony": 0.16321326339729159,
+        "bar": 0.17848994063203427,
+        "classroom": 0.17266824842727663,
+        "dining booth": 0.18401725924806825,
+        "spa/sauna": 0.17487022599170987
+      },
+      "decision_scores": {
+        "bathroom": 0.18983237018800353,
+        "bedroom": 0.2255660689796951,
+        "closet": 0.1920682506470474,
+        "dining room": 0.17173340174861298,
+        "entryway/foyer/lobby": 0.17873326341390075,
+        "family room": 0.17713868050809023,
+        "garage": 0.16254811074876863,
+        "hallway": 0.20542420278064116,
+        "library": 0.1615583398592758,
+        "laundry room/mudroom": 0.1779205326732727,
+        "kitchen": 0.18658223630895082,
+        "living room": 0.20205199143529207,
+        "meeting room/conference room": 0.17683146471025696,
+        "lounge": 0.16228670911842652,
+        "office": 0.17605201705247192,
+        "porch/terrace/deck/driveway": 0.16432004003240816,
+        "recreation room/game room": 0.1995277992522705,
+        "stairs": 0.1953051148091583,
+        "toilet room": 0.1989333422310547,
+        "utility room/tool room": 0.17711274654934084,
+        "tv room": 0.1252939004995064,
+        "gym/exercise room": 0.16141902828263244,
+        "outdoor green area": 0.1321727387373642,
+        "balcony": 0.16321326339729159,
+        "bar": 0.17848994063203427,
+        "classroom": 0.17266824842727663,
+        "dining booth": 0.18401725924806825,
+        "spa/sauna": 0.17487022599170987
+      },
+      "stability": {
+        "reason": "unchanged",
+        "previous_region": "bedroom",
+        "applied_bonus": 0.0,
+        "switched": false,
+        "suppressed": false,
+        "momentum": 0.6,
+        "stay_bonus": 0.0,
+        "bonus_enabled": false,
+        "fast_margin": 0.02,
+        "fast_min_views": 3
+      }
+    },
+    {
+      "step": 44,
+      "floor": 0,
+      "position": [
+        26.753877639770508,
+        0.12711000442504883,
+        0.2819265127182007
+      ],
+      "region": "bedroom",
+      "cosine": 0.21981754899024963,
+      "margin": 0.006505176424980164,
+      "scores": {
+        "bathroom": 0.16912239789962769,
+        "bedroom": 0.21981754899024963,
+        "closet": 0.17814244329929352,
+        "dining room": 0.17952421307563782,
+        "entryway/foyer/lobby": 0.18353798985481262,
+        "family room": 0.18273472785949707,
+        "garage": 0.15409210324287415,
+        "hallway": 0.20291800796985626,
+        "library": 0.17533734440803528,
+        "laundry room/mudroom": 0.1707960069179535,
+        "kitchen": 0.17887704074382782,
+        "living room": 0.21331237256526947,
+        "meeting room/conference room": 0.17494343221187592,
+        "lounge": 0.18341100215911865,
+        "office": 0.1813216209411621,
+        "porch/terrace/deck/driveway": 0.16968537867069244,
+        "recreation room/game room": 0.19287118315696716,
+        "stairs": 0.19339093565940857,
+        "toilet room": 0.17949660122394562,
+        "utility room/tool room": 0.1662447601556778,
+        "tv room": 0.13887426257133484,
+        "gym/exercise room": 0.1639755666255951,
+        "outdoor green area": 0.13224178552627563,
+        "balcony": 0.16704559326171875,
+        "bar": 0.17299771308898926,
+        "classroom": 0.1658853143453598,
+        "dining booth": 0.1825307011604309,
+        "spa/sauna": 0.16129429638385773
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "living room",
+          "cosine": 0.2180754840373993
+        },
+        {
+          "direction": "left",
+          "region": "hallway",
+          "cosine": 0.2208928018808365
+        },
+        {
+          "direction": "right",
+          "region": "bedroom",
+          "cosine": 0.24243612587451935
+        },
+        {
+          "direction": "back",
+          "region": "bedroom",
+          "cosine": 0.22621703147888184
+        }
+      ],
+      "view_agreement": 2,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "bedroom",
+      "raw_cosine": 0.21981754899024963,
+      "raw_margin": 0.006505176424980164,
+      "raw_view_agreement": 2,
+      "smoothed_scores": {
+        "bathroom": 0.1815483812726532,
+        "bedroom": 0.22326666098391693,
+        "closet": 0.18649792770794585,
+        "dining room": 0.1748497262794229,
+        "entryway/foyer/lobby": 0.1806551539902655,
+        "family room": 0.17937709944865296,
+        "garage": 0.15916570774641084,
+        "hallway": 0.2044217248563272,
+        "library": 0.1670699416787796,
+        "laundry room/mudroom": 0.17507072237114502,
+        "kitchen": 0.1835001580829016,
+        "living room": 0.20655614388728302,
+        "meeting room/conference room": 0.17607625171090452,
+        "lounge": 0.17073642633470337,
+        "office": 0.178159858607948,
+        "porch/terrace/deck/driveway": 0.16646617548772186,
+        "recreation room/game room": 0.19686515281414915,
+        "stairs": 0.19453944314925842,
+        "toilet room": 0.19115864582821107,
+        "utility room/tool room": 0.1727655519918756,
+        "tv room": 0.13072604532823778,
+        "gym/exercise room": 0.1624416436198175,
+        "outdoor green area": 0.1322003574529288,
+        "balcony": 0.16474619534306245,
+        "bar": 0.17629304961481626,
+        "classroom": 0.16995507479450989,
+        "dining booth": 0.1834226360130133,
+        "spa/sauna": 0.169439854148569
+      },
+      "decision_scores": {
+        "bathroom": 0.1815483812726532,
+        "bedroom": 0.22326666098391693,
+        "closet": 0.18649792770794585,
+        "dining room": 0.1748497262794229,
+        "entryway/foyer/lobby": 0.1806551539902655,
+        "family room": 0.17937709944865296,
+        "garage": 0.15916570774641084,
+        "hallway": 0.2044217248563272,
+        "library": 0.1670699416787796,
+        "laundry room/mudroom": 0.17507072237114502,
+        "kitchen": 0.1835001580829016,
+        "living room": 0.20655614388728302,
+        "meeting room/conference room": 0.17607625171090452,
+        "lounge": 0.17073642633470337,
+        "office": 0.178159858607948,
+        "porch/terrace/deck/driveway": 0.16646617548772186,
+        "recreation room/game room": 0.19686515281414915,
+        "stairs": 0.19453944314925842,
+        "toilet room": 0.19115864582821107,
+        "utility room/tool room": 0.1727655519918756,
+        "tv room": 0.13072604532823778,
+        "gym/exercise room": 0.1624416436198175,
+        "outdoor green area": 0.1322003574529288,
+        "balcony": 0.16474619534306245,
+        "bar": 0.17629304961481626,
+        "classroom": 0.16995507479450989,
+        "dining booth": 0.1834226360130133,
+        "spa/sauna": 0.169439854148569
+      },
+      "stability": {
+        "reason": "unchanged",
+        "previous_region": "bedroom",
+        "applied_bonus": 0.0,
+        "switched": false,
+        "suppressed": false,
+        "momentum": 0.6,
+        "stay_bonus": 0.0,
+        "bonus_enabled": false,
+        "fast_margin": 0.02,
+        "fast_min_views": 3
+      }
+    },
+    {
+      "step": 48,
+      "floor": 0,
+      "position": [
+        26.753877639770508,
+        0.12711000442504883,
+        0.2819265127182007
+      ],
+      "region": "bedroom",
+      "cosine": 0.225351944565773,
+      "margin": 0.009461432695388794,
+      "scores": {
+        "bathroom": 0.17086103558540344,
+        "bedroom": 0.225351944565773,
+        "closet": 0.18043580651283264,
+        "dining room": 0.18063955008983612,
+        "entryway/foyer/lobby": 0.17665252089500427,
+        "family room": 0.18104243278503418,
+        "garage": 0.15336334705352783,
+        "hallway": 0.19995233416557312,
+        "library": 0.17204345762729645,
+        "laundry room/mudroom": 0.1677776575088501,
+        "kitchen": 0.1740342378616333,
+        "living room": 0.21589051187038422,
+        "meeting room/conference room": 0.17677438259124756,
+        "lounge": 0.18930546939373016,
+        "office": 0.18002229928970337,
+        "porch/terrace/deck/driveway": 0.1690913289785385,
+        "recreation room/game room": 0.1978393793106079,
+        "stairs": 0.1870405673980713,
+        "toilet room": 0.18306851387023926,
+        "utility room/tool room": 0.16145077347755432,
+        "tv room": 0.1462828367948532,
+        "gym/exercise room": 0.15946327149868011,
+        "outdoor green area": 0.13243190944194794,
+        "balcony": 0.16343574225902557,
+        "bar": 0.17706529796123505,
+        "classroom": 0.16573108732700348,
+        "dining booth": 0.18661309778690338,
+        "spa/sauna": 0.1648021787405014
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "hallway",
+          "cosine": 0.2223953902721405
+        },
+        {
+          "direction": "left",
+          "region": "bedroom",
+          "cosine": 0.22314628958702087
+        },
+        {
+          "direction": "right",
+          "region": "bedroom",
+          "cosine": 0.22516599297523499
+        },
+        {
+          "direction": "back",
+          "region": "bedroom",
+          "cosine": 0.23975259065628052
+        }
+      ],
+      "view_agreement": 3,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "bedroom",
+      "raw_cosine": 0.225351944565773,
+      "raw_margin": 0.009461432695388794,
+      "raw_view_agreement": 3,
+      "smoothed_scores": {
+        "bathroom": 0.17727344299775327,
+        "bedroom": 0.22410077441665938,
+        "closet": 0.18407307922990057,
+        "dining room": 0.17716565580358817,
+        "entryway/foyer/lobby": 0.179054100752161,
+        "family room": 0.18004323278320544,
+        "garage": 0.15684476346925763,
+        "hallway": 0.20263396858002558,
+        "library": 0.16905934805818634,
+        "laundry room/mudroom": 0.17215349642622704,
+        "kitchen": 0.17971378999439427,
+        "living room": 0.2102898910805235,
+        "meeting room/conference room": 0.17635550406304173,
+        "lounge": 0.17816404355831408,
+        "office": 0.17890483488065015,
+        "porch/terrace/deck/driveway": 0.1675162368840485,
+        "recreation room/game room": 0.19725484341273264,
+        "stairs": 0.19153989284878356,
+        "toilet room": 0.18792259304502235,
+        "utility room/tool room": 0.1682396405861471,
+        "tv room": 0.13694876191488395,
+        "gym/exercise room": 0.16125029477136255,
+        "outdoor green area": 0.13229297824853645,
+        "balcony": 0.1642220141094477,
+        "bar": 0.17660194895338377,
+        "classroom": 0.16826547980750733,
+        "dining booth": 0.18469882072256932,
+        "spa/sauna": 0.16758478398534193
+      },
+      "decision_scores": {
+        "bathroom": 0.17727344299775327,
+        "bedroom": 0.22410077441665938,
+        "closet": 0.18407307922990057,
+        "dining room": 0.17716565580358817,
+        "entryway/foyer/lobby": 0.179054100752161,
+        "family room": 0.18004323278320544,
+        "garage": 0.15684476346925763,
+        "hallway": 0.20263396858002558,
+        "library": 0.16905934805818634,
+        "laundry room/mudroom": 0.17215349642622704,
+        "kitchen": 0.17971378999439427,
+        "living room": 0.2102898910805235,
+        "meeting room/conference room": 0.17635550406304173,
+        "lounge": 0.17816404355831408,
+        "office": 0.17890483488065015,
+        "porch/terrace/deck/driveway": 0.1675162368840485,
+        "recreation room/game room": 0.19725484341273264,
+        "stairs": 0.19153989284878356,
+        "toilet room": 0.18792259304502235,
+        "utility room/tool room": 0.1682396405861471,
+        "tv room": 0.13694876191488395,
+        "gym/exercise room": 0.16125029477136255,
+        "outdoor green area": 0.13229297824853645,
+        "balcony": 0.1642220141094477,
+        "bar": 0.17660194895338377,
+        "classroom": 0.16826547980750733,
+        "dining booth": 0.18469882072256932,
+        "spa/sauna": 0.16758478398534193
+      },
+      "stability": {
+        "reason": "unchanged",
+        "previous_region": "bedroom",
+        "applied_bonus": 0.0,
+        "switched": false,
+        "suppressed": false,
+        "momentum": 0.6,
+        "stay_bonus": 0.0,
+        "bonus_enabled": false,
+        "fast_margin": 0.02,
+        "fast_min_views": 3
+      }
+    },
+    {
+      "step": 52,
+      "floor": 0,
+      "position": [
+        27.428373336791992,
+        0.12711000442504883,
+        0.5966311693191528
+      ],
+      "region": "bedroom",
+      "cosine": 0.2216837853193283,
+      "margin": 0.01244141161441803,
+      "scores": {
+        "bathroom": 0.18121910095214844,
+        "bedroom": 0.2216837853193283,
+        "closet": 0.1734800785779953,
+        "dining room": 0.17827287316322327,
+        "entryway/foyer/lobby": 0.17976132035255432,
+        "family room": 0.18053442239761353,
+        "garage": 0.16382309794425964,
+        "hallway": 0.2023371458053589,
+        "library": 0.1647741198539734,
+        "laundry room/mudroom": 0.16982576251029968,
+        "kitchen": 0.185804083943367,
+        "living room": 0.20924237370491028,
+        "meeting room/conference room": 0.18330784142017365,
+        "lounge": 0.1720230132341385,
+        "office": 0.17981979250907898,
+        "porch/terrace/deck/driveway": 0.16804754734039307,
+        "recreation room/game room": 0.20077529549598694,
+        "stairs": 0.19458062946796417,
+        "toilet room": 0.19105595350265503,
+        "utility room/tool room": 0.1697641909122467,
+        "tv room": 0.13545018434524536,
+        "gym/exercise room": 0.1607102006673813,
+        "outdoor green area": 0.13699159026145935,
+        "balcony": 0.16365988552570343,
+        "bar": 0.1764497309923172,
+        "classroom": 0.17370612919330597,
+        "dining booth": 0.18267822265625,
+        "spa/sauna": 0.16617202758789062
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "hallway",
+          "cosine": 0.23594307899475098
+        },
+        {
+          "direction": "left",
+          "region": "bedroom",
+          "cosine": 0.21913403272628784
+        },
+        {
+          "direction": "right",
+          "region": "living room",
+          "cosine": 0.20811960101127625
+        },
+        {
+          "direction": "back",
+          "region": "bedroom",
+          "cosine": 0.23994095623493195
+        }
+      ],
+      "view_agreement": 2,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "bedroom",
+      "raw_cosine": 0.2216837853193283,
+      "raw_margin": 0.01244141161441803,
+      "raw_view_agreement": 2,
+      "smoothed_scores": {
+        "bathroom": 0.17885170617951135,
+        "bedroom": 0.22313397877772695,
+        "closet": 0.17983587896913847,
+        "dining room": 0.1776085427474422,
+        "entryway/foyer/lobby": 0.17933698859231834,
+        "family room": 0.18023970862896865,
+        "garage": 0.15963609725925842,
+        "hallway": 0.2025152394701589,
+        "library": 0.16734525677650117,
+        "laundry room/mudroom": 0.1712224028598561,
+        "kitchen": 0.18214990757398336,
+        "living room": 0.2098708841302782,
+        "meeting room/conference room": 0.1791364390058945,
+        "lounge": 0.17570763142864385,
+        "office": 0.17927081793202168,
+        "porch/terrace/deck/driveway": 0.16772876106658635,
+        "recreation room/game room": 0.19866302424603438,
+        "stairs": 0.1927561874964558,
+        "toilet room": 0.1891759372280754,
+        "utility room/tool room": 0.16884946071658694,
+        "tv room": 0.1363493308870285,
+        "gym/exercise room": 0.16103425712977004,
+        "outdoor green area": 0.1341724230537056,
+        "balcony": 0.16399716267595,
+        "bar": 0.17654106176895715,
+        "classroom": 0.1704417395618268,
+        "dining booth": 0.1838905814960416,
+        "spa/sauna": 0.16701968142636142
+      },
+      "decision_scores": {
+        "bathroom": 0.17885170617951135,
+        "bedroom": 0.22313397877772695,
+        "closet": 0.17983587896913847,
+        "dining room": 0.1776085427474422,
+        "entryway/foyer/lobby": 0.17933698859231834,
+        "family room": 0.18023970862896865,
+        "garage": 0.15963609725925842,
+        "hallway": 0.2025152394701589,
+        "library": 0.16734525677650117,
+        "laundry room/mudroom": 0.1712224028598561,
+        "kitchen": 0.18214990757398336,
+        "living room": 0.2098708841302782,
+        "meeting room/conference room": 0.1791364390058945,
+        "lounge": 0.17570763142864385,
+        "office": 0.17927081793202168,
+        "porch/terrace/deck/driveway": 0.16772876106658635,
+        "recreation room/game room": 0.19866302424603438,
+        "stairs": 0.1927561874964558,
+        "toilet room": 0.1891759372280754,
+        "utility room/tool room": 0.16884946071658694,
+        "tv room": 0.1363493308870285,
+        "gym/exercise room": 0.16103425712977004,
+        "outdoor green area": 0.1341724230537056,
+        "balcony": 0.16399716267595,
+        "bar": 0.17654106176895715,
+        "classroom": 0.1704417395618268,
+        "dining booth": 0.1838905814960416,
+        "spa/sauna": 0.16701968142636142
+      },
+      "stability": {
+        "reason": "unchanged",
+        "previous_region": "bedroom",
+        "applied_bonus": 0.0,
+        "switched": false,
+        "suppressed": false,
+        "momentum": 0.6,
+        "stay_bonus": 0.0,
+        "bonus_enabled": false,
+        "fast_margin": 0.02,
+        "fast_min_views": 3
+      }
+    },
+    {
+      "step": 56,
+      "floor": 0,
+      "position": [
+        28.16985511779785,
+        0.12711000442504883,
+        0.7406205534934998
+      ],
+      "region": "bedroom",
+      "cosine": 0.20590367913246155,
+      "margin": -0.013727188110351562,
+      "scores": {
+        "bathroom": 0.2196308672428131,
+        "bedroom": 0.20590367913246155,
+        "closet": 0.1804877519607544,
+        "dining room": 0.16377492249011993,
+        "entryway/foyer/lobby": 0.1707993745803833,
+        "family room": 0.16856792569160461,
+        "garage": 0.16433359682559967,
+        "hallway": 0.19954553246498108,
+        "library": 0.1430417150259018,
+        "laundry room/mudroom": 0.1859370470046997,
+        "kitchen": 0.19067056477069855,
+        "living room": 0.18442592024803162,
+        "meeting room/conference room": 0.1698712855577469,
+        "lounge": 0.15406936407089233,
+        "office": 0.17368273437023163,
+        "porch/terrace/deck/driveway": 0.16624151170253754,
+        "recreation room/game room": 0.19178514182567596,
+        "stairs": 0.19140993058681488,
+        "toilet room": 0.2131989449262619,
+        "utility room/tool room": 0.1854526698589325,
+        "tv room": 0.1128142699599266,
+        "gym/exercise room": 0.15753260254859924,
+        "outdoor green area": 0.12580090761184692,
+        "balcony": 0.15324446558952332,
+        "bar": 0.17447182536125183,
+        "classroom": 0.16264379024505615,
+        "dining booth": 0.17568698525428772,
+        "spa/sauna": 0.17478039860725403
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "bathroom",
+          "cosine": 0.25163033604621887
+        },
+        {
+          "direction": "left",
+          "region": "bathroom",
+          "cosine": 0.25875282287597656
+        },
+        {
+          "direction": "right",
+          "region": "hallway",
+          "cosine": 0.2092440277338028
+        },
+        {
+          "direction": "back",
+          "region": "bedroom",
+          "cosine": 0.2273605912923813
+        }
+      ],
+      "view_agreement": 1,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "bathroom",
+      "raw_cosine": 0.2196308672428131,
+      "raw_margin": 0.0064319223165512085,
+      "raw_view_agreement": 2,
+      "smoothed_scores": {
+        "bathroom": 0.19516337060483205,
+        "bedroom": 0.2162418589196208,
+        "closet": 0.18009662816578484,
+        "dining room": 0.17207509464451332,
+        "entryway/foyer/lobby": 0.17592194298754432,
+        "family room": 0.17557099545402305,
+        "garage": 0.16151509708579492,
+        "hallway": 0.20132735666808776,
+        "library": 0.15762384007626143,
+        "laundry room/mudroom": 0.17710826051779355,
+        "kitchen": 0.18555817045266942,
+        "living room": 0.1996928985773796,
+        "meeting room/conference room": 0.17543037762663544,
+        "lounge": 0.16705232448554325,
+        "office": 0.17703558450730567,
+        "porch/terrace/deck/driveway": 0.16713386132096683,
+        "recreation room/game room": 0.195911871277891,
+        "stairs": 0.19221768473259943,
+        "toilet room": 0.19878514030735,
+        "utility room/tool room": 0.17549074437352516,
+        "tv room": 0.12693530651618773,
+        "gym/exercise room": 0.15963359529730173,
+        "outdoor green area": 0.13082381687696215,
+        "balcony": 0.15969608384137932,
+        "bar": 0.17571336720587502,
+        "classroom": 0.1673225598351185,
+        "dining booth": 0.18060914299934006,
+        "spa/sauna": 0.17012396829871845
+      },
+      "decision_scores": {
+        "bathroom": 0.19516337060483205,
+        "bedroom": 0.2162418589196208,
+        "closet": 0.18009662816578484,
+        "dining room": 0.17207509464451332,
+        "entryway/foyer/lobby": 0.17592194298754432,
+        "family room": 0.17557099545402305,
+        "garage": 0.16151509708579492,
+        "hallway": 0.20132735666808776,
+        "library": 0.15762384007626143,
+        "laundry room/mudroom": 0.17710826051779355,
+        "kitchen": 0.18555817045266942,
+        "living room": 0.1996928985773796,
+        "meeting room/conference room": 0.17543037762663544,
+        "lounge": 0.16705232448554325,
+        "office": 0.17703558450730567,
+        "porch/terrace/deck/driveway": 0.16713386132096683,
+        "recreation room/game room": 0.195911871277891,
+        "stairs": 0.19221768473259943,
+        "toilet room": 0.19878514030735,
+        "utility room/tool room": 0.17549074437352516,
+        "tv room": 0.12693530651618773,
+        "gym/exercise room": 0.15963359529730173,
+        "outdoor green area": 0.13082381687696215,
+        "balcony": 0.15969608384137932,
+        "bar": 0.17571336720587502,
+        "classroom": 0.1673225598351185,
+        "dining booth": 0.18060914299934006,
+        "spa/sauna": 0.17012396829871845
+      },
+      "stability": {
+        "reason": "held_by_momentum",
+        "previous_region": "bedroom",
+        "applied_bonus": 0.0,
+        "switched": false,
+        "suppressed": true,
+        "momentum": 0.6,
+        "stay_bonus": 0.0,
+        "bonus_enabled": false,
+        "fast_margin": 0.02,
+        "fast_min_views": 3
+      }
+    },
+    {
+      "step": 60,
+      "floor": 0,
+      "position": [
+        28.91985511779785,
+        0.12711000442504883,
+        0.7406203746795654
+      ],
+      "region": "bathroom",
+      "cosine": 0.23878450691699982,
+      "margin": 0.025622472167015076,
+      "scores": {
+        "bathroom": 0.23878450691699982,
+        "bedroom": 0.20014609396457672,
+        "closet": 0.16766858100891113,
+        "dining room": 0.16254989802837372,
+        "entryway/foyer/lobby": 0.15769901871681213,
+        "family room": 0.1624169796705246,
+        "garage": 0.14754892885684967,
+        "hallway": 0.18685919046401978,
+        "library": 0.13347360491752625,
+        "laundry room/mudroom": 0.184603750705719,
+        "kitchen": 0.19905300438404083,
+        "living room": 0.17769920825958252,
+        "meeting room/conference room": 0.15951764583587646,
+        "lounge": 0.14758941531181335,
+        "office": 0.1667625904083252,
+        "porch/terrace/deck/driveway": 0.16385489702224731,
+        "recreation room/game room": 0.17979484796524048,
+        "stairs": 0.18470709025859833,
+        "toilet room": 0.21316203474998474,
+        "utility room/tool room": 0.1825939118862152,
+        "tv room": 0.09009978920221329,
+        "gym/exercise room": 0.15134206414222717,
+        "outdoor green area": 0.11908351629972458,
+        "balcony": 0.14875340461730957,
+        "bar": 0.16347959637641907,
+        "classroom": 0.15140463411808014,
+        "dining booth": 0.16685505211353302,
+        "spa/sauna": 0.17700980603694916
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "bathroom",
+          "cosine": 0.22964836657047272
+        },
+        {
+          "direction": "left",
+          "region": "bathroom",
+          "cosine": 0.24509383738040924
+        },
+        {
+          "direction": "right",
+          "region": "bathroom",
+          "cosine": 0.24556002020835876
+        },
+        {
+          "direction": "back",
+          "region": "bathroom",
+          "cosine": 0.23483580350875854
+        }
+      ],
+      "view_agreement": 4,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "bathroom",
+      "raw_cosine": 0.23878450691699982,
+      "raw_margin": 0.025622472167015076,
+      "raw_view_agreement": 4,
+      "smoothed_scores": {
+        "bathroom": 0.23878450691699982,
+        "bedroom": 0.20014609396457672,
+        "closet": 0.16766858100891113,
+        "dining room": 0.16254989802837372,
+        "entryway/foyer/lobby": 0.15769901871681213,
+        "family room": 0.1624169796705246,
+        "garage": 0.14754892885684967,
+        "hallway": 0.18685919046401978,
+        "library": 0.13347360491752625,
+        "laundry room/mudroom": 0.184603750705719,
+        "kitchen": 0.19905300438404083,
+        "living room": 0.17769920825958252,
+        "meeting room/conference room": 0.15951764583587646,
+        "lounge": 0.14758941531181335,
+        "office": 0.1667625904083252,
+        "porch/terrace/deck/driveway": 0.16385489702224731,
+        "recreation room/game room": 0.17979484796524048,
+        "stairs": 0.18470709025859833,
+        "toilet room": 0.21316203474998474,
+        "utility room/tool room": 0.1825939118862152,
+        "tv room": 0.09009978920221329,
+        "gym/exercise room": 0.15134206414222717,
+        "outdoor green area": 0.11908351629972458,
+        "balcony": 0.14875340461730957,
+        "bar": 0.16347959637641907,
+        "classroom": 0.15140463411808014,
+        "dining booth": 0.16685505211353302,
+        "spa/sauna": 0.17700980603694916
+      },
+      "decision_scores": {
+        "bathroom": 0.23878450691699982,
+        "bedroom": 0.20014609396457672,
+        "closet": 0.16766858100891113,
+        "dining room": 0.16254989802837372,
+        "entryway/foyer/lobby": 0.15769901871681213,
+        "family room": 0.1624169796705246,
+        "garage": 0.14754892885684967,
+        "hallway": 0.18685919046401978,
+        "library": 0.13347360491752625,
+        "laundry room/mudroom": 0.184603750705719,
+        "kitchen": 0.19905300438404083,
+        "living room": 0.17769920825958252,
+        "meeting room/conference room": 0.15951764583587646,
+        "lounge": 0.14758941531181335,
+        "office": 0.1667625904083252,
+        "porch/terrace/deck/driveway": 0.16385489702224731,
+        "recreation room/game room": 0.17979484796524048,
+        "stairs": 0.18470709025859833,
+        "toilet room": 0.21316203474998474,
+        "utility room/tool room": 0.1825939118862152,
+        "tv room": 0.09009978920221329,
+        "gym/exercise room": 0.15134206414222717,
+        "outdoor green area": 0.11908351629972458,
+        "balcony": 0.14875340461730957,
+        "bar": 0.16347959637641907,
+        "classroom": 0.15140463411808014,
+        "dining booth": 0.16685505211353302,
+        "spa/sauna": 0.17700980603694916
+      },
+      "stability": {
+        "reason": "fast_switch",
+        "previous_region": "bedroom",
+        "applied_bonus": 0.0,
+        "switched": true,
+        "suppressed": false,
+        "momentum": 0.6,
+        "stay_bonus": 0.0,
+        "bonus_enabled": false,
+        "fast_margin": 0.02,
+        "fast_min_views": 3
+      }
+    },
+    {
+      "step": 62,
+      "floor": 0,
+      "position": [
+        29.16133689880371,
+        0.12711000442504883,
+        0.8053251504898071
+      ],
+      "region": "bathroom",
+      "cosine": 0.23542936146259308,
+      "margin": 0.028381377458572388,
+      "scores": {
+        "bathroom": 0.23542936146259308,
+        "bedroom": 0.20053091645240784,
+        "closet": 0.16153204441070557,
+        "dining room": 0.15527194738388062,
+        "entryway/foyer/lobby": 0.16119471192359924,
+        "family room": 0.15962547063827515,
+        "garage": 0.14207790791988373,
+        "hallway": 0.18620967864990234,
+        "library": 0.13584956526756287,
+        "laundry room/mudroom": 0.17714670300483704,
+        "kitchen": 0.18860095739364624,
+        "living room": 0.1776830554008484,
+        "meeting room/conference room": 0.15760435163974762,
+        "lounge": 0.1509435772895813,
+        "office": 0.16283363103866577,
+        "porch/terrace/deck/driveway": 0.16364344954490662,
+        "recreation room/game room": 0.17848323285579681,
+        "stairs": 0.19038167595863342,
+        "toilet room": 0.2070479840040207,
+        "utility room/tool room": 0.1726192831993103,
+        "tv room": 0.0928492322564125,
+        "gym/exercise room": 0.15258997678756714,
+        "outdoor green area": 0.11671795696020126,
+        "balcony": 0.15235155820846558,
+        "bar": 0.15916317701339722,
+        "classroom": 0.14700405299663544,
+        "dining booth": 0.15925058722496033,
+        "spa/sauna": 0.1785416156053543
+      },
+      "per_view": [
+        {
+          "direction": "front",
+          "region": "stairs",
+          "cosine": 0.22360756993293762
+        },
+        {
+          "direction": "left",
+          "region": "bathroom",
+          "cosine": 0.24522104859352112
+        },
+        {
+          "direction": "right",
+          "region": "bathroom",
+          "cosine": 0.22499383985996246
+        },
+        {
+          "direction": "back",
+          "region": "bathroom",
+          "cosine": 0.25321078300476074
+        }
+      ],
+      "view_agreement": 3,
+      "tau": 1.5,
+      "interpretation": "argmax similarity, not calibrated probability; view may span multiple rooms",
+      "raw_region": "bathroom",
+      "raw_cosine": 0.23542936146259308,
+      "raw_margin": 0.028381377458572388,
+      "raw_view_agreement": 3,
+      "smoothed_scores": {
+        "bathroom": 0.23744244873523712,
+        "bedroom": 0.20030002295970917,
+        "closet": 0.1652139663696289,
+        "dining room": 0.15963871777057648,
+        "entryway/foyer/lobby": 0.159097295999527,
+        "family room": 0.16130037605762482,
+        "garage": 0.1453605204820633,
+        "hallway": 0.1865993857383728,
+        "library": 0.13442398905754088,
+        "laundry room/mudroom": 0.18162093162536622,
+        "kitchen": 0.194872185587883,
+        "living room": 0.17769274711608887,
+        "meeting room/conference room": 0.15875232815742493,
+        "lounge": 0.14893108010292053,
+        "office": 0.16519100666046144,
+        "porch/terrace/deck/driveway": 0.16377031803131104,
+        "recreation room/game room": 0.179270201921463,
+        "stairs": 0.18697692453861237,
+        "toilet room": 0.2107164144515991,
+        "utility room/tool room": 0.17860406041145327,
+        "tv room": 0.09119956642389297,
+        "gym/exercise room": 0.15184122920036314,
+        "outdoor green area": 0.11813729256391525,
+        "balcony": 0.15019266605377196,
+        "bar": 0.16175302863121033,
+        "classroom": 0.14964440166950227,
+        "dining booth": 0.16381326615810393,
+        "spa/sauna": 0.1776225298643112
+      },
+      "decision_scores": {
+        "bathroom": 0.23744244873523712,
+        "bedroom": 0.20030002295970917,
+        "closet": 0.1652139663696289,
+        "dining room": 0.15963871777057648,
+        "entryway/foyer/lobby": 0.159097295999527,
+        "family room": 0.16130037605762482,
+        "garage": 0.1453605204820633,
+        "hallway": 0.1865993857383728,
+        "library": 0.13442398905754088,
+        "laundry room/mudroom": 0.18162093162536622,
+        "kitchen": 0.194872185587883,
+        "living room": 0.17769274711608887,
+        "meeting room/conference room": 0.15875232815742493,
+        "lounge": 0.14893108010292053,
+        "office": 0.16519100666046144,
+        "porch/terrace/deck/driveway": 0.16377031803131104,
+        "recreation room/game room": 0.179270201921463,
+        "stairs": 0.18697692453861237,
+        "toilet room": 0.2107164144515991,
+        "utility room/tool room": 0.17860406041145327,
+        "tv room": 0.09119956642389297,
+        "gym/exercise room": 0.15184122920036314,
+        "outdoor green area": 0.11813729256391525,
+        "balcony": 0.15019266605377196,
+        "bar": 0.16175302863121033,
+        "classroom": 0.14964440166950227,
+        "dining booth": 0.16381326615810393,
+        "spa/sauna": 0.1776225298643112
+      },
+      "stability": {
+        "reason": "unchanged",
+        "previous_region": "bathroom",
+        "applied_bonus": 0.0,
+        "switched": false,
+        "suppressed": false,
+        "momentum": 0.6,
+        "stay_bonus": 0.0,
+        "bonus_enabled": false,
+        "fast_margin": 0.02,
+        "fast_min_views": 3
+      }
+    }
+  ],
+  "maps": [
+    {
+      "floor": 0,
+      "height": 0.12711000442504883,
+      "geometry": {
+        "origin_xz": [
+          13.875,
+          -11.775
+        ],
+        "meters_per_pixel": 0.025,
+        "image_size": [
+          756,
+          880
+        ],
+        "rasterization": "world_aligned_floor_index",
+        "projection": "direct_depth_backprojection_top_surface",
+        "point_stride": 1,
+        "height_cut_relative_m": [
+          -0.4,
+          1.8
+        ],
+        "obstacle_stroke_radius_pixels": 1,
+        "boundary_stroke_radius_pixels": 2
+      },
+      "images": {
+        "rgb": "rgb_01.png",
+        "passability": "passability_01.png"
+      },
+      "comparisons": {
+        "raw": {
+          "rgb": "raw_rgb_01.png",
+          "passability": "raw_passability_01.png"
+        }
+      },
+      "views": 4,
+      "observed_area_m2": 35.82000000000001,
+      "shared_geometry": true
+    }
+  ],
+  "action_limit_truncated": false
+}

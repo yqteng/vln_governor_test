@@ -1,0 +1,32 @@
+{
+  "instruction": "Walk out of the bathroom past the sink and shower. Walk through the arched doorway down the hall with the throw rug. Walk into the room with wooden closet doors and two ceiling lamps. ",
+  "baseline_result": "success",
+  "vlm_result": "未发现明确偏航",
+  "first_bad_segment": null,
+  "first_bad_steps": null,
+  "reason": "The instruction requires leaving the bathroom, passing through the arched doorway along the rug-lined hall, and entering the room distinguished by wooden closet doors and two ceiling lamps. S1 approaches the bathroom exit, and S2 continues through the entrance into the rug-lined space, with F20 and F23 showing the rug O5, vanity sink O16, and closet doors O17 in the corresponding layout. The measured route proceeds along the rug toward the farther opening beside O17 without a sustained branch change or supported passage beyond the required destination. F27 and F30 show that farther opening drawing nearer, but entry into the final qualifying room and its full two-lamp description remain unverified. No executed behavior through step 32 reliably contradicts the required route order, so the earlier no-supported-deviation judgment remains valid without implying completion.",
+  "reviewed_to_step": 32,
+  "total_steps": 40,
+  "unreviewed_tail": [
+    33,
+    40
+  ],
+  "evidence_segments_at_review": [
+    "S1",
+    "S2"
+  ],
+  "evidence_frames": [
+    "F7",
+    "F15",
+    "F20",
+    "F23",
+    "F27",
+    "F30"
+  ],
+  "evidence_objects": [
+    "O5",
+    "O11",
+    "O16",
+    "O17"
+  ]
+}

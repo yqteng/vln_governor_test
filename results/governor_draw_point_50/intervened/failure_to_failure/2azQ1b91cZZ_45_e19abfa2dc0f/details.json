@@ -1,0 +1,82 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 45,
+  "episode_instruction": "Walk down the hallway and walk into the kitchen and take a left at the island counter into the hallway and take a right into the dining room and walk through the dining room into the living room and stop nest to the edge of the couch  behind the end table. ",
+  "steps": 73,
+  "effective_steps": 73,
+  "num_rewrites": 0,
+  "corrections": 1,
+  "deviations": 0,
+  "blockage_recoveries": 0,
+  "stop_returns": 0,
+  "stop_rejections": 1,
+  "max_task_depth": 0,
+  "point_runs": 0,
+  "point_completed": 0,
+  "correction_images": [
+    "correction_images/2azQ1b91cZZ_45_e19abfa2dc0f_step_0073_effective_0073_correction_001_attempt_1.png",
+    "correction_images/2azQ1b91cZZ_45_e19abfa2dc0f_step_0073_effective_0073_correction_001_attempt_2.png"
+  ],
+  "final_instruction": "Walk down the hallway and walk into the kitchen and take a left at the island counter into the hallway and take a right into the dining room and walk through the dining room into the living room and stop nest to the edge of the couch  behind the end table. ",
+  "termination_reason": "rejected_stop_recovery_failed",
+  "summaries": [
+    {
+      "start": 0,
+      "end": 16,
+      "text": "Confirmed completed: Walk down the hallway and walk into the kitchen. Partial: Take a left at the island counter into the hallway. Remaining: Take a right into the dining room and walk through the dining room into the living room and stop next to the edge of the couch behind the end table. Current location: Inside the kitchen, facing the hallway to the dining room, having just turned right at state 16. The dining room is visible through the archway ahead, but the living room and couch are not yet in view. The robot has not yet entered the dining room or living room.",
+      "grounding": "State 0: View from hallway looking into kitchen through an arched doorway. State 16: Inside kitchen, facing right toward an archway leading to the dining room; the dining room is visible but the living room and couch are not yet in view. The transition from hallway to kitchen is complete, and the turn right at the island is partially executed (robot is now facing the dining room direction).",
+      "anchor_steps": [
+        0,
+        16
+      ],
+      "anchor_source": "vlm"
+    },
+    {
+      "start": 16,
+      "end": 32,
+      "text": "Confirmed completed: Walk down the hallway and walk into the kitchen and take a left at the island counter into the hallway. Partial: Take a right into the dining room and walk through the dining room into the living room and stop next to the edge of the couch behind the end table. Current location: Inside the kitchen, facing the dining room through the archway; the dining room is visible but the living room and couch are not yet in view. The robot has not yet entered the dining room or living room.",
+      "grounding": "State 16: Inside kitchen, facing right toward an archway leading to the dining room; the dining room is visible but the living room and couch are not yet in view. State 32: View from kitchen looking through the archway into the dining room, which is visible with a table and chairs, but the living room and couch are not yet in view. The transition from kitchen to dining room has not been completed.",
+      "anchor_steps": [
+        16,
+        32
+      ],
+      "anchor_source": "vlm"
+    },
+    {
+      "start": 32,
+      "end": 48,
+      "text": "Confirmed completed: Walk down the hallway and walk into the kitchen and take a left at the island counter into the hallway and take a right into the dining room. Partial: Walk through the dining room into the living room and stop next to the edge of the couch behind the end table. Current location: Inside the dining room, facing the doorway that leads to the living room; the living room and couch are not yet in view. The robot has not yet entered the living room or reached the final stopping point.",
+      "grounding": "State 32: View from kitchen looking through the archway into the dining room, which is visible with a table and chairs, but the living room and couch are not yet in view. State 48: Inside the dining room, facing the doorway that leads to the living room; the living room and couch are not yet in view. The transition from kitchen to dining room is complete, and the robot is now inside the dining room, but has not yet entered the living room or reached the final stopping point.",
+      "anchor_steps": [
+        32,
+        48
+      ],
+      "anchor_source": "vlm"
+    },
+    {
+      "start": 48,
+      "end": 64,
+      "text": "Confirmed completed: Walk down the hallway and walk into the kitchen and take a left at the island counter into the hallway and take a right into the dining room. Partial: Walk through the dining room into the living room and stop next to the edge of the couch behind the end table. Current location: Inside the dining room, facing away from the doorway to the living room, having moved toward the far wall. The living room and couch are not yet in view. The robot has not yet entered the living room or reached the final stopping point.",
+      "grounding": "State 48: Inside dining room, facing the doorway that leads to the living room; the living room and couch are not yet in view. State 64: View from inside the dining room, facing the far wall with windows; the doorway to the living room is no longer in the forward field of view, indicating the robot has moved away from it. The transition from dining room to living room has not been completed, and the final stopping point is not yet reached.",
+      "anchor_steps": [
+        48,
+        64
+      ],
+      "anchor_source": "vlm"
+    }
+  ],
+  "intervened": true,
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 13.628077507019043,
+  "category": "intervened/failure_to_failure",
+  "baseline": {
+    "success": 0.0,
+    "spl": 0.0,
+    "os": 0.0,
+    "ne": 13.409268379211426
+  },
+  "version": "governor_clean_remake_14_single_stop_decision",
+  "correction_mode": "point"
+}

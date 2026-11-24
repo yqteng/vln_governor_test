@@ -1,0 +1,35 @@
+{
+  "instruction": "Go towards the middle doorway, straight in front of you and stop at the arch. ",
+  "baseline_result": "failure",
+  "vlm_result": "偏航",
+  "first_bad_segment": "S3",
+  "first_bad_steps": [
+    20,
+    64
+  ],
+  "reason": "The instruction requires approaching the middle doorway straight ahead and stopping at the arch, rather than continuing through the furnished interior. S1 and S2 show a compatible approach through the pale-walled passage, with no reliably established earlier contradiction. In S3, F25 shows the carved doorway and arch associated with O4 and O8 immediately ahead, while F35 shows the robot beyond that entrance among the sitting and dining furniture; F45 and F56 and the measured trace establish continued travel farther into the room. This is a spatial overshoot of the required stopping location, independent of any inferred STOP command or exact projected arch boundary. The earlier S3 verdict remains supported by the current sampled observations and matching step interval.",
+  "reviewed_to_step": 64,
+  "total_steps": 71,
+  "unreviewed_tail": [
+    65,
+    71
+  ],
+  "evidence_segments_at_review": [
+    "S1",
+    "S2",
+    "S3"
+  ],
+  "evidence_frames": [
+    "F6",
+    "F13",
+    "F20",
+    "F25",
+    "F35",
+    "F45",
+    "F56"
+  ],
+  "evidence_objects": [
+    "O4",
+    "O8"
+  ]
+}

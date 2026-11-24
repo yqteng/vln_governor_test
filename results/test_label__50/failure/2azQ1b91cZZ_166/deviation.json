@@ -1,0 +1,32 @@
+{
+  "instruction": "Go forward by the windows, and then stop by the lamp. ",
+  "baseline_result": "failure",
+  "vlm_result": "未发现明确偏航",
+  "first_bad_segment": null,
+  "first_bad_steps": null,
+  "reason": "The instruction requires going forward by the windows and then stopping by the lamp. The route proceeds from the dining-area view in S1 through the space shown in S2 and into the kitchen shown in S3; the observations show windows along the route and a lamp visible in F41. The later movement in S3 does not, without reliable localization of that lamp or a supplied stop record, establish that the robot passed the required stopping location or made an incompatible route choice. Thus no deviation is supported through step 48; this does not establish task completion.",
+  "reviewed_to_step": 48,
+  "total_steps": 59,
+  "unreviewed_tail": [
+    49,
+    59
+  ],
+  "evidence_segments_at_review": [
+    "S1",
+    "S2",
+    "S3"
+  ],
+  "evidence_frames": [
+    "F0",
+    "F18",
+    "F20",
+    "F21",
+    "F24",
+    "F32",
+    "F41",
+    "F46"
+  ],
+  "evidence_objects": [
+    "O1"
+  ]
+}

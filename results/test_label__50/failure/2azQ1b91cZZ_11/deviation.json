@@ -1,0 +1,31 @@
+{
+  "instruction": "Walk across the floor and wait the archway. ",
+  "baseline_result": "failure",
+  "vlm_result": "未发现明确偏航",
+  "first_bad_segment": null,
+  "first_bad_steps": null,
+  "reason": "The instruction requires crossing the floor and waiting at the archway, without specifying a side of the opening or a subsequent room. S1 approaches O5 directly, and S2–S3 continue along its wood-lined passage toward the foyer-facing threshold without taking another branch. At step 32 the measured endpoint remains within the broadly mapped O5 passage extent and near its far threshold; the photographs do not reliably establish movement beyond the archway's vicinity into an incompatible route. No deviation is established through this cutoff, but waiting or termination is not established because no explicit STOP is supplied.",
+  "reviewed_to_step": 32,
+  "total_steps": 46,
+  "unreviewed_tail": [
+    33,
+    46
+  ],
+  "evidence_segments_at_review": [
+    "S1",
+    "S2",
+    "S3"
+  ],
+  "evidence_frames": [
+    "F3",
+    "F14",
+    "F19",
+    "F24",
+    "F30",
+    "F31",
+    "F32"
+  ],
+  "evidence_objects": [
+    "O5"
+  ]
+}

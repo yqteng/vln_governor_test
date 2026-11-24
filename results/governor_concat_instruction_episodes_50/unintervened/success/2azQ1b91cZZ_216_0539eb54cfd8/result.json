@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 216,
+  "success": 1.0,
+  "spl": 0.8813445602515521,
+  "os": 1.0,
+  "ne": 2.9601736068725586,
+  "steps": 40,
+  "episode_instruction": "Go forward through an archway towards the console table, and veer right to an open doorway, and go through it. Wait there. ",
+  "final_instruction": "Go forward through an archway towards the console table, and veer right to an open doorway, and go through it. Wait there. ",
+  "num_rewrites": 0
+}

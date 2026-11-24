@@ -1,0 +1,79 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 89,
+  "episode_instruction": "Enter the dining room and walk to the other end. Go through the double doors on the right. Walk straight across the walkway and wait outside on the mat. ",
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 21.575050354003906,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 96,
+  "effective_steps": 95,
+  "corrections": 0,
+  "deviations": 0,
+  "intervened": false,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 25,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "Enter the dining room and walk to the other end. Go through the double doors on the right. Walk straight across the walkway and wait outside on the mat. ",
+  "termination_reason": "global_stop",
+  "phase_steps": {
+    "normal": 95,
+    "rollback": 0,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 1,
+    "governor_stop": 0
+  },
+  "action_counts": {
+    "STOP": 1,
+    "MOVE_FORWARD": 65,
+    "TURN_LEFT": 10,
+    "TURN_RIGHT": 20,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 0,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 16.25000387430191,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "Completed: None. Currently: Agent is in a hallway with multiple French doors visible, facing forward toward an archway leading further into the building; no dining room or double doors on the right have been entered or passed. Remaining: Enter the dining room and walk to the other end. Go through the double doors on the right. Walk straight across the walkway and wait outside on the mat. Uncertain: Whether the dining room was ever entered, as the current view shows a hallway, not a dining room; the double doors on the right were not encountered or passed through; the walkway and mat are not visible or reached."
+    },
+    {
+      "start": 17,
+      "end": 32,
+      "text": "Completed: None. Currently: Agent is in a hallway, having turned right at image 17 and moved forward through images 17–27, now facing left after a turn at image 28 and moving forward through images 28–32; no dining room or double doors on the right have been entered or passed. Remaining: Enter the dining room and walk to the other end. Go through the double doors on the right. Walk straight across the walkway and wait outside on the mat. Uncertain: Whether the dining room was ever entered, as the current view shows a hallway, not a dining room; the double doors on the right were not encountered or passed through; the walkway and mat are not visible or reached."
+    },
+    {
+      "start": 33,
+      "end": 48,
+      "text": "Completed: None. Currently: Agent is in a grand hallway with arched doorways, a decorative tiled floor, and visible wooden doors; no dining room or double doors on the right have been entered or passed. Remaining: Enter the dining room and walk to the other end. Go through the double doors on the right. Walk straight across the walkway and wait outside on the mat. Uncertain: Whether the dining room was ever entered, as the current view shows a hallway, not a dining room; the double doors on the right were not encountered or passed through; the walkway and mat are not visible or reached."
+    },
+    {
+      "start": 49,
+      "end": 64,
+      "text": "Completed: None. Currently: Agent is in a grand hallway with arched doorways, tiled floor, and visible wooden doors; no dining room or double doors on the right have been entered or passed. Remaining: Enter the dining room and walk to the other end. Go through the double doors on the right. Walk straight across the walkway and wait outside on the mat. Uncertain: Whether the dining room was ever entered, as the current view shows a hallway, not a dining room; the double doors on the right were not encountered or passed through; the walkway and mat are not visible or reached."
+    },
+    {
+      "start": 65,
+      "end": 80,
+      "text": "Completed: None. Currently: Agent is in a grand hallway with arched doorways, tiled floor, and visible wooden doors; no dining room or double doors on the right have been entered or passed. Remaining: Enter the dining room and walk to the other end. Go through the double doors on the right. Walk straight across the walkway and wait outside on the mat. Uncertain: Whether the dining room was ever entered, as the current view shows a hallway, not a dining room; the double doors on the right were not encountered or passed through; the walkway and mat are not visible or reached."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "unintervened/failure",
+  "baseline": {
+    "success": 0.0,
+    "spl": 0.0,
+    "os": 0.0,
+    "ne": 21.575050354003906
+  },
+  "artifact_dir": "unintervened/failure/2azQ1b91cZZ_89_723814e7b78f"
+}

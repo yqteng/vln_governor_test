@@ -1,0 +1,83 @@
+[
+  {
+    "id": "O1",
+    "name": "the window overlooking the garden on the opposite end of the billiard room",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O1"
+    ]
+  },
+  {
+    "id": "O2",
+    "name": "the window overlooking the garden on the opposite end of the billiard room",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O2"
+    ]
+  },
+  {
+    "id": "O3",
+    "name": "the window overlooking the garden on the opposite end of the billiard room",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O3"
+    ]
+  },
+  {
+    "id": "O4",
+    "name": "the window overlooking the garden on the opposite end of the billiard room",
+    "floor": 1,
+    "status": "已确认",
+    "source_ids": [
+      "O4"
+    ]
+  },
+  {
+    "id": "O5",
+    "name": "the window overlooking the garden on the opposite end of the billiard room",
+    "floor": 1,
+    "status": "已确认",
+    "source_ids": [
+      "O5"
+    ]
+  },
+  {
+    "id": "O6",
+    "name": "the window overlooking the garden on the opposite end of the billiard room",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O6"
+    ]
+  },
+  {
+    "id": "O7",
+    "name": "the window overlooking the garden on the opposite end of the billiard room",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O7"
+    ]
+  },
+  {
+    "id": "O8",
+    "name": "the window overlooking the garden on the opposite end of the billiard room",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O8"
+    ]
+  },
+  {
+    "id": "O9",
+    "name": "the window overlooking the garden on the opposite end of the billiard room",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O9"
+    ]
+  }
+]

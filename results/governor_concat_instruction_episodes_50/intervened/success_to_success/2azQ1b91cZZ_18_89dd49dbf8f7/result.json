@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 18,
+  "success": 1.0,
+  "spl": 1.0,
+  "os": 1.0,
+  "ne": 2.648993492126465,
+  "steps": 38,
+  "episode_instruction": "Walk across the room, past the pool table on your left side as you walk.  Stop in front of the television mounted on the wall across from the couch. ",
+  "final_instruction": "Walk across the room, past the pool table on your left side as you walk.  Stop in front of the television mounted on the wall across from the couch. ",
+  "num_rewrites": 0
+}

@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 123,
+  "success": 1.0,
+  "spl": 0.9182580081471609,
+  "os": 1.0,
+  "ne": 0.21445509791374207,
+  "steps": 28,
+  "episode_instruction": "Walk straight into the kitchen, take a left, and stop after the archway. ",
+  "final_instruction": "Walk straight into the kitchen, take a left, and stop after the archway. ",
+  "num_rewrites": 0
+}

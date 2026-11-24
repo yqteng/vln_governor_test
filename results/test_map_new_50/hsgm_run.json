@@ -1,0 +1,49 @@
+{
+  "provenance": {
+    "repository": "https://github.com/Teacher-Tom/HSGM_public",
+    "commit": "e48f6ff7e9201d93aae003e8f64b04c00cec13bc",
+    "source_sha256": {
+      "mapping_utils/geometry.py": "9ef27e522aba155e2c410a028c043b3a3b2e048d8df6f966c0f1a2605e46b16e",
+      "mapping_utils/transform.py": "a799c3034787724824dd3c269dbdf1728950b621f32828bfdc6b6a06d649c6bf",
+      "mapper.py": "0ee8d7e85ca2c9951f3b71f924a8a6d4968fa8a4f9ff1a6c70dabca1f1b1bf42",
+      "segmentation/instance_segmentation.py": "f203f4ad2091f5a40352f56ba46eed15f53cdd9aad42e013c6e23cd8dbd8b1d4",
+      "agent/agent.py": "ee8dc78600a7e11d3aff5ce0bf02902e77ab7906be69da0c12fd66317eec7148",
+      "segmentation/object_list.py": "a6434adb55051dce89653c91c9ea54740295b19c1dbeac6b190d284243e040b6"
+    }
+  },
+  "settings": {
+    "hsgm_repo": "/mnt/disk8t1/zwm/StreamVLN/third_party/HSGM_public-main",
+    "actions_file": null,
+    "records_root": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records",
+    "start_folder": "2azQ1b91cZZ_10",
+    "max_episodes": 50,
+    "max_steps": 100,
+    "scene_id": null,
+    "episode_id": null,
+    "output_path": "results/test_map_new_50",
+    "habitat_config_path": "/mnt/disk8t1/zwm/StreamVLN/config/vln_r2r.yaml",
+    "habitat_root": "/mnt/disk8t1/zwm/Progress-Aware-VLN/habitat-lab",
+    "eval_split": "val_unseen",
+    "data_path": null,
+    "scenes_dir": null,
+    "seed": 0,
+    "sensor_width": 0,
+    "sensor_height": 0,
+    "initial_scan": "none",
+    "views": "four",
+    "depth_max": 4.9,
+    "pcd_resolution": 0.025,
+    "grid_resolution": 0.05,
+    "height_ceiling": 1.8,
+    "map_device": "cpu",
+    "bev_pixel_size": 0.025,
+    "bev_max_size": 4096,
+    "render_every": 5,
+    "yoloe_python": "/home/ubuntun/miniconda3/envs/sam2/bin/python",
+    "yoloe_checkpoint": "/mnt/disk8t1/zwm/StreamVLN/third_party/HSGM_public-main/ckpt/yoloe-26l-seg.pt",
+    "yoloe_device": "cuda:0",
+    "yoloe_timeout": 600.0,
+    "sensor_profile": "official",
+    "map_view": "both"
+  }
+}

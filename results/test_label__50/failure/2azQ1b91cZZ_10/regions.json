@@ -1,0 +1,47 @@
+[
+  {
+    "segment": "S1",
+    "name": "entryway",
+    "floor": 1,
+    "steps": [
+      0,
+      22
+    ],
+    "samples": [
+      "F3",
+      "F8",
+      "F14",
+      "F19"
+    ]
+  },
+  {
+    "segment": "S2",
+    "name": "entryway",
+    "floor": 1,
+    "steps": [
+      22,
+      29
+    ],
+    "samples": [
+      "F23",
+      "F25",
+      "F26",
+      "F28"
+    ]
+  },
+  {
+    "segment": "S3",
+    "name": "entryway",
+    "floor": 1,
+    "steps": [
+      29,
+      47
+    ],
+    "samples": [
+      "F33",
+      "F36",
+      "F39",
+      "F43"
+    ]
+  }
+]

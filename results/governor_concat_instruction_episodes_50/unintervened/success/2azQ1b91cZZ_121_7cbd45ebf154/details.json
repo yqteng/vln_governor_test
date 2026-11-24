@@ -1,0 +1,59 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 121,
+  "episode_instruction": "Walk straight into the kitchen area. Turn left and exit the kitchen and stop there. ",
+  "success": 1.0,
+  "spl": 0.9182580081471609,
+  "os": 1.0,
+  "ne": 0.21445509791374207,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 28,
+  "effective_steps": 27,
+  "corrections": 0,
+  "deviations": 0,
+  "intervened": false,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 7,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "Walk straight into the kitchen area. Turn left and exit the kitchen and stop there. ",
+  "termination_reason": "global_stop",
+  "phase_steps": {
+    "normal": 27,
+    "rollback": 0,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 1,
+    "governor_stop": 0
+  },
+  "action_counts": {
+    "STOP": 1,
+    "MOVE_FORWARD": 21,
+    "TURN_LEFT": 6,
+    "TURN_RIGHT": 0,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 0,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 5.249999612569809,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "Completed: Walk straight into the kitchen area. Currently: Positioned at the kitchen entrance, facing left toward an arched hallway after turning left. Remaining: Turn left and exit the kitchen and stop there. Uncertain: Whether the agent has fully exited the kitchen or if stopping is required at the current location."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "unintervened/success",
+  "baseline": {
+    "success": 1.0,
+    "spl": 0.9182580081471609,
+    "os": 1.0,
+    "ne": 0.21445509791374207
+  },
+  "artifact_dir": "unintervened/success/2azQ1b91cZZ_121_7cbd45ebf154"
+}

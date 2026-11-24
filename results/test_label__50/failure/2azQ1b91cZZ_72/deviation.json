@@ -1,0 +1,38 @@
+{
+  "instruction": "leave sitting room and head towards the kitchen, turn right at living room and enter. walk through living room to dinning room and enter. Turn left and head to front door. Exit the house and stop on porch. ",
+  "baseline_result": "failure",
+  "vlm_result": "偏航",
+  "first_bad_segment": "S4",
+  "first_bad_steps": [
+    37,
+    41
+  ],
+  "reason": "The instruction requires approaching the kitchen, turning right into the living room, and traversing it to the dining room before seeking the front door. S3 approaches the kitchen archway; F24 and F31 distinguish the range-facing archway from the separate opening to its right. In S4, the measured trace crosses the finite kitchen opening and continues toward the range, while F37, F39 and F41 establish occupation of the kitchen rather than entry through the required right-hand opening. S5–S9 continue along the kitchen passage into the narrow interior corridor, with no supported recovery through the required living-room and dining-room sequence. The earlier finding remains supported in current S4 after matching its step interval and crossing geometry; no uncertain door proposal is used as an anchor, and the review cutoff is not treated as STOP.",
+  "reviewed_to_step": 96,
+  "total_steps": 100,
+  "unreviewed_tail": [
+    97,
+    100
+  ],
+  "evidence_segments_at_review": [
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S7",
+    "S8",
+    "S9"
+  ],
+  "evidence_frames": [
+    "F24",
+    "F31",
+    "F37",
+    "F39",
+    "F41",
+    "F52",
+    "F63",
+    "F82"
+  ],
+  "evidence_objects": [],
+  "action_limit_truncated": true
+}

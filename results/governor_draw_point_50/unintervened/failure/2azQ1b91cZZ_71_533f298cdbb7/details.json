@@ -1,0 +1,101 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 71,
+  "episode_instruction": "Walk to the right of the coutch and through the doors to the tan couch  Pass through the dining room and wait outside. ",
+  "steps": 100,
+  "effective_steps": 100,
+  "num_rewrites": 0,
+  "corrections": 0,
+  "deviations": 0,
+  "blockage_recoveries": 0,
+  "stop_returns": 0,
+  "stop_rejections": 0,
+  "max_task_depth": 0,
+  "point_runs": 0,
+  "point_completed": 0,
+  "correction_images": [],
+  "final_instruction": "Walk to the right of the coutch and through the doors to the tan couch  Pass through the dining room and wait outside. ",
+  "termination_reason": "max_steps",
+  "summaries": [
+    {
+      "start": 0,
+      "end": 16,
+      "text": "The robot has moved to the right of the couch and is now positioned near the doors, but has not yet passed through them to reach the tan couch or the dining room. The instruction to wait outside has not been fulfilled.",
+      "grounding": "State 6 shows the robot facing the couch and doors, with the couch on the right. State 16 shows the robot still in the same room, now closer to the door, but not yet outside. The tan couch is not visible in any state, and the dining room has not been passed through.",
+      "anchor_steps": [
+        6,
+        16
+      ],
+      "anchor_source": "vlm"
+    },
+    {
+      "start": 16,
+      "end": 32,
+      "text": "The robot has passed through the doors and entered a new room with a fireplace and a visible dining room entrance. The tan couch is not yet reached or confirmed as the target. The instruction to wait outside has not been fulfilled.",
+      "grounding": "State 16 shows the robot at the door, facing the couch and doors. State 32 shows the robot inside a new room with a fireplace and a visible dining room entrance, but the tan couch is not visible, and the robot has not yet reached or confirmed the target. The dining room has not been passed through, and the robot is not outside.",
+      "anchor_steps": [
+        16,
+        32
+      ],
+      "anchor_source": "vlm"
+    },
+    {
+      "start": 32,
+      "end": 48,
+      "text": "The robot has moved forward through the doorway into a hallway, passing through the dining room entrance. The tan couch has not been reached or confirmed, and the robot is not yet outside. The instruction to wait outside has not been fulfilled.",
+      "grounding": "State 32 shows the robot inside a room with a fireplace and a visible dining room entrance. State 48 shows the robot in a hallway, having passed through the doorway into the dining room area. The tan couch is not visible in any state, and the robot has not yet reached or confirmed the target. The dining room has been passed through, but the robot is not outside.",
+      "anchor_steps": [
+        32,
+        48
+      ],
+      "anchor_source": "vlm"
+    },
+    {
+      "start": 48,
+      "end": 64,
+      "text": "The robot has moved forward through the hallway and is now inside the main living area, which contains the tan couch. The dining room has been passed through, and the robot is no longer outside. The instruction to wait outside has not been fulfilled.",
+      "grounding": "State 48 shows the robot at the doorway into a hallway. State 64 shows the robot inside a room with a tan couch and a kitchen in the background, indicating the robot has entered the main living area. The dining room has been passed through, but the robot is not outside, so the instruction to wait outside has not been fulfilled.",
+      "anchor_steps": [
+        48,
+        64
+      ],
+      "anchor_source": "vlm"
+    },
+    {
+      "start": 64,
+      "end": 80,
+      "text": "The robot has moved forward through the hallway and is now inside the kitchen area, having passed through the dining room and entered the main living area with the tan couch. The robot is no longer outside, so the instruction to wait outside has not been fulfilled.",
+      "grounding": "State 64 shows the robot inside a room with a tan couch and a kitchen in the background, indicating the robot has entered the main living area. State 80 shows the robot in a kitchen with a large island and built-in ovens, having moved forward through the hallway and passed through the dining room entrance. The tan couch is not visible in any state, and the robot is not outside, so the instruction to wait outside has not been fulfilled.",
+      "anchor_steps": [
+        64,
+        80
+      ],
+      "anchor_source": "vlm"
+    },
+    {
+      "start": 80,
+      "end": 96,
+      "text": "The robot has moved forward through the hallway and is now positioned outside, having passed through the dining room and reached the required endpoint. The tan couch has been reached and passed through, and the robot is now outside as required by the instruction.",
+      "grounding": "State 80 shows the robot in the kitchen area, having passed through the dining room entrance. State 96 shows the robot outside, positioned in front of a door with a visible hallway and arches, indicating the robot has reached the required endpoint. The tan couch has been reached and passed through, and the robot is now outside as required by the instruction.",
+      "anchor_steps": [
+        80,
+        96
+      ],
+      "anchor_source": "vlm"
+    }
+  ],
+  "intervened": false,
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 7.618264675140381,
+  "category": "unintervened/failure",
+  "baseline": {
+    "success": 0.0,
+    "spl": 0.0,
+    "os": 0.0,
+    "ne": 9.011834144592285
+  },
+  "version": "governor_clean_remake_14_single_stop_decision",
+  "correction_mode": "point"
+}

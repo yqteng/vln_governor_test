@@ -1,0 +1,614 @@
+[
+  {
+    "id": "O1",
+    "name": "nearest open double doors to the dining area",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O1"
+    ]
+  },
+  {
+    "id": "O2",
+    "name": "nearest open double doors to the dining area",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O2"
+    ]
+  },
+  {
+    "id": "O3",
+    "name": "nearest open double doors to the dining area",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O3"
+    ]
+  },
+  {
+    "id": "O4",
+    "name": "nearest open double doors to the dining area",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O4"
+    ]
+  },
+  {
+    "id": "O5",
+    "name": "nearest open double doors to the dining area",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O5"
+    ]
+  },
+  {
+    "id": "O6",
+    "name": "nearest open double doors to the dining area",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O6"
+    ]
+  },
+  {
+    "id": "O7",
+    "name": "nearest open double doors to the dining area",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O7"
+    ]
+  },
+  {
+    "id": "O8",
+    "name": "nearest open double doors to the dining area",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O8"
+    ]
+  },
+  {
+    "id": "O9",
+    "name": "nearest open double doors to the dining area",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O9"
+    ]
+  },
+  {
+    "id": "O10",
+    "name": "cupboard",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O10"
+    ]
+  },
+  {
+    "id": "O11",
+    "name": "cupboard",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O11"
+    ]
+  },
+  {
+    "id": "O12",
+    "name": "cupboard",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O12"
+    ]
+  },
+  {
+    "id": "O13",
+    "name": "cupboard",
+    "floor": 1,
+    "status": "已确认",
+    "source_ids": [
+      "O13"
+    ]
+  },
+  {
+    "id": "O14",
+    "name": "cupboard",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O14"
+    ]
+  },
+  {
+    "id": "O15",
+    "name": "cupboard",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O15"
+    ]
+  },
+  {
+    "id": "O16",
+    "name": "cupboard",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O16"
+    ]
+  },
+  {
+    "id": "O17",
+    "name": "cupboard",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O17"
+    ]
+  },
+  {
+    "id": "O18",
+    "name": "open double doors on the other side that lead outside",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O18"
+    ]
+  },
+  {
+    "id": "O19",
+    "name": "open double doors on the other side that lead outside",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O19"
+    ]
+  },
+  {
+    "id": "O20",
+    "name": "open double doors on the other side that lead outside",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O20"
+    ]
+  },
+  {
+    "id": "O21",
+    "name": "open double doors on the other side that lead outside",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O21"
+    ]
+  },
+  {
+    "id": "O22",
+    "name": "open double doors on the other side that lead outside",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O22"
+    ]
+  },
+  {
+    "id": "O23",
+    "name": "open double doors on the other side that lead outside",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O23"
+    ]
+  },
+  {
+    "id": "O24",
+    "name": "open double doors on the other side that lead outside",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O24"
+    ]
+  },
+  {
+    "id": "O25",
+    "name": "open double doors on the other side that lead outside",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O25"
+    ]
+  },
+  {
+    "id": "O26",
+    "name": "open double doors on the other side that lead outside",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O26"
+    ]
+  },
+  {
+    "id": "O27",
+    "name": "next set of double doors on the other side of the front entrance",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O27"
+    ]
+  },
+  {
+    "id": "O28",
+    "name": "next set of double doors on the other side of the front entrance",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O28"
+    ]
+  },
+  {
+    "id": "O29",
+    "name": "next set of double doors on the other side of the front entrance",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O29"
+    ]
+  },
+  {
+    "id": "O30",
+    "name": "next set of double doors on the other side of the front entrance",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O30"
+    ]
+  },
+  {
+    "id": "O31",
+    "name": "next set of double doors on the other side of the front entrance",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O31"
+    ]
+  },
+  {
+    "id": "O32",
+    "name": "next set of double doors on the other side of the front entrance",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O32"
+    ]
+  },
+  {
+    "id": "O33",
+    "name": "next set of double doors on the other side of the front entrance",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O33"
+    ]
+  },
+  {
+    "id": "O34",
+    "name": "next set of double doors on the other side of the front entrance",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O34"
+    ]
+  },
+  {
+    "id": "O35",
+    "name": "next set of double doors on the other side of the front entrance",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O35"
+    ]
+  },
+  {
+    "id": "O36",
+    "name": "next set of double doors on the other side of the front entrance",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O36"
+    ]
+  },
+  {
+    "id": "O37",
+    "name": "candle lamps on top",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O37"
+    ]
+  },
+  {
+    "id": "O38",
+    "name": "candle lamps on top",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O38"
+    ]
+  },
+  {
+    "id": "O39",
+    "name": "candle lamps on top",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O39"
+    ]
+  },
+  {
+    "id": "O40",
+    "name": "candle lamps on top",
+    "floor": 1,
+    "status": "已确认",
+    "source_ids": [
+      "O40"
+    ]
+  },
+  {
+    "id": "O41",
+    "name": "candle lamps on top",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O41"
+    ]
+  },
+  {
+    "id": "O42",
+    "name": "candle lamps on top",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O42"
+    ]
+  },
+  {
+    "id": "O43",
+    "name": "candle lamps on top",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O43"
+    ]
+  },
+  {
+    "id": "O44",
+    "name": "dining table",
+    "floor": 1,
+    "status": "已确认",
+    "source_ids": [
+      "O44"
+    ]
+  },
+  {
+    "id": "O45",
+    "name": "dining table",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O45"
+    ]
+  },
+  {
+    "id": "O46",
+    "name": "nearest open double doors to the dining area",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O46"
+    ]
+  },
+  {
+    "id": "O47",
+    "name": "open double doors on the other side that lead outside",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O47"
+    ]
+  },
+  {
+    "id": "O48",
+    "name": "next set of double doors on the other side of the front entrance",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O48"
+    ]
+  },
+  {
+    "id": "O49",
+    "name": "nearest open double doors to the dining area",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O49"
+    ]
+  },
+  {
+    "id": "O50",
+    "name": "open double doors on the other side that lead outside",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O50"
+    ]
+  },
+  {
+    "id": "O51",
+    "name": "next set of double doors on the other side of the front entrance",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O51"
+    ]
+  },
+  {
+    "id": "O52",
+    "name": "next set of double doors on the other side of the front entrance",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O52"
+    ]
+  },
+  {
+    "id": "O53",
+    "name": "dining table",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O53"
+    ]
+  },
+  {
+    "id": "O54",
+    "name": "nearest open double doors to the dining area",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O54"
+    ]
+  },
+  {
+    "id": "O55",
+    "name": "open double doors on the other side that lead outside",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O55"
+    ]
+  },
+  {
+    "id": "O56",
+    "name": "nearest open double doors to the dining area",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O56"
+    ]
+  },
+  {
+    "id": "O57",
+    "name": "open double doors on the other side that lead outside",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O57"
+    ]
+  },
+  {
+    "id": "O58",
+    "name": "next set of double doors on the other side of the front entrance",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O58"
+    ]
+  },
+  {
+    "id": "O59",
+    "name": "nearest open double doors to the dining area",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O59"
+    ]
+  },
+  {
+    "id": "O60",
+    "name": "cupboard",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O60"
+    ]
+  },
+  {
+    "id": "O61",
+    "name": "open double doors on the other side that lead outside",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O61"
+    ]
+  },
+  {
+    "id": "O62",
+    "name": "next set of double doors on the other side of the front entrance",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O62"
+    ]
+  },
+  {
+    "id": "O63",
+    "name": "next set of double doors on the other side of the front entrance",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O63"
+    ]
+  },
+  {
+    "id": "O64",
+    "name": "candle lamps on top",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O64"
+    ]
+  },
+  {
+    "id": "O65",
+    "name": "dining table",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O65"
+    ]
+  },
+  {
+    "id": "O66",
+    "name": "candle lamps on top",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O66"
+    ]
+  },
+  {
+    "id": "O67",
+    "name": "candle lamps on top",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O67"
+    ]
+  },
+  {
+    "id": "O68",
+    "name": "cupboard",
+    "floor": 1,
+    "status": "待复核",
+    "source_ids": [
+      "O68"
+    ]
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "instruction": "turn around and exit the closet. walk into the bedroom through the door on the right. turn left and go into the bathroom. ",
+  "baseline_result": "success",
+  "vlm_result": "未发现明确偏航",
+  "first_bad_segment": null,
+  "first_bad_steps": null,
+  "reason": "The instruction requires exiting the closet, entering the bedroom through the right-hand door, and then turning left into the bathroom. S1 advances toward the closet exit, and S2 bends toward decreasing map x after increasing-z travel, consistent with a movement-relative right turn; F26 and F29 show the bedroom opening, while F35 and F40 establish subsequent occupation of the bedroom. The later trace continues into the bedroom's open area without an established crossing into an incompatible space or passage beyond an identified bathroom entrance. Bathroom entry and the required subsequent left turn remain unverified through step 48, but incomplete progress and the absence of explicit STOP evidence do not establish deviation.",
+  "reviewed_to_step": 48,
+  "total_steps": 62,
+  "unreviewed_tail": [
+    49,
+    62
+  ],
+  "evidence_segments_at_review": [
+    "S1",
+    "S2"
+  ],
+  "evidence_frames": [
+    "F18",
+    "F19",
+    "F26",
+    "F29",
+    "F35",
+    "F40"
+  ],
+  "evidence_objects": []
+}

@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 43,
+  "success": 1.0,
+  "spl": 1.0,
+  "os": 1.0,
+  "ne": 0.9454423785209656,
+  "steps": 69,
+  "episode_instruction": "Go into the kitchen area. Turn left. Take the first right into the dining area. Walk past the dining table. Stop left of the tall lamp with a white lampshade. ",
+  "final_instruction": "Go into the kitchen area. Turn left. Take the first right into the dining area. Walk past the dining table. Stop left of the tall lamp with a white lampshade. ",
+  "num_rewrites": 0
+}

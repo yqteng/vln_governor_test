@@ -1,0 +1,84 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 63,
+  "episode_instruction": "Exit the bathroom, and take a right turn. Keep walking to the place with a clock hanging on the wall, and then make a hard left into a bedroom. Wait at the bedroom. ",
+  "steps": 72,
+  "effective_steps": 70,
+  "num_rewrites": 0,
+  "corrections": 2,
+  "deviations": 0,
+  "blockage_recoveries": 0,
+  "stop_returns": 1,
+  "stop_rejections": 1,
+  "max_task_depth": 0,
+  "point_runs": 0,
+  "point_completed": 0,
+  "correction_images": [
+    "correction_images/2azQ1b91cZZ_63_c85fb88296aa_step_0045_effective_0043_correction_001_attempt_1.png",
+    "correction_images/2azQ1b91cZZ_63_c85fb88296aa_step_0045_effective_0043_correction_001_attempt_2.png",
+    "correction_images/2azQ1b91cZZ_63_c85fb88296aa_step_0072_effective_0070_correction_002_attempt_1.png",
+    "correction_images/2azQ1b91cZZ_63_c85fb88296aa_step_0072_effective_0070_correction_002_attempt_2.png"
+  ],
+  "final_instruction": "Exit the bathroom, and take a right turn. Keep walking to the place with a clock hanging on the wall, and then make a hard left into a bedroom. Wait at the bedroom. ",
+  "termination_reason": "rejected_stop_recovery_failed",
+  "summaries": [
+    {
+      "start": 0,
+      "end": 16,
+      "text": "The robot has exited the bathroom and turned right, walking down a hallway. It has not yet reached the place with a clock on the wall or made a hard left into a bedroom. The current location is in the hallway, approaching the area where the clock might be located.",
+      "grounding": "State 3 shows the robot exiting the bathroom, with a view of a window and curtains. State 16 shows the robot in a hallway with curtains on the left and a framed picture on the right, indicating progression down the hallway. The clock has not yet been seen, and no hard left into a bedroom has been made.",
+      "anchor_steps": [
+        3,
+        16
+      ],
+      "anchor_source": "vlm"
+    },
+    {
+      "start": 16,
+      "end": 32,
+      "text": "The robot has reached the place with a clock hanging on the wall. It has not yet made a hard left into a bedroom. The current location is at the clock area, facing the clock and a mirror, with the bedroom entrance not yet visible or entered.",
+      "grounding": "State 16 shows the robot in a hallway approaching a curved archway. State 32 shows the robot at the curved archway, with a large clock visible on the wall and a mirror to the left. The clock is now clearly visible, confirming the robot has reached the specified location. No hard left into a bedroom has been made yet, and the bedroom entrance is not visible in the current view.",
+      "anchor_steps": [
+        16,
+        32
+      ],
+      "anchor_source": "vlm"
+    },
+    {
+      "start": 32,
+      "end": 48,
+      "text": "The robot has reached the clock area (State 32), turned right, and made a hard left into the bedroom (State 43). The robot is now inside the bedroom, visible from State 48. The instruction to 'Wait at the bedroom' is not yet complete as the robot has not stopped at the required endpoint.",
+      "grounding": "State 32 shows the robot at the clock on the wall, confirming the prior step. State 48 shows the robot inside the bedroom, with a visible bed and wooden beams on the ceiling, confirming entry into the bedroom. The robot has not yet stopped to wait, so the final 'Wait at the bedroom' clause is not complete.",
+      "anchor_steps": [
+        32,
+        48
+      ],
+      "anchor_source": "vlm"
+    },
+    {
+      "start": 48,
+      "end": 64,
+      "text": "The robot has entered the bedroom and is now moving around inside it, having completed the 'make a hard left into a bedroom' part of the instruction. The 'Wait at the bedroom' clause is not yet complete as the robot has not stopped at a designated endpoint within the bedroom. The robot has not yet reached a final stopping position as required by the instruction.",
+      "grounding": "State 48 shows the robot entering the bedroom, with a view of the bed and wooden beams on the ceiling. State 64 shows the robot moving further into the room, now facing a window with patterned curtains, indicating continued movement within the bedroom. The robot has not stopped at a specific location within the bedroom as required by the 'Wait at the bedroom' clause.",
+      "anchor_steps": [
+        48,
+        64
+      ],
+      "anchor_source": "vlm"
+    }
+  ],
+  "intervened": true,
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 1.0,
+  "ne": 0.1162215992808342,
+  "category": "intervened/success_to_failure",
+  "baseline": {
+    "success": 1.0,
+    "spl": 1.0,
+    "os": 1.0,
+    "ne": 1.105259656906128
+  },
+  "version": "governor_clean_remake_14_single_stop_decision",
+  "correction_mode": "point"
+}

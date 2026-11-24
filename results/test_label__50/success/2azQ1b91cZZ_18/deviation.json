@@ -1,0 +1,28 @@
+{
+  "instruction": "Walk across the room, past the pool table on your left side as you walk.  Stop in front of the television mounted on the wall across from the couch. ",
+  "baseline_result": "success",
+  "vlm_result": "未发现明确偏航",
+  "first_bad_segment": null,
+  "first_bad_steps": null,
+  "reason": "The instruction requires crossing the room with the pool table on the walker's left, then stopping in front of the wall-mounted television opposite the couch. In S1, the measured route proceeds predominantly toward decreasing world x along the lower-z side of O3, keeping the pool table on the movement-relative left, and passes beyond its western end around step 33. The route then continues into the seating end of the same room toward O17, with the endpoint on the room-facing side of the television wall opposite O12; F33 and F42 support this local arrangement. No incompatible branch, room exit, or established overshoot is supported through step 48, consistent with the earlier audit. No explicit STOP is supplied, so the cutoff does not establish termination or task completion.",
+  "reviewed_to_step": 48,
+  "total_steps": 49,
+  "unreviewed_tail": [
+    49,
+    49
+  ],
+  "evidence_segments_at_review": [
+    "S1"
+  ],
+  "evidence_frames": [
+    "F14",
+    "F22",
+    "F33",
+    "F42"
+  ],
+  "evidence_objects": [
+    "O3",
+    "O12",
+    "O17"
+  ]
+}

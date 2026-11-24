@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 45,
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 13.702799797058105,
+  "steps": 75,
+  "episode_instruction": "Walk down the hallway and walk into the kitchen and take a left at the island counter into the hallway and take a right into the dining room and walk through the dining room into the living room and stop nest to the edge of the couch  behind the end table. ",
+  "final_instruction": "Walk down the hallway and walk into the kitchen and take a left at the island counter into the hallway and take a right into the dining room and walk through the dining room into the living room and stop nest to the edge of the couch  behind the end table. ",
+  "num_rewrites": 0
+}

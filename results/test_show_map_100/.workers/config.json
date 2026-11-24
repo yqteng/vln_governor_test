@@ -1,0 +1,571 @@
+{
+  "args": {
+    "records_root": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records",
+    "hsgm_repo": "/mnt/disk8t1/zwm/StreamVLN/third_party/HSGM_public-main",
+    "output_path": "results/test_show_map_100",
+    "max_episodes": 100,
+    "workers": 50,
+    "cpu_threads": 1,
+    "worker_config": null,
+    "worker_index": null,
+    "start_folder": null,
+    "ours_source": "streamvln/governor_topdown_map/rgb_mapping.py",
+    "sensor_profile": "recorded",
+    "max_steps": 100,
+    "seed": 0,
+    "depth_max": 0.0,
+    "map_device": "cpu",
+    "bev_pixel_size": 0.025,
+    "bev_max_size": 2048,
+    "crop_padding": 0.4,
+    "gt_camera_height": 1.8,
+    "embed_max_size": 1200,
+    "resume": true,
+    "report_only": false,
+    "refresh_gt": false,
+    "habitat_config_path": "/mnt/disk8t1/zwm/StreamVLN/config/vln_r2r.yaml",
+    "habitat_root": "/mnt/disk8t1/zwm/Progress-Aware-VLN/habitat-lab",
+    "eval_split": "val_unseen",
+    "data_path": null,
+    "scenes_dir": null,
+    "sensor_width": 0,
+    "sensor_height": 0
+  },
+  "output": "/mnt/disk8t1/zwm/StreamVLN/results/test_show_map_100",
+  "manifest": {
+    "settings": {
+      "records_root": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records",
+      "hsgm_repo": "/mnt/disk8t1/zwm/StreamVLN/third_party/HSGM_public-main",
+      "max_episodes": 100,
+      "start_folder": null,
+      "ours_source": "streamvln/governor_topdown_map/rgb_mapping.py",
+      "sensor_profile": "recorded",
+      "max_steps": 100,
+      "seed": 0,
+      "depth_max": 0.0,
+      "map_device": "cpu",
+      "bev_pixel_size": 0.025,
+      "bev_max_size": 2048,
+      "crop_padding": 0.4,
+      "gt_camera_height": 1.8,
+      "embed_max_size": 1200,
+      "habitat_config_path": "/mnt/disk8t1/zwm/StreamVLN/config/vln_r2r.yaml",
+      "habitat_root": "/mnt/disk8t1/zwm/Progress-Aware-VLN/habitat-lab",
+      "eval_split": "val_unseen",
+      "data_path": null,
+      "scenes_dir": null,
+      "sensor_width": 0,
+      "sensor_height": 0,
+      "embedded_sha256": {
+        "BASE_SOURCE": "1d03a689010a3b0eb56c2b364a59243b67dc4696de8358b6056b77ab56613fe8",
+        "DIRECT_SOURCE": "c307159e9216a1df540ac23d3eee713e39f3ba60ac3f5df829f281a449ef20c7"
+      },
+      "selection": "natural_order_first_n",
+      "initial_views": 4,
+      "ours_source_sha256": "c307159e9216a1df540ac23d3eee713e39f3ba60ac3f5df829f281a449ef20c7",
+      "script_sha256": "85aa2304c53ecc3f664b65efdeccdbe9d49201c6fe052223e5605b0d2c700ca5"
+    },
+    "trajectories": [
+      {
+        "folder": "2azQ1b91cZZ_10",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_10/actions.jsonl",
+        "sha256": "6ee962f927c502a8c9957a965279676556bafd039afdf1f720adea934436e6e3"
+      },
+      {
+        "folder": "2azQ1b91cZZ_11",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_11/actions.jsonl",
+        "sha256": "64b055e2cebad656eb9165b5d4e39e8a6730581b886bd9d59251ac912e98ff2b"
+      },
+      {
+        "folder": "2azQ1b91cZZ_12",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_12/actions.jsonl",
+        "sha256": "e9771a2c90e9745716b8758842a92e9f9153dc7382694844a8eba3e59c03bedb"
+      },
+      {
+        "folder": "2azQ1b91cZZ_16",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_16/actions.jsonl",
+        "sha256": "6e379eba9594fe25e8f0df4360d71bdbf9411c7387fdabccd170e2583abccda2"
+      },
+      {
+        "folder": "2azQ1b91cZZ_17",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_17/actions.jsonl",
+        "sha256": "106bc8f01fa43991fc80eae0f39cb502b249ae3902f3aa0f93e6423efbc5b0fa"
+      },
+      {
+        "folder": "2azQ1b91cZZ_18",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_18/actions.jsonl",
+        "sha256": "c28b4ecc53293d7dafa7f2c4745179a7334678a8fc03a587d24616566f5e066b"
+      },
+      {
+        "folder": "2azQ1b91cZZ_43",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_43/actions.jsonl",
+        "sha256": "a1a2bb475e421b29f87e592a6bdf4d4778330d83e8e23a7579f49db44431c853"
+      },
+      {
+        "folder": "2azQ1b91cZZ_44",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_44/actions.jsonl",
+        "sha256": "741a47864c5fe110131252e0efa21513ddd9b8315c89f4c908e1d93f7ecff2b3"
+      },
+      {
+        "folder": "2azQ1b91cZZ_45",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_45/actions.jsonl",
+        "sha256": "8a6fc8b973fe936cf64cd613eeeaab2e897e5a16082f36ae9390304773afecda"
+      },
+      {
+        "folder": "2azQ1b91cZZ_61",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_61/actions.jsonl",
+        "sha256": "3279d9ac272c5ef1f7dbfaa2a118336b84255c87b1692c9bf16bcec30e3fd31b"
+      },
+      {
+        "folder": "2azQ1b91cZZ_62",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_62/actions.jsonl",
+        "sha256": "d5f347954064f2ef02b7f90de8d936523509e70bfb9a8872206588602612e91b"
+      },
+      {
+        "folder": "2azQ1b91cZZ_63",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_63/actions.jsonl",
+        "sha256": "9b00cae41841839e4fd01b33370727dbca089350663d922d93b8a943a5504ab4"
+      },
+      {
+        "folder": "2azQ1b91cZZ_70",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_70/actions.jsonl",
+        "sha256": "e9091d71faa38666427e201ab65d79ebc7b41ca20e25fc5e227661872369d7b7"
+      },
+      {
+        "folder": "2azQ1b91cZZ_71",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_71/actions.jsonl",
+        "sha256": "f4cf3d9d63edb9e208a690e3df8c1704b0a7878acb62c8d7aa054d7fd62cbf16"
+      },
+      {
+        "folder": "2azQ1b91cZZ_72",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_72/actions.jsonl",
+        "sha256": "1877deff5ace60c2ce5a15d3610e4439d223e1f820633220237ee17f8a53cf80"
+      },
+      {
+        "folder": "2azQ1b91cZZ_76",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_76/actions.jsonl",
+        "sha256": "48f871d339cf99783884cc64d74e9aa2449791481f4810b9e2ebbcabd9aafd20"
+      },
+      {
+        "folder": "2azQ1b91cZZ_77",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_77/actions.jsonl",
+        "sha256": "e965f6f0be5b136ce9c9251e9228d2a80dea2b415d77083c0b9e40d37d2ee4e6"
+      },
+      {
+        "folder": "2azQ1b91cZZ_78",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_78/actions.jsonl",
+        "sha256": "3202656b5e832770fbd1fd717d6cf0a2e56cdf1256e7b634c311815632561477"
+      },
+      {
+        "folder": "2azQ1b91cZZ_79",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_79/actions.jsonl",
+        "sha256": "aee10054f7af659931894e0144c26f0ec3c689786a9d7b579e490a951f50f1fe"
+      },
+      {
+        "folder": "2azQ1b91cZZ_80",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_80/actions.jsonl",
+        "sha256": "6ea640846665e3126f02cf744a1a2dae0853cfbe75f71edf86d4f32665f628d6"
+      },
+      {
+        "folder": "2azQ1b91cZZ_81",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_81/actions.jsonl",
+        "sha256": "0d0969cba3dce9d1aff22ee77e0cee9f43d001a4e88e60ce01f728548be1357e"
+      },
+      {
+        "folder": "2azQ1b91cZZ_88",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_88/actions.jsonl",
+        "sha256": "84d996760697f9399b69cbb14e1815e219875030b12d9b2cbd38d873307521ab"
+      },
+      {
+        "folder": "2azQ1b91cZZ_89",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_89/actions.jsonl",
+        "sha256": "954692baa2e94339adf456a3e2151bb58fe89ec5aeb46f5f1b3af4543f767098"
+      },
+      {
+        "folder": "2azQ1b91cZZ_90",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_90/actions.jsonl",
+        "sha256": "63f9cdf48889ab3bab118b11267bb2adbd474f48edff6aadd7ce255afed8bd69"
+      },
+      {
+        "folder": "2azQ1b91cZZ_115",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_115/actions.jsonl",
+        "sha256": "2595a9e8913f9d7c1f12e87b99f4e6449a82c26e3c14f54d791e53fd8cfb6304"
+      },
+      {
+        "folder": "2azQ1b91cZZ_116",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_116/actions.jsonl",
+        "sha256": "9ea9988398fdee4af9b6d83e06410ad81b933c41e3a815683e120ca84b69b5d1"
+      },
+      {
+        "folder": "2azQ1b91cZZ_117",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_117/actions.jsonl",
+        "sha256": "760f3f4c59d34d3993ffe6c1bf4bc0c4a2f04f580cb18c53118c141faf05285d"
+      },
+      {
+        "folder": "2azQ1b91cZZ_121",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_121/actions.jsonl",
+        "sha256": "43c04b936849d36fcaea6ae1a7bc1ba867cccab65a592d127b5843b2bdf64534"
+      },
+      {
+        "folder": "2azQ1b91cZZ_122",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_122/actions.jsonl",
+        "sha256": "d05f9c10e0fb74820a9b60ddc96097245ffcf666c9f8fe9f83e445c009582319"
+      },
+      {
+        "folder": "2azQ1b91cZZ_123",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_123/actions.jsonl",
+        "sha256": "365679b57813392963cde114147f868aed4a5c235d06803f9c94d592a44bff95"
+      },
+      {
+        "folder": "2azQ1b91cZZ_139",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_139/actions.jsonl",
+        "sha256": "ce524614f0c0b64ba9a6f967f464420372c6c72197d681beefd0e69e4d190092"
+      },
+      {
+        "folder": "2azQ1b91cZZ_140",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_140/actions.jsonl",
+        "sha256": "bfa828f04bd9199a23ed5ccb0e200c71703f6c6f9800993a2d3a3b255a77697a"
+      },
+      {
+        "folder": "2azQ1b91cZZ_141",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_141/actions.jsonl",
+        "sha256": "efa168b34a3186403a0ff734018271f6adae24d89b17addf8bf72f7a30cb11c7"
+      },
+      {
+        "folder": "2azQ1b91cZZ_157",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_157/actions.jsonl",
+        "sha256": "60ae117f7757dcf9dbcaaee73d1525b5749d5bd3f5984ecc2c233442489433c6"
+      },
+      {
+        "folder": "2azQ1b91cZZ_158",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_158/actions.jsonl",
+        "sha256": "415d33d9c3303c656789fe2477ee7c993b22f1072ac0609d3e56d789a7f56267"
+      },
+      {
+        "folder": "2azQ1b91cZZ_159",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_159/actions.jsonl",
+        "sha256": "1153f87297acffd38ad86df43781df54bd8f7e2e6825e2f09d0ba0071f06b946"
+      },
+      {
+        "folder": "2azQ1b91cZZ_160",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_160/actions.jsonl",
+        "sha256": "2a50bddaecedf6c1d7a515391d024482a864089561d60553d3ba0c6c7be69d50"
+      },
+      {
+        "folder": "2azQ1b91cZZ_161",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_161/actions.jsonl",
+        "sha256": "0c3c9c44349de4e93d28956014e8c6acfa139dd84ebce42077d09af29f88ac42"
+      },
+      {
+        "folder": "2azQ1b91cZZ_162",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_162/actions.jsonl",
+        "sha256": "1c989e7ec2b5bd47596df339d6da2e0a9e27a39974537d8abaa08756a97602be"
+      },
+      {
+        "folder": "2azQ1b91cZZ_166",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_166/actions.jsonl",
+        "sha256": "e61b443716a363ea44d2f6087cceaf71d790e5a92940698e2ebe78a6af66c539"
+      },
+      {
+        "folder": "2azQ1b91cZZ_167",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_167/actions.jsonl",
+        "sha256": "2457ccf13799baf092a2efff2a979662f30f0dbc155276a3d8bf189dd278d685"
+      },
+      {
+        "folder": "2azQ1b91cZZ_168",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_168/actions.jsonl",
+        "sha256": "09855d2e0a0b52adebacb72d1f93e973d66b4d39754c311c48fabbe6fb6b72b4"
+      },
+      {
+        "folder": "2azQ1b91cZZ_178",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_178/actions.jsonl",
+        "sha256": "b1c2529397bbbe619b5328f9613f4ec89e2f2accd090690a52da53916bb15849"
+      },
+      {
+        "folder": "2azQ1b91cZZ_179",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_179/actions.jsonl",
+        "sha256": "5e6d74aa6bbd5240e374ffdd4db2c66cb05f33ddd661a6d034c85c7505401454"
+      },
+      {
+        "folder": "2azQ1b91cZZ_180",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_180/actions.jsonl",
+        "sha256": "df2dbca873da24de3f5184891e518de31a3c15f9eebeca131838a83561b56d3f"
+      },
+      {
+        "folder": "2azQ1b91cZZ_193",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_193/actions.jsonl",
+        "sha256": "3a418bbabcf8128130bf9881c25d57427fae4806843e97d46f1b6590162df3c5"
+      },
+      {
+        "folder": "2azQ1b91cZZ_194",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_194/actions.jsonl",
+        "sha256": "6c3efdb3b45e3192eb757d03da608803e8eb608bc551f6deeb397d3dc11499b3"
+      },
+      {
+        "folder": "2azQ1b91cZZ_195",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_195/actions.jsonl",
+        "sha256": "51cf3bd4ff6702845560707d42fe317a8f2193c59871fb6c8edcb9c111ac2c58"
+      },
+      {
+        "folder": "2azQ1b91cZZ_214",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_214/actions.jsonl",
+        "sha256": "a38d568ea49571784fa03dfdeeb239fdb196ab0e3ee417d8a01e2aeb2ad7456a"
+      },
+      {
+        "folder": "2azQ1b91cZZ_215",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_215/actions.jsonl",
+        "sha256": "4052fe7075d7ed7df8c77f916c38dec7457b8b00c4d5ab3fe9a3c13290e419c6"
+      },
+      {
+        "folder": "2azQ1b91cZZ_216",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_216/actions.jsonl",
+        "sha256": "79ad7ac1ae9faa0bee67261568d7f4a0202b6c02849fc9be7924262adbc611af"
+      },
+      {
+        "folder": "2azQ1b91cZZ_262",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_262/actions.jsonl",
+        "sha256": "a1ca7b71cfe7383d08415c58685ebdd39e69698892063ded55a328942b979efc"
+      },
+      {
+        "folder": "2azQ1b91cZZ_263",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_263/actions.jsonl",
+        "sha256": "76d76affb9d599fbc393d9671b5d8fcde54cb0d5f85439f2a40a9f07cadd728b"
+      },
+      {
+        "folder": "2azQ1b91cZZ_264",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_264/actions.jsonl",
+        "sha256": "13bffc43f1bf15dd78e9b1def85c95227f1168a49d2a1bb18566b96c03c0e26e"
+      },
+      {
+        "folder": "2azQ1b91cZZ_265",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_265/actions.jsonl",
+        "sha256": "c62008ea96bd461abe6472509345d8273e8b7f5cbba9a1101f55d0f7c9918b4d"
+      },
+      {
+        "folder": "2azQ1b91cZZ_266",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_266/actions.jsonl",
+        "sha256": "06c2c6cb626ae8b66b0f9a8428aa05a9f9e400fe84c451e244d54d63dc43c67f"
+      },
+      {
+        "folder": "2azQ1b91cZZ_267",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_267/actions.jsonl",
+        "sha256": "56cfa9fde837bb6594c957cf4154f0e21d0077ea0624a21bc743a54207e3a99f"
+      },
+      {
+        "folder": "2azQ1b91cZZ_271",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_271/actions.jsonl",
+        "sha256": "a54f4d648e7332bbbaea57d0c23ef887e2980e6f32a7d3dd98b79e95a3ab3935"
+      },
+      {
+        "folder": "2azQ1b91cZZ_272",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_272/actions.jsonl",
+        "sha256": "303bd59ff848293dff90506acc7937c53c3e40c4459bc88325b650ab057ca610"
+      },
+      {
+        "folder": "2azQ1b91cZZ_273",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_273/actions.jsonl",
+        "sha256": "dbd2ad731cf162ee9ff8c9b9b3fb82df72bed11b1384e4c66d1271eb013eff54"
+      },
+      {
+        "folder": "2azQ1b91cZZ_277",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_277/actions.jsonl",
+        "sha256": "42e48172bff4c675376c5b436e8f2f4e4aef0b32e33a010d572844448ca01712"
+      },
+      {
+        "folder": "2azQ1b91cZZ_278",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_278/actions.jsonl",
+        "sha256": "7e6a385515bed950091e4069480e724050174c6a65c3b656c917d03909ac0c7e"
+      },
+      {
+        "folder": "2azQ1b91cZZ_279",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_279/actions.jsonl",
+        "sha256": "b39ff7930ef726b34b65c32b2759c57747f915c36a532075c055f8508a92bece"
+      },
+      {
+        "folder": "2azQ1b91cZZ_286",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_286/actions.jsonl",
+        "sha256": "9727026927d301317aa39e861e025f39279e0c8ede53606e25f53da35e43aa8b"
+      },
+      {
+        "folder": "2azQ1b91cZZ_287",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_287/actions.jsonl",
+        "sha256": "36a8087e5060f9e17b19ded5a8539e3edbea9c70502d86cf299786df7daaeb40"
+      },
+      {
+        "folder": "2azQ1b91cZZ_288",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_288/actions.jsonl",
+        "sha256": "c5346ff9479663dc7a9caefa6b63ca9c21bc0bc2678713fed0155988d0c5a392"
+      },
+      {
+        "folder": "2azQ1b91cZZ_313",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_313/actions.jsonl",
+        "sha256": "59b77b6e16978ca1facaba6de29da058c8ff63586cc674cee022c8856cea5f0d"
+      },
+      {
+        "folder": "2azQ1b91cZZ_314",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_314/actions.jsonl",
+        "sha256": "38276ca5c6ed7dba1a5a961e3acd29e87adac7506b210d53ec4e5282e19ca098"
+      },
+      {
+        "folder": "2azQ1b91cZZ_315",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_315/actions.jsonl",
+        "sha256": "24c89fa9608aabdfd0f2f4e13431a41e838c2f1859c6e1fe6ea208f28f9e6c3a"
+      },
+      {
+        "folder": "2azQ1b91cZZ_325",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_325/actions.jsonl",
+        "sha256": "fdcdbbab124b47f64c50f66865c38c33db7f8b5b987ea38f7062cf5789226627"
+      },
+      {
+        "folder": "2azQ1b91cZZ_326",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_326/actions.jsonl",
+        "sha256": "8be3211b413008c563f7d4a2ea2a27b20542358cac95bac14c95d2ce23fbf937"
+      },
+      {
+        "folder": "2azQ1b91cZZ_327",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_327/actions.jsonl",
+        "sha256": "3e9bcf651d86f470827e4e845f1cbcbe12e18ded0d1cd5fb9d24a0f010cf6248"
+      },
+      {
+        "folder": "2azQ1b91cZZ_328",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_328/actions.jsonl",
+        "sha256": "8c670e5f6ed85f6c57231be03e405f3d39c323477afb6c8128cfb89c3e5e1440"
+      },
+      {
+        "folder": "2azQ1b91cZZ_329",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_329/actions.jsonl",
+        "sha256": "5b942c76867b13930e31134ced215f8d08e991d316942be75a8bb70033940ad7"
+      },
+      {
+        "folder": "2azQ1b91cZZ_330",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_330/actions.jsonl",
+        "sha256": "2d52863eaa4fd6fe7f2aea727ff618cf7ac34c161511ad6b9e4a11f0642479f1"
+      },
+      {
+        "folder": "2azQ1b91cZZ_340",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_340/actions.jsonl",
+        "sha256": "d9d48e99320bb09c612f859865db8098997df963335cbcc2007a10dc54c142f9"
+      },
+      {
+        "folder": "2azQ1b91cZZ_341",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_341/actions.jsonl",
+        "sha256": "81cb23f5af488a7578322baf25792ff9f602f9f88278b31e9e13b956f157735b"
+      },
+      {
+        "folder": "2azQ1b91cZZ_342",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_342/actions.jsonl",
+        "sha256": "1594e7b5a67de6e05b6a6fd0491cf0d0eb88437953119bc08de3e7384bc2084c"
+      },
+      {
+        "folder": "2azQ1b91cZZ_364",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_364/actions.jsonl",
+        "sha256": "307b2e5c9820d7c9af42269548baee8e2cbed7c1c4e009ca051e6ee9bd44d98d"
+      },
+      {
+        "folder": "2azQ1b91cZZ_365",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_365/actions.jsonl",
+        "sha256": "fc867fdb22064d9ec3ea1f28c14eddd27c825eeb5f3066a88fc7719ec619dfd2"
+      },
+      {
+        "folder": "2azQ1b91cZZ_366",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_366/actions.jsonl",
+        "sha256": "439d753c51848a777ee2f228259c31f25c47565883374a0eb23a21dfabe42262"
+      },
+      {
+        "folder": "2azQ1b91cZZ_394",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_394/actions.jsonl",
+        "sha256": "4a01ac7f5d0d88db36cbb6121103410ddade1bc2437b1a3dd61635e153e95c99"
+      },
+      {
+        "folder": "2azQ1b91cZZ_395",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_395/actions.jsonl",
+        "sha256": "9b23b2765f4eb1a3cdb04d1b164b13761f05cef108ea34c8d8ad1b13b51142d8"
+      },
+      {
+        "folder": "2azQ1b91cZZ_396",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_396/actions.jsonl",
+        "sha256": "30ea4d74dc9a5748b9ef4714f3cc6324cc9f2da6731d5f93c570c91cdc4379c2"
+      },
+      {
+        "folder": "2azQ1b91cZZ_403",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_403/actions.jsonl",
+        "sha256": "222317f58579265d0a267f9739efb8c1cd05e359483076748822b0d3dcfe3e0c"
+      },
+      {
+        "folder": "2azQ1b91cZZ_404",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_404/actions.jsonl",
+        "sha256": "7ab0bd7f4751f57b46c0217afebfccdc6ede84be094f0b226ca4f8c2b81dd4da"
+      },
+      {
+        "folder": "2azQ1b91cZZ_405",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_405/actions.jsonl",
+        "sha256": "57e15d22c7bed7a5609ba9393f96b5646598d53de5d87e5a106eb56219df14cd"
+      },
+      {
+        "folder": "2azQ1b91cZZ_448",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_448/actions.jsonl",
+        "sha256": "b3a5a430ba634699f4d268807814acb16d4129cf6d9ab629fa4fb60fb885d2f4"
+      },
+      {
+        "folder": "2azQ1b91cZZ_449",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_449/actions.jsonl",
+        "sha256": "500cdf6029fb946069db29097565d21295cc6fd8bebef27fbaebd578c747c86a"
+      },
+      {
+        "folder": "2azQ1b91cZZ_450",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_450/actions.jsonl",
+        "sha256": "ddb20f47b5ee33fe61a7eb56a78e49b88c7908c243460888d506e0f80c41db3a"
+      },
+      {
+        "folder": "2azQ1b91cZZ_487",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_487/actions.jsonl",
+        "sha256": "cd132a2936a80aefefcd6c92d40f43042dda0bacdf17de9dac257dcfd5a4e665"
+      },
+      {
+        "folder": "2azQ1b91cZZ_488",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_488/actions.jsonl",
+        "sha256": "5506b7d60084ab802a2e067584fd5a3cf85c24d8e27ce7c131fe25d57fa9b7b5"
+      },
+      {
+        "folder": "2azQ1b91cZZ_489",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_489/actions.jsonl",
+        "sha256": "d03255089b0e8ba9d936839e8bb4069709f1beb3dd70f17f3ebd386ebcf40115"
+      },
+      {
+        "folder": "2azQ1b91cZZ_493",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_493/actions.jsonl",
+        "sha256": "6f297e2b32e106ed70370d62739a732f67d8cf0857307f2082173aa2e365c20c"
+      },
+      {
+        "folder": "2azQ1b91cZZ_494",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_494/actions.jsonl",
+        "sha256": "3097915721bedcfcbfa973aa552e359af86e73cdbe3b1b23e638ec7994db55a8"
+      },
+      {
+        "folder": "2azQ1b91cZZ_495",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_495/actions.jsonl",
+        "sha256": "760b04b5355c6ff6392b96d3b6dc04e08c36708fe6c934fcb9c673e361470597"
+      },
+      {
+        "folder": "2azQ1b91cZZ_496",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_496/actions.jsonl",
+        "sha256": "9dd9107b84a8965c967471142ad14f8b94497a9576748e8288e8a9595719ec81"
+      },
+      {
+        "folder": "2azQ1b91cZZ_497",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_497/actions.jsonl",
+        "sha256": "64c621ef63a3682f2927b040778593c45c6946b10d1d54667222cc4a8d74a0f4"
+      },
+      {
+        "folder": "2azQ1b91cZZ_498",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_498/actions.jsonl",
+        "sha256": "f1fab7e548a4445c02c7894226bcc5e47160dc1451ad38771001f4069248b4fe"
+      },
+      {
+        "folder": "2azQ1b91cZZ_511",
+        "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_511/actions.jsonl",
+        "sha256": "076175bb777949340918d02d31e8380a3bc01526e1bdfe259a91e7d58a32dd89"
+      }
+    ]
+  }
+}

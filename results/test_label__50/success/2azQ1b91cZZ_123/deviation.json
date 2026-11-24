@@ -1,0 +1,26 @@
+{
+  "instruction": "Walk straight into the kitchen, take a left, and stop after the archway. ",
+  "baseline_result": "success",
+  "vlm_result": "未发现明确偏航",
+  "first_bad_segment": null,
+  "first_bad_steps": null,
+  "reason": "The instruction requires entering the kitchen straight ahead, turning left, and stopping after an archway. S1 advances straight into the visibly furnished kitchen; S2 then changes from increasing map-z to increasing map-x, a movement-relative left turn consistent with the instruction. F12, F14, and F15 show the arched corridor being approached, while the measured endpoint remains on the kitchen side of its mapped entrance. No contradictory route choice is established through step 16, and neither passage beyond the archway nor an explicit stop is established.",
+  "reviewed_to_step": 16,
+  "total_steps": 28,
+  "unreviewed_tail": [
+    17,
+    28
+  ],
+  "evidence_segments_at_review": [
+    "S1",
+    "S2"
+  ],
+  "evidence_frames": [
+    "F1",
+    "F7",
+    "F12",
+    "F14",
+    "F15"
+  ],
+  "evidence_objects": []
+}

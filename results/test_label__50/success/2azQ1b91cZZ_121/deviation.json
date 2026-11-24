@@ -1,0 +1,28 @@
+{
+  "instruction": "Walk straight into the kitchen area. Turn left and exit the kitchen and stop there. ",
+  "baseline_result": "success",
+  "vlm_result": "未发现明确偏航",
+  "first_bad_segment": null,
+  "first_bad_steps": null,
+  "reason": "The instruction requires entering the kitchen straight ahead, then turning left to exit and stopping outside. S1 follows a straight increasing-z path, while F1, F3 and F6 show progression into the kitchen toward its island. In S2, movement changes toward increasing x, a left turn relative to the preceding increasing-z approach; F12, F14 and F15 show the arched corridor opening being approached. The current trace remains on the kitchen side of the mapped exit boundary, so exiting and stopping are not yet established, but no executed behavior through step 16 contradicts the required route.",
+  "reviewed_to_step": 16,
+  "total_steps": 28,
+  "unreviewed_tail": [
+    17,
+    28
+  ],
+  "evidence_segments_at_review": [
+    "S1",
+    "S2"
+  ],
+  "evidence_frames": [
+    "F1",
+    "F3",
+    "F6",
+    "F7",
+    "F12",
+    "F14",
+    "F15"
+  ],
+  "evidence_objects": []
+}

@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 167,
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 1.0,
+  "ne": 10.14756965637207,
+  "steps": 78,
+  "episode_instruction": "Go through the doorway, past the dining table, and through the doorway into the large lobby area, waiting here. ",
+  "final_instruction": "Go through the doorway, past the dining table, and through the doorway into the large lobby area, waiting here. ",
+  "num_rewrites": 0
+}

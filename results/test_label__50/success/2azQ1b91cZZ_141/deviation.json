@@ -1,0 +1,36 @@
+{
+  "instruction": "Turn right. Go forward. Turn right at doorway. Go forward. Turn right again. Go forward and stop. ",
+  "baseline_result": "success",
+  "vlm_result": "未发现明确偏航",
+  "first_bad_segment": null,
+  "first_bad_steps": null,
+  "reason": "The instruction requires ordered right turns separated by forward travel, including a turn at a doorway, followed by stopping. S1 approaches O3, S2–S3 advance along the cream-walled passage toward the circular foyer, and S4 makes a sustained clockwise bend from northeast toward east while approaching O14 beside the stairs. S5 continues toward the O14 threshold and the small rounded space beyond; F60 and F64 show O15 farther ahead, without evidence that the route has passed a required stopping location or committed to an incompatible branch. The starting heading and exact doorway-to-turn correspondence remain insufficiently specified to establish a missed or opposite turn, so the extended prefix does not overturn the earlier no-deviation finding. No explicit STOP is supplied, and this verdict does not establish completion.",
+  "reviewed_to_step": 64,
+  "total_steps": 71,
+  "unreviewed_tail": [
+    65,
+    71
+  ],
+  "evidence_segments_at_review": [
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5"
+  ],
+  "evidence_frames": [
+    "F14",
+    "F25",
+    "F31",
+    "F40",
+    "F49",
+    "F57",
+    "F60",
+    "F64"
+  ],
+  "evidence_objects": [
+    "O3",
+    "O14",
+    "O15"
+  ]
+}

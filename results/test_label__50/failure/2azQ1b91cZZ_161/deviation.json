@@ -1,0 +1,24 @@
+{
+  "instruction": "Go to the 4 panel window\r\nGo to the gold rug\r\nGo to the white rug\r\nGo to the third chair on the left\r\nGo to the electrical receptacle. ",
+  "baseline_result": "failure",
+  "vlm_result": "未发现明确偏航",
+  "first_bad_segment": null,
+  "first_bad_steps": null,
+  "reason": "The instruction requires visiting the four-panel window before the gold rug, white rug, third chair on the left, and electrical receptacle. In S1, the measured route moves west, then southwest and south toward the window bay before curving east along its interior; F6 and F17 show the dining-room approach, while F27 and F42 show close window views consistent with that progression. The trace and observations do not establish departure through an incompatible opening, a wrong target selection, or an out-of-order visit to a later target. The exact four-panel instance and completion of the first visit remain unresolved, but this does not establish a route contradiction through step 48, so the earlier no-supported-deviation judgment is retained.",
+  "reviewed_to_step": 48,
+  "total_steps": 50,
+  "unreviewed_tail": [
+    49,
+    50
+  ],
+  "evidence_segments_at_review": [
+    "S1"
+  ],
+  "evidence_frames": [
+    "F6",
+    "F17",
+    "F27",
+    "F42"
+  ],
+  "evidence_objects": []
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "segment": "S1",
+    "name": "entryway",
+    "floor": 1,
+    "steps": [
+      0,
+      14
+    ],
+    "samples": [
+      "F8",
+      "F9",
+      "F10",
+      "F12"
+    ]
+  },
+  {
+    "segment": "S2",
+    "name": "coat room",
+    "floor": 1,
+    "steps": [
+      14,
+      32
+    ],
+    "samples": [
+      "F14",
+      "F24",
+      "F28",
+      "F30"
+    ]
+  },
+  {
+    "segment": "S3",
+    "name": "bedroom",
+    "floor": 1,
+    "steps": [
+      32,
+      67
+    ],
+    "samples": [
+      "F46",
+      "F52",
+      "F59",
+      "F65"
+    ]
+  },
+  {
+    "segment": "S4",
+    "name": "bathroom",
+    "floor": 1,
+    "steps": [
+      67,
+      90
+    ],
+    "samples": [
+      "F75",
+      "F80",
+      "F84",
+      "F87"
+    ]
+  }
+]

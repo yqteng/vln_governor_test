@@ -1,0 +1,37 @@
+{
+  "instruction": "you are in a closet, walk forward, turn right to walk out of closet into a bed room. turn right and see bath room, walk into bathroom and wait near the tub and sink. ",
+  "baseline_result": "success",
+  "vlm_result": "偏航",
+  "first_bad_segment": "S2",
+  "first_bad_steps": [
+    14,
+    32
+  ],
+  "reason": "The instruction requires progressing out of the closet into the bedroom, then turning right into the bathroom and waiting near the tub and sink. S1 approaches the bedroom doorway, visible in F10, F12 and F14, but S2 reverses toward the starting closet during steps 24–32; F24, F28 and F30 corroborate movement back among the closet drawers and hanging rails rather than through the required exit. This sustained inward reversal establishes the earliest deviation in S2, consistent with the earlier audit, while S3 subsequently recovers and enters the bedroom as supported by F46, F52 and F59. S4 approaches the visible bathroom opening in F75 and F77, but that later progress does not erase the earlier deviation, and arrival near both the tub and sink is not established through step 80.",
+  "reviewed_to_step": 80,
+  "total_steps": 90,
+  "unreviewed_tail": [
+    81,
+    90
+  ],
+  "evidence_segments_at_review": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+  ],
+  "evidence_frames": [
+    "F10",
+    "F12",
+    "F14",
+    "F24",
+    "F28",
+    "F30",
+    "F46",
+    "F52",
+    "F59",
+    "F75",
+    "F77"
+  ],
+  "evidence_objects": []
+}

@@ -1,0 +1,261 @@
+[show-map] OURS uses original geometry source: /mnt/disk8t1/zwm/StreamVLN/streamvln/governor_topdown_map/rgb_mapping.py
+Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+2026-11-17 19:58:15,990 Initializing dataset R2RVLN-v1
+2026-11-17 19:58:16,203 initializing sim Sim-v0
+[19:58:16:231591]:[Metadata] AttributesManagerBase.h(380)::createFromJsonOrDefaultInternal : <Dataset>: Proposing JSON name : default.scene_dataset_config.json from original name : default| This file does not exist.
+[19:58:16:233132]:[Metadata] AssetAttributesManager.cpp(123)::createObject : Asset attributes (capsule3DSolid:capsule3DSolid_hemiRings_4_cylRings_1_segments_12_halfLen_0.75_useTexCoords_false_useTangents_false) created and registered.
+[19:58:16:233245]:[Metadata] AssetAttributesManager.cpp(123)::createObject : Asset attributes (capsule3DWireframe:capsule3DWireframe_hemiRings_8_cylRings_1_segments_16_halfLen_1) created and registered.
+[19:58:16:233310]:[Metadata] AssetAttributesManager.cpp(123)::createObject : Asset attributes (coneSolid:coneSolid_segments_12_halfLen_1.25_rings_1_useTexCoords_false_useTangents_false_capEnd_true) created and registered.
+[19:58:16:233364]:[Metadata] AssetAttributesManager.cpp(123)::createObject : Asset attributes (coneWireframe:coneWireframe_segments_32_halfLen_1.25) created and registered.
+[19:58:16:233413]:[Metadata] AssetAttributesManager.cpp(123)::createObject : Asset attributes (cubeSolid:cubeSolid) created and registered.
+[19:58:16:233460]:[Metadata] AssetAttributesManager.cpp(123)::createObject : Asset attributes (cubeWireframe:cubeWireframe) created and registered.
+[19:58:16:233515]:[Metadata] AssetAttributesManager.cpp(123)::createObject : Asset attributes (cylinderSolid:cylinderSolid_rings_1_segments_12_halfLen_1_useTexCoords_false_useTangents_false_capEnds_true) created and registered.
+[19:58:16:233569]:[Metadata] AssetAttributesManager.cpp(123)::createObject : Asset attributes (cylinderWireframe:cylinderWireframe_rings_1_segments_32_halfLen_1) created and registered.
+[19:58:16:233618]:[Metadata] AssetAttributesManager.cpp(123)::createObject : Asset attributes (icosphereSolid:icosphereSolid_subdivs_1) created and registered.
+[19:58:16:233677]:[Metadata] AssetAttributesManager.cpp(123)::createObject : Asset attributes (icosphereWireframe:icosphereWireframe_subdivs_1) created and registered.
+[19:58:16:233746]:[Metadata] AssetAttributesManager.cpp(123)::createObject : Asset attributes (uvSphereSolid:uvSphereSolid_rings_8_segments_16_useTexCoords_false_useTangents_false) created and registered.
+[19:58:16:233798]:[Metadata] AssetAttributesManager.cpp(123)::createObject : Asset attributes (uvSphereWireframe:uvSphereWireframe_rings_16_segments_32) created and registered.
+[19:58:16:233837]:[Metadata] AssetAttributesManager.cpp(112)::AssetAttributesManager : Built default primitive asset templates : 12
+[19:58:16:234310]:[Metadata] SceneDatasetAttributesManager.cpp(37)::createObject : File (default) not found, so new default dataset attributes created  and registered.
+[19:58:16:234352]:[Metadata] MetadataMediator.cpp(120)::createSceneDataset : Dataset default successfully created.
+[19:58:16:234386]:[Metadata] AttributesManagerBase.h(380)::createFromJsonOrDefaultInternal : <Physics Manager>: Proposing JSON name : ./data/default.physics_config.json from original name : ./data/default.physics_config.json| This file does not exist.
+[19:58:16:234437]:[Metadata] PhysicsAttributesManager.cpp(26)::createObject : File (./data/default.physics_config.json) not found, so new default physics manager attributes created and registered.
+[19:58:16:234471]:[Metadata] MetadataMediator.cpp(203)::setActiveSceneDatasetName : Previous active dataset  changed to default successfully.
+[19:58:16:234503]:[Metadata] MetadataMediator.cpp(175)::setCurrPhysicsAttributesHandle : Old physics manager attributes  changed to ./data/default.physics_config.json successfully.
+[19:58:16:234561]:[Metadata] MetadataMediator.cpp(66)::setSimulatorConfiguration : Set new simulator config for scene/stage : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb and dataset : default which is currently active dataset.
+Renderer: NVIDIA GeForce RTX 3090/PCIe/SSE2 by NVIDIA Corporation
+OpenGL version: 4.6.0 NVIDIA 535.309.01
+Using optional features:
+    GL_ARB_vertex_array_object
+    GL_ARB_separate_shader_objects
+    GL_ARB_robustness
+    GL_ARB_texture_storage
+    GL_ARB_texture_view
+    GL_ARB_framebuffer_no_attachments
+    GL_ARB_invalidate_subdata
+    GL_ARB_texture_storage_multisample
+    GL_ARB_multi_bind
+    GL_ARB_direct_state_access
+    GL_ARB_get_texture_sub_image
+    GL_ARB_texture_filter_anisotropic
+    GL_KHR_debug
+    GL_KHR_parallel_shader_compile
+    GL_NV_depth_buffer_float
+Using driver workarounds:
+    no-forward-compatible-core-context
+    nv-egl-incorrect-gl11-function-pointers
+    no-layout-qualifiers-on-old-glsl
+    nv-zero-context-profile-mask
+    nv-implementation-color-read-format-dsa-broken
+    nv-cubemap-inconsistent-compressed-image-size
+    nv-cubemap-broken-full-compressed-image-query
+    nv-compressed-block-size-in-bits
+[19:58:16:500626]:[Metadata] MetadataMediator.cpp(297)::getSceneInstanceAttributesByName : Dataset : default has no preloaded SceneInstanceAttributes or StageAttributes named : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb so loading/creating a new StageAttributes with this name, and then creating a SceneInstanceAttributes with the same name that references this stage.
+[19:58:16:501021]:[Metadata] AttributesManagerBase.h(380)::createFromJsonOrDefaultInternal : <Stage Template>: Proposing JSON name : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.stage_config.json from original name : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb| This file does not exist.
+[19:58:16:501141]:[Metadata] AbstractObjectAttributesManagerBase.h(184)::createObject : File (data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb) exists but is not a recognized config filename extension, so new default Stage Template attributes created and registered.
+[19:58:16:501240]:[Metadata] SceneDatasetAttributes.cpp(47)::addNewSceneInstanceToDataset : Dataset : 'default' : Stage Attributes 'data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb' specified in Scene Attributes exists in dataset library.
+[19:58:16:501270]:[Metadata] SceneDatasetAttributes.cpp(84)::addNewSceneInstanceToDataset : Dataset : 'default' : Lighting Layout Attributes 'no_lights' specified in Scene Attributes but does not exist in dataset, so creating.
+[19:58:16:501300]:[Metadata] AttributesManagerBase.h(380)::createFromJsonOrDefaultInternal : <Lighting Layout>: Proposing JSON name : no_lights.lighting_config.json from original name : no_lights| This file does not exist.
+[19:58:16:501349]:[Metadata] LightLayoutAttributesManager.cpp(38)::createObject : File (no_lights) not found, so new default light layout attributes created and registered.
+[19:58:16:501382]:[Sim] Simulator.cpp(235)::createSceneInstance : Navmesh file location in scene instance : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.navmesh
+[19:58:16:501417]:[Sim] Simulator.cpp(240)::createSceneInstance : Loading navmesh from data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.navmesh
+[19:58:16:501465]:[Nav] PathFinder.cpp(1035)::loadNavMesh : NavMeshSettings aren't present, guessing that they are the default
+[19:58:16:502289]:[Sim] Simulator.cpp(242)::createSceneInstance : Navmesh Loaded.
+[19:58:16:502613]:[Scene] SceneGraph.h(85)::createDrawableGroup : Created DrawableGroup: 
+[19:58:16:502646]:[Assets] ResourceManager.cpp(308)::loadSemanticSceneDescriptor : SceneInstance : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb proposed Semantic Scene Descriptor filename : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.house
+[19:58:16:972263]:[Assets] ResourceManager.cpp(319)::loadSemanticSceneDescriptor : SSD with SceneInstanceAttributes-provided name  data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.house successfully found and loaded
+[19:58:16:973420]:[Assets] ResourceManager.cpp(1666)::configureImporterManagerGLExtensions : Importing Basis files as BC7.
+[19:58:16:973990]:[Sim] Simulator.cpp(309)::createSceneInstance : Using scene instance-specified Light key : - no_lights -
+[19:58:16:974071]:[Metadata] MetadataMediator.cpp(66)::setSimulatorConfiguration : Set new simulator config for scene/stage : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb and dataset : default which is currently active dataset.
+[19:58:16:974155]:[Sim] Simulator.cpp(419)::instanceStageForSceneAttributes : Start to load stage named : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb with render asset : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb and collision asset : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb
+[19:58:16:974267]:[Assets] ResourceManager.cpp(702)::createStageAssetInfosFromAttributes : Frame :{"up":[0,0,1],"front":[0,1,0],"origin":[0,0,0]} for render mesh named : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb|{"up":[0,0,1],"front":[0,1,0],"origin":[0,0,0]} for semantic mesh named : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ_semantic.ply with type specified as semantic|Semantic Txtrs : False
+[19:58:16:974304]:[Assets] ResourceManager.cpp(442)::loadStage : Loading Semantic Stage mesh : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ_semantic.ply
+[19:58:16:974335]:[Scene] SceneGraph.h(85)::createDrawableGroup : Created DrawableGroup: 
+[19:58:16:974360]:[Assets] ResourceManager.cpp(984)::loadStageInternal : Attempting to load stage data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ_semantic.ply 
+[19:58:16:974386]:[Assets] ResourceManager.cpp(863)::loadRenderAsset : Loading Semantic Mesh asset named: data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ_semantic.ply
+[19:58:16:974410]:[Assets] ResourceManager.cpp(1666)::configureImporterManagerGLExtensions : Importing Basis files as BC7.
+[19:58:51:452799]:[Assets] ResourceManager.cpp(475)::loadStage : Semantic Stage mesh : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ_semantic.ply loaded.
+[19:58:51:452941]:[Assets] ResourceManager.cpp(518)::loadStage : Start load render asset data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb .
+[19:58:51:452979]:[Assets] ResourceManager.cpp(984)::loadStageInternal : Attempting to load stage data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb 
+[19:58:51:453024]:[Assets] ResourceManager.cpp(866)::loadRenderAsset : Loading general asset named: data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb
+[19:58:51:453062]:[Assets] ResourceManager.cpp(1666)::configureImporterManagerGLExtensions : Importing Basis files as BC7.
+[19:59:03:169445]:[Assets] ResourceManager.cpp(2105)::loadMaterials : Building 134 materials for asset named '2azQ1b91cZZ.glb' : 
+[19:59:03:169680]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 00:Flat.
+[19:59:03:169736]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 01:Flat.
+[19:59:03:169776]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 02:Flat.
+[19:59:03:169813]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 03:Flat.
+[19:59:03:169851]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 04:Flat.
+[19:59:03:169888]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 05:Flat.
+[19:59:03:169928]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 06:Flat.
+[19:59:03:169966]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 07:Flat.
+[19:59:03:170006]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 08:Flat.
+[19:59:03:170045]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 09:Flat.
+[19:59:03:170081]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 10:Flat.
+[19:59:03:170119]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 11:Flat.
+[19:59:03:170157]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 12:Flat.
+[19:59:03:170192]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 13:Flat.
+[19:59:03:170229]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 14:Flat.
+[19:59:03:170281]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 15:Flat.
+[19:59:03:170315]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 16:Flat.
+[19:59:03:170346]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 17:Flat.
+[19:59:03:170377]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 18:Flat.
+[19:59:03:170409]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 19:Flat.
+[19:59:03:170438]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 20:Flat.
+[19:59:03:170468]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 21:Flat.
+[19:59:03:170503]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 22:Flat.
+[19:59:03:170535]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 23:Flat.
+[19:59:03:170565]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 24:Flat.
+[19:59:03:170595]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 25:Flat.
+[19:59:03:170625]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 26:Flat.
+[19:59:03:172823]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 27:Flat.
+[19:59:03:172926]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 28:Flat.
+[19:59:03:172961]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 29:Flat.
+[19:59:03:172992]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 30:Flat.
+[19:59:03:173023]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 31:Flat.
+[19:59:03:173053]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 32:Flat.
+[19:59:03:173085]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 33:Flat.
+[19:59:03:173116]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 34:Flat.
+[19:59:03:173146]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 35:Flat.
+[19:59:03:173175]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 36:Flat.
+[19:59:03:173205]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 37:Flat.
+[19:59:03:173234]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 38:Flat.
+[19:59:03:173264]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 39:Flat.
+[19:59:03:173295]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 40:Flat.
+[19:59:03:173324]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 41:Flat.
+[19:59:03:173354]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 42:Flat.
+[19:59:03:173388]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 43:Flat.
+[19:59:03:173419]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 44:Flat.
+[19:59:03:173449]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 45:Flat.
+[19:59:03:173480]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 46:Flat.
+[19:59:03:173510]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 47:Flat.
+[19:59:03:173540]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 48:Flat.
+[19:59:03:173570]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 49:Flat.
+[19:59:03:173599]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 50:Flat.
+[19:59:03:173629]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 51:Flat.
+[19:59:03:173675]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 52:Flat.
+[19:59:03:173716]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 53:Flat.
+[19:59:03:173751]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 54:Flat.
+[19:59:03:173783]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 55:Flat.
+[19:59:03:173815]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 56:Flat.
+[19:59:03:173852]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 57:Flat.
+[19:59:03:173884]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 58:Flat.
+[19:59:03:173915]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 59:Flat.
+[19:59:03:173947]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 60:Flat.
+[19:59:03:173979]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 61:Flat.
+[19:59:03:174011]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 62:Flat.
+[19:59:03:174046]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 63:Flat.
+[19:59:03:174096]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 64:Flat.
+[19:59:03:174132]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 65:Flat.
+[19:59:03:174164]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 66:Flat.
+[19:59:03:174196]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 67:Flat.
+[19:59:03:174228]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 68:Flat.
+[19:59:03:174259]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 69:Flat.
+[19:59:03:174290]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 70:Flat.
+[19:59:03:174325]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 71:Flat.
+[19:59:03:174359]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 72:Flat.
+[19:59:03:174391]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 73:Flat.
+[19:59:03:174422]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 74:Flat.
+[19:59:03:174454]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 75:Flat.
+[19:59:03:174486]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 76:Flat.
+[19:59:03:174518]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 77:Flat.
+[19:59:03:174550]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 78:Flat.
+[19:59:03:174583]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 79:Flat.
+[19:59:03:174619]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 80:Flat.
+[19:59:03:174661]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 81:Flat.
+[19:59:03:174702]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 82:Flat.
+[19:59:03:174735]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 83:Flat.
+[19:59:03:174768]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 84:Flat.
+[19:59:03:174801]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 85:Flat.
+[19:59:03:174832]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 86:Flat.
+[19:59:03:174865]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 87:Flat.
+[19:59:03:174900]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 88:Flat.
+[19:59:03:174932]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 89:Flat.
+[19:59:03:174964]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 90:Flat.
+[19:59:03:174995]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 91:Flat.
+[19:59:03:175027]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 92:Flat.
+[19:59:03:175059]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 93:Flat.
+[19:59:03:175091]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 94:Flat.
+[19:59:03:175124]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 95:Flat.
+[19:59:03:175161]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 96:Flat.
+[19:59:03:175194]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 97:Flat.
+[19:59:03:175227]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 98:Flat.
+[19:59:03:175260]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 99:Flat.
+[19:59:03:175292]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 100:Flat.
+[19:59:03:175323]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 101:Flat.
+[19:59:03:175355]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 102:Flat.
+[19:59:03:175386]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 103:Flat.
+[19:59:03:175420]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 104:Flat.
+[19:59:03:175454]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 105:Flat.
+[19:59:03:175487]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 106:Flat.
+[19:59:03:175519]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 107:Flat.
+[19:59:03:175551]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 108:Flat.
+[19:59:03:175583]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 109:Flat.
+[19:59:03:175615]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 110:Flat.
+[19:59:03:175646]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 111:Flat.
+[19:59:03:175695]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 112:Flat.
+[19:59:03:175731]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 113:Flat.
+[19:59:03:175776]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 114:Flat.
+[19:59:03:175809]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 115:Flat.
+[19:59:03:175840]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 116:Flat.
+[19:59:03:175872]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 117:Flat.
+[19:59:03:175904]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 118:Flat.
+[19:59:03:175935]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 119:Flat.
+[19:59:03:175968]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 120:Flat.
+[19:59:03:176002]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 121:Flat.
+[19:59:03:176034]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 122:Flat.
+[19:59:03:176066]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 123:Flat.
+[19:59:03:176098]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 124:Flat.
+[19:59:03:176144]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 125:Flat.
+[19:59:03:176177]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 126:Flat.
+[19:59:03:176208]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 127:Flat.
+[19:59:03:176241]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 128:Flat.
+[19:59:03:176274]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 129:Flat.
+[19:59:03:176306]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 130:Flat.
+[19:59:03:176338]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 131:Flat.
+[19:59:03:176369]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 132:Flat.
+[19:59:03:176401]:[Assets] ResourceManager.cpp(2210)::loadMaterials : Idx 133:Flat.
+[19:59:03:490745]:[Sim] Simulator.cpp(446)::instanceStageForSceneAttributes : Successfully loaded stage named : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb
+[19:59:03:491396]:[Sim] Simulator.cpp(203)::reconfigure : CreateSceneInstance success == true for active scene name : data/scene_datasets/mp3d/2azQ1b91cZZ/2azQ1b91cZZ.glb  with renderer.
+2026-11-17 19:59:03,499 Initializing task VLN-v0
+Initialized data for new floor level: 0
+Switching pcds to floor level: 0
+Initialized data for new floor level: 0
+Switching pcds to floor level: 0
+Initialized data for new floor level: 0
+Switching pcds to floor level: 0
+Initialized data for new floor level: 0
+Switching pcds to floor level: 0
+Initialized data for new floor level: 0
+Switching pcds to floor level: 0
+Initialized data for new floor level: 0
+Switching pcds to floor level: 0
+Calculated floor height difference: 3.00m
+Calculated floor height difference: 3.00m
+Calculated floor height difference: 3.00m
+[show-map] 2azQ1b91cZZ_364 step=5/56; five maps updated
+[show-map] 2azQ1b91cZZ_364 step=10/56; five maps updated
+[show-map] 2azQ1b91cZZ_364 step=15/56; five maps updated
+[show-map] 2azQ1b91cZZ_364 step=20/56; five maps updated
+[show-map] 2azQ1b91cZZ_364 step=25/56; five maps updated
+[show-map] 2azQ1b91cZZ_364 step=30/56; five maps updated
+[show-map] 2azQ1b91cZZ_364 step=35/56; five maps updated
+[show-map] 2azQ1b91cZZ_364 step=40/56; five maps updated
+[show-map] 2azQ1b91cZZ_364 step=45/56; five maps updated
+[show-map] 2azQ1b91cZZ_364 step=50/56; five maps updated
+[show-map] 2azQ1b91cZZ_364 step=55/56; five maps updated
+[show-map] 2azQ1b91cZZ_364: rendering independent scene RGB reference at floor 0.13
+[20:18:16:570723]:[Sensor] CameraSensor.h(90)::setFOV : Only Perspective-base CameraSensors use FOV. Specified value saved but will not be consumed by this CameraSensor.
+[20:18:16:573907]:[Sensor] CameraSensor.h(90)::setFOV : Only Perspective-base CameraSensors use FOV. Specified value saved but will not be consumed by this CameraSensor.
+[20:18:27:532790]:[Physics] PhysicsManager.cpp(54)::~PhysicsManager : Deconstructing PhysicsManager
+[20:18:27:532988]:[Scene] SceneManager.h(21)::~SceneManager : Deconstructing SceneManager
+[20:18:27:533020]:[Scene] SceneGraph.h(25)::~SceneGraph : Deconstructing SceneGraph
+[20:18:27:534746]:[Sensor] Sensor.cpp(69)::~Sensor : Deconstructing Sensor
+[20:18:27:535429]:[Sensor] Sensor.cpp(69)::~Sensor : Deconstructing Sensor
+[20:18:27:535917]:[Sensor] Sensor.cpp(69)::~Sensor : Deconstructing Sensor
+[20:18:27:537119]:[Sensor] Sensor.cpp(69)::~Sensor : Deconstructing Sensor
+[20:18:27:537223]:[Scene] SceneGraph.h(25)::~SceneGraph : Deconstructing SceneGraph
+[20:18:27:539133]:[Scene] SemanticScene.h(48)::~SemanticScene : Deconstructing SemanticScene
+[20:18:27:580866]:[Gfx] Renderer.cpp(71)::~Impl : Deconstructing Renderer
+[20:18:27:581007]:[Gfx] WindowlessContext.h(17)::~WindowlessContext : Deconstructing WindowlessContext

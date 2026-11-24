@@ -1,0 +1,46 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 11,
+  "episode_instruction": "Walk across the floor and wait the archway. ",
+  "steps": 24,
+  "effective_steps": 21,
+  "num_rewrites": 0,
+  "corrections": 0,
+  "deviations": 0,
+  "blockage_recoveries": 0,
+  "stop_returns": 1,
+  "stop_rejections": 0,
+  "max_task_depth": 0,
+  "point_runs": 0,
+  "point_completed": 0,
+  "correction_images": [],
+  "final_instruction": "Walk across the floor and wait the archway. ",
+  "termination_reason": "governor_stop",
+  "summaries": [
+    {
+      "start": 0,
+      "end": 16,
+      "text": "The robot has walked forward across the floor and is now positioned directly in front of the archway, satisfying the requirement to 'wait the archway'.",
+      "grounding": "The archway is clearly visible in all states from 0 to 16, with the robot progressively approaching it. By state 16, the robot is directly facing the archway, having moved from the open room into the space immediately before the archway's entrance. The archway's structure, including the wooden panels and arched top, remains consistent across the sequence, confirming it is the same target throughout.",
+      "anchor_steps": [
+        0,
+        16
+      ],
+      "anchor_source": "vlm"
+    }
+  ],
+  "intervened": true,
+  "success": 1.0,
+  "spl": 1.0,
+  "os": 1.0,
+  "ne": 1.8630832433700562,
+  "category": "intervened/failure_to_success",
+  "baseline": {
+    "success": 0.0,
+    "spl": 0.0,
+    "os": 1.0,
+    "ne": 3.6296331882476807
+  },
+  "version": "governor_clean_remake_14_single_stop_decision",
+  "correction_mode": "point"
+}

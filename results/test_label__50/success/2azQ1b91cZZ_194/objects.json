@@ -1,0 +1,29 @@
+[
+  {
+    "id": "O1",
+    "name": "island",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O1"
+    ]
+  },
+  {
+    "id": "O3",
+    "name": "island",
+    "floor": 1,
+    "status": "已确认",
+    "source_ids": [
+      "O3"
+    ]
+  },
+  {
+    "id": "O4",
+    "name": "island",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O4"
+    ]
+  }
+]

@@ -1,0 +1,38 @@
+{
+  "instruction": "Walk out of the bathroom passed the sink and shower. Walk down the hallway through the arch ed entry and circular tiled room. Turn and walk into the bedroom with hanging curtains wooden bed frame. ",
+  "baseline_result": "failure",
+  "vlm_result": "偏航",
+  "first_bad_segment": "S3",
+  "first_bad_steps": [
+    37,
+    48
+  ],
+  "reason": "The instruction requires leaving the bathroom, traversing the hallway, arched entry, and circular tiled room, and only then turning into the bedroom. S1 and S2 make local bathroom movements past the vanity O19 toward the curtained window recess shown in F27–F35. At the S3 turn, the trace proceeds directly from that recess into the wood-floored bedside space; F41–F46 establish the bedroom interior with lateral curtains O2, far-wall curtains O23, a rug, cabinetry, and a bed. The aligned layout and continuous measured path establish bedroom entry without the required intervening hallway and circular-room traversal, rather than merely an early view of the destination. The earliest supported contradiction is therefore S3; the earlier no-deviation assessment through step 32 remains compatible with this later wrong entry.",
+  "reviewed_to_step": 48,
+  "total_steps": 54,
+  "unreviewed_tail": [
+    49,
+    54
+  ],
+  "evidence_segments_at_review": [
+    "S1",
+    "S2",
+    "S3"
+  ],
+  "evidence_frames": [
+    "F0",
+    "F27",
+    "F30",
+    "F33",
+    "F35",
+    "F41",
+    "F44",
+    "F45",
+    "F46"
+  ],
+  "evidence_objects": [
+    "O2",
+    "O19",
+    "O23"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 72,
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 10.336189270019531,
+  "steps": 100,
+  "episode_instruction": "leave sitting room and head towards the kitchen, turn right at living room and enter. walk through living room to dinning room and enter. Turn left and head to front door. Exit the house and stop on porch. ",
+  "final_instruction": "leave sitting room and head towards the kitchen, turn right at living room and enter. walk through living room to dinning room and enter. Turn left and head to front door. Exit the house and stop on porch. ",
+  "num_rewrites": 0
+}

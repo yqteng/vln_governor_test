@@ -1,0 +1,64 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 195,
+  "episode_instruction": "Walk out of the laundry room into the hallway. Walk along the hallway passed the windows towards the entryway at the end of the hall. Continue through the arched entryway and into the kitchen area, stopping near the island counter top. ",
+  "success": 1.0,
+  "spl": 1.0,
+  "os": 1.0,
+  "ne": 1.4712499380111694,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 41,
+  "effective_steps": 40,
+  "corrections": 0,
+  "deviations": 0,
+  "intervened": true,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 12,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "Walk out of the laundry room into the hallway. Walk along the hallway passed the windows towards the entryway at the end of the hall. Continue through the arched entryway and into the kitchen area, stopping near the island counter top. ",
+  "termination_reason": "governor_stop",
+  "phase_steps": {
+    "normal": 40,
+    "rollback": 0,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 0,
+    "governor_stop": 1
+  },
+  "action_counts": {
+    "STOP": 1,
+    "MOVE_FORWARD": 28,
+    "TURN_LEFT": 9,
+    "TURN_RIGHT": 3,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 0,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 6.999999552965164,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "Completed: Walk out of the laundry room into the hallway. Currently: Positioned in the hallway, facing forward toward the arched entryway at the end of the hall, with windows visible on the left. Remaining: Continue through the arched entryway and into the kitchen area, stopping near the island counter top. Uncertain: No visual evidence of the kitchen or island counter top yet; agent has not yet entered the kitchen area."
+    },
+    {
+      "start": 17,
+      "end": 32,
+      "text": "Completed: Walk out of the laundry room into the hallway. Currently: Positioned in the hallway, having passed the windows and approaching the arched entryway, with the kitchen area visible through the arch at image 32. Remaining: Continue through the arched entryway and into the kitchen area, stopping near the island counter top. Uncertain: The island counter top has not yet been reached or confirmed as the stopping point; agent is still en route and has not exited the hallway or entered the kitchen."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "intervened/success_to_success",
+  "baseline": {
+    "success": 1.0,
+    "spl": 1.0,
+    "os": 1.0,
+    "ne": 0.2219969779253006
+  },
+  "artifact_dir": "intervened/success_to_success/2azQ1b91cZZ_195_1e24a89faa18"
+}

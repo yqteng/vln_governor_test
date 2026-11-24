@@ -1,0 +1,69 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 117,
+  "episode_instruction": "Walk from closet into bedroom. Turn left into bathroom. Wait on bathroom mat. ",
+  "success": 1.0,
+  "spl": 0.8814027198158824,
+  "os": 1.0,
+  "ne": 0.19617827236652374,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 61,
+  "effective_steps": 60,
+  "corrections": 0,
+  "deviations": 0,
+  "intervened": false,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 13,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "Walk from closet into bedroom. Turn left into bathroom. Wait on bathroom mat. ",
+  "termination_reason": "global_stop",
+  "phase_steps": {
+    "normal": 60,
+    "rollback": 0,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 1,
+    "governor_stop": 0
+  },
+  "action_counts": {
+    "STOP": 1,
+    "MOVE_FORWARD": 26,
+    "TURN_LEFT": 12,
+    "TURN_RIGHT": 22,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 2,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 6.382464602589607,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "Completed: Movement from closet into bedroom is confirmed as ongoing and not yet complete; no turn left into bathroom or wait on bathroom mat has occurred. Currently: Agent is inside the closet, facing the doorway to the bedroom (visible in image 16), with no turn executed yet toward the bathroom. Remaining: Turn left into bathroom, then wait on bathroom mat. Uncertain: Whether the agent will turn left into the bathroom or proceed further into the bedroom before doing so; no visual evidence of bathroom entry or mat presence yet."
+    },
+    {
+      "start": 17,
+      "end": 32,
+      "text": "Completed: Movement from closet into bedroom is now confirmed as complete, as the agent has entered and is viewing the bedroom interior (image 22 onward). Currently: Agent is inside the bedroom, facing forward toward the bed and hallway, having just executed a TURN_LEFT at image 31 (action 31→32), which aligns with the instruction to turn left into the bathroom — this turn is now confirmed as executed. Remaining: Wait on bathroom mat. Uncertain: Whether the bathroom is immediately to the left of the current position (as implied by the turn) or if further movement is required to reach the bathroom; no bathroom or mat is visible in image 32, so the final goal remains unachieved and unobserved."
+    },
+    {
+      "start": 33,
+      "end": 48,
+      "text": "Completed: Movement from closet into bedroom and turn left into bathroom are confirmed as executed. Currently: Agent is standing in the hallway outside the bedroom, facing toward the bathroom entrance (visible in image 48), having turned left from the bedroom and moved forward. Remaining: Wait on bathroom mat. Uncertain: Whether the bathroom mat is visible or accessible from this position; no mat is visible in image 48, and the bathroom interior is not yet entered or confirmed."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "unintervened/success",
+  "baseline": {
+    "success": 1.0,
+    "spl": 0.8148677586947104,
+    "os": 1.0,
+    "ne": 0.474814236164093
+  },
+  "artifact_dir": "unintervened/success/2azQ1b91cZZ_117_50329d28cbbd"
+}

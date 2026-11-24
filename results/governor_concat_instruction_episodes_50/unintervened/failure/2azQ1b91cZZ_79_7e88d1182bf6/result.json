@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 79,
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 1.0,
+  "ne": 3.1931769847869873,
+  "steps": 46,
+  "episode_instruction": "Exit the bathroom and walk down the hall to the second doorway on your left.  Turn left and enter the room through that doorway. ",
+  "final_instruction": "Exit the bathroom and walk down the hall to the second doorway on your left.  Turn left and enter the room through that doorway. ",
+  "num_rewrites": 0
+}

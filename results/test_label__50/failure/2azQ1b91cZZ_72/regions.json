@@ -1,0 +1,122 @@
+[
+  {
+    "segment": "S1",
+    "name": "living room",
+    "floor": 1,
+    "steps": [
+      0,
+      9
+    ],
+    "samples": [
+      "F0",
+      "F7",
+      "F8",
+      "F9"
+    ]
+  },
+  {
+    "segment": "S2",
+    "name": "living room",
+    "floor": 1,
+    "steps": [
+      9,
+      16
+    ],
+    "samples": [
+      "F13",
+      "F14",
+      "F15",
+      "F16"
+    ]
+  },
+  {
+    "segment": "S3",
+    "name": "kitchen",
+    "floor": 1,
+    "steps": [
+      16,
+      37
+    ],
+    "samples": [
+      "F18",
+      "F24",
+      "F31",
+      "F35"
+    ]
+  },
+  {
+    "segment": "S4",
+    "name": "kitchen",
+    "floor": 1,
+    "steps": [
+      37,
+      46
+    ],
+    "samples": [
+      "F38",
+      "F39",
+      "F41",
+      "F46"
+    ]
+  },
+  {
+    "segment": "S5",
+    "name": "entryway",
+    "floor": 1,
+    "steps": [
+      46,
+      63
+    ],
+    "samples": [
+      "F48",
+      "F54",
+      "F57",
+      "F61"
+    ]
+  },
+  {
+    "segment": "S6",
+    "name": "entryway",
+    "floor": 1,
+    "steps": [
+      63,
+      69
+    ],
+    "samples": [
+      "F63",
+      "F65",
+      "F66",
+      "F69"
+    ]
+  },
+  {
+    "segment": "S7",
+    "name": "entryway",
+    "floor": 1,
+    "steps": [
+      69,
+      82
+    ],
+    "samples": [
+      "F73",
+      "F80",
+      "F81",
+      "F82"
+    ]
+  },
+  {
+    "segment": "S8",
+    "name": "entryway",
+    "floor": 1,
+    "steps": [
+      82,
+      100
+    ],
+    "samples": [
+      "F83",
+      "F94",
+      "F98",
+      "F99"
+    ]
+  }
+]

@@ -1,0 +1,69 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 44,
+  "episode_instruction": "Walk down the hallway through the arched doorway. Walk into the kitchen area. Walk through the doorway into teh dining room area passing by the stove. Walk into the living room are towards the fireplace stopping near the couches. ",
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 11.519155502319336,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 62,
+  "effective_steps": 61,
+  "corrections": 0,
+  "deviations": 0,
+  "intervened": false,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 20,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "Walk down the hallway through the arched doorway. Walk into the kitchen area. Walk through the doorway into teh dining room area passing by the stove. Walk into the living room are towards the fireplace stopping near the couches. ",
+  "termination_reason": "global_stop",
+  "phase_steps": {
+    "normal": 61,
+    "rollback": 0,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 1,
+    "governor_stop": 0
+  },
+  "action_counts": {
+    "STOP": 1,
+    "MOVE_FORWARD": 47,
+    "TURN_LEFT": 8,
+    "TURN_RIGHT": 6,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 0,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 11.768783539533615,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "Completed: Walk down the hallway through the arched doorway. Walk into the kitchen area. Currently: In the kitchen, facing right toward an arched doorway leading to the dining room. Remaining: Walk through the doorway into the dining room area passing by the stove. Walk into the living room towards the fireplace stopping near the couches. Uncertain: Whether the stove is visible or passed by in the current view; the dining room is visible but not yet entered."
+    },
+    {
+      "start": 17,
+      "end": 32,
+      "text": "Completed: Walk down the hallway through the arched doorway. Walk into the kitchen area. Currently: In the kitchen, facing the arched doorway into the dining room, having moved forward through the kitchen toward the doorway. Remaining: Walk through the doorway into the dining room area passing by the stove. Walk into the living room towards the fireplace stopping near the couches. Uncertain: Whether the stove is visible or passed by in the current view; the dining room is visible but not yet entered."
+    },
+    {
+      "start": 33,
+      "end": 48,
+      "text": "Completed: Walk down the hallway through the arched doorway. Walk into the kitchen area. Currently: In the dining room, having entered through the arched doorway from the kitchen, facing the table and windows. Remaining: Walk into the living room towards the fireplace stopping near the couches. Uncertain: The stove was not visible or passed by in the current view; the dining room is now entered and fully visible, but the stove's location relative to this room is not confirmed."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "unintervened/failure",
+  "baseline": {
+    "success": 0.0,
+    "spl": 0.0,
+    "os": 0.0,
+    "ne": 11.519155502319336
+  },
+  "artifact_dir": "unintervened/failure/2azQ1b91cZZ_44_fadb8532ec20"
+}

@@ -1,0 +1,82 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 77,
+  "episode_instruction": "Walk into the  nearest open double doors to the dining area that has a cupboard and candle lamps on top. Walk passed the dining table and through the open double doors on the other side that lead outside. Walk through the next set of double doors on the other side of the front entrance and back into the home. ",
+  "steps": 75,
+  "effective_steps": 75,
+  "num_rewrites": 0,
+  "corrections": 1,
+  "deviations": 0,
+  "blockage_recoveries": 0,
+  "stop_returns": 0,
+  "stop_rejections": 1,
+  "max_task_depth": 0,
+  "point_runs": 0,
+  "point_completed": 0,
+  "correction_images": [
+    "correction_images/2azQ1b91cZZ_77_daa0d839b824_step_0075_effective_0075_correction_001_attempt_1.png",
+    "correction_images/2azQ1b91cZZ_77_daa0d839b824_step_0075_effective_0075_correction_001_attempt_2.png"
+  ],
+  "final_instruction": "Walk into the  nearest open double doors to the dining area that has a cupboard and candle lamps on top. Walk passed the dining table and through the open double doors on the other side that lead outside. Walk through the next set of double doors on the other side of the front entrance and back into the home. ",
+  "termination_reason": "rejected_stop_recovery_failed",
+  "summaries": [
+    {
+      "start": 0,
+      "end": 16,
+      "text": "The robot has moved forward and turned right, approaching a hallway with arched doorways. It has not yet reached the dining area with the cupboard and candle lamps, nor passed the dining table or exited through the double doors. The current position is still within the entryway/hallway area, approaching the next set of doors on the right side of the hallway.",
+      "grounding": "State 7 shows the robot at the entrance of a hallway with arched doorways, indicating it has passed the initial double doors. State 16 shows the robot further down the hallway, approaching a large wooden door on the right, which may be the entrance to the dining area. The robot has not yet entered the dining area or passed the dining table.",
+      "anchor_steps": [
+        7,
+        16
+      ],
+      "anchor_source": "vlm"
+    },
+    {
+      "start": 16,
+      "end": 32,
+      "text": "The robot has entered the dining area, confirmed by the visible wooden walls, ceiling beams, dining table, and the cupboard with candle lamps on top. It has not yet passed the dining table or exited through the double doors on the other side. The current position is inside the dining area, approaching the double doors at the far end.",
+      "grounding": "State 16 shows the robot approaching a large wooden door on the right, which is the entrance to the dining area. State 32 shows the robot fully inside the dining area, with clear views of the wooden walls, ceiling beams, dining table, and the cupboard with candle lamps on top. The robot has not yet passed the dining table or exited through the double doors at the far end.",
+      "anchor_steps": [
+        16,
+        32
+      ],
+      "anchor_source": "vlm"
+    },
+    {
+      "start": 32,
+      "end": 48,
+      "text": "The robot has entered the dining area (confirmed at state 32) and is now moving forward through the room, passing the dining table and approaching the double doors on the far side that lead outside. The robot has not yet exited through these doors or passed through the next set of double doors on the other side of the front entrance to return inside. The current position is inside the dining area, approaching the exit doors.",
+      "grounding": "State 32 shows the robot fully inside the dining area with visible wooden walls, ceiling beams, dining table, and cupboard with candle lamps on top. State 48 shows the robot approaching the double doors on the far side of the room, which are the exit doors leading outside. The robot has not yet passed through these doors or reached the next set of double doors on the other side of the front entrance.",
+      "anchor_steps": [
+        32,
+        48
+      ],
+      "anchor_source": "vlm"
+    },
+    {
+      "start": 48,
+      "end": 64,
+      "text": "The robot has passed through the double doors leading outside and is now inside a new room with a fireplace, wooden paneling, and a view into another room with a pool table. The robot has not yet reached the next set of double doors on the other side of the front entrance to return inside. The current position is inside this new room, approaching the double doors visible in the distance.",
+      "grounding": "State 48 shows the robot at the entrance of the dining area, approaching the double doors that lead outside. State 64 shows the robot inside a new room with a fireplace, wooden paneling, and a view into another room with a pool table. The robot has passed through the double doors leading outside but has not yet reached the next set of double doors on the other side of the front entrance to return inside. The current position is inside this new room, approaching the double doors visible in the distance.",
+      "anchor_steps": [
+        48,
+        64
+      ],
+      "anchor_source": "vlm"
+    }
+  ],
+  "intervened": true,
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 13.213630676269531,
+  "category": "intervened/failure_to_failure",
+  "baseline": {
+    "success": 0.0,
+    "spl": 0.0,
+    "os": 0.0,
+    "ne": 13.213630676269531
+  },
+  "version": "governor_clean_remake_14_single_stop_decision",
+  "correction_mode": "point"
+}

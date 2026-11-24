@@ -1,0 +1,173 @@
+[
+  {
+    "id": "O1",
+    "name": "dining table",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O1"
+    ]
+  },
+  {
+    "id": "O3",
+    "name": "dining table",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O3"
+    ]
+  },
+  {
+    "id": "O4",
+    "name": "tall lamp with a white lampshade",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O4"
+    ]
+  },
+  {
+    "id": "O5",
+    "name": "tall lamp with a white lampshade",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O5"
+    ]
+  },
+  {
+    "id": "O7",
+    "name": "tall lamp with a white lampshade",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O7"
+    ]
+  },
+  {
+    "id": "O9",
+    "name": "white lampshade",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O9"
+    ]
+  },
+  {
+    "id": "O10",
+    "name": "white lampshade",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O10"
+    ]
+  },
+  {
+    "id": "O12",
+    "name": "tall lamp with a white lampshade",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O12"
+    ]
+  },
+  {
+    "id": "O13",
+    "name": "tall lamp with a white lampshade",
+    "floor": 1,
+    "status": "已确认",
+    "source_ids": [
+      "O13"
+    ]
+  },
+  {
+    "id": "O14",
+    "name": "dining table",
+    "floor": 1,
+    "status": "已确认",
+    "source_ids": [
+      "O14"
+    ]
+  },
+  {
+    "id": "O15",
+    "name": "tall lamp with a white lampshade",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O15"
+    ]
+  },
+  {
+    "id": "O16",
+    "name": "white lampshade",
+    "floor": 1,
+    "status": "已确认",
+    "source_ids": [
+      "O16"
+    ]
+  },
+  {
+    "id": "O17",
+    "name": "tall lamp with a white lampshade",
+    "floor": 1,
+    "status": "已确认",
+    "source_ids": [
+      "O17"
+    ]
+  },
+  {
+    "id": "O18",
+    "name": "tall lamp with a white lampshade",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O18"
+    ]
+  },
+  {
+    "id": "O19",
+    "name": "white lampshade",
+    "floor": 1,
+    "status": "已确认",
+    "source_ids": [
+      "O19"
+    ]
+  },
+  {
+    "id": "O20",
+    "name": "dining table",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O20"
+    ]
+  },
+  {
+    "id": "O21",
+    "name": "dining table",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O21"
+    ]
+  },
+  {
+    "id": "O22",
+    "name": "tall lamp with a white lampshade",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O22"
+    ]
+  },
+  {
+    "id": "O23",
+    "name": "dining table",
+    "floor": 1,
+    "status": "待复核",
+    "source_ids": [
+      "O23"
+    ]
+  }
+]

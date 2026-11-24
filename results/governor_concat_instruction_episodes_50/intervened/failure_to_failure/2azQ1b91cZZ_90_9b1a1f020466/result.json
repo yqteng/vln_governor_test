@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 90,
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 1.0,
+  "ne": 2.2044248580932617,
+  "steps": 100,
+  "episode_instruction": "Walk into the dining area and make a right when you get to the end of the table. Walk down the hall and stand in front of the door of the dining room at the end of the hall. ",
+  "final_instruction": "Walk into the dining area and make a right when you get to the end of the table. Walk down the hall and stand in front of the door of the dining room at the end of the hall. ",
+  "num_rewrites": 1
+}

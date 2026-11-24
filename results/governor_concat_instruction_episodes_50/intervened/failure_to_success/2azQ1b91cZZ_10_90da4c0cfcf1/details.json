@@ -1,0 +1,59 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 10,
+  "episode_instruction": "Walk into the living room and keep walking straight past the living room. Then walk into the entrance under the balcony. Wait in the entrance to the other room. ",
+  "success": 1.0,
+  "spl": 0.9483959833780925,
+  "os": 1.0,
+  "ne": 0.3887825608253479,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 32,
+  "effective_steps": 31,
+  "corrections": 0,
+  "deviations": 0,
+  "intervened": true,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 10,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "Walk into the living room and keep walking straight past the living room. Then walk into the entrance under the balcony. Wait in the entrance to the other room. ",
+  "termination_reason": "governor_stop",
+  "phase_steps": {
+    "normal": 31,
+    "rollback": 0,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 0,
+    "governor_stop": 1
+  },
+  "action_counts": {
+    "STOP": 1,
+    "MOVE_FORWARD": 30,
+    "TURN_LEFT": 0,
+    "TURN_RIGHT": 1,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 0,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 7.5,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "The agent has moved forward through the living room, passing furniture and wooden paneling, and is now approaching the central arched doorway that leads to the next room. The entrance under the balcony is not yet visible or passed. The agent has not yet entered the entrance under the balcony or begun waiting in it. The next unresolved requirement is to enter the entrance under the balcony and wait."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "intervened/failure_to_success",
+  "baseline": {
+    "success": 0.0,
+    "spl": 0.0,
+    "os": 1.0,
+    "ne": 3.368576765060425
+  },
+  "artifact_dir": "intervened/failure_to_success/2azQ1b91cZZ_10_90da4c0cfcf1"
+}

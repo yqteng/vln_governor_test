@@ -1,0 +1,107 @@
+[
+  {
+    "segment": "S1",
+    "name": "corridor",
+    "floor": 1,
+    "steps": [
+      0,
+      7
+    ],
+    "samples": [
+      "F1",
+      "F3",
+      "F4",
+      "F6"
+    ]
+  },
+  {
+    "segment": "S2",
+    "name": "bedroom",
+    "floor": 1,
+    "steps": [
+      7,
+      41
+    ],
+    "samples": [
+      "F22",
+      "F27",
+      "F34",
+      "F39"
+    ]
+  },
+  {
+    "segment": "S3",
+    "name": "entryway",
+    "floor": 1,
+    "steps": [
+      41,
+      56
+    ],
+    "samples": [
+      "F43",
+      "F46",
+      "F50",
+      "F54"
+    ]
+  },
+  {
+    "segment": "S4",
+    "name": "entryway",
+    "floor": 1,
+    "steps": [
+      56,
+      61
+    ],
+    "samples": [
+      "F57",
+      "F58",
+      "F59",
+      "F60"
+    ]
+  },
+  {
+    "segment": "S5",
+    "name": "foyer",
+    "floor": 1,
+    "steps": [
+      61,
+      65
+    ],
+    "samples": [
+      "F61",
+      "F63",
+      "F64",
+      "F65"
+    ]
+  },
+  {
+    "segment": "S6",
+    "name": "entryway",
+    "floor": 1,
+    "steps": [
+      65,
+      78
+    ],
+    "samples": [
+      "F70",
+      "F71",
+      "F74",
+      "F76"
+    ]
+  },
+  {
+    "segment": "S7",
+    "name": "alcove",
+    "floor": 1,
+    "steps": [
+      78,
+      100
+    ],
+    "samples": [
+      "F82",
+      "F84",
+      "F86",
+      "F88"
+    ]
+  }
+]

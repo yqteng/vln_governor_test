@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 61,
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 8.585077285766602,
+  "steps": 35,
+  "episode_instruction": "Walk out of the bathroom passed the sink and shower. Walk down the hallway through the arch ed entry and circular tiled room. Turn and walk into the bedroom with hanging curtains wooden bed frame. ",
+  "final_instruction": "Walk out of the bathroom passed the sink and shower. Walk down the hallway through the arch ed entry and circular tiled room. Turn and walk into the bedroom with hanging curtains wooden bed frame. ",
+  "num_rewrites": 0
+}

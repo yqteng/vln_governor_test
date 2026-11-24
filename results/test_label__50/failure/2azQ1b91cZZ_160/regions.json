@@ -1,0 +1,47 @@
+[
+  {
+    "segment": "S1",
+    "name": "dining room",
+    "floor": 1,
+    "steps": [
+      0,
+      18
+    ],
+    "samples": [
+      "F10",
+      "F13",
+      "F15",
+      "F17"
+    ]
+  },
+  {
+    "segment": "S2",
+    "name": "dining room",
+    "floor": 1,
+    "steps": [
+      18,
+      23
+    ],
+    "samples": [
+      "F18",
+      "F19",
+      "F22",
+      "F23"
+    ]
+  },
+  {
+    "segment": "S3",
+    "name": "dining room",
+    "floor": 1,
+    "steps": [
+      23,
+      100
+    ],
+    "samples": [
+      "F24",
+      "F25",
+      "F28",
+      "F29"
+    ]
+  }
+]

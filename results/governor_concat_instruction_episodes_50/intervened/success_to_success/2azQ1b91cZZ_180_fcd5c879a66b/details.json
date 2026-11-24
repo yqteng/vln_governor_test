@@ -1,0 +1,69 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 180,
+  "episode_instruction": "Go straight through the doorway.  Go to the left and then left again till you see the star burst pattern on the floor  Go through the bedroom doorway and stop when you get to the bed.  Wait there. ",
+  "success": 1.0,
+  "spl": 0.9938111929359482,
+  "os": 1.0,
+  "ne": 0.6333351731300354,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 50,
+  "effective_steps": 49,
+  "corrections": 0,
+  "deviations": 0,
+  "intervened": true,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 17,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "Go straight through the doorway.  Go to the left and then left again till you see the star burst pattern on the floor  Go through the bedroom doorway and stop when you get to the bed.  Wait there. ",
+  "termination_reason": "governor_stop",
+  "phase_steps": {
+    "normal": 49,
+    "rollback": 0,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 0,
+    "governor_stop": 1
+  },
+  "action_counts": {
+    "STOP": 1,
+    "MOVE_FORWARD": 32,
+    "TURN_LEFT": 12,
+    "TURN_RIGHT": 5,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 0,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 8.002570301294327,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "Completed: Go straight through the doorway. Go to the left and then left again till you see the starburst pattern on the floor. Go through the bedroom doorway. Currently: Agent is facing forward in a hallway with arched doorways and a tiled floor pattern, having turned left multiple times and moved forward, but no bed is visible or confirmed. Remaining: Stop when you get to the bed. Wait there. Uncertain: Whether the bed has been reached or is visible in the current view; no visual confirmation of the bed in images 0–16."
+    },
+    {
+      "start": 17,
+      "end": 32,
+      "text": "Completed: Go straight through the doorway. Go to the left and then left again till you see the starburst pattern on the floor. Go through the bedroom doorway. Currently: Agent is moving forward in a hallway with arched doorways and tiled flooring, having turned left multiple times and progressed forward, but no bed is visible or confirmed in images 16–32. Remaining: Stop when you get to the bed. Wait there. Uncertain: Whether the bed has been reached or is visible in the current view; no visual confirmation of the bed in images 16–32, and agent continues moving forward without stopping."
+    },
+    {
+      "start": 33,
+      "end": 48,
+      "text": "Completed: Go straight through the doorway. Go to the left and then left again till you see the starburst pattern on the floor. Go through the bedroom doorway. Currently: Agent has entered the bedroom and is positioned near the doorway, facing inward toward the bed, which is now visible and occupies the right side of the frame. Remaining: Stop when you get to the bed. Wait there. Uncertain: None — the bed is clearly visible and has been reached; no further movement is required to fulfill the stop condition."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "intervened/success_to_success",
+  "baseline": {
+    "success": 1.0,
+    "spl": 0.9086523236206538,
+    "os": 1.0,
+    "ne": 0.19782263040542603
+  },
+  "artifact_dir": "intervened/success_to_success/2azQ1b91cZZ_180_fcd5c879a66b"
+}

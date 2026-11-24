@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 214,
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 1.0,
+  "ne": 4.646770477294922,
+  "steps": 60,
+  "episode_instruction": "Walk through the open door into the hallway. Move diagonally to the right to the archway next to the bureau and wall mirror. Walk down the small arched corridor and enter the bedroom with a fireplace. Wait by the bed on the left and the open door on the right. ",
+  "final_instruction": "Walk through the open door into the hallway. Move diagonally to the right to the archway next to the bureau and wall mirror. Walk down the small arched corridor and enter the bedroom with a fireplace. Wait by the bed on the left and the open door on the right. ",
+  "num_rewrites": 0
+}

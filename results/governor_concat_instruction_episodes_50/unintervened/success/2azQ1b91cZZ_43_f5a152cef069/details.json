@@ -1,0 +1,74 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 43,
+  "episode_instruction": "Go into the kitchen area. Turn left. Take the first right into the dining area. Walk past the dining table. Stop left of the tall lamp with a white lampshade. ",
+  "success": 1.0,
+  "spl": 1.0,
+  "os": 1.0,
+  "ne": 0.9454423785209656,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 69,
+  "effective_steps": 68,
+  "corrections": 0,
+  "deviations": 0,
+  "intervened": false,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 24,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "Go into the kitchen area. Turn left. Take the first right into the dining area. Walk past the dining table. Stop left of the tall lamp with a white lampshade. ",
+  "termination_reason": "global_stop",
+  "phase_steps": {
+    "normal": 68,
+    "rollback": 0,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 1,
+    "governor_stop": 0
+  },
+  "action_counts": {
+    "STOP": 1,
+    "MOVE_FORWARD": 44,
+    "TURN_LEFT": 15,
+    "TURN_RIGHT": 9,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 3,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 10.953940734267235,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "Completed: Entered kitchen area. Turned left. Took first right into dining area. Walked past dining table. Currently: Positioned in kitchen area, having completed all prior navigation steps. Remaining: Stop left of the tall lamp with a white lampshade. Uncertain: The tall lamp with a white lampshade is not visible in the current kitchen view; it may be in the dining area or another adjacent space, requiring further navigation to confirm its location and approach."
+    },
+    {
+      "start": 17,
+      "end": 32,
+      "text": "Completed: Entered kitchen area. Turned left. Took first right into dining area. Walked past dining table. Currently: Positioned in a hallway adjacent to the kitchen, having moved backward from the dining area after turning left at image 16; the tall lamp with a white lampshade is not visible in any of the current images. Remaining: Stop left of the tall lamp with a white lampshade. Uncertain: The target lamp’s location is not visually confirmed in any of the current frames; it may be in the dining area or another adjacent space, requiring further navigation to locate and approach it."
+    },
+    {
+      "start": 33,
+      "end": 48,
+      "text": "Completed: Entered kitchen area. Turned left. Took first right into dining area. Walked past dining table. Currently: Positioned in the dining area, having entered through the doorway at image 34 and progressed forward through images 35–48; the tall lamp with a white lampshade is now visible in image 46, located in the background near the seating area. Remaining: Stop left of the tall lamp with a white lampshade. Uncertain: None — the target lamp is now visually confirmed and is in view, requiring only final positioning to complete the task."
+    },
+    {
+      "start": 49,
+      "end": 64,
+      "text": "Completed: Entered kitchen area. Turned left. Took first right into dining area. Walked past dining table. Currently: Positioned in the dining area, having progressed forward through images 47–64 and now directly facing the tall lamp with a white lampshade (confirmed in image 64). Remaining: Stop left of the tall lamp with a white lampshade. Uncertain: None — the target lamp is clearly visible and within reach; final stopping maneuver is imminent and requires no further navigation or reorientation."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "unintervened/success",
+  "baseline": {
+    "success": 1.0,
+    "spl": 0.7448287188430037,
+    "os": 1.0,
+    "ne": 2.3315653800964355
+  },
+  "artifact_dir": "unintervened/success/2azQ1b91cZZ_43_f5a152cef069"
+}

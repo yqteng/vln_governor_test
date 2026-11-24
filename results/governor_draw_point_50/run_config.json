@@ -1,0 +1,28 @@
+{
+  "version": "governor_clean_remake_14_single_stop_decision",
+  "mode": "point",
+  "settings": {
+    "model_path": "/mnt/disk8t1/zwm/StreamVLN/StreamVLN_Video_qwen_1_5_r2r_rxr_envdrop_scalevln_v1_3",
+    "habitat_config_path": "/mnt/disk8t1/zwm/StreamVLN/config/vln_r2r.yaml",
+    "habitat_root": "/mnt/disk8t1/zwm/Progress-Aware-VLN/habitat-lab",
+    "eval_split": "val_unseen",
+    "baseline_result_path": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/result.json",
+    "max_steps": 100,
+    "point_max_distance": 2.0,
+    "seed": 0,
+    "num_frames": 32,
+    "num_history": 8,
+    "num_future_steps": 4,
+    "model_max_length": 4096,
+    "local_vlm_python": "/home/ubuntun/miniconda3/envs/vlnpa/bin/python",
+    "local_vlm_model_path": "/mnt/disk8t1/zwm/Progress-Aware-VLN/Weights/Qwen3-VL-8B-Instruct",
+    "local_vlm_attn_implementation": "flash_attention_2",
+    "local_vlm_max_pixels": 200704,
+    "local_vlm_startup_timeout": 600,
+    "local_vlm_request_timeout": 300,
+    "init_max_new_tokens": 1536,
+    "review_max_new_tokens": 1536,
+    "save_video": true,
+    "dialogue_history_turns": 0
+  }
+}

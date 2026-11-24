@@ -1,0 +1,62 @@
+[
+  {
+    "segment": "S1",
+    "name": "corridor",
+    "floor": 1,
+    "steps": [
+      0,
+      32
+    ],
+    "samples": [
+      "F13",
+      "F20",
+      "F25",
+      "F30"
+    ]
+  },
+  {
+    "segment": "S2",
+    "name": "corridor",
+    "floor": 1,
+    "steps": [
+      32,
+      35
+    ],
+    "samples": [
+      "F32",
+      "F33",
+      "F34",
+      "F35"
+    ]
+  },
+  {
+    "segment": "S3",
+    "name": "entryway",
+    "floor": 1,
+    "steps": [
+      35,
+      40
+    ],
+    "samples": [
+      "F36",
+      "F37",
+      "F38",
+      "F39"
+    ]
+  },
+  {
+    "segment": "S4",
+    "name": "kitchen",
+    "floor": 1,
+    "steps": [
+      40,
+      48
+    ],
+    "samples": [
+      "F41",
+      "F43",
+      "F44",
+      "F46"
+    ]
+  }
+]

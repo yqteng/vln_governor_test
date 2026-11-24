@@ -1,0 +1,39 @@
+{
+  "instruction": "Walk to the right of the coutch and through the doors to the tan couch  Pass through the dining room and wait outside. ",
+  "baseline_result": "failure",
+  "vlm_result": "未发现明确偏航",
+  "first_bad_segment": null,
+  "first_bad_steps": null,
+  "reason": "The instruction requires going to the right of the starting couch, through doors toward the tan couch, then through the dining room and outside to wait. S1–S3 approach the starting furniture, curve toward the open glazed doorway shown in F42–F46, and continue alongside confirmed couch O21 into the kitchen-side passage; the supplied evidence does not establish a conflicting initial side choice. S4 turns toward the northward passage, while F95–F96 show a narrow arched corridor, but the short measured displacement and mapped approach do not establish traversal of that passage or bypass of an identified mandatory dining-room entrance. The earlier no-supported-deviation conclusion therefore remains unrebutted through step 96: dining-room traversal and arrival outside are unverified, and no explicit STOP establishes a stopping error.",
+  "reviewed_to_step": 96,
+  "total_steps": 100,
+  "unreviewed_tail": [
+    97,
+    100
+  ],
+  "evidence_segments_at_review": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+  ],
+  "evidence_frames": [
+    "F7",
+    "F17",
+    "F42",
+    "F46",
+    "F56",
+    "F65",
+    "F74",
+    "F84",
+    "F89",
+    "F90",
+    "F95",
+    "F96"
+  ],
+  "evidence_objects": [
+    "O4",
+    "O21"
+  ],
+  "action_limit_truncated": true
+}

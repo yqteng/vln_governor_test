@@ -1,0 +1,29 @@
+{
+  "instruction": "Exit the bathroom and go right, then turn left at the big clock and go into the bedroom and wait next to the bed. ",
+  "baseline_result": "failure",
+  "vlm_result": "未发现明确偏航",
+  "first_bad_segment": null,
+  "first_bad_steps": null,
+  "reason": "The instruction requires exiting the bathroom, going right, then turning left at the big clock before entering the bedroom and waiting beside the bed. S1 moves east from the starting area, and S2 makes a sustained movement-relative left turn toward decreasing world z before continuing through the window-lined space into the bedroom shown in F21 and F26. The later trace runs beside confirmed bed O6 and ends near its northern edge, with no supported wrong branch or incompatible room entry. F0 does show a wall clock, correcting the earlier claim that none was visible, but its mapped correspondence and the turn's exact relation to it remain unverified rather than contradicted. No deviation is established through step 32; the cutoff does not establish an explicit stop or completed waiting.",
+  "reviewed_to_step": 32,
+  "total_steps": 43,
+  "unreviewed_tail": [
+    33,
+    43
+  ],
+  "evidence_segments_at_review": [
+    "S1",
+    "S2"
+  ],
+  "evidence_frames": [
+    "F0",
+    "F4",
+    "F9",
+    "F17",
+    "F21",
+    "F26"
+  ],
+  "evidence_objects": [
+    "O6"
+  ]
+}

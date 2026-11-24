@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 168,
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 1.0,
+  "ne": 6.205666542053223,
+  "steps": 64,
+  "episode_instruction": "Walk through double doors into the house. Continue around the dining table and through the entry way to the next room. Walk up to the couch and armchairs surrounding a coffee table. ",
+  "final_instruction": "Walk through double doors into the house. Continue around the dining table and through the entry way to the next room. Walk up to the couch and armchairs surrounding a coffee table. ",
+  "num_rewrites": 0
+}

@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 80,
+  "success": 1.0,
+  "spl": 0.9185528261168726,
+  "os": 1.0,
+  "ne": 2.97171688079834,
+  "steps": 40,
+  "episode_instruction": "Walk out of the bathroom past the sink and shower. Walk through the arched doorway down the hall with the throw rug. Walk into the room with wooden closet doors and two ceiling lamps. ",
+  "final_instruction": "Walk out of the bathroom past the sink and shower. Walk through the arched doorway down the hall with the throw rug. Walk into the room with wooden closet doors and two ceiling lamps. ",
+  "num_rewrites": 0
+}

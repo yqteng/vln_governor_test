@@ -1,0 +1,35 @@
+{
+  "instruction": "Exit the bathroom, and take a right turn. Keep walking to the place with a clock hanging on the wall, and then make a hard left into a bedroom. Wait at the bedroom. ",
+  "baseline_result": "success",
+  "vlm_result": "未发现明确偏航",
+  "first_bad_segment": null,
+  "first_bad_steps": null,
+  "reason": "The instruction requires exiting the bathroom, turning right, reaching the wall-clock place, and then making a hard left toward a bedroom. S1's predominantly map-right displacement followed by S2's map-down movement supports the initial right turn, although the starting bathroom boundary is not independently resolved. S3 and S4 approach the clock area associated with O10, and S5 changes from southwestward travel to southeastward/eastward travel, supporting a substantial movement-relative left turn; F44–F46 show a bed through the approached doorway. The maps and measured endpoint support a bedroom-entrance approach rather than an incompatible branch, so no deviation is established through step 48; full bedroom entry and waiting are not established, and no explicit STOP is supplied.",
+  "reviewed_to_step": 48,
+  "total_steps": 53,
+  "unreviewed_tail": [
+    49,
+    53
+  ],
+  "evidence_segments_at_review": [
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5"
+  ],
+  "evidence_frames": [
+    "F15",
+    "F18",
+    "F25",
+    "F32",
+    "F36",
+    "F37",
+    "F44",
+    "F45",
+    "F46"
+  ],
+  "evidence_objects": [
+    "O10"
+  ]
+}

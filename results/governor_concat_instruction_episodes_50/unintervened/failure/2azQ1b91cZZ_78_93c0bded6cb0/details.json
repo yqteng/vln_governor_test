@@ -1,0 +1,84 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 78,
+  "episode_instruction": "Go through the dining room, past the table. Turn right and go through the door onto the patio. Continue straight across the patio and wait at the door. ",
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 13.403729438781738,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 100,
+  "effective_steps": 99,
+  "corrections": 0,
+  "deviations": 0,
+  "intervened": false,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 29,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "Go through the dining room, past the table. Turn right and go through the door onto the patio. Continue straight across the patio and wait at the door. ",
+  "termination_reason": "global_stop",
+  "phase_steps": {
+    "normal": 99,
+    "rollback": 0,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 1,
+    "governor_stop": 0
+  },
+  "action_counts": {
+    "STOP": 1,
+    "MOVE_FORWARD": 61,
+    "TURN_LEFT": 11,
+    "TURN_RIGHT": 27,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 1,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 15.250394254922867,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "Completed: None. Currently: Agent is facing forward in a hallway with multiple arched doorways and tiled floors, having moved past the initial dining room area and turned right as instructed. Remaining: Turn right and go through the door onto the patio, continue straight across the patio and wait at the door. Uncertain: Whether the patio door has been reached or passed; no visual evidence confirms entry onto the patio or completion of the turn to face it."
+    },
+    {
+      "start": 17,
+      "end": 32,
+      "text": "Completed: None. Currently: Agent is inside the dining room, facing forward toward the far end where a large table is visible, having turned left from the hallway. Remaining: Turn right and go through the door onto the patio, continue straight across the patio and wait at the door. Uncertain: Whether the patio door was reached or passed in prior frames; no visual evidence confirms entry onto the patio or completion of the turn to face it. Prior turn actions (e.g., 8 right turns) were likely misaligned with the patio direction, as the agent is now back in the dining room."
+    },
+    {
+      "start": 33,
+      "end": 48,
+      "text": "Completed: None. Currently: Agent is inside the dining room, having turned left from the hallway and moved forward, now facing toward the left side of the room where a large wooden door is visible — indicating a return to the dining room area after prior misalignment. Remaining: Turn right and go through the door onto the patio, continue straight across the patio and wait at the door. Uncertain: Whether the patio door was reached or passed in prior frames; no visual evidence confirms entry onto the patio or completion of the turn to face it. Prior turn actions were misaligned, and the agent has not yet turned right toward the patio direction."
+    },
+    {
+      "start": 49,
+      "end": 64,
+      "text": "Completed: None. Currently: Agent is inside a large, wood-paneled room with a fireplace and arched doorways, having moved forward from a previous position and turned right to face the direction of a glass door visible at the far right. Remaining: Turn right and go through the door onto the patio, continue straight across the patio and wait at the door. Uncertain: Whether the patio door was reached or passed in prior frames; no visual evidence confirms entry onto the patio or completion of the turn to face it. Prior turn actions were misaligned, and the agent has not yet turned right toward the patio direction."
+    },
+    {
+      "start": 65,
+      "end": 80,
+      "text": "Completed: None. Currently: Agent is inside a large, wood-paneled room with a fireplace and arched doorways, facing toward a set of glass doors that open into a billiard room with a pool table visible beyond. The agent has not yet turned right toward the patio direction as required. Remaining: Turn right and go through the door onto the patio, continue straight across the patio and wait at the door. Uncertain: Whether the patio door was reached or passed in prior frames; no visual evidence confirms entry onto the patio or completion of the turn to face it. Prior turn actions were misaligned, and the agent has not yet turned right toward the patio direction."
+    },
+    {
+      "start": 81,
+      "end": 96,
+      "text": "Completed: None. Currently: Agent is inside a billiard room with a pool table and large arched windows, facing toward a set of glass doors that open to an outdoor patio. The agent has not yet turned right toward the patio direction as required. Remaining: Turn right and go through the door onto the patio, continue straight across the patio and wait at the door. Uncertain: Whether the patio door was reached or passed in prior frames; no visual evidence confirms entry onto the patio or completion of the turn to face it. Prior turn actions were misaligned, and the agent has not yet turned right toward the patio direction."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "unintervened/failure",
+  "baseline": {
+    "success": 0.0,
+    "spl": 0.0,
+    "os": 0.0,
+    "ne": 13.403729438781738
+  },
+  "artifact_dir": "unintervened/failure/2azQ1b91cZZ_78_93c0bded6cb0"
+}

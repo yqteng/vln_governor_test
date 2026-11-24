@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 16,
+  "success": 1.0,
+  "spl": 1.0,
+  "os": 1.0,
+  "ne": 0.2444125860929489,
+  "steps": 51,
+  "episode_instruction": "turn round and walk past the billiard table, walk straight on, stop by the window. ",
+  "final_instruction": "turn round and walk past the billiard table, walk straight on, stop by the window. ",
+  "num_rewrites": 0
+}

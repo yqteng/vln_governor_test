@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 117,
+  "success": 1.0,
+  "spl": 0.8814027198158824,
+  "os": 1.0,
+  "ne": 0.19617827236652374,
+  "steps": 61,
+  "episode_instruction": "Walk from closet into bedroom. Turn left into bathroom. Wait on bathroom mat. ",
+  "final_instruction": "Walk from closet into bedroom. Turn left into bathroom. Wait on bathroom mat. ",
+  "num_rewrites": 0
+}

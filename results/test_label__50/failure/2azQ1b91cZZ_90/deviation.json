@@ -1,0 +1,36 @@
+{
+  "instruction": "Walk into the dining area and make a right when you get to the end of the table. Walk down the hall and stand in front of the door of the dining room at the end of the hall. ",
+  "baseline_result": "failure",
+  "vlm_result": "偏航",
+  "first_bad_segment": "S2",
+  "first_bad_steps": [
+    19,
+    55
+  ],
+  "reason": "The instruction requires entering the dining area, reaching the table end, then turning right into the hall before approaching the destination door. S1 approaches the dining entrance, with F18 showing its carved doorway, so its approach turn alone does not establish the previously claimed violation. In S2, the measured route proceeds south toward the north end of confirmed dining table O8, then bends east, movement-relative left, into the adjoining sofa-and-fireplace sitting area shown in F36, F43, and F52 rather than continuing along the table to the required right turn. The mapped table footprint, sustained eastward displacement, and occupied sitting-room foreground establish this incompatible branch within S2. S3 and S4 subsequently lead toward the circular-rug foyer visible in F95 and F96, but do not erase the earlier deviation; the earlier S1 onset is therefore revised to S2.",
+  "reviewed_to_step": 96,
+  "total_steps": 100,
+  "unreviewed_tail": [
+    97,
+    100
+  ],
+  "evidence_segments_at_review": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+  ],
+  "evidence_frames": [
+    "F18",
+    "F27",
+    "F36",
+    "F43",
+    "F52",
+    "F95",
+    "F96"
+  ],
+  "evidence_objects": [
+    "O8"
+  ],
+  "action_limit_truncated": true
+}

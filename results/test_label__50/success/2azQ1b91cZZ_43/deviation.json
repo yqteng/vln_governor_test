@@ -1,0 +1,43 @@
+{
+  "instruction": "Go into the kitchen area. Turn left. Take the first right into the dining area. Walk past the dining table. Stop left of the tall lamp with a white lampshade. ",
+  "baseline_result": "success",
+  "vlm_result": "偏航",
+  "first_bad_segment": "S6",
+  "first_bad_steps": [
+    64,
+    96
+  ],
+  "reason": "The instruction requires entering the kitchen, turning left, taking the first right into the dining area, passing the dining table, and stopping left of the specified white-shaded lamp. The measured turns and observations in S2–S5 remain compatible with the kitchen-to-dining sequence, approaching O14 beside the sideboard carrying O13. In S6, the route reaches only the near end of O14, then moves back toward decreasing z and across its near side toward increasing x instead of continuing past the table. F74 and F82–F93, together with the continuous mapped trace, establish departure into the adjoining fireplace seating area toward the separate lamp O17. This sustains the earlier S6 deviation finding with stronger later evidence; it does not depend on an inferred STOP or on treating room-similarity labels as boundaries.",
+  "reviewed_to_step": 96,
+  "total_steps": 100,
+  "unreviewed_tail": [
+    97,
+    100
+  ],
+  "evidence_segments_at_review": [
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6"
+  ],
+  "evidence_frames": [
+    "F15",
+    "F17",
+    "F28",
+    "F48",
+    "F49",
+    "F55",
+    "F62",
+    "F74",
+    "F82",
+    "F90",
+    "F93"
+  ],
+  "evidence_objects": [
+    "O13",
+    "O14",
+    "O17"
+  ],
+  "action_limit_truncated": true
+}

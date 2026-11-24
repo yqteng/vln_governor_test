@@ -1,0 +1,59 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 178,
+  "episode_instruction": "go trough the doorway and take a hard left then walk straight towards the archway and then keep going until you are under the archway and then stop. ",
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 8.99406909942627,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 27,
+  "effective_steps": 26,
+  "corrections": 0,
+  "deviations": 0,
+  "intervened": true,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 10,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "go trough the doorway and take a hard left then walk straight towards the archway and then keep going until you are under the archway and then stop. ",
+  "termination_reason": "governor_stop",
+  "phase_steps": {
+    "normal": 26,
+    "rollback": 0,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 0,
+    "governor_stop": 1
+  },
+  "action_counts": {
+    "STOP": 1,
+    "MOVE_FORWARD": 23,
+    "TURN_LEFT": 1,
+    "TURN_RIGHT": 2,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 0,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 5.750004023313522,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "Completed: Go through the doorway and take a hard left. Currently: Walking straight toward the archway, positioned directly under its center. Remaining: Stop under the archway. Uncertain: None; the archway is clearly visible and centered in the view, confirming alignment with the final stopping point."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "intervened/failure_to_failure",
+  "baseline": {
+    "success": 0.0,
+    "spl": 0.0,
+    "os": 0.0,
+    "ne": 16.270801544189453
+  },
+  "artifact_dir": "intervened/failure_to_failure/2azQ1b91cZZ_178_8479ff61db98"
+}

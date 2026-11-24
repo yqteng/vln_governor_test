@@ -1,0 +1,60 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 10,
+  "episode_instruction": "Walk into the living room and keep walking straight past the living room. Then walk into the entrance under the balcony. Wait in the entrance to the other room. ",
+  "steps": 46,
+  "effective_steps": 46,
+  "num_rewrites": 0,
+  "corrections": 1,
+  "deviations": 0,
+  "blockage_recoveries": 0,
+  "stop_returns": 0,
+  "stop_rejections": 1,
+  "max_task_depth": 0,
+  "point_runs": 0,
+  "point_completed": 0,
+  "correction_images": [
+    "correction_images/2azQ1b91cZZ_10_90da4c0cfcf1_step_0046_effective_0046_correction_001_attempt_1.png",
+    "correction_images/2azQ1b91cZZ_10_90da4c0cfcf1_step_0046_effective_0046_correction_001_attempt_2.png"
+  ],
+  "final_instruction": "Walk into the living room and keep walking straight past the living room. Then walk into the entrance under the balcony. Wait in the entrance to the other room. ",
+  "termination_reason": "rejected_stop_recovery_failed",
+  "summaries": [
+    {
+      "start": 0,
+      "end": 16,
+      "text": "The robot has walked straight through the living room and is now approaching the entrance under the balcony. The next step is to enter the entrance under the balcony and wait there.",
+      "grounding": "The robot has moved from the living room (visible in state 0) through the arched doorway into a corridor (visible in state 16). The corridor leads to the entrance under the balcony, which is the next target. The transition from the living room to the corridor is confirmed by the change in perspective and the disappearance of living room furniture.",
+      "anchor_steps": [
+        0,
+        16
+      ],
+      "anchor_source": "vlm"
+    },
+    {
+      "start": 16,
+      "end": 32,
+      "text": "The robot has entered a large, ornate hallway with arched doorways and a decorative tiled floor. It has not yet reached the entrance under the balcony, as the target is not visible in the current view. The robot must continue forward to locate and enter the entrance under the balcony.",
+      "grounding": "The robot has moved from state 16 (a corridor with wooden paneling and arched doorway) into state 29 (a large, circular hallway with arched doorways and a decorative floor). The transition is confirmed by the change in perspective and the appearance of new architectural features. The entrance under the balcony is not visible in any of the provided images, so the robot has not yet reached it.",
+      "anchor_steps": [
+        16,
+        32
+      ],
+      "anchor_source": "vlm"
+    }
+  ],
+  "intervened": true,
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 1.0,
+  "ne": 3.368576765060425,
+  "category": "intervened/failure_to_failure",
+  "baseline": {
+    "success": 0.0,
+    "spl": 0.0,
+    "os": 1.0,
+    "ne": 3.368576765060425
+  },
+  "version": "governor_clean_remake_14_single_stop_decision",
+  "correction_mode": "point"
+}

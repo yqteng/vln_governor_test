@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 10,
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 1.0,
+  "ne": 3.368576765060425,
+  "steps": 46,
+  "episode_instruction": "Walk into the living room and keep walking straight past the living room. Then walk into the entrance under the balcony. Wait in the entrance to the other room. ",
+  "final_instruction": "Walk into the living room and keep walking straight past the living room. Then walk into the entrance under the balcony. Wait in the entrance to the other room. ",
+  "num_rewrites": 0
+}

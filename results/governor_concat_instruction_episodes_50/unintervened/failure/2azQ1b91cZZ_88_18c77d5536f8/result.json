@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 88,
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 13.3302583694458,
+  "steps": 78,
+  "episode_instruction": "Go through the wooden doors to the dining area. Walk past the dining table to the glass and wood doors beyond. Turn right and go through the doors to the vestibule. Stop at the doors leading to a second dining area. ",
+  "final_instruction": "Go through the wooden doors to the dining area. Walk past the dining table to the glass and wood doors beyond. Turn right and go through the doors to the vestibule. Stop at the doors leading to a second dining area. ",
+  "num_rewrites": 0
+}

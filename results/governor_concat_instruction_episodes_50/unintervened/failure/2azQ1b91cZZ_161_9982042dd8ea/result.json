@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 161,
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 11.053252220153809,
+  "steps": 50,
+  "episode_instruction": "Go to the 4 panel window\r\nGo to the gold rug\r\nGo to the white rug\r\nGo to the third chair on the left\r\nGo to the electrical receptacle. ",
+  "final_instruction": "Go to the 4 panel window\r\nGo to the gold rug\r\nGo to the white rug\r\nGo to the third chair on the left\r\nGo to the electrical receptacle. ",
+  "num_rewrites": 0
+}

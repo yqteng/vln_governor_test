@@ -1,0 +1,60 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 43,
+  "episode_instruction": "Go into the kitchen area. Turn left. Take the first right into the dining area. Walk past the dining table. Stop left of the tall lamp with a white lampshade. ",
+  "steps": 63,
+  "effective_steps": 46,
+  "num_rewrites": 0,
+  "corrections": 1,
+  "deviations": 1,
+  "blockage_recoveries": 0,
+  "stop_returns": 1,
+  "stop_rejections": 0,
+  "max_task_depth": 0,
+  "point_runs": 0,
+  "point_completed": 0,
+  "correction_images": [
+    "correction_images/2azQ1b91cZZ_43_f5a152cef069_step_0026_effective_0016_correction_001_attempt_1.png",
+    "correction_images/2azQ1b91cZZ_43_f5a152cef069_step_0026_effective_0016_correction_001_attempt_2.png"
+  ],
+  "final_instruction": "Go into the kitchen area. Turn left. Take the first right into the dining area. Walk past the dining table. Stop left of the tall lamp with a white lampshade. ",
+  "termination_reason": "governor_stop",
+  "summaries": [
+    {
+      "start": 0,
+      "end": 16,
+      "text": "Confirmed: Entered the kitchen area. Partial: Turned left (completed at state 7), but not yet taken the first right into the dining area. Uncertain: Whether the dining table has been passed and whether the tall lamp with a white lampshade has been reached. Current location: Inside the kitchen area, facing left toward an archway leading to the dining area. Remaining: Take the first right into the dining area, walk past the dining table, and stop left of the tall lamp with a white lampshade.",
+      "grounding": "State 6: View from the entrance of the kitchen, showing the full kitchen island and cabinets. State 16: View from inside the kitchen, facing left toward an archway leading to the dining area. The archway is visible, but the dining area and its contents (dining table, tall lamp) are not yet in view. The transition from kitchen to dining area has not been completed.",
+      "anchor_steps": [
+        6,
+        16
+      ],
+      "anchor_source": "vlm"
+    },
+    {
+      "start": 16,
+      "end": 32,
+      "text": "Confirmed: Entered the kitchen area and turned left. Partial: Took the first right into the dining area, but not yet walked past the dining table or stopped left of the tall lamp with a white lampshade. Current location: At the entrance of the dining area, facing right toward the dining table and the tall lamp with a white lampshade. Remaining: Walk past the dining table and stop left of the tall lamp with a white lampshade.",
+      "grounding": "State 16: View from inside the kitchen, facing left toward an archway leading to the dining area. State 32: View from the entrance of the dining area, facing right toward the dining table and the tall lamp with a white lampshade. The transition from kitchen to dining area has been completed, and the dining table and tall lamp are now visible. The robot is positioned at the doorway of the dining area, ready to proceed.",
+      "anchor_steps": [
+        16,
+        32
+      ],
+      "anchor_source": "vlm"
+    }
+  ],
+  "intervened": true,
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 4.543757438659668,
+  "category": "intervened/success_to_failure",
+  "baseline": {
+    "success": 1.0,
+    "spl": 0.7448287188430037,
+    "os": 1.0,
+    "ne": 2.3315653800964355
+  },
+  "version": "governor_clean_remake_14_single_stop_decision",
+  "correction_mode": "point"
+}

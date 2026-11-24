@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 139,
+  "success": 1.0,
+  "spl": 0.8912271385029003,
+  "os": 1.0,
+  "ne": 1.1122361421585083,
+  "steps": 74,
+  "episode_instruction": "GO slightly to the right and walk past the table.  You'll go into the other room, turn right and then past the big diadem circle tile, past the stairs, and then to the right.  Enter the hallway by the mirror and wait. ",
+  "final_instruction": "GO slightly to the right and walk past the table.  You'll go into the other room, turn right and then past the big diadem circle tile, past the stairs, and then to the right.  Enter the hallway by the mirror and wait. ",
+  "num_rewrites": 0
+}

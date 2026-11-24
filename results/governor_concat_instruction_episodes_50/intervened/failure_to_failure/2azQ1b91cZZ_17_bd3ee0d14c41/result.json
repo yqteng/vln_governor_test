@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 17,
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 6.744398593902588,
+  "steps": 31,
+  "episode_instruction": "Travel to the window overlooking the garden on the opposite end of the billiard room. ",
+  "final_instruction": "Travel to the window overlooking the garden on the opposite end of the billiard room. ",
+  "num_rewrites": 0
+}

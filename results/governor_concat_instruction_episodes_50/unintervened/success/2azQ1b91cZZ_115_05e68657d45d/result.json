@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 115,
+  "success": 1.0,
+  "spl": 0.8784934646437023,
+  "os": 1.0,
+  "ne": 0.13133297860622406,
+  "steps": 60,
+  "episode_instruction": "turn around and exit the closet. walk into the bedroom through the door on the right. turn left and go into the bathroom. ",
+  "final_instruction": "turn around and exit the closet. walk into the bedroom through the door on the right. turn left and go into the bathroom. ",
+  "num_rewrites": 0
+}

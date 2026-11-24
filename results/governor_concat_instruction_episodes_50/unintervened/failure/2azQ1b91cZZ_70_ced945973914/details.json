@@ -1,0 +1,74 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 70,
+  "episode_instruction": "Go through living room, through the door on the to the right, through the den, through the dining to, to the outdoor foyer. Stop before going outside. ",
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 9.648685455322266,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 68,
+  "effective_steps": 67,
+  "corrections": 0,
+  "deviations": 0,
+  "intervened": false,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 19,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "Go through living room, through the door on the to the right, through the den, through the dining to, to the outdoor foyer. Stop before going outside. ",
+  "termination_reason": "global_stop",
+  "phase_steps": {
+    "normal": 67,
+    "rollback": 0,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 1,
+    "governor_stop": 0
+  },
+  "action_counts": {
+    "STOP": 1,
+    "MOVE_FORWARD": 45,
+    "TURN_LEFT": 14,
+    "TURN_RIGHT": 8,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 7,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 10.638849653303623,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "Completed: None. Currently: Still in the living room, facing forward with no progress toward the door on the right or subsequent rooms. Remaining: Go through the door on the right, through the den, through the dining, to the outdoor foyer, and stop before going outside. Uncertain: No visual or action evidence confirms movement toward or passage through any of the required rooms or the outdoor foyer; heading and position remain unchanged from the start of this chunk."
+    },
+    {
+      "start": 17,
+      "end": 32,
+      "text": "Completed: None. Currently: Still in the living room, facing forward, with no progress toward the door on the right or subsequent rooms. Remaining: Go through the door on the right, through the den, through the dining, to the outdoor foyer, and stop before going outside. Uncertain: No visual or action evidence confirms movement toward or passage through any of the required rooms or the outdoor foyer; heading and position remain unchanged from the start of this chunk."
+    },
+    {
+      "start": 33,
+      "end": 48,
+      "text": "Completed: None. Currently: Still in the living room, facing forward, with no progress toward the door on the right or subsequent rooms. Remaining: Go through the door on the right, through the den, through the dining, to the outdoor foyer, and stop before going outside. Uncertain: No visual or action evidence confirms movement toward or passage through any of the required rooms or the outdoor foyer; heading and position remain unchanged from the start of this chunk."
+    },
+    {
+      "start": 49,
+      "end": 64,
+      "text": "Completed: None. Currently: In a hallway with arched doorways, facing a wooden door on the left (image 64). The agent has moved forward from the living room and passed through the den and dining areas, as indicated by the transition from kitchen/dining visuals to this hallway. Remaining: Go through the door on the right (now visible as open), through the den, through the dining, to the outdoor foyer, and stop before going outside. Uncertain: The agent has not yet passed through the door on the right or entered the outdoor foyer; the stop condition remains unmet. The current position is in a hallway, not the outdoor foyer."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "unintervened/failure",
+  "baseline": {
+    "success": 0.0,
+    "spl": 0.0,
+    "os": 0.0,
+    "ne": 17.047584533691406
+  },
+  "artifact_dir": "unintervened/failure/2azQ1b91cZZ_70_ced945973914"
+}

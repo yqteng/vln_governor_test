@@ -1,0 +1,28 @@
+{
+  "instruction": "Walk through double doors into the house. Continue around the dining table and through the entry way to the next room. Walk up to the couch and armchairs surrounding a coffee table. ",
+  "baseline_result": "failure",
+  "vlm_result": "未发现明确偏航",
+  "first_bad_segment": null,
+  "first_bad_steps": null,
+  "reason": "The instruction requires entry through the double doors, passage around the dining table and through the entryway, then an approach to the couch and armchairs around a coffee table. S1 moves continuously through the furnished interior; its samples show doors and seating but do not establish a wrong branch or that the required order was violated. In S2 the route continues through an opening into an adjoining room, while F44, F46 and F48 show the doorway and furniture beyond; this is compatible with the instructed progression, though it does not establish that the final approach has been completed. Map-object correspondences and room boundaries remain uncertain, so no spatial contradiction is established through step 48.",
+  "reviewed_to_step": 48,
+  "total_steps": 54,
+  "unreviewed_tail": [
+    49,
+    54
+  ],
+  "evidence_segments_at_review": [
+    "S1",
+    "S2"
+  ],
+  "evidence_frames": [
+    "F6",
+    "F18",
+    "F28",
+    "F38",
+    "F44",
+    "F46",
+    "F48"
+  ],
+  "evidence_objects": []
+}

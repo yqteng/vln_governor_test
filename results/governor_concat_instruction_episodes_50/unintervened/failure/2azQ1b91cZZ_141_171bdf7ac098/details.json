@@ -1,0 +1,69 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 141,
+  "episode_instruction": "Turn right. Go forward. Turn right at doorway. Go forward. Turn right again. Go forward and stop. ",
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 4.0348052978515625,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 58,
+  "effective_steps": 57,
+  "corrections": 0,
+  "deviations": 0,
+  "intervened": false,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 16,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "Turn right. Go forward. Turn right at doorway. Go forward. Turn right again. Go forward and stop. ",
+  "termination_reason": "global_stop",
+  "phase_steps": {
+    "normal": 57,
+    "rollback": 0,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 1,
+    "governor_stop": 0
+  },
+  "action_counts": {
+    "STOP": 1,
+    "MOVE_FORWARD": 42,
+    "TURN_LEFT": 2,
+    "TURN_RIGHT": 13,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 0,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 10.500002577900887,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "Completed: Turn right (4 actions, 60 degrees total). Currently: Facing forward after a left turn (image 8) and then a right turn (image 9), now moving forward through a hallway with arched doorways visible. Remaining: Turn right at doorway (not yet executed or confirmed), go forward, turn right again, go forward and stop. Uncertain: Whether the ‘turn right at doorway’ requirement was fulfilled during the right turn at image 9, as no clear visual evidence confirms alignment with a doorway at that point; the current heading and position suggest ongoing forward motion without a confirmed turn at a doorway."
+    },
+    {
+      "start": 17,
+      "end": 32,
+      "text": "Completed: Turn right (4 actions, 60 degrees total). Currently: Moving forward through a hallway with arched doorways, having executed a right turn at image 17 and another at image 23; the agent is now approaching a corridor with decorative wall plates and a view into a room with a bookshelf. Remaining: Turn right at doorway (not yet executed or confirmed — no visual evidence confirms a turn occurred at a doorway during the right turn at image 9 or any subsequent turn), go forward, turn right again, go forward and stop. Uncertain: Whether the ‘turn right at doorway’ requirement was fulfilled during the right turn at image 9, as no clear visual evidence confirms alignment with a doorway at that point; the current heading and position suggest ongoing forward motion without a confirmed turn at a doorway."
+    },
+    {
+      "start": 33,
+      "end": 48,
+      "text": "Completed: Turn right (4 actions, 60 degrees total), go forward (confirmed through 22 actions from image 23 to 45), turn right again (3 actions, 45 degrees total at image 45–48). Currently: Facing forward after a right turn at image 45–48, now positioned at a central foyer with arched doorways, a circular mosaic floor, and visible stairs and a wooden door. Remaining: Go forward and stop. Uncertain: Whether the ‘turn right at doorway’ requirement was fulfilled during the right turn at image 9 or any subsequent turn — no visual evidence confirms alignment with a doorway at that point; the current heading and position suggest ongoing forward motion without a confirmed turn at a doorway."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "unintervened/failure",
+  "baseline": {
+    "success": 1.0,
+    "spl": 0.954885972038327,
+    "os": 1.0,
+    "ne": 0.23557697236537933
+  },
+  "artifact_dir": "unintervened/failure/2azQ1b91cZZ_141_171bdf7ac098"
+}

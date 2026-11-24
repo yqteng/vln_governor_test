@@ -1,0 +1,38 @@
+[
+  {
+    "id": "O1",
+    "name": "sink",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O1"
+    ]
+  },
+  {
+    "id": "O2",
+    "name": "sink",
+    "floor": 1,
+    "status": "无法确认",
+    "source_ids": [
+      "O2"
+    ]
+  },
+  {
+    "id": "O3",
+    "name": "sink",
+    "floor": 1,
+    "status": "待复核",
+    "source_ids": [
+      "O3"
+    ]
+  },
+  {
+    "id": "O4",
+    "name": "sink",
+    "floor": 1,
+    "status": "待复核",
+    "source_ids": [
+      "O4"
+    ]
+  }
+]

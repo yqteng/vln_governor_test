@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 81,
+  "success": 1.0,
+  "spl": 0.9185528261168726,
+  "os": 1.0,
+  "ne": 2.97171688079834,
+  "steps": 40,
+  "episode_instruction": "Leave the bathroom and walk straight into the hallway. Go straight and enter the office in the second door on your left. ",
+  "final_instruction": "Leave the bathroom and walk straight into the hallway. Go straight and enter the office in the second door on your left. ",
+  "num_rewrites": 0
+}

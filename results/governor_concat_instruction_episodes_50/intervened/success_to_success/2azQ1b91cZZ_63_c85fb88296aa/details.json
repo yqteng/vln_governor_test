@@ -1,0 +1,69 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 63,
+  "episode_instruction": "Exit the bathroom, and take a right turn. Keep walking to the place with a clock hanging on the wall, and then make a hard left into a bedroom. Wait at the bedroom. ",
+  "success": 1.0,
+  "spl": 1.0,
+  "os": 1.0,
+  "ne": 1.59346342086792,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 51,
+  "effective_steps": 50,
+  "corrections": 0,
+  "deviations": 0,
+  "intervened": true,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 15,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "Exit the bathroom, and take a right turn. Keep walking to the place with a clock hanging on the wall, and then make a hard left into a bedroom. Wait at the bedroom. ",
+  "termination_reason": "governor_stop",
+  "phase_steps": {
+    "normal": 50,
+    "rollback": 0,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 0,
+    "governor_stop": 1
+  },
+  "action_counts": {
+    "STOP": 1,
+    "MOVE_FORWARD": 30,
+    "TURN_LEFT": 8,
+    "TURN_RIGHT": 12,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 0,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 7.500003755092621,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "Completed: Exit bathroom. Currently: Facing down a hallway after a series of turns and forward movements; no clock or bedroom entrance is visible or confirmed. Remaining: Walk to the wall-clock location, make a hard left into the bedroom, and wait. Uncertain: Whether the right turn was correctly executed to align with the clock direction; no clock is visible in the current view or prior frames to confirm progress toward it."
+    },
+    {
+      "start": 17,
+      "end": 32,
+      "text": "Completed: Exit bathroom. Currently: At the wall-clock location, having walked past it after approaching and confirming its presence. Remaining: Make a hard left into the bedroom and wait. Uncertain: Whether the initial right turn was correctly executed to align with the clock direction; no visual evidence of the bedroom entrance or entry has been confirmed yet."
+    },
+    {
+      "start": 33,
+      "end": 48,
+      "text": "Completed: Exit bathroom, take right turn, walk to wall-clock location. Currently: At the wall-clock location, having walked past it, then made a hard left into the bedroom and entered. Remaining: Wait at the bedroom. Uncertain: None; all required turns and landmark passages are confirmed by visual and action evidence."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "intervened/success_to_success",
+  "baseline": {
+    "success": 1.0,
+    "spl": 1.0,
+    "os": 1.0,
+    "ne": 1.105259656906128
+  },
+  "artifact_dir": "intervened/success_to_success/2azQ1b91cZZ_63_c85fb88296aa"
+}

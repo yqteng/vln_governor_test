@@ -1,0 +1,69 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 214,
+  "episode_instruction": "Walk through the open door into the hallway. Move diagonally to the right to the archway next to the bureau and wall mirror. Walk down the small arched corridor and enter the bedroom with a fireplace. Wait by the bed on the left and the open door on the right. ",
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 1.0,
+  "ne": 4.646770477294922,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 60,
+  "effective_steps": 59,
+  "corrections": 0,
+  "deviations": 0,
+  "intervened": false,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 17,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "Walk through the open door into the hallway. Move diagonally to the right to the archway next to the bureau and wall mirror. Walk down the small arched corridor and enter the bedroom with a fireplace. Wait by the bed on the left and the open door on the right. ",
+  "termination_reason": "global_stop",
+  "phase_steps": {
+    "normal": 59,
+    "rollback": 0,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 1,
+    "governor_stop": 0
+  },
+  "action_counts": {
+    "STOP": 1,
+    "MOVE_FORWARD": 34,
+    "TURN_LEFT": 11,
+    "TURN_RIGHT": 14,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 1,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 8.47422131896019,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "Completed: Walk through the open door into the hallway. Currently: Positioned in the hallway, facing the archway area with a visible bureau and wall mirror to the right. Remaining: Walk down the small arched corridor and enter the bedroom with a fireplace. Wait by the bed on the left and the open door on the right. Uncertain: Whether the archway is the target archway next to the bureau and wall mirror as instructed, since the visual evidence does not confirm the presence of a bureau or wall mirror at this location yet."
+    },
+    {
+      "start": 17,
+      "end": 32,
+      "text": "Completed: Walk through the open door into the hallway. Currently: Positioned at the end of the hallway, facing a room with a bureau and wall mirror visible through an archway; the archway is now confirmed as the target archway next to the bureau and wall mirror. Remaining: Walk down the small arched corridor and enter the bedroom with a fireplace. Wait by the bed on the left and the open door on the right. Uncertain: None."
+    },
+    {
+      "start": 33,
+      "end": 48,
+      "text": "Completed: Walk through the open door into the hallway. Move diagonally to the right to the archway next to the bureau and wall mirror. Currently: Positioned at the entrance of the bedroom, having passed through the archway and entered the room; visible furniture includes a wooden dresser and wardrobe, with no fireplace yet seen. Remaining: Enter the bedroom with a fireplace. Wait by the bed on the left and the open door on the right. Uncertain: Whether the fireplace is present in this bedroom, as it is not visible in the current view; the instruction requires entering the bedroom with a fireplace, so its presence must be confirmed before marking that step as complete."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "unintervened/failure",
+  "baseline": {
+    "success": 0.0,
+    "spl": 0.0,
+    "os": 1.0,
+    "ne": 4.646770477294922
+  },
+  "artifact_dir": "unintervened/failure/2azQ1b91cZZ_214_f0ce9424b926"
+}

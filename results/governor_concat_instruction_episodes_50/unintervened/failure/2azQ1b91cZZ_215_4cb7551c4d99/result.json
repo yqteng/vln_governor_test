@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 215,
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 1.0,
+  "ne": 3.961282253265381,
+  "steps": 45,
+  "episode_instruction": "Walk through the doorway into the hall.  Cross the hall and enter the door to the right of the Curtis Wilson Cost painting that is hanging on the wall. Walk past the drawers and shelves and wait. ",
+  "final_instruction": "Walk through the doorway into the hall.  Cross the hall and enter the door to the right of the Curtis Wilson Cost painting that is hanging on the wall. Walk past the drawers and shelves and wait. ",
+  "num_rewrites": 0
+}

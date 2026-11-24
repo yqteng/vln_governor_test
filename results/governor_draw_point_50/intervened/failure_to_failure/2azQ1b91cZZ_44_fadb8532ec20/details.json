@@ -1,0 +1,82 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 44,
+  "episode_instruction": "Walk down the hallway through the arched doorway. Walk into the kitchen area. Walk through the doorway into teh dining room area passing by the stove. Walk into the living room are towards the fireplace stopping near the couches. ",
+  "steps": 73,
+  "effective_steps": 73,
+  "num_rewrites": 0,
+  "corrections": 1,
+  "deviations": 0,
+  "blockage_recoveries": 0,
+  "stop_returns": 0,
+  "stop_rejections": 1,
+  "max_task_depth": 0,
+  "point_runs": 0,
+  "point_completed": 0,
+  "correction_images": [
+    "correction_images/2azQ1b91cZZ_44_fadb8532ec20_step_0073_effective_0073_correction_001_attempt_1.png",
+    "correction_images/2azQ1b91cZZ_44_fadb8532ec20_step_0073_effective_0073_correction_001_attempt_2.png"
+  ],
+  "final_instruction": "Walk down the hallway through the arched doorway. Walk into the kitchen area. Walk through the doorway into teh dining room area passing by the stove. Walk into the living room are towards the fireplace stopping near the couches. ",
+  "termination_reason": "rejected_stop_recovery_failed",
+  "summaries": [
+    {
+      "start": 0,
+      "end": 16,
+      "text": "Walked down the hallway through the arched doorway and into the kitchen area. Now facing the dining room area, but not yet passed by the stove or entered the living room towards the fireplace near the couches.",
+      "grounding": "State 0: View through arched doorway into kitchen. State 16: Kitchen view with dining room visible through archway to the right; stove not yet passed, living room not entered.",
+      "anchor_steps": [
+        0,
+        16
+      ],
+      "anchor_source": "vlm"
+    },
+    {
+      "start": 16,
+      "end": 32,
+      "text": "Walked through the kitchen area and into the dining room area, passing by the stove. Now facing the dining room with the table and chairs visible through the arched doorway. Not yet entered the living room towards the fireplace near the couches.",
+      "grounding": "State 16: Kitchen view with dining room visible through archway to the right; stove not yet passed, living room not entered. State 32: View through arched doorway into dining room with table and chairs visible; stove passed, living room not entered.",
+      "anchor_steps": [
+        16,
+        32
+      ],
+      "anchor_source": "vlm"
+    },
+    {
+      "start": 32,
+      "end": 48,
+      "text": "Walked into the dining room area and passed by the stove. Now inside the dining room, facing the doorway that leads to the living room. Not yet entered the living room towards the fireplace near the couches.",
+      "grounding": "State 32: View through arched doorway into dining room with table and chairs visible. State 48: Inside dining room, facing the doorway leading to the living room; stove passed, living room not entered.",
+      "anchor_steps": [
+        32,
+        48
+      ],
+      "anchor_source": "vlm"
+    },
+    {
+      "start": 48,
+      "end": 64,
+      "text": "Walked into the dining room and passed by the stove. Now inside the dining room, facing the doorway that leads to the living room. Not yet entered the living room towards the fireplace near the couches.",
+      "grounding": "State 48: Inside dining room, facing the doorway leading to the living room; stove passed, living room not entered. State 64: View focused on windows within the dining room; no visible transition to living room or fireplace; living room not entered.",
+      "anchor_steps": [
+        48,
+        64
+      ],
+      "anchor_source": "vlm"
+    }
+  ],
+  "intervened": true,
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 11.519155502319336,
+  "category": "intervened/failure_to_failure",
+  "baseline": {
+    "success": 0.0,
+    "spl": 0.0,
+    "os": 0.0,
+    "ne": 11.519155502319336
+  },
+  "version": "governor_clean_remake_14_single_stop_decision",
+  "correction_mode": "point"
+}

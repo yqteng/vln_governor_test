@@ -1,0 +1,35 @@
+{
+  "instruction": "Walk down the hallway and walk into the kitchen and take a left at the island counter into the hallway and take a right into the dining room and walk through the dining room into the living room and stop nest to the edge of the couch  behind the end table. ",
+  "baseline_result": "failure",
+  "vlm_result": "偏航",
+  "first_bad_segment": "S3",
+  "first_bad_steps": [
+    38,
+    45
+  ],
+  "reason": "The instruction requires entering the kitchen, turning left at the island counter into the hallway, then turning right into the dining room before continuing to the living room. S1 and S2 show the route approaching and passing the confirmed kitchen island O4, while F14, F21, F29, and F34 establish the kitchen context. In S3, the measured trace proceeds through the southern opening into the dining-room area, and F39, F40, F42, and F43 show the bay-windowed dining furniture after that crossing rather than evidence of the required hallway turn sequence. The incompatible branch is therefore first reliably established in S3; later movement toward the living room does not erase that earlier deviation.",
+  "reviewed_to_step": 64,
+  "total_steps": 68,
+  "unreviewed_tail": [
+    65,
+    68
+  ],
+  "evidence_segments_at_review": [
+    "S1",
+    "S2",
+    "S3"
+  ],
+  "evidence_frames": [
+    "F14",
+    "F21",
+    "F29",
+    "F34",
+    "F39",
+    "F40",
+    "F42",
+    "F43"
+  ],
+  "evidence_objects": [
+    "O4"
+  ]
+}

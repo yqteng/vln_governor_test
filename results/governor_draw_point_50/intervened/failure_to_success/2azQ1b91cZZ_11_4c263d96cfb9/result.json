@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 11,
+  "success": 1.0,
+  "spl": 1.0,
+  "os": 1.0,
+  "ne": 1.8630832433700562,
+  "steps": 24,
+  "episode_instruction": "Walk across the floor and wait the archway. ",
+  "final_instruction": "Walk across the floor and wait the archway. ",
+  "num_rewrites": 0
+}

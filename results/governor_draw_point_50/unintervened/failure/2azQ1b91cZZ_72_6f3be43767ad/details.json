@@ -1,0 +1,101 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 72,
+  "episode_instruction": "leave sitting room and head towards the kitchen, turn right at living room and enter. walk through living room to dinning room and enter. Turn left and head to front door. Exit the house and stop on porch. ",
+  "steps": 100,
+  "effective_steps": 100,
+  "num_rewrites": 0,
+  "corrections": 0,
+  "deviations": 0,
+  "blockage_recoveries": 0,
+  "stop_returns": 0,
+  "stop_rejections": 0,
+  "max_task_depth": 0,
+  "point_runs": 0,
+  "point_completed": 0,
+  "correction_images": [],
+  "final_instruction": "leave sitting room and head towards the kitchen, turn right at living room and enter. walk through living room to dinning room and enter. Turn left and head to front door. Exit the house and stop on porch. ",
+  "termination_reason": "max_steps",
+  "summaries": [
+    {
+      "start": 0,
+      "end": 16,
+      "text": "The robot has completed leaving the sitting room and heading towards the kitchen, but has not yet turned right at the living room or entered it. It remains in the living room and has not progressed to the dining room or front door.",
+      "grounding": "The robot is still in the living room, as evidenced by the consistent view of the fireplace, couch, and kitchen doorway visible in states 6 through 16. The instruction to turn right at the living room and enter has not been fulfilled, and the robot has not moved toward the dining room or front door.",
+      "anchor_steps": [
+        6,
+        16
+      ],
+      "anchor_source": "vlm"
+    },
+    {
+      "start": 16,
+      "end": 32,
+      "text": "The robot has entered the dining room and is now positioned near the front door, having completed the task of walking through the living room to the dining room and entering. It has not yet turned left to head to the front door or exited the house.",
+      "grounding": "The robot is inside the dining room, as evidenced by the visible dining table and chairs in states 29-32. The transition from the living room to the dining room is confirmed by the change in perspective and visible furniture. The front door is visible in state 30, but the robot has not yet turned left or exited the house.",
+      "anchor_steps": [
+        26,
+        32
+      ],
+      "anchor_source": "vlm"
+    },
+    {
+      "start": 32,
+      "end": 48,
+      "text": "The robot has turned left and is now walking through the hallway toward the living room and kitchen area. It has not yet reached the front door or exited the house. The instruction to turn left and head to the front door remains incomplete.",
+      "grounding": "The robot is moving through a hallway with arched doorways and wooden beams, visible in states 32-48. The hallway leads to a living room and kitchen area, as evidenced by the furniture and kitchen cabinetry visible in state 48. The front door is not visible in this interval, and the robot has not yet turned left toward it. The robot is still in the hallway, approaching the living room area, but has not reached the front door or exited the house.",
+      "anchor_steps": [
+        32,
+        48
+      ],
+      "anchor_source": "vlm"
+    },
+    {
+      "start": 48,
+      "end": 64,
+      "text": "The robot has turned left and is now positioned at the front door, having completed the task of turning left and heading to the front door. It has not yet exited the house or stopped on the porch.",
+      "grounding": "The robot is now at the front door, as evidenced by the visible wooden arched door in states 62-64. The transition from the hallway to the front door is confirmed by the change in perspective and visible door structure. The robot has not yet exited the house or stopped on the porch.",
+      "anchor_steps": [
+        48,
+        64
+      ],
+      "anchor_source": "vlm"
+    },
+    {
+      "start": 64,
+      "end": 80,
+      "text": "The robot has turned left and is now positioned at the front door, having completed the task of turning left and heading to the front door. It has not yet exited the house or stopped on the porch.",
+      "grounding": "The robot is at the front door, as evidenced by the visible wooden arched door in states 62-64. The transition from the hallway to the front door is confirmed by the change in perspective and visible door structure. The robot has not yet exited the house or stopped on the porch.",
+      "anchor_steps": [
+        64,
+        80
+      ],
+      "anchor_source": "vlm"
+    },
+    {
+      "start": 80,
+      "end": 96,
+      "text": "The robot has turned left and is now positioned at the front door, having completed the task of turning left and heading to the front door. It has not yet exited the house or stopped on the porch.",
+      "grounding": "The robot is at the front door, as evidenced by the visible wooden arched door in states 62-64. The transition from the hallway to the front door is confirmed by the change in perspective and visible door structure. The robot has not yet exited the house or stopped on the porch.",
+      "anchor_steps": [
+        80,
+        96
+      ],
+      "anchor_source": "vlm"
+    }
+  ],
+  "intervened": false,
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 12.654642105102539,
+  "category": "unintervened/failure",
+  "baseline": {
+    "success": 0.0,
+    "spl": 0.0,
+    "os": 0.0,
+    "ne": 16.887231826782227
+  },
+  "version": "governor_clean_remake_14_single_stop_decision",
+  "correction_mode": "point"
+}

@@ -1,0 +1,64 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 12,
+  "episode_instruction": "Move forward to the doorway on the opposite side of the hall.  Stop in the archway. ",
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 1.0,
+  "ne": 3.6296331882476807,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 46,
+  "effective_steps": 45,
+  "corrections": 0,
+  "deviations": 0,
+  "intervened": false,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 12,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "Move forward to the doorway on the opposite side of the hall.  Stop in the archway. ",
+  "termination_reason": "global_stop",
+  "phase_steps": {
+    "normal": 45,
+    "rollback": 0,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 1,
+    "governor_stop": 0
+  },
+  "action_counts": {
+    "STOP": 1,
+    "MOVE_FORWARD": 43,
+    "TURN_LEFT": 1,
+    "TURN_RIGHT": 1,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 0,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 10.75000011920929,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "The agent has progressed forward through a wood-paneled hall, passing ornate archways and approaching a final arched doorway at the far end. The target doorway is now visible through the archway at image 16. No stop has been executed in the archway. The route requirement to stop in the archway remains unresolved."
+    },
+    {
+      "start": 17,
+      "end": 32,
+      "text": "From frame 16 to 32, the agent moves forward through a wooden arched doorway into a circular room with a tiled floor and decorative inlay. The target doorway is passed and now visible within the room. The agent has not stopped in the archway. The route requirement to stop in the archway remains unresolved."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "unintervened/failure",
+  "baseline": {
+    "success": 0.0,
+    "spl": 0.0,
+    "os": 1.0,
+    "ne": 3.6296331882476807
+  },
+  "artifact_dir": "unintervened/failure/2azQ1b91cZZ_12_5a65d2e7135a"
+}

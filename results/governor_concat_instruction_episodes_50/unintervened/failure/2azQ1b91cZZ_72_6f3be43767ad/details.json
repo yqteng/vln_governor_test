@@ -1,0 +1,84 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 72,
+  "episode_instruction": "leave sitting room and head towards the kitchen, turn right at living room and enter. walk through living room to dinning room and enter. Turn left and head to front door. Exit the house and stop on porch. ",
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 10.336189270019531,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 100,
+  "effective_steps": 100,
+  "corrections": 0,
+  "deviations": 0,
+  "intervened": false,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 22,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "leave sitting room and head towards the kitchen, turn right at living room and enter. walk through living room to dinning room and enter. Turn left and head to front door. Exit the house and stop on porch. ",
+  "termination_reason": "environment_limit",
+  "phase_steps": {
+    "normal": 100,
+    "rollback": 0,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 0,
+    "governor_stop": 0
+  },
+  "action_counts": {
+    "STOP": 0,
+    "MOVE_FORWARD": 55,
+    "TURN_LEFT": 29,
+    "TURN_RIGHT": 16,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 7,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 12.960310637950897,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "Completed: None. Currently: Agent has turned left six times (90 degrees total) and moved forward three times, then turned right three times (90 degrees total) and moved forward four times, remaining in the living room with view toward kitchen and fireplace. Remaining: Leave sitting room and head towards the kitchen, turn right at living room and enter, walk through living room to dining room and enter, turn left and head to front door, exit the house and stop on porch. Uncertain: Whether the turn right at living room and enter was completed as a directional change toward the dining room, since the agent is still in the living room and no dining room entry has occurred; the instruction’s ambiguity about turning right at living room while already in it remains unresolved."
+    },
+    {
+      "start": 17,
+      "end": 32,
+      "text": "Completed: None. Currently: Agent is positioned in the living room, facing directly into the kitchen through an arched doorway, having moved forward progressively toward the kitchen entrance. Remaining: Turn right at living room and enter, walk through living room to dining room and enter, turn left and head to front door, exit the house and stop on porch. Uncertain: Whether the turn right at living room and enter was completed as a directional change toward the dining room, since the agent is still in the living room and no dining room entry has occurred; the instruction’s ambiguity about turning right at living room while already in it remains unresolved."
+    },
+    {
+      "start": 33,
+      "end": 48,
+      "text": "Completed: None. Currently: Agent has moved forward into the kitchen, passing through the arched doorway and approaching the stove, with view now oriented toward the hallway leading to the dining room and front door. Remaining: Walk through living room to dining room and enter, turn left and head to front door, exit the house and stop on porch. Uncertain: Whether the turn right at living room and enter was completed as a directional change toward the dining room, since the agent is now in the kitchen and no dining room entry has occurred; the instruction’s ambiguity about turning right at living room while already in it remains unresolved."
+    },
+    {
+      "start": 49,
+      "end": 64,
+      "text": "Completed: None. Currently: Agent is in the hallway, having moved forward from the kitchen and passed through the arched doorway into a corridor leading toward the front door; view is oriented toward the hallway’s end where the front door is visible. Remaining: Turn left and head to front door, exit the house and stop on porch. Uncertain: Whether the earlier instruction to turn right at living room and enter was completed, as the agent is no longer in the living room and the dining room has not been entered; the instruction’s ambiguity remains unresolved, but the current heading toward the front door is consistent with the final steps of the route."
+    },
+    {
+      "start": 65,
+      "end": 80,
+      "text": "Completed: None. Currently: Agent is in the hallway, facing the front door which is now directly in view and centered in the frame after a series of turns and forward movements. Remaining: Exit the house and stop on porch. Uncertain: Whether the earlier instruction to turn right at living room and enter was completed, as the agent is no longer in the living room and the dining room has not been entered; the instruction’s ambiguity remains unresolved, but the current heading toward the front door is consistent with the final steps of the route."
+    },
+    {
+      "start": 81,
+      "end": 96,
+      "text": "Completed: None. Currently: Agent is in the hallway, facing the front door which is now directly in view and centered in the frame after a series of turns and forward movements. Remaining: Exit the house and stop on porch. Uncertain: Whether the earlier instruction to turn right at living room and enter was completed, as the agent is no longer in the living room and the dining room has not been entered; the instruction’s ambiguity remains unresolved, but the current heading toward the front door is consistent with the final steps of the route."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "unintervened/failure",
+  "baseline": {
+    "success": 0.0,
+    "spl": 0.0,
+    "os": 0.0,
+    "ne": 16.887231826782227
+  },
+  "artifact_dir": "unintervened/failure/2azQ1b91cZZ_72_6f3be43767ad"
+}

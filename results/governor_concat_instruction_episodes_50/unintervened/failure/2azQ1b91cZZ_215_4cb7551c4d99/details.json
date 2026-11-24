@@ -1,0 +1,64 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 215,
+  "episode_instruction": "Walk through the doorway into the hall.  Cross the hall and enter the door to the right of the Curtis Wilson Cost painting that is hanging on the wall. Walk past the drawers and shelves and wait. ",
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 1.0,
+  "ne": 3.961282253265381,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 45,
+  "effective_steps": 44,
+  "corrections": 0,
+  "deviations": 0,
+  "intervened": false,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 13,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "Walk through the doorway into the hall.  Cross the hall and enter the door to the right of the Curtis Wilson Cost painting that is hanging on the wall. Walk past the drawers and shelves and wait. ",
+  "termination_reason": "global_stop",
+  "phase_steps": {
+    "normal": 44,
+    "rollback": 0,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 1,
+    "governor_stop": 0
+  },
+  "action_counts": {
+    "STOP": 1,
+    "MOVE_FORWARD": 31,
+    "TURN_LEFT": 3,
+    "TURN_RIGHT": 10,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 0,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 7.749999821186066,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "Completed: None. Currently: Agent is positioned directly in front of the doorway to the right of the Curtis Wilson Cost painting, having completed the required approach and orientation. Remaining: Walk through the doorway into the hall, cross the hall, walk past the drawers and shelves, and wait. Uncertain: No visual evidence confirms entry into the room beyond the doorway or passage past drawers and shelves; the agent has not yet entered the room or progressed past the visible threshold."
+    },
+    {
+      "start": 17,
+      "end": 32,
+      "text": "Completed: None. Currently: Agent is inside the room beyond the doorway to the right of the Curtis Wilson Cost painting, having entered the hall and crossed it, now positioned between the drawers and shelves. Remaining: Walk past the drawers and shelves and wait. Uncertain: No visual evidence confirms the agent has passed the drawers and shelves; the agent is currently positioned between them, and further forward progress is required to confirm passage."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "unintervened/failure",
+  "baseline": {
+    "success": 0.0,
+    "spl": 0.0,
+    "os": 1.0,
+    "ne": 4.210456848144531
+  },
+  "artifact_dir": "unintervened/failure/2azQ1b91cZZ_215_4cb7551c4d99"
+}

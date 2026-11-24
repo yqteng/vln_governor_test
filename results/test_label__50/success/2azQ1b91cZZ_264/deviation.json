@@ -1,0 +1,39 @@
+{
+  "instruction": "Exit the bedroom, turn right, walk down the hall to the bathroom across from the second window, enter the bathroom, wait at the sink. ",
+  "baseline_result": "success",
+  "vlm_result": "偏航",
+  "first_bad_segment": "S1",
+  "first_bad_steps": [
+    0,
+    7
+  ],
+  "reason": "The instruction requires exiting the bedroom, turning right, and following the hall before entering the bathroom across from the second window. In S1, the measured trace instead moves east through the adjoining bathroom doorway: F1, F3, and F4 show the approach, while F6 places the robot inside beside the confirmed vanity O11, establishing bathroom entry before the required hall traversal. S2 reverses through the bedroom, and S3 subsequently proceeds west through the passage, so that later recovery does not erase the S1 ordering violation. S7 reaches the wood-paneled shelving alcove shown in F82 and F87, but neither this endpoint nor unresolved window identities changes the earliest supported deviation; the earlier S1 finding remains supported under the current segment intervals.",
+  "reviewed_to_step": 96,
+  "total_steps": 100,
+  "unreviewed_tail": [
+    97,
+    100
+  ],
+  "evidence_segments_at_review": [
+    "S1",
+    "S2",
+    "S3",
+    "S7"
+  ],
+  "evidence_frames": [
+    "F1",
+    "F3",
+    "F4",
+    "F6",
+    "F22",
+    "F34",
+    "F39",
+    "F43",
+    "F82",
+    "F87"
+  ],
+  "evidence_objects": [
+    "O11"
+  ],
+  "action_limit_truncated": true
+}

@@ -1,0 +1,64 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 77,
+  "episode_instruction": "Walk into the  nearest open double doors to the dining area that has a cupboard and candle lamps on top. Walk passed the dining table and through the open double doors on the other side that lead outside. Walk through the next set of double doors on the other side of the front entrance and back into the home. ",
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 9.96933364868164,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 35,
+  "effective_steps": 34,
+  "corrections": 0,
+  "deviations": 0,
+  "intervened": true,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 12,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "Walk into the  nearest open double doors to the dining area that has a cupboard and candle lamps on top. Walk passed the dining table and through the open double doors on the other side that lead outside. Walk through the next set of double doors on the other side of the front entrance and back into the home. ",
+  "termination_reason": "governor_stop",
+  "phase_steps": {
+    "normal": 34,
+    "rollback": 0,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 0,
+    "governor_stop": 1
+  },
+  "action_counts": {
+    "STOP": 1,
+    "MOVE_FORWARD": 16,
+    "TURN_LEFT": 2,
+    "TURN_RIGHT": 16,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 0,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 4.000000029802322,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "Completed: Entered dining area via nearest open double doors, passed dining table, exited through double doors to outside, re-entered via front doors and returned inside. Currently: Inside the home, having passed through the front entrance double doors back into the interior hallway, heading toward a further interior destination. Remaining: No further instruction parts remain. Uncertain: None."
+    },
+    {
+      "start": 17,
+      "end": 32,
+      "text": "Completed: Entered dining area via nearest open double doors, passed dining table, exited through double doors to outside, re-entered via front doors and returned inside. Currently: Inside the dining area, having completed the full route as per instruction. Remaining: None. Uncertain: None."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "intervened/failure_to_failure",
+  "baseline": {
+    "success": 0.0,
+    "spl": 0.0,
+    "os": 0.0,
+    "ne": 13.213630676269531
+  },
+  "artifact_dir": "intervened/failure_to_failure/2azQ1b91cZZ_77_daa0d839b824"
+}

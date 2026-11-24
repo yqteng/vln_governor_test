@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 193,
+  "success": 1.0,
+  "spl": 1.0,
+  "os": 1.0,
+  "ne": 0.4715309143066406,
+  "steps": 45,
+  "episode_instruction": "Leave the laundry room and go down the hall to the right. Stop when you come into the kitchen. ",
+  "final_instruction": "Leave the laundry room and go down the hall to the right. Stop when you come into the kitchen. ",
+  "num_rewrites": 0
+}

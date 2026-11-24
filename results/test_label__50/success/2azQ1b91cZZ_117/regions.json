@@ -1,0 +1,47 @@
+[
+  {
+    "segment": "S1",
+    "name": "coat room",
+    "floor": 1,
+    "steps": [
+      0,
+      20
+    ],
+    "samples": [
+      "F0",
+      "F12",
+      "F18",
+      "F19"
+    ]
+  },
+  {
+    "segment": "S2",
+    "name": "bedroom",
+    "floor": 1,
+    "steps": [
+      20,
+      42
+    ],
+    "samples": [
+      "F26",
+      "F29",
+      "F35",
+      "F40"
+    ]
+  },
+  {
+    "segment": "S3",
+    "name": "bathroom",
+    "floor": 1,
+    "steps": [
+      42,
+      61
+    ],
+    "samples": [
+      "F49",
+      "F53",
+      "F56",
+      "F59"
+    ]
+  }
+]

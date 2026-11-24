@@ -1,0 +1,92 @@
+[
+  {
+    "segment": "S1",
+    "name": "entryway",
+    "floor": 1,
+    "steps": [
+      0,
+      27
+    ],
+    "samples": [
+      "F6",
+      "F14",
+      "F19",
+      "F25"
+    ]
+  },
+  {
+    "segment": "S2",
+    "name": "entryway",
+    "floor": 1,
+    "steps": [
+      27,
+      38
+    ],
+    "samples": [
+      "F28",
+      "F31",
+      "F34",
+      "F37"
+    ]
+  },
+  {
+    "segment": "S3",
+    "name": "entryway",
+    "floor": 1,
+    "steps": [
+      38,
+      41
+    ],
+    "samples": [
+      "F38",
+      "F39",
+      "F40",
+      "F41"
+    ]
+  },
+  {
+    "segment": "S4",
+    "name": "entryway",
+    "floor": 1,
+    "steps": [
+      41,
+      59
+    ],
+    "samples": [
+      "F43",
+      "F48",
+      "F53",
+      "F57"
+    ]
+  },
+  {
+    "segment": "S5",
+    "name": "corridor",
+    "floor": 1,
+    "steps": [
+      59,
+      65
+    ],
+    "samples": [
+      "F60",
+      "F61",
+      "F62",
+      "F63"
+    ]
+  },
+  {
+    "segment": "S6",
+    "name": "entryway",
+    "floor": 1,
+    "steps": [
+      65,
+      74
+    ],
+    "samples": [
+      "F66",
+      "F68",
+      "F69",
+      "F71"
+    ]
+  }
+]

@@ -1,0 +1,64 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 122,
+  "episode_instruction": "Walk into the kitchen.  Turn left at the kitchen island, and walk straight.  Stop in the hallway at the first entrance to the dining room. ",
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 7.9986748695373535,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 41,
+  "effective_steps": 40,
+  "corrections": 0,
+  "deviations": 0,
+  "intervened": false,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 13,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "Walk into the kitchen.  Turn left at the kitchen island, and walk straight.  Stop in the hallway at the first entrance to the dining room. ",
+  "termination_reason": "global_stop",
+  "phase_steps": {
+    "normal": 40,
+    "rollback": 0,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 1,
+    "governor_stop": 0
+  },
+  "action_counts": {
+    "STOP": 1,
+    "MOVE_FORWARD": 30,
+    "TURN_LEFT": 5,
+    "TURN_RIGHT": 5,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 1,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 7.493279337882996,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "Completed: Walk into the kitchen. Turn left at the kitchen island. Currently: Agent is facing the hallway entrance to the dining room, having completed the turn left at the island and walked straight. Remaining: Stop in the hallway at the first entrance to the dining room. Uncertain: None."
+    },
+    {
+      "start": 17,
+      "end": 32,
+      "text": "Completed: Walk into the kitchen. Turn left at the kitchen island. Currently: Agent is positioned at the threshold of the hallway entrance to the dining room, having walked straight after the turn. Remaining: Stop in the hallway at the first entrance to the dining room. Uncertain: None."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "unintervened/failure",
+  "baseline": {
+    "success": 0.0,
+    "spl": 0.0,
+    "os": 0.0,
+    "ne": 8.238435745239258
+  },
+  "artifact_dir": "unintervened/failure/2azQ1b91cZZ_122_e478bd755f34"
+}

@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 70,
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 11.085902214050293,
+  "steps": 77,
+  "episode_instruction": "Go through living room, through the door on the to the right, through the den, through the dining to, to the outdoor foyer. Stop before going outside. ",
+  "final_instruction": "Go through living room, through the door on the to the right, through the den, through the dining to, to the outdoor foyer. Stop before going outside. ",
+  "num_rewrites": 0
+}

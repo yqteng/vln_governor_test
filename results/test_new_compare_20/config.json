@@ -1,0 +1,518 @@
+{
+  "settings": {
+    "clip_python": "/home/ubuntun/miniconda3/envs/governor_map_models/bin/python",
+    "clip_model": "/mnt/disk8t1/zwm/StreamVLN/weights/clip-vit-large-patch14-336",
+    "vocab": null,
+    "local_vlm_python": "/home/ubuntun/miniconda3/envs/vlnpa/bin/python",
+    "local_vlm_model": "/mnt/disk8t1/zwm/Progress-Aware-VLN/Weights/Qwen3-VL-8B-Instruct",
+    "local_vlm_timeout": 600.0,
+    "target_max_tokens": 2048,
+    "depth_tau": 1.5,
+    "depth_strength": 1.0,
+    "depth_min_weight": 0.02,
+    "region_momentum": 0.6,
+    "region_stay_bonus": 0.0,
+    "region_fast_margin": 0.02,
+    "records_root": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records",
+    "baseline_result_path": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/result.json",
+    "success_count": 10,
+    "failure_count": 10,
+    "start_folder": null,
+    "max_steps": 100,
+    "skip_depth_comparison": false,
+    "habitat_config_path": "/mnt/disk8t1/zwm/StreamVLN/config/vln_r2r.yaml",
+    "habitat_root": "/mnt/disk8t1/zwm/Progress-Aware-VLN/habitat-lab",
+    "eval_split": "val_unseen",
+    "data_path": null,
+    "seed": 0,
+    "pixel_size": 0.025,
+    "point_stride": 1
+  },
+  "vocab": [
+    "bathroom",
+    "bedroom",
+    "closet",
+    "dining room",
+    "entryway/foyer/lobby",
+    "family room",
+    "garage",
+    "hallway",
+    "library",
+    "laundry room/mudroom",
+    "kitchen",
+    "living room",
+    "meeting room/conference room",
+    "lounge",
+    "office",
+    "porch/terrace/deck/driveway",
+    "recreation room/game room",
+    "stairs",
+    "toilet room",
+    "utility room/tool room",
+    "tv room",
+    "gym/exercise room",
+    "outdoor green area",
+    "balcony",
+    "bar",
+    "classroom",
+    "dining booth",
+    "spa/sauna"
+  ],
+  "model": "/mnt/disk8t1/zwm/StreamVLN/weights/clip-vit-large-patch14-336",
+  "jobs": [
+    {
+      "name": "2azQ1b91cZZ_16",
+      "scene": "2azQ1b91cZZ",
+      "episode_id": "16",
+      "success": true,
+      "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_16/actions.jsonl"
+    },
+    {
+      "name": "2azQ1b91cZZ_18",
+      "scene": "2azQ1b91cZZ",
+      "episode_id": "18",
+      "success": true,
+      "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_18/actions.jsonl"
+    },
+    {
+      "name": "2azQ1b91cZZ_43",
+      "scene": "2azQ1b91cZZ",
+      "episode_id": "43",
+      "success": true,
+      "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_43/actions.jsonl"
+    },
+    {
+      "name": "2azQ1b91cZZ_63",
+      "scene": "2azQ1b91cZZ",
+      "episode_id": "63",
+      "success": true,
+      "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_63/actions.jsonl"
+    },
+    {
+      "name": "2azQ1b91cZZ_79",
+      "scene": "2azQ1b91cZZ",
+      "episode_id": "79",
+      "success": true,
+      "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_79/actions.jsonl"
+    },
+    {
+      "name": "2azQ1b91cZZ_80",
+      "scene": "2azQ1b91cZZ",
+      "episode_id": "80",
+      "success": true,
+      "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_80/actions.jsonl"
+    },
+    {
+      "name": "2azQ1b91cZZ_81",
+      "scene": "2azQ1b91cZZ",
+      "episode_id": "81",
+      "success": true,
+      "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_81/actions.jsonl"
+    },
+    {
+      "name": "2azQ1b91cZZ_115",
+      "scene": "2azQ1b91cZZ",
+      "episode_id": "115",
+      "success": true,
+      "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_115/actions.jsonl"
+    },
+    {
+      "name": "2azQ1b91cZZ_116",
+      "scene": "2azQ1b91cZZ",
+      "episode_id": "116",
+      "success": true,
+      "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_116/actions.jsonl"
+    },
+    {
+      "name": "2azQ1b91cZZ_117",
+      "scene": "2azQ1b91cZZ",
+      "episode_id": "117",
+      "success": true,
+      "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_117/actions.jsonl"
+    },
+    {
+      "name": "2azQ1b91cZZ_10",
+      "scene": "2azQ1b91cZZ",
+      "episode_id": "10",
+      "success": false,
+      "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_10/actions.jsonl"
+    },
+    {
+      "name": "2azQ1b91cZZ_11",
+      "scene": "2azQ1b91cZZ",
+      "episode_id": "11",
+      "success": false,
+      "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_11/actions.jsonl"
+    },
+    {
+      "name": "2azQ1b91cZZ_12",
+      "scene": "2azQ1b91cZZ",
+      "episode_id": "12",
+      "success": false,
+      "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_12/actions.jsonl"
+    },
+    {
+      "name": "2azQ1b91cZZ_17",
+      "scene": "2azQ1b91cZZ",
+      "episode_id": "17",
+      "success": false,
+      "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_17/actions.jsonl"
+    },
+    {
+      "name": "2azQ1b91cZZ_44",
+      "scene": "2azQ1b91cZZ",
+      "episode_id": "44",
+      "success": false,
+      "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_44/actions.jsonl"
+    },
+    {
+      "name": "2azQ1b91cZZ_45",
+      "scene": "2azQ1b91cZZ",
+      "episode_id": "45",
+      "success": false,
+      "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_45/actions.jsonl"
+    },
+    {
+      "name": "2azQ1b91cZZ_61",
+      "scene": "2azQ1b91cZZ",
+      "episode_id": "61",
+      "success": false,
+      "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_61/actions.jsonl"
+    },
+    {
+      "name": "2azQ1b91cZZ_62",
+      "scene": "2azQ1b91cZZ",
+      "episode_id": "62",
+      "success": false,
+      "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_62/actions.jsonl"
+    },
+    {
+      "name": "2azQ1b91cZZ_70",
+      "scene": "2azQ1b91cZZ",
+      "episode_id": "70",
+      "success": false,
+      "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_70/actions.jsonl"
+    },
+    {
+      "name": "2azQ1b91cZZ_71",
+      "scene": "2azQ1b91cZZ",
+      "episode_id": "71",
+      "success": false,
+      "actions_file": "/mnt/disk8t1/zwm/StreamVLN/results_base/val_unseen/streamvln_baseline_full/records/2azQ1b91cZZ_71/actions.jsonl"
+    }
+  ],
+  "version": 12,
+  "computation_scope": "one_four_view_map_grouped_region_comparisons_no_bonus",
+  "execution": {
+    "gpus": [
+      "0",
+      "3"
+    ],
+    "workers": 2
+  },
+  "local_vlm_role": "instruction_targets_and_dynamic_room_heads_only",
+  "route_audit": false,
+  "base_region_definitions": [
+    {
+      "code": "a",
+      "name": "bathroom",
+      "description": "a bathroom containing a toilet and a washbasin",
+      "aliases": [
+        "bathroom",
+        "bath room",
+        "restroom",
+        "washroom"
+      ]
+    },
+    {
+      "code": "b",
+      "name": "bedroom",
+      "description": "a bedroom",
+      "aliases": [
+        "bedroom",
+        "bed room"
+      ]
+    },
+    {
+      "code": "c",
+      "name": "closet",
+      "description": "a walk-in closet or clothes storage room",
+      "aliases": [
+        "closet",
+        "walk in closet",
+        "storage room",
+        "storeroom",
+        "coat room"
+      ]
+    },
+    {
+      "code": "d",
+      "name": "dining room",
+      "description": "a dining room or breakfast room used for eating",
+      "aliases": [
+        "dining room",
+        "diningroom",
+        "dining area",
+        "dining hall",
+        "breakfast room"
+      ]
+    },
+    {
+      "code": "e",
+      "name": "entryway/foyer/lobby",
+      "description": "the main entrance hall, foyer or lobby of a building",
+      "aliases": [
+        "entryway/foyer/lobby",
+        "entryway",
+        "foyer",
+        "lobby",
+        "entrance hall",
+        "entry hall"
+      ]
+    },
+    {
+      "code": "f",
+      "name": "family room",
+      "description": "a family activity room",
+      "aliases": [
+        "family room",
+        "familyroom"
+      ]
+    },
+    {
+      "code": "g",
+      "name": "garage",
+      "description": "a garage",
+      "aliases": [
+        "garage"
+      ]
+    },
+    {
+      "code": "h",
+      "name": "hallway",
+      "description": "an indoor corridor or hallway",
+      "aliases": [
+        "hallway",
+        "hall way",
+        "corridor",
+        "passage",
+        "passageway"
+      ]
+    },
+    {
+      "code": "i",
+      "name": "library",
+      "description": "a library or library-style reading room",
+      "aliases": [
+        "library"
+      ]
+    },
+    {
+      "code": "j",
+      "name": "laundry room/mudroom",
+      "description": "a laundry room or entrance mudroom",
+      "aliases": [
+        "laundry room/mudroom",
+        "laundry room",
+        "laundryroom",
+        "mudroom",
+        "mud room"
+      ]
+    },
+    {
+      "code": "k",
+      "name": "kitchen",
+      "description": "a kitchen",
+      "aliases": [
+        "kitchen"
+      ]
+    },
+    {
+      "code": "l",
+      "name": "living room",
+      "description": "the main living room in a home",
+      "aliases": [
+        "living room",
+        "livingroom",
+        "sitting room",
+        "sitting area"
+      ]
+    },
+    {
+      "code": "m",
+      "name": "meeting room/conference room",
+      "description": "a meeting room or conference room",
+      "aliases": [
+        "meeting room/conference room",
+        "meeting room",
+        "meetingroom",
+        "conference room",
+        "conferenceroom"
+      ]
+    },
+    {
+      "code": "n",
+      "name": "lounge",
+      "description": "a lounge or relaxation area with comfortable seats",
+      "aliases": [
+        "lounge",
+        "lounge room"
+      ]
+    },
+    {
+      "code": "o",
+      "name": "office",
+      "description": "an office for an individual or small group",
+      "aliases": [
+        "office"
+      ]
+    },
+    {
+      "code": "p",
+      "name": "porch/terrace/deck/driveway",
+      "description": "a ground-level outdoor porch, terrace, deck or driveway",
+      "aliases": [
+        "porch/terrace/deck/driveway",
+        "porch",
+        "terrace",
+        "deck",
+        "driveway",
+        "patio"
+      ]
+    },
+    {
+      "code": "r",
+      "name": "recreation room/game room",
+      "description": "a recreation room or game room",
+      "aliases": [
+        "recreation room/game room",
+        "recreation room",
+        "rec room",
+        "game room",
+        "games room",
+        "billiard room",
+        "billiards room",
+        "playroom"
+      ]
+    },
+    {
+      "code": "s",
+      "name": "stairs",
+      "description": "an indoor staircase or stairwell",
+      "aliases": [
+        "stairs",
+        "staircase",
+        "stairway",
+        "stairwell",
+        "stair well"
+      ]
+    },
+    {
+      "code": "t",
+      "name": "toilet room",
+      "description": "a small separate toilet room containing only a toilet",
+      "aliases": [
+        "toilet room",
+        "toilet",
+        "wc",
+        "water closet"
+      ]
+    },
+    {
+      "code": "u",
+      "name": "utility room/tool room",
+      "description": "a utility room or tool room",
+      "aliases": [
+        "utility room/tool room",
+        "utility room",
+        "utilityroom",
+        "tool room",
+        "toolroom"
+      ]
+    },
+    {
+      "code": "v",
+      "name": "tv room",
+      "description": "a television screening room with theater-style seating",
+      "aliases": [
+        "tv room",
+        "tv",
+        "television room",
+        "home theater",
+        "theater room",
+        "home cinema"
+      ]
+    },
+    {
+      "code": "w",
+      "name": "gym/exercise room",
+      "description": "an indoor gym or exercise room",
+      "aliases": [
+        "gym/exercise room",
+        "gym",
+        "gymnasium",
+        "exercise room",
+        "workout room",
+        "fitness room"
+      ]
+    },
+    {
+      "code": "x",
+      "name": "outdoor green area",
+      "description": "an outdoor green area with grass, plants, bushes or trees",
+      "aliases": [
+        "outdoor green area",
+        "outdoor",
+        "garden",
+        "yard",
+        "lawn"
+      ]
+    },
+    {
+      "code": "y",
+      "name": "balcony",
+      "description": "an outdoor balcony above the ground floor",
+      "aliases": [
+        "balcony"
+      ]
+    },
+    {
+      "code": "B",
+      "name": "bar",
+      "description": "a bar area",
+      "aliases": [
+        "bar",
+        "bar room"
+      ]
+    },
+    {
+      "code": "C",
+      "name": "classroom",
+      "description": "a classroom",
+      "aliases": [
+        "classroom",
+        "class room"
+      ]
+    },
+    {
+      "code": "D",
+      "name": "dining booth",
+      "description": "a dining booth area",
+      "aliases": [
+        "dining booth",
+        "dining booth area"
+      ]
+    },
+    {
+      "code": "S",
+      "name": "spa/sauna",
+      "description": "a spa or sauna area",
+      "aliases": [
+        "spa/sauna",
+        "spa",
+        "sauna"
+      ]
+    }
+  ],
+  "region_candidate_policy": "mp3d_base28_plus_instruction_heads_v1"
+}

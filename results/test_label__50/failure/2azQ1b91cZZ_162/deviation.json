@@ -1,0 +1,35 @@
+{
+  "instruction": "Go towards a dining area passing an area open to the outside to your right, and pass the dining table. Walk towards three sets of doors, and stop before reaching them. ",
+  "baseline_result": "failure",
+  "vlm_result": "未发现明确偏航",
+  "first_bad_segment": null,
+  "first_bad_steps": null,
+  "reason": "The instruction requires approaching the dining area with an outside-open area on the right, passing the dining table, then approaching three sets of doors and stopping short. The measured route passes along the lower side of confirmed O3 and beyond its footprint during S3, consistent with F17–F33 showing the dining table falling behind as the sitting area comes forward. Across S4–S5, the route continues toward the glazed partition shown in F51–F64; the trace and oblique threshold views do not reliably establish crossing the partition or passing the required stopping location. The exact outside-open area and identity of the three door sets remain incompletely resolved, but no executed branch choice demonstrably contradicts the instruction through step 64, so the earlier no-supported-deviation conclusion remains supported. No explicit STOP is supplied, and the cutoff does not establish either completion or a stopping-timing error.",
+  "reviewed_to_step": 64,
+  "total_steps": 69,
+  "unreviewed_tail": [
+    65,
+    69
+  ],
+  "evidence_segments_at_review": [
+    "S1",
+    "S2",
+    "S3",
+    "S4",
+    "S5"
+  ],
+  "evidence_frames": [
+    "F17",
+    "F20",
+    "F25",
+    "F33",
+    "F51",
+    "F57",
+    "F60",
+    "F61",
+    "F64"
+  ],
+  "evidence_objects": [
+    "O3"
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 193,
+  "episode_instruction": "Leave the laundry room and go down the hall to the right. Stop when you come into the kitchen. ",
+  "success": 1.0,
+  "spl": 1.0,
+  "os": 1.0,
+  "ne": 0.4715309143066406,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 45,
+  "effective_steps": 44,
+  "corrections": 0,
+  "deviations": 0,
+  "intervened": true,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 13,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "Leave the laundry room and go down the hall to the right. Stop when you come into the kitchen. ",
+  "termination_reason": "governor_stop",
+  "phase_steps": {
+    "normal": 44,
+    "rollback": 0,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 0,
+    "governor_stop": 1
+  },
+  "action_counts": {
+    "STOP": 1,
+    "MOVE_FORWARD": 32,
+    "TURN_LEFT": 9,
+    "TURN_RIGHT": 3,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 0,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 7.999999552965164,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "Completed: Agent has left the laundry room and is now moving down the hallway to the right as instructed. Currently: Agent is positioned in the hallway, having turned right and moved forward, with the kitchen still not in view. Remaining: Stop when entering the kitchen. Uncertain: Whether the kitchen is visible or reachable from current position; no visual confirmation of kitchen entrance yet."
+    },
+    {
+      "start": 17,
+      "end": 32,
+      "text": "Completed: Agent has left the laundry room and is moving down the hallway to the right as instructed. Currently: Agent is positioned at the end of the hallway, with the kitchen now clearly visible through an archway ahead. Remaining: Stop when entering the kitchen. Uncertain: None — the kitchen is now in full view and reachable; no further turns or movements are needed before stopping."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "intervened/success_to_success",
+  "baseline": {
+    "success": 1.0,
+    "spl": 1.0,
+    "os": 1.0,
+    "ne": 0.24666689336299896
+  },
+  "artifact_dir": "intervened/success_to_success/2azQ1b91cZZ_193_ae1c0c21e1bf"
+}

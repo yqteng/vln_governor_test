@@ -1,0 +1,45 @@
+{
+  "instruction": "Walk through the arched entry way that leads into the tiled room with a mosaic floor. Walk through the arched entry way to the left of the stairs. Continue down the tiled hall through the open door ahead into the bedroom with red bedsrpread. ",
+  "baseline_result": "success",
+  "vlm_result": "偏航",
+  "first_bad_segment": "S4",
+  "first_bad_steps": [
+    27,
+    45
+  ],
+  "reason": "The instruction requires passage through the patterned-floor room and the specified arch, followed by continuation along the tiled hall through an open door into the red-bedspread bedroom. S2–S3 show compatible foyer and tiled-connector progress, while F24–F29 distinguish the carved dining entrance O28 from the tiled hall continuing beside it. During S4, the measured trace and F33 followed by F39–F43 establish entry into the wood-floored sitting/dining room rather than continuation along that hall, making S4 the earliest reliably supported contradiction. S5–S7 subsequently return through the foyer portal O24 and approach the northern book-lined room through O44; this return does not erase the earlier wrong-room entry or establish bedroom arrival. The earlier S4 verdict is retained by its current step interval, 27–45, rather than merely adopting the previous audit label.",
+  "reviewed_to_step": 96,
+  "total_steps": 100,
+  "unreviewed_tail": [
+    97,
+    100
+  ],
+  "evidence_segments_at_review": [
+    "S2",
+    "S3",
+    "S4",
+    "S5",
+    "S6",
+    "S7"
+  ],
+  "evidence_frames": [
+    "F17",
+    "F24",
+    "F27",
+    "F29",
+    "F33",
+    "F39",
+    "F43",
+    "F77",
+    "F83",
+    "F93"
+  ],
+  "evidence_objects": [
+    "O1",
+    "O7",
+    "O24",
+    "O28",
+    "O44"
+  ],
+  "action_limit_truncated": true
+}

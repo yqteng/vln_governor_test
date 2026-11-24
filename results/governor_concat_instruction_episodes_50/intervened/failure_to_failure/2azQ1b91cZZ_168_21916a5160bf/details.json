@@ -1,0 +1,69 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 168,
+  "episode_instruction": "Walk through double doors into the house. Continue around the dining table and through the entry way to the next room. Walk up to the couch and armchairs surrounding a coffee table. ",
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 1.0,
+  "ne": 6.205666542053223,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 64,
+  "effective_steps": 63,
+  "corrections": 0,
+  "deviations": 0,
+  "intervened": true,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 27,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "Walk through double doors into the house. Continue around the dining table and through the entry way to the next room. Walk up to the couch and armchairs surrounding a coffee table. ",
+  "termination_reason": "governor_stop",
+  "phase_steps": {
+    "normal": 63,
+    "rollback": 0,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 0,
+    "governor_stop": 1
+  },
+  "action_counts": {
+    "STOP": 1,
+    "MOVE_FORWARD": 45,
+    "TURN_LEFT": 7,
+    "TURN_RIGHT": 11,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 2,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 11.206624016165733,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "Completed: Walk through double doors into the house. Currently: Positioned at the dining table, facing toward the living room area with the couch and armchairs visible ahead. Remaining: Continue around the dining table and through the entry way to the next room; walk up to the couch and armchairs surrounding a coffee table. Uncertain: Whether the full circumnavigation of the dining table has been completed, as the view is still partially obstructed by the table and chairs; the entry way is visible but not yet passed through."
+    },
+    {
+      "start": 17,
+      "end": 32,
+      "text": "Completed: Walk through double doors into the house. Currently: Positioned at the dining table, having circumnavigated it and passed through the entry way into the living room; couch and armchairs surrounding a coffee table are visible ahead. Remaining: Walk up to the couch and armchairs surrounding a coffee table. Uncertain: None; all prior uncertainty resolved by visual progression and action sequence confirming passage through entry way and approach toward target furniture."
+    },
+    {
+      "start": 33,
+      "end": 48,
+      "text": "Completed: Walk through double doors into the house. Circumnavigate dining table and pass through entry way into living room. Currently: Positioned in the living room, moving toward the couch and armchairs surrounding a coffee table, now visible ahead and to the right. Remaining: Walk up to the couch and armchairs surrounding a coffee table. Uncertain: None — visual progression confirms approach to target furniture; no obstruction or deviation observed."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "intervened/failure_to_failure",
+  "baseline": {
+    "success": 0.0,
+    "spl": 0.0,
+    "os": 1.0,
+    "ne": 4.759914398193359
+  },
+  "artifact_dir": "intervened/failure_to_failure/2azQ1b91cZZ_168_21916a5160bf"
+}

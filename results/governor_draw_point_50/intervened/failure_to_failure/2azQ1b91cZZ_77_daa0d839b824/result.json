@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 77,
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 13.213630676269531,
+  "steps": 75,
+  "episode_instruction": "Walk into the  nearest open double doors to the dining area that has a cupboard and candle lamps on top. Walk passed the dining table and through the open double doors on the other side that lead outside. Walk through the next set of double doors on the other side of the front entrance and back into the home. ",
+  "final_instruction": "Walk into the  nearest open double doors to the dining area that has a cupboard and candle lamps on top. Walk passed the dining table and through the open double doors on the other side that lead outside. Walk through the next set of double doors on the other side of the front entrance and back into the home. ",
+  "num_rewrites": 0
+}

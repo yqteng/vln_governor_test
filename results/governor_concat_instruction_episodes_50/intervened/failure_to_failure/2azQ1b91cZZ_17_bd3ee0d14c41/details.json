@@ -1,0 +1,59 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 17,
+  "episode_instruction": "Travel to the window overlooking the garden on the opposite end of the billiard room. ",
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 6.744398593902588,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 31,
+  "effective_steps": 30,
+  "corrections": 0,
+  "deviations": 0,
+  "intervened": true,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 8,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "Travel to the window overlooking the garden on the opposite end of the billiard room. ",
+  "termination_reason": "governor_stop",
+  "phase_steps": {
+    "normal": 30,
+    "rollback": 0,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 0,
+    "governor_stop": 1
+  },
+  "action_counts": {
+    "STOP": 1,
+    "MOVE_FORWARD": 14,
+    "TURN_LEFT": 15,
+    "TURN_RIGHT": 1,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 1,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 3.503938853740692,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "Completed: None. Currently: Facing the billiard table and the far end of the room, with the target window now visible through the far arched doors. Remaining: Travel to the window overlooking the garden on the opposite end of the billiard room. Uncertain: Whether the current heading is oriented directly toward the window; a final turn may be needed to align precisely with the target."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "intervened/failure_to_failure",
+  "baseline": {
+    "success": 0.0,
+    "spl": 0.0,
+    "os": 0.0,
+    "ne": 7.62087345123291
+  },
+  "artifact_dir": "intervened/failure_to_failure/2azQ1b91cZZ_17_bd3ee0d14c41"
+}

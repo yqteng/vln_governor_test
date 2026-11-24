@@ -1,0 +1,30 @@
+{
+  "instruction": "Go through the doorway, past the dining table, and through the doorway into the large lobby area, waiting here. ",
+  "baseline_result": "failure",
+  "vlm_result": "未发现明确偏航",
+  "first_bad_segment": null,
+  "first_bad_steps": null,
+  "reason": "The instruction requires passing through a doorway, going past the dining table, then entering the large lobby through another doorway and waiting there. F31 shows dining furniture and an archway ahead; F39, F50, and F58 show the route progressing through successive openings, though the mapped proposals do not reliably localize those specific doorways. The measured trace in S4 continues from the entryway into the large circular mapped space, and F67-F78 show the route advancing through the open interior rather than establishing that it has exited into a conflicting branch. The prefix therefore supports no route contradiction; without action-command history, the supplied evidence does not establish a wait command or task completion.",
+  "reviewed_to_step": 80,
+  "total_steps": 86,
+  "unreviewed_tail": [
+    81,
+    86
+  ],
+  "evidence_segments_at_review": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+  ],
+  "evidence_frames": [
+    "F31",
+    "F39",
+    "F50",
+    "F58",
+    "F67",
+    "F73",
+    "F78"
+  ],
+  "evidence_objects": []
+}

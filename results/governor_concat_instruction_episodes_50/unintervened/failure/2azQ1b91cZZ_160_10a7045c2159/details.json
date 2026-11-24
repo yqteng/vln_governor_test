@@ -1,0 +1,79 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 160,
+  "episode_instruction": "TURN COMPLETELY AROUND UNTIL YOU FACE AN OPEN DOOR WITH A WINDOW TO THE LEFT AND A PATIO TO THE RIGHT, WALK FORWARD THOUGH THE DOOR AND INTO A DINNING ROOM, TURN LEFT AND WALK TO THE END OF THE DINNING TABLE, YOU WILL BE FACING AN OPEN DOOR, WALK THOUGH THE OPEN DOOR INTO A WIDE HALLWAY. ",
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 8.5242338180542,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 100,
+  "effective_steps": 100,
+  "corrections": 0,
+  "deviations": 0,
+  "intervened": false,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 33,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "TURN COMPLETELY AROUND UNTIL YOU FACE AN OPEN DOOR WITH A WINDOW TO THE LEFT AND A PATIO TO THE RIGHT, WALK FORWARD THOUGH THE DOOR AND INTO A DINNING ROOM, TURN LEFT AND WALK TO THE END OF THE DINNING TABLE, YOU WILL BE FACING AN OPEN DOOR, WALK THOUGH THE OPEN DOOR INTO A WIDE HALLWAY. ",
+  "termination_reason": "environment_limit",
+  "phase_steps": {
+    "normal": 100,
+    "rollback": 0,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 0,
+    "governor_stop": 0
+  },
+  "action_counts": {
+    "STOP": 0,
+    "MOVE_FORWARD": 58,
+    "TURN_LEFT": 19,
+    "TURN_RIGHT": 23,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 43,
+  "stationary_forward_steps": 42,
+  "travel_distance_m": 3.8734590858221054,
+  "supervision_available": false,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "Completed: The agent has turned right nine times (135 degrees) and moved forward, aligning with the requirement to turn completely around to face an open door with a window to the left and a patio to the right. The current view confirms the window to the left and the open door to the right, fulfilling the orientation requirement. Currently: The agent is standing at the threshold of the dining room, facing into the room through the open door. Remaining: Walk forward through the door and into the dining room, turn left and walk to the end of the dining table, then walk through the open door into a wide hallway. Uncertain: No patio is visible in the current view, though the instruction requires one to the right; this may be obscured or outside the current field of view."
+    },
+    {
+      "start": 17,
+      "end": 32,
+      "text": "Completed: The agent has turned completely around to face an open door with a window to the left and entered the dining room. Currently: The agent is standing at the end of the dining table, facing forward toward an open door at the far end of the room. Remaining: Walk through the open door into a wide hallway. Uncertain: The patio to the right was not visible in earlier frames and remains unconfirmed; however, the current view confirms the agent has reached the end of the dining table and is positioned to proceed through the door at the far end."
+    },
+    {
+      "start": 33,
+      "end": 48,
+      "text": "Completed: The agent has turned completely around to face an open door with a window to the left and entered the dining room. Currently: The agent is standing at the end of the dining table, facing forward toward an open door at the far end of the room. Remaining: Walk through the open door into a wide hallway. Uncertain: The patio to the right was not visible in earlier frames and remains unconfirmed; however, the current view confirms the agent has reached the end of the dining table and is positioned to proceed through the door at the far end."
+    },
+    {
+      "start": 49,
+      "end": 64,
+      "text": "Completed: The agent has turned completely around to face an open door with a window to the left and entered the dining room. Currently: The agent is standing at the end of the dining table, facing forward toward an open door at the far end of the room. Remaining: Walk through the open door into a wide hallway. Uncertain: The patio to the right was not visible in earlier frames and remains unconfirmed; however, the current view confirms the agent has reached the end of the dining table and is positioned to proceed through the door at the far end."
+    },
+    {
+      "start": 65,
+      "end": 80,
+      "text": "Completed: The agent has turned completely around to face an open door with a window to the left and entered the dining room. Currently: The agent is standing at the end of the dining table, facing forward toward an open door at the far end of the room. Remaining: Walk through the open door into a wide hallway. Uncertain: The patio to the right was not visible in earlier frames and remains unconfirmed; however, the current view confirms the agent has reached the end of the dining table and is positioned to proceed through the door at the far end."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "unintervened/failure",
+  "baseline": {
+    "success": 0.0,
+    "spl": 0.0,
+    "os": 0.0,
+    "ne": 8.5242338180542
+  },
+  "artifact_dir": "unintervened/failure/2azQ1b91cZZ_160_10a7045c2159"
+}

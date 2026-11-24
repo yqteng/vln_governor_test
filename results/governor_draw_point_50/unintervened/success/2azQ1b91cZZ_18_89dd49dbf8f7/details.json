@@ -1,0 +1,68 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 18,
+  "episode_instruction": "Walk across the room, past the pool table on your left side as you walk.  Stop in front of the television mounted on the wall across from the couch. ",
+  "steps": 49,
+  "effective_steps": 48,
+  "num_rewrites": 0,
+  "corrections": 0,
+  "deviations": 0,
+  "blockage_recoveries": 0,
+  "stop_returns": 0,
+  "stop_rejections": 0,
+  "max_task_depth": 0,
+  "point_runs": 0,
+  "point_completed": 0,
+  "correction_images": [],
+  "final_instruction": "Walk across the room, past the pool table on your left side as you walk.  Stop in front of the television mounted on the wall across from the couch. ",
+  "termination_reason": "global_stop",
+  "summaries": [
+    {
+      "start": 0,
+      "end": 16,
+      "text": "The robot has walked across the room and passed the pool table on its left side. It is now positioned in front of the television mounted on the wall across from the couch, as required by the instruction.",
+      "grounding": "The robot's path from state 0 to state 9 involved turning left multiple times, then moving forward to reveal the pool table in state 9. From state 12 to state 16, the robot continued forward, passing the pool table and arriving at the television mounted on the wall across from the couch, as seen in state 16. The visual evidence confirms the robot has reached the required endpoint.",
+      "anchor_steps": [
+        9,
+        16
+      ],
+      "anchor_source": "vlm"
+    },
+    {
+      "start": 16,
+      "end": 32,
+      "text": "The robot has completed walking across the room and passing the pool table on its left side. It is now positioned in front of the television mounted on the wall across from the couch, as required by the instruction.",
+      "grounding": "The robot's path from state 16 to state 32 shows it moving forward past the pool table (visible in states 16-26) and arriving at the television mounted on the wall across from the couch (visible in states 27-32). The visual evidence confirms the robot has reached the required endpoint.",
+      "anchor_steps": [
+        16,
+        32
+      ],
+      "anchor_source": "vlm"
+    },
+    {
+      "start": 32,
+      "end": 48,
+      "text": "The robot has completed walking across the room and passing the pool table on its left side. It is now positioned in front of the television mounted on the wall across from the couch, as required by the instruction.",
+      "grounding": "The robot's path from state 32 to state 48 shows it moving forward past the pool table (visible in states 32-35) and arriving at the television mounted on the wall across from the couch (visible in states 36-48). The visual evidence confirms the robot has reached the required endpoint.",
+      "anchor_steps": [
+        32,
+        48
+      ],
+      "anchor_source": "vlm"
+    }
+  ],
+  "intervened": false,
+  "success": 1.0,
+  "spl": 1.0,
+  "os": 1.0,
+  "ne": 0.4659444987773895,
+  "category": "unintervened/success",
+  "baseline": {
+    "success": 1.0,
+    "spl": 1.0,
+    "os": 1.0,
+    "ne": 0.4659444987773895
+  },
+  "version": "governor_clean_remake_14_single_stop_decision",
+  "correction_mode": "point"
+}

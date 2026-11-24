@@ -1,0 +1,36 @@
+{
+  "instruction": "Walk around the right side of the bed and leave the bedroom. Make a right and walk down the hallway until you get to the second window then turn left and wait in the bathroom. ",
+  "baseline_result": "success",
+  "vlm_result": "未发现明确偏航",
+  "first_bad_segment": null,
+  "first_bad_steps": null,
+  "reason": "The instruction requires rounding the bed's right side, leaving the bedroom, turning right along the hallway, and turning left at the second window into the bathroom. S1 travels along the map-right side and around the upper end of confirmed bed O3, while S2 continues west through the arched exit area shown in F24, F30, and F34. S3 changes from westward to sustained northward movement, a movement-relative right turn, and F42 through F55 show progression along the window-lined corridor. S4 continues toward and alongside the later right-hand window; F59–F62 show that window nearby and F62 exposes a sink or vanity through the opening on the left, consistent with reaching the intended turn vicinity rather than demonstrably passing it. Through step 64, no incompatible branch, clear overshoot, or explicit premature stop is established, so the earlier no-deviation assessment remains supported without establishing bathroom entry or completion.",
+  "reviewed_to_step": 64,
+  "total_steps": 71,
+  "unreviewed_tail": [
+    65,
+    71
+  ],
+  "evidence_segments_at_review": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+  ],
+  "evidence_frames": [
+    "F11",
+    "F21",
+    "F24",
+    "F30",
+    "F34",
+    "F42",
+    "F51",
+    "F55",
+    "F59",
+    "F61",
+    "F62"
+  ],
+  "evidence_objects": [
+    "O3"
+  ]
+}

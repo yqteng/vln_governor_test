@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 78,
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 13.403729438781738,
+  "steps": 100,
+  "episode_instruction": "Go through the dining room, past the table. Turn right and go through the door onto the patio. Continue straight across the patio and wait at the door. ",
+  "final_instruction": "Go through the dining room, past the table. Turn right and go through the door onto the patio. Continue straight across the patio and wait at the door. ",
+  "num_rewrites": 0
+}

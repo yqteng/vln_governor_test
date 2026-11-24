@@ -1,0 +1,69 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 140,
+  "episode_instruction": "Walk through the doorway to the right of the dining room table then go through the doorway by the flower pot.  Take the doorway directly left of the staircase and wait there. ",
+  "success": 1.0,
+  "spl": 1.0,
+  "os": 1.0,
+  "ne": 2.523364543914795,
+  "policy_version": "governor_streaming_v10_3_stop_return_4steps",
+  "steps": 61,
+  "effective_steps": 60,
+  "corrections": 0,
+  "deviations": 0,
+  "intervened": false,
+  "initialization_tasks": 0,
+  "stop_rejections": 0,
+  "stop_checks": 17,
+  "stop_returns": 0,
+  "num_rewrites": 0,
+  "max_task_depth": 0,
+  "final_instruction": "Walk through the doorway to the right of the dining room table then go through the doorway by the flower pot.  Take the doorway directly left of the staircase and wait there. ",
+  "termination_reason": "global_stop",
+  "phase_steps": {
+    "normal": 60,
+    "rollback": 0,
+    "alignment": 0,
+    "initialization": 0,
+    "correction": 0,
+    "global_stop": 1,
+    "governor_stop": 0
+  },
+  "action_counts": {
+    "STOP": 1,
+    "MOVE_FORWARD": 50,
+    "TURN_LEFT": 2,
+    "TURN_RIGHT": 8,
+    "MOVE_BACKWARD": 0
+  },
+  "collisions": 0,
+  "stationary_forward_steps": 0,
+  "travel_distance_m": 12.500004395842552,
+  "supervision_available": true,
+  "summaries": [
+    {
+      "start": 1,
+      "end": 16,
+      "text": "Completed: None. Currently: Agent is facing forward in the dining room, having turned right four times (60 degrees total) and moved forward three times, then turned left once (15 degrees), moved forward once, turned right once (15 degrees), moved forward once, turned left once (15 degrees), and moved forward four times. The agent has not yet passed the doorway to the right of the dining room table or the doorway by the flower pot, nor entered the doorway directly left of the staircase. Remaining: Walk through the doorway to the right of the dining room table, then go through the doorway by the flower pot, take the doorway directly left of the staircase and wait there. Uncertain: Whether the agent has oriented correctly toward the target doorways or if the current position is aligned with the required path, as no visual evidence confirms passage through any doorway or alignment with the staircase's left doorway."
+    },
+    {
+      "start": 17,
+      "end": 32,
+      "text": "Completed: None. Currently: Agent is positioned in a hallway with arched doorways, having moved forward from image 16 through image 32 after turning right at image 17 and continuing forward. The agent has not yet passed through the doorway to the right of the dining room table or the doorway by the flower pot, nor entered the doorway directly left of the staircase. The flower pot is now visible at image 31–32, confirming proximity to the doorway by the flower pot. Remaining: Walk through the doorway to the right of the dining room table, then go through the doorway by the flower pot, take the doorway directly left of the staircase and wait there. Uncertain: Whether the agent has oriented correctly toward the target doorways or if the current position is aligned with the required path, as no visual evidence confirms passage through any doorway or alignment with the staircase's left doorway."
+    },
+    {
+      "start": 33,
+      "end": 48,
+      "text": "Completed: None. Currently: Agent is positioned in a central hallway with arched doorways, having moved forward from image 32 through image 48 after turning right at image 17 and continuing forward. The flower pot is visible in images 31–32, confirming proximity to the doorway by the flower pot. The agent has not yet passed through the doorway to the right of the dining room table or the doorway by the flower pot, nor entered the doorway directly left of the staircase. The staircase’s left doorway is now visible in images 40–48, confirming alignment with the required path. Remaining: Walk through the doorway to the right of the dining room table, then go through the doorway by the flower pot, take the doorway directly left of the staircase and wait there. Uncertain: Whether the agent has oriented correctly toward the target doorways or if the current position is aligned with the required path, as no visual evidence confirms passage through any doorway or alignment with the staircase's left doorway."
+    }
+  ],
+  "output_format": "governor_streaming_v10",
+  "category": "unintervened/success",
+  "baseline": {
+    "success": 1.0,
+    "spl": 1.0,
+    "os": 1.0,
+    "ne": 2.523364543914795
+  },
+  "artifact_dir": "unintervened/success/2azQ1b91cZZ_140_6a6c38d8f4d3"
+}

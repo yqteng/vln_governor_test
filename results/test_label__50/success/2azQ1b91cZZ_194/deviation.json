@@ -1,0 +1,29 @@
+{
+  "instruction": "Exit the laundry area and turn right continuing down the hall. Enter the kitchen and wait by the island. ",
+  "baseline_result": "success",
+  "vlm_result": "未发现明确偏航",
+  "first_bad_segment": null,
+  "first_bad_steps": null,
+  "reason": "The instruction requires leaving the laundry area, turning right down the hall, entering the kitchen, and waiting by the island. S1 and S2 follow the hallway toward O3, while S3 approaches the final arch and S4 continues through it into the kitchen, supported by the widening foreground and surrounding cabinetry in F41, F43 and F46. Through step 48, the measured route approaches the island's near side without passing it or taking an incompatible branch. The initial exit and right turn remain incompletely observed, but no supplied evidence contradicts them; the later prefix extends the previously compatible approach. No explicit STOP or waiting duration is supplied, so this verdict establishes neither a stopping violation nor completed waiting.",
+  "reviewed_to_step": 48,
+  "total_steps": 48,
+  "unreviewed_tail": null,
+  "evidence_segments_at_review": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+  ],
+  "evidence_frames": [
+    "F13",
+    "F30",
+    "F35",
+    "F39",
+    "F41",
+    "F43",
+    "F46"
+  ],
+  "evidence_objects": [
+    "O3"
+  ]
+}

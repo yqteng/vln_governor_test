@@ -1,0 +1,31 @@
+{
+  "instruction": "Leave the bathroom and walk straight into the hallway. Go straight and enter the office in the second door on your left. ",
+  "baseline_result": "success",
+  "vlm_result": "未发现明确偏航",
+  "first_bad_segment": null,
+  "first_bad_steps": null,
+  "reason": "The instruction requires leaving the bathroom, proceeding straight along the hallway, and entering its second door on the left. S1 approaches the bathroom exit beside O3, and S2 continues predominantly straight through the rug-lined passage without a sustained lateral branch or demonstrated entry into another room. F20 through F30 show progress toward the far opening associated with O4, while a side doorway remains visible on the left; the evidence does not establish that the required second-left entrance has been passed. No route contradiction is supported through step 32, although the office identity, entrance count and required final entry remain unverified.",
+  "reviewed_to_step": 32,
+  "total_steps": 40,
+  "unreviewed_tail": [
+    33,
+    40
+  ],
+  "evidence_segments_at_review": [
+    "S1",
+    "S2"
+  ],
+  "evidence_frames": [
+    "F7",
+    "F12",
+    "F15",
+    "F20",
+    "F23",
+    "F27",
+    "F30"
+  ],
+  "evidence_objects": [
+    "O3",
+    "O4"
+  ]
+}

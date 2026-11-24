@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 116,
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 7.037326812744141,
+  "steps": 100,
+  "episode_instruction": "you are in a closet, walk forward, turn right to walk out of closet into a bed room. turn right and see bath room, walk into bathroom and wait near the tub and sink. ",
+  "final_instruction": "walk into the bathroom and wait near the tub and sink",
+  "num_rewrites": 2
+}

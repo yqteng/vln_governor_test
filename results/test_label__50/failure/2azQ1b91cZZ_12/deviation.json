@@ -1,0 +1,34 @@
+{
+  "instruction": "Move forward to the doorway on the opposite side of the hall.  Stop in the archway. ",
+  "baseline_result": "failure",
+  "vlm_result": "未发现明确偏航",
+  "first_bad_segment": null,
+  "first_bad_steps": null,
+  "reason": "The instruction requires moving forward across the hall to the opposite doorway and stopping in its archway. S1 approaches the confirmed central doorway and archway, and S2–S3 continue essentially straight into that mapped passage without choosing a side opening. At step 32, the measured position remains within the approximate O6/O13 passage extent and before its far opening boundary; F24–F32 reveal the vestibule beyond, but visibility of that interior does not establish that the route has exited the archway. No overshoot or incompatible branch is reliably supported, and no explicit STOP is supplied, so this extends the earlier no-deviation finding without establishing task completion.",
+  "reviewed_to_step": 32,
+  "total_steps": 46,
+  "unreviewed_tail": [
+    33,
+    46
+  ],
+  "evidence_segments_at_review": [
+    "S1",
+    "S2",
+    "S3"
+  ],
+  "evidence_frames": [
+    "F3",
+    "F8",
+    "F14",
+    "F19",
+    "F24",
+    "F27",
+    "F30",
+    "F31",
+    "F32"
+  ],
+  "evidence_objects": [
+    "O6",
+    "O13"
+  ]
+}

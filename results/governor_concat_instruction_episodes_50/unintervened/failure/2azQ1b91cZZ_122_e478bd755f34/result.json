@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 122,
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 0.0,
+  "ne": 7.9986748695373535,
+  "steps": 41,
+  "episode_instruction": "Walk into the kitchen.  Turn left at the kitchen island, and walk straight.  Stop in the hallway at the first entrance to the dining room. ",
+  "final_instruction": "Walk into the kitchen.  Turn left at the kitchen island, and walk straight.  Stop in the hallway at the first entrance to the dining room. ",
+  "num_rewrites": 0
+}

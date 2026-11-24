@@ -1,0 +1,40 @@
+{
+  "instruction": "Walk through the doorway to the right of the dining room table then go through the doorway by the flower pot.  Take the doorway directly left of the staircase and wait there. ",
+  "baseline_result": "success",
+  "vlm_result": "未发现明确偏航",
+  "first_bad_segment": null,
+  "first_bad_steps": null,
+  "reason": "The instruction requires the doorway right of the dining table, then the doorway by the flower pot, and finally the doorway directly left of the staircase. S1 follows the eastern side of table O12 toward passage O3; S2 advances through the cream-walled connection beside pot O46, and S3–S4 continue into the circular-rug hall, consistent with the observed doorway sequence. F40 and F42 reveal the staircase on the right and an open passage immediately to its left, while F47 and the measured endpoint show continued approach within the hall rather than an established crossing into the separate closed doorway O47 or shelf-lined-room doorway O34. No incompatible branch, missed required entrance, or explicit premature stop is established through step 48, so the earlier no-deviation finding remains supported without asserting completion or a precise assignment of the first two doorway thresholds.",
+  "reviewed_to_step": 48,
+  "total_steps": 61,
+  "unreviewed_tail": [
+    49,
+    61
+  ],
+  "evidence_segments_at_review": [
+    "S1",
+    "S2",
+    "S3",
+    "S4"
+  ],
+  "evidence_frames": [
+    "F6",
+    "F14",
+    "F19",
+    "F25",
+    "F28",
+    "F31",
+    "F34",
+    "F37",
+    "F40",
+    "F42",
+    "F47"
+  ],
+  "evidence_objects": [
+    "O3",
+    "O12",
+    "O34",
+    "O46",
+    "O47"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "instruction": "Walk from closet into bedroom. Turn left into bathroom. Wait on bathroom mat. ",
+  "baseline_result": "success",
+  "vlm_result": "未发现明确偏航",
+  "first_bad_segment": null,
+  "first_bad_steps": null,
+  "reason": "The instruction requires leaving the closet for the bedroom, then turning left into the bathroom and waiting on its mat. S1 photographs establish the closet context, while the measured S2 route leaves that area and advances into the bedroom, consistent with the doorway views in F26–F29 and the interior views in F35–F40. Through step 48, the trace does not establish a wrong bathroom entrance, a passed required entrance, or another incompatible branch; the bathroom threshold and required left turn are not sufficiently localized to support such a contradiction. Bathroom entry and arrival on its mat remain unverified, and the stationary endpoint without an explicit STOP does not establish premature termination or task completion.",
+  "reviewed_to_step": 48,
+  "total_steps": 61,
+  "unreviewed_tail": [
+    49,
+    61
+  ],
+  "evidence_segments_at_review": [
+    "S1",
+    "S2"
+  ],
+  "evidence_frames": [
+    "F0",
+    "F18",
+    "F19",
+    "F26",
+    "F29",
+    "F35",
+    "F40"
+  ],
+  "evidence_objects": []
+}

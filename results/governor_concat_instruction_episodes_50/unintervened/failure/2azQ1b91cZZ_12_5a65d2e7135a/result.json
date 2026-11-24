@@ -1,0 +1,12 @@
+{
+  "scene_id": "2azQ1b91cZZ",
+  "episode_id": 12,
+  "success": 0.0,
+  "spl": 0.0,
+  "os": 1.0,
+  "ne": 3.6296331882476807,
+  "steps": 46,
+  "episode_instruction": "Move forward to the doorway on the opposite side of the hall.  Stop in the archway. ",
+  "final_instruction": "Move forward to the doorway on the opposite side of the hall.  Stop in the archway. ",
+  "num_rewrites": 0
+}
